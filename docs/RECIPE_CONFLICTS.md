@@ -311,3 +311,20 @@ Sources:
 - [Steam Bistro Guide and July 17 player comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
 - [9Puz 1.0 completion route, Crazy Calzone and Bistro cleanup](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/)
 - [Steam guide updated with 8/27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352)
+
+
+## Additional Bistro 1.0 route cross-checks
+
+| Recipe | Candidate formulas / labels | Evidence | Handling |
+|---|---|---|---|
+| Charcuterie Board | Cheese + Olives + Salami; or Olives + Salami + Bread | 9Puz 1.0 route vs 7/14 Steam guide. | D; test both |
+| Pizza Speciale | Pizza + Mushrooms + Salami; or Pizza + Mushroom + Olives | 9Puz 1.0 route vs 7/14 Steam guide. | D; test both |
+| Sausage Roll / Salami Roll | Same formula Meat + Bread Dough, but English name differs between 8/10 Steam guide and 9/2 9Puz route. | B/C; compare in-game cookbook spelling; preserve one recipe ID with alias until confirmed |
+| Mochi | Rice; or Ground Rice | 9Puz says Rice, 8/10 guide says Rice, but Steam player comment says grind Rice first and 9/1 Chinese guide says rice flour. | D; test whole vs ground Rice |
+| Tomato Cheese Appetizer | Tomato + Cheese + Olives | 8/10 guide says Olives are a mouse gift; 7/14 guide omitted Olives. | B; keep 3-input candidate |
+| Meatballs | Ground Meat + Garlic + Dough; or Ground Beef alone | 9Puz and 8/10 guide vs 7/14 guide. | B; prefer 3-input candidate, verify |
+| Beef Katsu Sando | Bread + Meat + Olive Oil; or Bread + Meat | 9Puz / 8/10 guide vs 7/14 guide. | B; test Olive Oil |
+| Fried Rice | Rice + Olive Oil + Mushrooms; or Rice + Olive Oil | 9Puz / 8/10 guide vs 7/14 guide. | B; test Mushrooms |
+| Sake | Rice + Wine; or Rice + Yeast | 9Puz / 8/10 guide vs 7/14 guide. | B; prefer Wine, verify |
+| Tomato Juice | Ground Tomato; or whole Tomato | 9Puz player comment says Ground Tomato; 8/10 guide lists Tomato. | B; Ground Tomato favored |
+| Pizza Dough | Flour + Yeast + Olive Oil | Steam player comment corrects the missing recipe; do not treat Bread Dough as the input. | B; confirmed candidate |
