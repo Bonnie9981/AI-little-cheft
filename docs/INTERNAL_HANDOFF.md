@@ -293,3 +293,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 1.0簡體中文成就攻略列 Rat Level冷爐第五個 Good slot為 Cheese + Leaf；8/10英文攻略列 Cheese + Eggshell；需保留 live slot測試分支。ref：turn553799search0、turn839723search0。
 - 同一中文攻略列 Rat Level Bad slot：Eggshell + Pencil、Pasta單獨、Pasta + Paper；英文攻略列 Egg + Pencil、Paperclip + Pasta。這些差異需逐項測試，不可合併為同一 recipe。
 - Coioioin：9/10玩家說先按藍色開關再拋紅色區域硬幣；8/10指南與舊攻略只說連續三次同面，故機關觸發為較新的 1.0 evidence。ref：turn384561search1。
+
+
+## 30. 2026-11-16｜全關卡 recipe inventory 第一版
+- 新增 docs/RECIPE_INVENTORY.md，統一記錄各房間候選配方名稱與數量。
+- 目前候選總量：Student Dorm 48 Good / 29 Bad；Cafe 71 / 41；Bistro 83 / 34（由 76/31 EA baseline + 7/2新配方 + Clutter推算）；Rat Level 9 Good / 12 Bad slot。
+- 合計 211 Good + 116 Bad = 327 candidate entries，與官方商店「over 300 recipes」相符，但這只是來源交叉推算，不是遊戲內 cookbook counter驗證。
+- Cafe 來源的 Good list將 Coffee Cake重複列兩次；inventory去重為一個 recipe ID，保留來源報告的71總數。
+- 下一步不是再增加一份散文清單，而是逐筆補齊 formula、processed state、appliance、source、confidence、verification status與zh-TW。
