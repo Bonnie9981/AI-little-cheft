@@ -93,3 +93,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Bistro 配方補入多筆社群候選，但全部仍標記未實機驗證。
 - 重新確認官方版本節點：Early Access 2026-03-16、Bistro 2026-07-12、1.0 2026-08-26、v1.1 2026-09-11、Steam Trading Cards 2026-09-25。
 - 下一優先事項：釐清 Goulash／Tomato Cocktail 的修正後配方、補齊 Bistro 食譜，接著完成 Rat Level 冷熱條件。
+
+
+## 最新研究修正（2026-11-16）
+- Goulash 候選配方更正為一般 Meat + Ground Tomato + Wine；先前的 Ground Meat 說法是玩家討論中的誤報。
+- Tomato Cocktail 候選配方為 Olives + Wine + Ground Tomato。
+- 兩者均有官方 v1.1 cookbook 修正背景，但精確配方仍以社群來源為線索，尚未實機驗證。
+- 追加 Bistro 食譜候選：Mushroom Soup、Apple Mochi、Croque Monster、Pumpkin Soup、Tomato Juice、White Wine、Pumpkin Bread、Hamburger、Apple Sauce、Olive Oil、Rosé、Vegan Sandwich、Pumpkin Fries、Meatloaf、Pizza、Italian Rice Balls、Schnitzel、Meat Lover Pizza。
