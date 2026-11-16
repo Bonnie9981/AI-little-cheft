@@ -37,20 +37,17 @@ Do not use a single is_complete flag to represent all progress.
 
 ## 3. Student Dorm → Cafe Job
 
-Known prerequisites / tasks:
-- Solve D2 wall tile puzzle to get the key and unlock Shane's cabinet (Cheese and canned Tomatoes).
-- Clean dishes with Sponge; arrange utensils to reveal Coffee Maker and third knife.
-- Brew Coffee.
-- Play required cassettes and make/play Remix.
-- Make 8 pasta / ramen dishes.
-- Water Basil with wet Sponge or running water.
-- Discover the required recipe set.
-- Additional achievements: I Smell Cheese, Squeaky Clean, Flooded, A Lot to the Right, Fruit Samurai, To Infinity.
+Known six Student Dorm To-Do tasks from the 1.0 completion route:
+1. Cook eight pasta dishes using Pasta or Ramen as one input.
+2. Borrow Shane's Cheese: find D2 key, unlock Shane's cabinet, then use Cheese in a Good dish (e.g. Grilled Cheese).
+3. Play all three cassettes: play Red and Green separately, combine Red + Green into Remix, then play Remix.
+4. Make Coffee: clean dishes, put utensils away to reveal Coffee Maker, place it on the gas stove and brew.
+5. Water Basil: wet Sponge under the tap and use it on the plant, or leave the faucet running until it reaches Basil.
+6. Cook new dishes: discover 40 total Good + Bad dishes.
 
-The guide reports six Student Dorm To-Do tasks. The complete six-item list should be recovered from the in-game To-Do UI before implementation.
+Room completion uses both recipe tabs and the task ledger. The 1.0 completion guide explicitly says to inspect both recipe tabs and finish state-changing / non-food recipes; exact counter arithmetic still needs in-game verification.
 
-Open question:
-- Does Student Dorm 100% require all 48 Good + 29 Bad recipes, or all Good recipes plus To-Do tasks? Do not assume.
+Additional achievements: I Smell Cheese, Squeaky Clean, Flooded, A Lot to the Right, Fruit Samurai, To Infinity.
 
 ## 4. Cafe Job → Bistro
 
