@@ -137,3 +137,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - v4.0ea 移除 Master Chef / Master of Disaster，最終成就清單以 26 項為準。
 - v4.1ea 調整 Coin 重生與 Canned Coffee 配方；v5.4ea 加入 Bistro 提示與食譜書清除 new stars 功能。
 - 目前需補完 Level 2 To-Do 完整項目與 My Room 可互動物件清單。
+
+
+## Level 2 To-Do 與 Bistro 解鎖流程（2026-11-16）
+- 官方 v5.1ea 要求完成 Level 2 To-Do 才能進 Level 3；日文玩家通關紀錄進一步描述清理 Cafe、老鼠交易、完成訂單、火災與滅火等流程。
+- To-Do 至少包括 Clean the kitchen、Trade with the rat、Complete 8 orders、Set the kitchen on fire；完整 UI 任務清單仍待核實。
+- Bistro rat 位於抽油煙機，先給 Cheese 後依序製作便條上的料理換取新食材；七國料理會收集七個磁鐵。
+- Mixer 修復點在右側花盆電路板；食材加工狀態會直接改變食譜結果。
+- Wine About It 要將五瓶酒按標籤正確排序；Messing Around 與 Mixer 超載有關。
