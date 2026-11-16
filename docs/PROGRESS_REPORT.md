@@ -212,3 +212,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Wine About It 的玩家解法為依五瓶酒的標籤高度由短到長排列；實際瓶身順序仍待畫面確認。
 - Rat Level冷爐第五項存在 Leaf／Eggshell衝突；Bad slots另有 Egg／Eggshell、Pasta／Paperclip組合衝突。
 - Coioioin的新版玩家提示是先按藍色開關，再投擲紅色區域硬幣；仍需在遊戲內確認是否還需要三次同面。
+
+
+## 全關卡 Recipe Inventory（2026-11-16）
+- 已建立 docs/RECIPE_INVENTORY.md。
+- 目前候選總量 327：211 Good、116 Bad。
+- Student Dorm 48/29、Cafe 71/41、Bistro 83/34（推算）、Rat Level 9/12。
+- 327與官方「over 300 recipes」相符，但尚未由遊戲內 cookbook counter驗證；仍需逐筆補配方、狀態、設備、來源、信心與繁中名稱。
