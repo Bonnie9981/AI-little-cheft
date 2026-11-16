@@ -385,3 +385,24 @@
 - 找出 Clutter的觸發條件與是否由 Mixer mess直接產生。
 - 查明生日蛋糕信件的解鎖門檻與存檔狀態。
 - 核對 1.0 Bistro 10個新增 recipe在實際 counter中的分佈。
+
+
+## 2026-11-16｜Bistro 76/31 是 EA baseline，不是 1.0 總量
+**觀察**
+- 直接打開 7/14 Bistro Guide正文，逐行核算確為 76 Good / 31 Bad。
+- 8/10更新版 Steam Guide明列 8/27新增 7 Good + 2 Bad。
+- 9/10正式版玩家通關記錄另確認 Clutter為最後一個 Bad recipe，並表示 Level3新增約10個配方。
+
+**行動**
+- 將 76/31標記為 7/14 EA baseline。
+- 1.0候選總量調整為 83 Good / 34 Bad，計算為 76+7 Good、31+2+1 Bad。
+- 將 Clutter列為 1.0新增 Bad候選；formula仍 unresolved。
+- 更新 timeline與 progress，避免再把 76/31寫成最終 Bistro 數量。
+
+**判斷**
+- 這是目前最能解釋來源日期差異的分期模型，但 83/34仍屬跨來源推算，不是官方確認。
+- 必須在實機或可讀 cookbook counter取得總量後，才能將此數字標為 verified。
+
+**下一步**
+- 找到 1.0 cookbook counter截圖或影片，確認 Bistro Good/Bad總量。
+- 逐筆比對 7/14 baseline與 8/27新增項目，檢查是否有被刪除／替換的舊 recipe。
