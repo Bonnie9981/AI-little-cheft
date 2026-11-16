@@ -213,3 +213,48 @@ Sources:
 - Official v2.9ea also added Bread + Cheese + Tomato Sauce as another valid Savory Sandwich combination.
 - These are authoritative Early Access version rules. The 1.0 candidate recipe must still be checked against later guides and the final cookbook state. Do not erase older version history.
 - Official source: [SteamDB patch-note archive, v2.9ea / 2026-03-19](https://steamdb.nexus/game/3376500).
+
+
+## Student Dorm / Cafe 1.0 formula conflicts from the 2026-10/11 walkthroughs
+
+| Recipe | Candidate formulas | Evidence | Handling |
+|---|---|---|---|
+| Smoothie | Milk + Banana + Peanut Butter; or Strawberry Jam + Banana + Milk | Developer says Smoothie includes Peanut Butter; cached Steam guide lists Milk + Banana + Peanut; 10/9 Pixel Questing lists Strawberry Jam + Banana + Milk. | B/C; Peanut Butter favored, but version difference remains open |
+| Sweet Sandwich | Bread + Peanut Butter; or Bread + Strawberry Jam | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
+| Good Protein Shake | Protein Powder + Milk + Peanut Butter; or Protein Powder + Milk + Banana | Developer explicitly corrects Milk (not Egg); 10/9 guide lists Peanut Butter or Banana. | B; Peanut Butter is confirmed, Banana alternate unverified |
+| Savory Sandwich | Bread + Egg; Bread + Cheese + Tomato Sauce; or Bread + Cheese + Tomato | Official v2.9 adds Tomato Sauce variant; later guides differ on Sauce vs raw Tomato. | A/B; preserve separate input sets |
+| Pasta A La Carbonara | Pasta + Egg + Cheese; or Pasta + Egg + Milk | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
+| Beans on Toast | Bread + Beans; or Beans + Toast | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test Bread vs Toast state |
+| Tomato Soup | Tomato; or Tomato + Toast | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
+| PB&J Sandwich | Bread + Peanut Butter + Jam; or PB&J jar + Bread | 10/9 guide adds PB&J jar intermediate; 8/10 guide uses three inputs. | C; test both |
+| Tiramisu | Cake + Filled Coffee Cup + Milk; official v2.9 Cake + Coffee + Dough / Milk; or Cheese + Cake + Coffee Beans | Official v2.9 plus 8/10 guide support coffee state; 11/9 guide conflicts. | B; prioritize filled coffee cup candidate |
+| Babyccino | Milk; or Espresso Shot + Milk | 8/10 cached Steam guide says Milk; 11/9 Pixel Questing lists Milk or Espresso + Milk. | B; Milk is minimum confirmed |
+| Latte | Milk + Coffee Beans; or Espresso Shot + Milk | 8/10 cached Steam guide vs 11/9 guide. | D; test both |
+| Hot Cocoa | Milk + Chocolate Spread; or Espresso Shot + Milk + Kakao | 8/10 cached Steam guide vs 11/9 guide. | D; test both |
+| Avocado Milk | Avocado + Milk; or Mouse Mug + Milk + Avocado | 8/10 cached Steam guide vs 11/9 guide. | D; test both |
+| Strawberry Cheesecake | Strawberry Cake + Cheese + Strawberry; or Strawberry Cake + Cheese | 8/10 cached Steam guide vs 11/9 guide. | D; test 2 vs 3 inputs |
+| Chocolate Covered Strawberries | Strawberry + Chocolate Spread; or Strawberry + Kakao | 8/10 guide distinguishes Chocolate Spread; source may use Kakao as same item alias. | C; verify item identity |
+| Chocolate Bomb | Chocolate Spread + Kakao; or Chocolate Syrup + Kakao | 8/10 cached Steam guide vs 11/9 guide. | D; check if Chocolate Syrup is a separate item |
+| Canned Bread | Bread + Lid; or Dough + Metal Lid | 8/10 guide vs 11/9 guide. | D; test raw Bread vs Dough |
+| Canned Coffee | Coin + Cup of Espresso; or Metal Lid + Coffee Beans | v4.1ea officially adds Coin option; 8/10 guide lists Coin + Cup of Espresso. | A/B; Coin option is confirmed |
+| Dirty Chai Latte | Tea + Milk + Coffee; or Espresso Shot + Tea Leaves + Milk | 8/10 guide comment explicitly says Coffee, not Coffee Beans; 11/9 guide uses Espresso Shot. | D; test coffee state |
+| Sweet Panini | Panini + Chocolate Spread; or Panini + Jam | 8/10 guide vs 11/9 guide. | D; test both |
+| Cake Donut | Cake + Donut; or Cake + Dough | 8/10 guide vs 11/9 guide. | D; test both |
+| To Go Box | Paper + any Food; or Paper + Avocado | 8/10 guide allows any food; 11/9 guide lists Avocado. | B; category predicate candidate |
+| Paper Cup Phone | Paper Cup; or two Paper Cups | 8/10 guide says Paper Cup; 11/9 guide says two cups in microwave. | D; test both |
+| Paper Plane | Paper; or Paper in Microwave | 8/10 guide says Paper; 11/9 guide adds microwave action. | D; test appliance |
+| Dollar | Coin; or Coin + Paper | 8/10 guide says Coin; 11/9 guide adds Paper. | D; test both |
+| Drawing | Chalk; or Red + Green/Pink Chalk | 8/10 guide says Chalk; 11/9 guide lists chalk colors. | D; test one vs multiple chalks |
+| Counterfeit Money | Coin + Lid; or Lid alone | 8/10 guide says Coin + Lid; player comment says Lid alone worked. | D; test both |
+| Specialty Espresso | Filled Espresso Cup + 2 weird items; or Cheese + Espresso Shot | 8/10 guide vs 11/9 guide. | D; test both |
+| Flavored Coffee | Coffee Beans + any weird item; or Cheese + Coffee Beans | 8/10 guide vs 11/9 guide. | D; test both |
+| Hot Air | Empty Microwave Oven; or empty Espresso Machine | 8/10 guide says run oven empty; 11/9 guide says Espresso Machine empty. | D; test both appliances |
+| Terrible Spread | Chocolate Spread + weird item; or Cake + Kakao + Jam | 8/10 guide vs 11/9 guide. | D; test both |
+| Disaster Dish | Croissant + Strawberry + Kakao; or Mug + Lettuce | 8/10 guide vs 11/9 guide. | D; test both |
+| Bad Milkshake | Milk + Cheese + Lettuce; or Milk + Cheese + Coffee/Kakao | 8/10 guide vs 11/9 guide. | D; test both |
+| Awful Tea | Tea + weird item; or Tea Leaves + Mug + Avocado | 8/10 guide vs 11/9 guide. | D; test both |
+| Cup Tower | Paper Cup + Green Mug + White Mug; or Mouse Mug + White + Green Mug | 8/10 guide vs 11/9 guide. | D; identify exact cup item IDs |
+
+Developer evidence:
+- Smoothie includes Peanut Butter: [Steam developer reply](https://steamcommunity.com/app/3376500/discussions/0/800090354736014933/).
+- Good Protein Shake uses Milk + Peanut Butter + Protein Powder, not Egg: [Steam developer reply](https://steamcommunity.com/app/3376500/discussions/0/760681630846246656/).
