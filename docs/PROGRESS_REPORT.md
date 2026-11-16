@@ -179,3 +179,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 復刻規格將採 ElectricCanCooker 與 power_level = low/high，不再把它當一般烤箱溫度。
 - 9項 Good Recipes 仍可按攻略 OFF 5項、ON 4項分類，但 ON/OFF 與 low/high映射尚待實機確認。
 - 花盆 note的三位數密碼未在可讀文字來源披露，明確列為待取得畫面，不猜測。
+
+
+## Bistro 1.0 新增內容與 Coioioin 修正（2026-11-16）
+- 1.0 玩家通關記錄指出 Bistro 新增約 10 道料理：已知 7 Good、2 Bad；另有 Clutter作為最後一個 Bad候選，製作條件仍未知。
+- Coioioin不是單純隨機連續拋三次：先按藍色開關，再投擲紅框硬幣。
+- 1.0通關後 My Room會出現生日蛋糕與媽媽的信，蛋糕蠟燭可互動。
+- Set the kitchen on fire To-Do有玩家回報顯示不同步；需分離 task、achievement與 Steam sync狀態。
