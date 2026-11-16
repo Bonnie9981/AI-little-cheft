@@ -413,3 +413,14 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 目前可支持的 Cafe task entries至少四項：Clean the kitchen、Trade with the rat、Complete 8 orders（官方v3.0ea新增To-Do）、Set the kitchen on fire。
 - 1.0 walkthrough另外指出 Cafe未達100%時需檢查電話stock/21931、訂單Coins、Espresso Cup、Safe與fire alarm；這些可能是任務子步驟或額外ledger rows，尚未證明是獨立To-Do。
 - 因此不再稱 Cafe To-Do「完全未知」；目前為至少4項已知，完整總數仍待遊戲UI。
+
+
+## 46. 2026-11-16｜Bistro 配方總量再校正：Crazy Calzone與五項Bad Recipes
+- 發現 7/14 Bistro Guide的主清單並不完整；7/17 Steam玩家留言補出：
+  - Good：Crazy Calzone = Pizza + Pizza Dough。
+  - Bad：Breadless Burger = Ground Meat + Cheese + Tomato；Vampire Defense Kit = Garlic + Wooden Spoon（另有 Garlic + any Pencil衝突）；Bread and Wine = Wine + Bread；Sorrow Sandwich = Bread + Flour；Risky Rice Pudding = Rice + Flour。
+- 因此7/14 guide list 76/31不能直接當成EA完整基線；修正為 77 Good / 36 Bad候選，再加 8/27的7 Good +2 Bad，以及Clutter 1 Bad。
+- 最新 Bistro候選總量為 **84 Good / 39 Bad（123 total）**。
+- 最新全遊戲候選總量為 **333筆：212 Good +121 Bad**（Student Dorm 48/29、Cafe 71/41、Bistro 84/39、Rat Level 9/12）。
+- 333仍是多來源候選總量，尚未由1.0遊戲內 cookbook counter驗證。已更新 RECIPE_INVENTORY、RECIPE_FORMULA_BISTRO_RAT、README、PROGRESS_REPORT、PROGRESSION_MODEL與QA。
+- refs：turn443888search0、turn443888search1、turn443888search2。
