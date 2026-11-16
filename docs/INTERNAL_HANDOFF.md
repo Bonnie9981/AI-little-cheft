@@ -345,3 +345,8 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 新增 docs/QA_TEST_PLAN.md，涵蓋 Recipe Engine、物理互動、Student Dorm、Cafe、Bistro、Rat Level、My Room、26成就、zh-TW、桌面／手機橫向與存檔。
 - QA test cases已把未解資料轉成明確 blocker：Cafe To-Do完整清單、七國料理與rat reward順序、Rat Level密碼／power mapping、D級配方衝突、327候選數量核對。
 - QA計畫目前是 test design，不是已通過測試；實作前仍需完成研究資料與 Critic review。
+
+
+## 37. 2026-11-16｜Rat Level 材料數上限例外
+- 1.0日文玩家完整成就攻略明確說明 Rat Level每次只使用兩種材料；其 cooker是通電罐頭，電力強弱改變結果。ref：turn908932search5。
+- 因此主廚房通用最多三種材料的規則不能套用 Rat Level；Rat Level Electric Can Cooker需設 max_inputs = 2。
