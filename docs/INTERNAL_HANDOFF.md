@@ -366,3 +366,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Student Dorm重要衝突：Smoothie（Peanut Butter vs Strawberry Jam）、Sweet Sandwich（Peanut Butter vs Strawberry Jam）、Carbonara（Cheese vs Milk）、Tomato Soup（Tomato vs Tomato+Toast）、Beans on Toast（Bread vs Toast）等。
 - Steam Guide ID 3713640352已被移除公開頁面，搜尋索引仍保留內容；將其視為 cached community evidence，不當作可即時讀取的官方來源。
 - 新增 SRC-031 Smoothie developer reply、SRC-032 Good Protein Shake developer reply；Source Register已更新。
+
+
+## 40. 2026-11-16｜Peanut Butter 隱藏食材解鎖
+- Developer於 Steam討論確認：主選單信件下方的按鈕會解鎖 Peanut Butter；不需要真的將遊戲加入願望清單。按下按鈕後 Peanut Butter會生成在場景中，且此解鎖會保存到 save file。ref：turn307019search7。
+- 這個解鎖是 Student Dorm多道料理的前置：PB&J、Peanuts、Smoothie、Good Protein Shake等。
+- 不要實作成 Steam Wishlist API；只需本地化的信件互動與永久 save flag。
