@@ -83,3 +83,6 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - SRC-016 (Steam Guide ID 3713640352) is now reported as removed from the public Steam Community page. Its detailed content is still exposed by search indexing / cached language variants, including the full recipe list and player comments. Treat it as cached community evidence, not a currently accessible public guide. See https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352&l=swedish
 - SRC-031 | [Developer reply: Smoothie](https://steamcommunity.com/app/3376500/discussions/0/800090354736014933/) | 2026-03-16 | Confirms Peanut Butter is an ingredient in Smoothie | Early Access date; later 1.0 guide conflicts.
 - SRC-032 | [Developer reply: Good Protein Shake](https://steamcommunity.com/app/3376500/discussions/0/760681630846246656/) | 2026-03-01 | Confirms Good Protein Shake = Milk + Peanut Butter + Protein Powder; not Egg | Early Access date; strong formula evidence.
+
+
+- SRC-033 | [Developer reply: Peanut Butter unlock](https://steamcommunity.com/app/3376500/discussions/0/760681630846246656/) | 2026-02-22 to 2026-03-01 | Main-menu letter button unlocks Peanut Butter; no actual Steam Wishlist is required; unlock persists in save | Early Access, but direct developer clarification.
