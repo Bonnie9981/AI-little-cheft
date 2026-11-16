@@ -165,3 +165,29 @@
 - 建立 Bistro 的 recipe reconciliation 表：recipe_id、guide_7_14、guide_8_10、player_comment、official_patch、candidate_inputs、state、confidence、status。
 - 將 Rat Level 13 項 Bad Recipes 做成逐項 QA，不將「空爐冷／熱」合併成錯誤的單一狀態。
 - 繼續查詢 Student Dorm / Cafe 的成就和任務流程，尤其订单、coins、安全箱、火警與相框。
+
+
+## 2026-11-16｜Cafe 訂單經濟、電話與 Safe 依賴鏈
+**觀察**
+- 開發者直接回覆 Steam 玩家：Cafe 牆上的圖像訂單完成後會給 tip coin；已完成的訂單可以從牆上取下，之後會再出現新訂單。
+- v3.0ea 官方更新新增訂單系統與 To Do「complete 8 orders」，同時新增 18 道 Cafe 食譜、espresso machine、提示系統與 25 個電話號碼。
+- 開發者另確認 Safe 需要先製作 keycard；玩家攻略具體列為 Photo + Coin。
+- Pixel Questing 搜尋摘要補出 Safe 位於相框後、Void Bagel 由三個 Bagel 在烤箱製作，完成後在 Safe 內取得。
+- 日文玩家攻略指出 Cafe 累積硬幣可用於 My Room 裝飾；20 枚硬幣可解鎖畫筆。
+
+**行動**
+- 將訂單拆成 OrderTicket、OrderCompletion、TipCoin、ToDoCounter 四個概念。
+- 將電話解鎖 Avocado/Lettuce 記成 puzzle chain，而非單一解鎖按鈕。
+- 將 Safe 的依賴鏈記成 Photo → Security Card（Photo + Coin）→ Safe unlock → Void Bagel discovery。
+- 把「做出三個 Bagel 丟進 oven」與「在 Safe 找到 Void Bagel」拆成 recipe discovery 與 item reveal 兩個步驟。
+- 把 My Room 裝飾與 Cafe 訂單收入連結列入支線研究。
+
+**判斷**
+- Cafe 的經濟循環至少同時服務食譜、Safe 解鎖、8 orders To Do 與 My Room 裝飾；不能只把 Coin 當作一個食譜材料。
+- 25 個電話號碼與電話互動可能有彩蛋／隱藏用途；不能只保留 Avocado/Lettuce 那一個號碼。
+- Coin 來源與消耗需要單獨設計；若實作成無限生成，會破壞版本中的經濟限制與裝飾解鎖。
+
+**下一步**
+- 查明 25 個電話號碼各自功能與版本變更。
+- 查明 8 orders To Do 的完成條件、訂單刷新與 coin 累積上限／重複規則。
+- 整理 My Room 裝飾物、可互動家具、存檔欄位。
