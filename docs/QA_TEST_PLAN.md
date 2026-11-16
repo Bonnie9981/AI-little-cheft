@@ -203,3 +203,14 @@ Rat Level cooking attempts use at most two ingredients according to the 1.0 play
 - Do not require a Steam Wishlist API or external account connection.
 - Save/reload; Peanut Butter unlock remains persisted.
 - Verify PB&J, Peanuts, Smoothie, and Good Protein Shake use the unlocked item according to the final recipe evidence.
+
+
+## Additional achievement location tests
+
+- Student Dorm: D2 tile reveals Shane's key; the separate tile to the right reveals the mouse hole. Cheese held at the mouse hole triggers I Smell Cheese.
+- Student Dorm: tea boxes on the top shelf directly right of Jam align into one continuous vine pattern for A Lot to the Right.
+- Cafe: dial 911 and pick up handset for What's The Emergency.
+- Cafe: Panini → Burnt Panini → recook Burnt Panini for Aw That's Hot.
+- Cafe: cook three Bagels together, then use Security Card on Safe to discover Void Bagel for Nothing Nowhere.
+- Cafe: give Cheese to mouse near Blue Teapot for Fair Trade.
+- Bistro: grind Pumpkin/Tomato/Meat, then run Mixer second and third times to make a large mess for Messing Around; Cloth cleans it afterward.
