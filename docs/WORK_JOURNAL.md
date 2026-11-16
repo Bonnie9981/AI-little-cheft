@@ -267,3 +267,29 @@
 - 尋找七國料理的遊戲截圖／完整通關影片或不同語言攻略，逐一確認磁鐵與料理對應。
 - 建立物件互動矩陣，列出每個物件可被拖曳、拋擲、切割、碰撞、放入容器、加工、破壞的能力。
 - 明確定義手機橫向手勢與觸控命中區。
+
+
+## 2026-11-16｜Student Dorm 1.0 To-Do 與食譜更新差異
+**觀察**
+- 找到 Pixel Questing 2026-10-09 的 Chapter 1 全攻略，明列 48 Good / 29 Bad、24 個場景物件、完整 To-Do 和配方表。
+- To-Do 至少包含 8 道 pasta dishes、借用 Shane's Cheese、播放 red/green/Remix 三卷磁帶、清洗與整理餐具以解鎖 coffee maker、澆灌 basil、累積 40 道新料理。
+- 新版配方與 8/10 Steam guide存在多項差異：Beans on Toast、French Toast、Savory Sandwich、Tomato Soup、Pasta Carbonara、PB&J Sandwich 等。
+- 指南指出所有 Good Recipes 與 To-Do 完成後才能進 Chapter 2；Bad Recipes 可能非必需，但這是作者推測。
+
+**行動**
+- 將 Student Dorm To-Do 拆成可獨立計數的 6 個任務狀態。
+- 將 24 個場景物件納入 Item / Interactable inventory。
+- 在 RecipeEvidence 登記所有新舊配方差異，不以單一攻略覆蓋舊資料。
+- 將 Shane locker puzzle（D2）做成可重現的 tile-grid state machine。
+- 將 coffee maker 的出現條件拆成 dirty dishes cleaned → utensils placed → machine revealed → stove interaction。
+- 將 basil 的 watering path 同時支援 wet sponge 與 flood height 兩種方式；Flooded achievement 另記。
+
+**判斷**
+- Student Dorm 的主線解鎖不只看食譜數量，還依賴 6 類任務；若只做 cookbook，章節不會前進。
+- 新版攻略對配方有可觀察狀態細節，但仍是單一社群來源；所有變更需先標記 candidate，不要覆蓋多來源證據。
+- 「Bad recipes 似乎 optional」不能當作遊戲規則；需用 1.0 實際流程或官方資料確認。
+
+**下一步**
+- 把 48 Good / 29 Bad 逐筆對照 Steam 8/10 guide，標記每項配方的 recipe-state、替代輸入與來源版本。
+- 尋找 Student Dorm To-Do 是否確實只有 6 項，及 Bad Recipes 是否會影響 100%。
+- 確認三個 locker 的位置、內容與解鎖方式。
