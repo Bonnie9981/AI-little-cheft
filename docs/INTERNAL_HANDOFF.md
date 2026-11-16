@@ -242,3 +242,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 日文玩家把同一更新描述為「ToDoリスト、8件追加」，語意可能是 To-Do 內新增 8 個訂單計數／條目，與官方 patch note不完全一致。ref：turn194117search0。
 - 1.0解鎖 Bistro 的 Level 2 To-Do 至少包括 Clean the kitchen、Trade with the rat、Set the kitchen on fire、完成訂單；其中「完成訂單」可能對應 v3.0ea 的 8 orders 任務，但完整清單與任務數仍未被可讀文字來源確認。ref：turn727664search0。
 - 因此文件中不再把「8 To-Do entries」當作確定事實；需拆分為 order_completion_target = 8 與 level2_todo_task_count = unknown。
+
+
+## 24. 2026-11-16｜Rat Level 設備名稱與電力狀態修正
+- 2026-09-10 日文玩家完整成就攻略明確描述 Rat Level 的設備是「通電的罐頭」式調理器，近似微波爐；解開酒瓶機關後，可切換電力輸出「強／弱」，同一組材料會因電力強弱產生不同結果。ref：turn680263search4、turn680263search6。
+- 因此前文「cold/hot oven」應視為攻略用語簡化；正式復刻規格改用 appliance = ElectricCanCooker，power_level = low | high。RecipeCondition 不應使用一般 oven temperature。
+- 更新版 Steam Guide將九項 Good Recipes分為 OFF（5項）與 ON（4項），可對應 low/high電力狀態，但仍需以遊戲畫面與機器指示燈核對 low/high的映射。ref：turn970896search1。
+- Rat Level 目前可確定的 puzzle chain：點擊畫面／圖片顯示 anti-gravity switch → 啟動後物件浮起並露出花盆內 note → 點擊酒瓶 label使其掀起並露出 keypad → 輸入 note提示的三位數 → 解鎖 cooker power control。確切三位數字未在可讀文字來源中披露，必須由 note 圖片／遊戲內實際畫面取得；不要猜碼。ref：turn970896search1。
+- Recipe matrix應以 power_level 分別記錄 low/high；bad recipes亦需標記電力狀態，空設備在任一狀態均可測試。Eggshell / Leaf的冷爐圖示衝突仍保留。ref：turn970896search1。
