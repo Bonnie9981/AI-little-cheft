@@ -792,3 +792,9 @@
 - 逐筆把Bistro 123項候選對應SRC IDs與版本。
 - 用1.0 cookbook counter確認Bistro Good/Bad數量。
 - 重新核對其他房間是否也有未列入攻略主清單、但在留言中發現的recipe。
+
+
+## 2026-11-16｜完成312筆命名配方 zh-TW候選翻譯
+- 建立 docs/ZH_TW_RECIPE_TRANSLATIONS.md，涵蓋Student Dorm 48+29、Cafe 71+41、Bistro 84+39，共312筆命名配方。
+- Rat Level 21 slots使用低／高電力與slot序號，不將符號猜成料理名。
+- 翻譯覆蓋已完成，仍需最後台灣用語審校、雙關校正、畫面長度與手機排版測試。
