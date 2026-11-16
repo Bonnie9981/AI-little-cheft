@@ -277,3 +277,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 日文玩家明確指出 Bistro有 7個國家的料理，製作後磁鐵會貼在抽油煙機；日本料理例子是 Mochi。完成全部七道料理取得 Going Global。其餘六道的國家／料理名稱目前沒有可靠文字來源，不能用「看起來像異國料理」自行湊滿。ref：turn489309search1。
 - Steam玩家討論顯示老鼠在所有請求完成後會展示愛心圖示；開發者／玩家確認這是感謝訊息，代表不再需要提供額外料理，不是新的 Meat Lover Pizza request。ref：turn489309search3。
 - Bistro rat trade應建模為有序任務狀態：hidden_door_found → cheese_offered → first_reward_tomato → request_note_shown → requested_recipe_made → ingredient_reward → repeat_until_heart_note → best_friends_unlocked。七國磁鐵另外用 magnet_collection_count 0..7記錄。
+
+
+## 28. 2026-11-16｜zh-TW 在地化詞典第一版
+- 新增 docs/ZH_TW_GLOSSARY.md，確立台灣用語：起司、馬鈴薯、可頌、吐司、披薩、果昔、調理機；Good/Bad Recipes暫定「美味料理／怪奇料理」。
+- 官方 Steam Traditional Chinese頁面明確顯示「不支援繁體中文」，現有官方語言只有 English、German、Simplified Chinese；本專案 zh-TW屬新增在地化。ref：turn420164search5。
+- 使用者要求台灣繁體中文，因此不直接沿用簡體攻略的「芝士、土豆、牛角包、耗子」等詞。
+- 料理專名第一版候選：Focaccia=佛卡夏、Goulash=古拉什（匈牙利燉肉）、Croque Monsieur=法式熱三明治、Schnitzel=炸肉排、Mochi=日式麻糬、Kombucha=康普茶。
+- 目前 glossary只涵蓋已整理的主要 UI、食材、Student Dorm/Cafe/Bistro recipe與成就；仍需補齊所有 Bad Recipes、Rat Level描述、My Room物件、道具與劇情文本。
