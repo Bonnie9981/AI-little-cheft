@@ -72,3 +72,21 @@
 
 ## 日誌更新規則
 每次有明確研究進展時，追加日期、觀察、來源、行動、判斷、未解問題與下一步。若發現先前結論錯誤，保留修正紀錄，不直接抹掉舊判斷。
+
+
+## 2026-11-16｜Goulash／Tomato Cocktail 配方交叉核對
+**觀察**
+- 先前已知 Goulash 配方存在 Meat／Ground Meat 與 Tomato／Ground Tomato 的混淆。
+- 新找到的玩家討論串中，最初回報把「processed meat」與番茄混淆，後續玩家明確更正為一般 Meat + processed Tomato + Wine；並確認 Risotto 與 Focaccia。
+- 更新版 Bistro 攻略索引列出 Tomato Cocktail = Olives + Wine + Ground Tomato，且列出更多先前清單漏掉的菜餚。
+
+**行動**
+- 將 Goulash 候選修正為 Meat + Ground Tomato + Wine。
+- 將 Tomato Cocktail 候選補為 Olives + Wine + Ground Tomato。
+- 補列 Mushroom Soup、Apple Mochi、Croque Monster、Pumpkin Soup、Tomato Juice、White Wine、Pumpkin Bread、Hamburger、Apple Sauce、Olive Oil、Rosé、Vegan Sandwich、Pumpkin Fries、Meatloaf、Pizza、Italian Rice Balls、Schnitzel、Meat Lover Pizza。
+- 保留來源等級為社群攻略／玩家回報，等待遊戲實測或更多獨立來源。
+
+**判斷**
+- 這次查證修正了一個很容易造成資料庫錯誤的核心混淆：Ground Meat 和 Ground Tomato 不是可互換的狀態。
+- 這也驗證 RecipeInputs 必須包含 item_state / processing_state，而不是只有 ingredient_id。
+- 官方 v1.1 修正 cookbook 的公告提供版本證據，但配方本身仍由社群討論與指南提供候選組合。
