@@ -268,3 +268,12 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 9/10正式版玩家通關報告指出 Bistro追加食譜約 10 項，最後 Good為 Mini Pizzas、最後 Bad為 Clutter。將 Clutter視為第三個新增 Bad候選。ref：turn384561search0。
 - 因此目前最合理的 1.0候選總量是 **83 Good / 34 Bad（117 total）**，由 76/31 baseline + 7/2 於 8/27新增 + Clutter 1項推導。這是跨來源推算，必須以 1.0遊戲內 cookbook counter核對，不能標為官方確定數字。
 - 這個分期模型能解釋 7/14指南沒有 Big Magnet、Boo Tomato、Clutter，而 8/27後的指南與 9/10玩家通關紀錄有新增內容；後續 recipe DB必須保留 introduced_version / source_date。
+
+
+## 27. 2026-11-16｜Bistro Rat Trade 任務鏈與 Going Global 證據
+- 開發者 2026-07-16 直接回覆：Bistro rat在抽油煙機上方的可疑門後；先用 Level 2 Cafe 的交易物 Cheese啟動任務；之後老鼠會展示一道料理的圖畫，製作該料理即可換取一項新食材。ref：turn489309search0。
+- 日文玩家 2026-09-09 實際紀錄：首次給 Cheese後取得 Tomato；後續抽油煙機會出現圖畫便條，製作圖示料理可逐次取得新食材。ref：turn974375search1。
+- 9Puz 1.0路線確認老鼠贈品支線包含 Apple、Olive、Garlic；缺少這些物件時，先解交易鏈，不要誤判成食譜公式錯誤。ref：turn974375search0。
+- 日文玩家明確指出 Bistro有 7個國家的料理，製作後磁鐵會貼在抽油煙機；日本料理例子是 Mochi。完成全部七道料理取得 Going Global。其餘六道的國家／料理名稱目前沒有可靠文字來源，不能用「看起來像異國料理」自行湊滿。ref：turn489309search1。
+- Steam玩家討論顯示老鼠在所有請求完成後會展示愛心圖示；開發者／玩家確認這是感謝訊息，代表不再需要提供額外料理，不是新的 Meat Lover Pizza request。ref：turn489309search3。
+- Bistro rat trade應建模為有序任務狀態：hidden_door_found → cheese_offered → first_reward_tomato → request_note_shown → requested_recipe_made → ingredient_reward → repeat_until_heart_note → best_friends_unlocked。七國磁鐵另外用 magnet_collection_count 0..7記錄。
