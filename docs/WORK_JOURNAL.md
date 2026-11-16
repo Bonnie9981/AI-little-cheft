@@ -191,3 +191,27 @@
 - 查明 25 個電話號碼各自功能與版本變更。
 - 查明 8 orders To Do 的完成條件、訂單刷新與 coin 累積上限／重複規則。
 - 整理 My Room 裝飾物、可互動家具、存檔欄位。
+
+
+## 2026-11-16｜修正 Bistro 解鎖條件與版本差異
+**觀察**
+- 先前資料把 Bistro 開啟簡化為「把 Cafe 燒起來」。但官方 v5.1ea 公告明確指出：進入 Level 3 前必須先完成 Level 2 的 To-Do list，並有一項新增食譜。
+- v4.0ea 官方 My Room 更新列出裝飾系統、20 Coin 畫筆解鎖、存檔自訂項目、書本排列成就、主選單 logo 成就與舊成就移除。
+- v4.1ea 說明 Coin 掉落後會重生、Canned Coffee 也能用 Coin 製作。
+- v5.4ea 加入 Level 3 食譜提示與一鍵清除 new stars。
+
+**行動**
+- 將解鎖規格從「fire event → Bistro」修正為「Level 2 To-Do complete → Level 3 available」。
+- 保留 fire event 為 Cafe 互動／成就與可能的 To-Do 項目，但不再把它視為單獨充分條件。
+- 在版本時間線補入 v4.0ea、v4.1ea、v5.1ea、v5.4ea 與 1.0、v1.1。
+- 將 My Room customization、coin bank、20 Coin paintbrush、post-it、book arrangement、saved decor state 納入 My Room 規格。
+- 移除 Master Chef / Master of Disaster 這兩個已刪除成就，不把它們放入 26 成就清單。
+
+**判斷**
+- 對忠實復刻而言，Early Access 的章節入口條件不能只憑舊攻略；官方版本公告應優先。
+- Bistro 入口需要 To-Do 任務系統，不能只用一個布林值「Cafe burned」。
+- My Room 不只是選關畫面，而有存檔的個人化狀態與成就任務。
+
+**下一步**
+- 取得 Level 2 To-Do 的完整項目表，確認 8 orders、rat trade、fire、電話、訂購、其他互動的依賴關係。
+- 建立 My Room 的可互動物件、裝飾項目、unlock thresholds、save fields 表。
