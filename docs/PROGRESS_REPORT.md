@@ -74,7 +74,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 本輪重新測試後，GitHub 寫入已成功：
-- 刪除根目錄測試空白檔「？」；commit：86413423279f303e1536947c5441d9d395ecff9f
+- 刪除根目錄測試空白檔「？」；commit：86413423339f303e1536947c5441d9d395ecff9f
 - 建立 README.md；commit：26433ba4a95a3b3b996e536f6be161cba497c401
 
 接下來會把內部交接與進度匯報文件放入 docs/。
@@ -191,7 +191,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## Bistro 配方數量分期校正（2026-11-16）
 - 7/14 Bistro Guide正文逐行核算為 76 Good / 31 Bad，屬 EA baseline。
 - 8/27更新新增 7 Good + 2 Bad；9/10正式版玩家另記錄 Clutter為新增 Bad。
-- 目前 1.0候選總量為 83 Good / 34 Bad（117 total），但這是跨來源推算，仍待遊戲內 cookbook counter確認。
+- 目前 1.0候選總量為 84 Good / 39 Bad（117 total），但這是跨來源推算，仍待遊戲內 cookbook counter確認。
 
 
 ## Bistro Rat Trade 與七國料理（2026-11-16）
@@ -216,8 +216,8 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 ## 全關卡 Recipe Inventory（2026-11-16）
 - 已建立 docs/RECIPE_INVENTORY.md。
-- 目前候選總量 327：211 Good、116 Bad。
-- Student Dorm 48/29、Cafe 71/41、Bistro 83/34（推算）、Rat Level 9/12。
+- 目前候選總量 327：212 Good、121 Bad。
+- Student Dorm 48/29、Cafe 71/41、Bistro 84/39（推算）、Rat Level 9/12。
 - 327與官方「over 300 recipes」相符，但尚未由遊戲內 cookbook counter驗證；仍需逐筆補配方、狀態、設備、來源、信心與繁中名稱。
 
 
