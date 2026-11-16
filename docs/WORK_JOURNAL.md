@@ -476,3 +476,24 @@
 - 將 Bistro所有 117個候選逐筆標註 evidence/confidence/introduced version。
 - 將 Rat Level 21-22個候選 slot逐項做 QA測試。
 - 將中文攻略的譯名轉成台灣用語，但不直接照搬簡體配方結論。
+
+
+## 2026-11-16｜Wine About It 與 Rat Level slot 測試規則
+**觀察**
+- Steam玩家指出五瓶酒按瓶身標籤高度由短到長排列即可完成 Wine About It。
+- 1.0中文攻略與8/10英文攻略對 Rat冷爐第五個Good slot、Egg/Pencil、Pasta相關Bad slots存在差異。
+- 1.0日文玩家提供 Coioioin 藍色開關後投幣的操作提示。
+
+**行動**
+- 將 Wine About It改為 label_height ascending的排序 puzzle，保留五瓶酒實際位置待畫面確認。
+- Rat Level slot按來源分支記錄，不將 Leaf與Eggshell或Egg與Eggshell合併。
+- 將 Coioioin的藍色開關列為新版優先驗證步驟。
+
+**判斷**
+- Wine排序規則已從模糊「看標籤」收斂為可測試的高度排序。
+- Rat Level仍是資料最不穩定的區域；翻譯與圖示名稱不能代替輸入／輸出驗證。
+
+**下一步**
+- 取得五瓶酒畫面並記錄實際 label height順序。
+- 用每個 Rat slot的計數器驗證 Leaf/Eggshell與Egg/Eggshell差異。
+- 確認 Coioioin按藍色開關後是否可直接觸發，或是否仍需同面三次。
