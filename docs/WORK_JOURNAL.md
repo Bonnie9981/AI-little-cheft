@@ -215,3 +215,31 @@
 **下一步**
 - 取得 Level 2 To-Do 的完整項目表，確認 8 orders、rat trade、fire、電話、訂購、其他互動的依賴關係。
 - 建立 My Room 的可互動物件、裝飾項目、unlock thresholds、save fields 表。
+
+
+## 2026-11-16｜補完 Level 2 To-Do 與 Bistro rat 任務線
+**觀察**
+- 日文玩家 2026-09-09 的 Level 3 通關紀錄詳細描述了 Level 2 To-Do 的完成順序：清理 Cafe、Trade with rat、處理料理與訂單、製作 Burnt Panini、再次烹煮引發火災、撲滅火災，完成剩餘訂單後回到 My Room 解鎖 Bistro。
+- 這與官方 v5.1ea「完成 Level 2 To-Do 才能進 Level 3」完全一致。
+- Bistro rat 位於抽油煙機；第一次給 Cheese 會開啟任務線，後續每次製作便條圖示料理可換新食材。
+- 七國料理會使磁鐵貼在抽油煙機，全部完成取得 Going Global。
+- Mixer 修復點在右側花盆電路板；Apple 可分 whole / crushed 狀態，對應 Baked Apple / Apple Sauce。
+
+**行動**
+- 把 Bistro unlock 條件改成 Level 2 To-Do completion，不再只寫火災。
+- To-Do 至少列出 Clean the kitchen、Trade with the rat、Complete 8 orders、Set the kitchen on fire；由於完整 UI 清單尚未直接讀取，標註至少。
+- 將 fire state machine 拆為 Panini → Burnt Panini → fire → break alarm glass ×3 → press exposed button → fire extinguished。
+- 將 Bistro rat trades 記成有序任務節點；每張 note 需對應指定 recipe / reward ingredient。
+- 把七國料理、磁鐵與成就獨立成一張關聯表。
+- 把 Mixer repair、ground produce、overload achievement、five-wine sorting 加入互動流程規格。
+- 將 25 個電話號碼與電話彩蛋列為支線，不與 21931 的主要食材訂購號碼混淆。
+
+**判斷**
+- Level 2 To-Do 是多任務條件，不是一個單獨事件。使用者要求忠實復刻，因此任務系統必須保存各 task 的狀態與完成順序。
+- Bistro 的老鼠不是一次性的食材商店，而是分階段的任務發布者；每次 reward 解鎖新的 recipe branch。
+- Mixer 不只是烹煮前處理器，亦是關卡 puzzle / achievement 的核心互動物件。
+
+**下一步**
+- 找出完整七國料理對照表、每個 rat request 的 recipe 與 reward。
+- 將 To-Do 的所有項目逐一列出並建立可測試條件。
+- 查證 My Room 的 20 Coin 裝飾、Piggy Bank 任務是否也是 Level 2 To-Do 的獨立支線。
