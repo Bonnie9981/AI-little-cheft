@@ -258,3 +258,32 @@ Sources:
 Developer evidence:
 - Smoothie includes Peanut Butter: [Steam developer reply](https://steamcommunity.com/app/3376500/discussions/0/800090354736014933/).
 - Good Protein Shake uses Milk + Peanut Butter + Protein Powder, not Egg: [Steam developer reply](https://steamcommunity.com/app/3376500/discussions/0/760681630846246656/).
+
+
+## Student Dorm Bad Recipe formula conflicts (1.0 walkthrough vs older guide)
+
+| Recipe | Candidate inputs | Conflict | Handling |
+|---|---|---|---|
+| Horrible Sandwich | Toast + Egg + Tomato; or Bread + 2 unrelated items | Pixel Questing 10/9 gives a concrete combo; cached Steam guide gives a category predicate. | C/D; test both |
+| Beany Mess | Beans + Milk + Tomato; or Beans + 2 unrelated items | Specific vs category predicate. | C/D; test both |
+| Carb Overload | Potato + Pasta + Ramen; or Pasta + Bread + Potato | Different third ingredient. | D; test both |
+| Tomato Mess | Tomato + Cheese; or Can of Tomatoes + 2 unrelated items | Specific vs category predicate. | C/D; test both |
+| Bad Protein Shake | Big Protein + Egg + Tomato; or Protein Powder + 2 unrelated items; or Protein Powder alone | Different guide recipes and ingredient labels. | D; test |
+| Bad Ramen | Milk + Ramen + Cheese; or Ramen + 2 unrelated items | Specific vs category predicate. | C/D; test both |
+| Sponge Sandwich | Bread + Sponge + Cheese; or Sponge + 2 unrelated items | Specific vs category predicate. | C/D; test both |
+| Musical Dish | Cassette + any ingredient; or Audio Tape + 2 food items | Different input count. | D; test 2 vs 3 inputs |
+| Canned Food | Kitchen Knife + Beans; or Key + any food | Different tool and ingredient. | D; test both |
+| Terrible Smoothie | Egg + Milk + Tomato; or Milk + unrelated items | Specific vs category predicate. | C/D; test both |
+| Tape Spaghetti | Ramen + Cassette; or Pasta + Audio Tape | Different carbohydrate item. | D; test both |
+| Iron Ingot | Key; or any Knife | Different tool. | D; test both |
+| Food Monster | Cheese + Egg + Banana; or any three unrelated items | Specific vs category predicate. | C/D; test both |
+| Remix | Pink + Green cassette; or any two of three cassettes | May be compatible if Pink is one of the three cassettes. | C; inspect tape inventory |
+
+## Student Dorm Good Recipe conflicts
+
+| Recipe | Candidate inputs | Evidence | Handling |
+|---|---|---|---|
+| Sweet Sandwich | Bread + Peanut Butter; or Bread + Strawberry Jam | Cached Steam guide vs Pixel Questing 10/9. | D; test both |
+| Smoothie | Milk + Banana + Peanut Butter; or Strawberry Jam + Banana + Milk | Developer says Peanut Butter is an ingredient; 10/9 guide says Strawberry Jam. | B/C; version test |
+| Good Protein Shake | Protein Powder + Milk + Peanut Butter; or Protein Powder + Milk + Banana | Developer confirms Peanut Butter and Milk, not Egg; 10/9 guide lists Banana as alternate. | B; Peanut Butter confirmed, Banana candidate |
+| Tomato/Egg Stir Fry | Can of Tomatoes + Egg; or Tomato + Egg | Cached Steam guide vs 10/9 guide. | C/D; check canned vs raw Tomato |
