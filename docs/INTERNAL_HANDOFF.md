@@ -143,3 +143,15 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 9Puz 指南特別強調「狀態視為材料」：例如 Bread / Toast / Burnt Toast / Soggy Toast、Coffee Beans / Filled Espresso Cup、整顆食材 / Mixer 輸出、Rat Level 冷爐 / 熱爐結果都要分開記錄。ref：turn970635search0。
 - 新增來源：Steam v1.1 changelog（SteamDB mirror）確認 2026-09-11 修正 Goulash 與 Tomato Cocktail cookbook entries；沒有列出配方細節。ref：turn798867search15。
 - 新增流程線索：Bistro 的剪刀可透過把 Mixer jar 放入 pot 取得；剪刀靠近植物葉片可找到 Blender switch。ref：turn970635search2。
+
+
+## 15. 2026-11-16｜Cafe Job 與 Student Dorm 全量攻略線索補充
+- Steam Guide ID 3713640352 的搜尋索引目前可取得完整更新版（索引標示 2026-08-10），包含 Chapter 1、2、3、4 的完整清單；但直接開啟頁面時會顯示舊版快取，需保留此版本不一致註記。refs：turn191035search0、turn191035search1。
+- Chapter 2 Cafe Job 新版攻略補充重要前置：Paper Cup = Paper + Cup；Strawberry Cake = Cake + Strawberry；Chocolate Cake = Cake + Chocolate；Panini = Dough；Photo 需點擊牆上相框使照片掉落；Cheese 給藍色 kettle 的老鼠後，紙片自動放到電話，依便利貼號碼撥號解鎖 Avocado 與 Lettuce。
+- Tiramisu 新版配方為 Cake + Filled Coffee Cup + Milk，並明確提醒要用已裝咖啡的杯子，不是 Coffee Beans。Double Espresso 需將已裝滿的杯子留在機器內，等咖啡豆補充後再次操作。
+- 新版另列 Canned Coffee = Coin + Cup of Espresso；Mocha = Espresso Shot + Kakao + Milk；Strawberry Latte = Espresso Shot + Milk + Strawberry；Dirty Chai Latte = Tea + Milk + Coffee。這些與舊版文字有差異，保留版本證據。
+- Chapter 2 Good Recipes 清單涵蓋 Tea、Savory Panini、Chocolate Spread、Marble Cake、Avocado Brownies、Cafe au Lait、Cronut、Tiramisu、Jelly Filled Donut、Espresso Shot、Babyccino、Berry Tea、Black Coffee、Chocolate Covered Strawberries、Mug Cake、Jam、Latte、Cupcake、Grilled Lettuce、Neapolitan Cake、Salad、Mug Bread、Green Smoothie、Strawberry Cake Parfait、Mocha、Pink Donut、Brownies、Victoria Sponge Cake、Mozzarella、Chocolate Donut、Cheese and Berries、Cake Pop、Chai Latte、Guacamole、Strawberry Cheesecake、Pain Au Chocolat、Canned Bread、Hot Cocoa、Crouton、Sweet Croissant、Tea Donut、Avocado Milk、Chocolate Cheesecake、Milk Bread、Bento Box、Savory Croissant、Strawberry Milkshake、Oven Cheese、To Go Drink、Dirty Chai Latte、Sweet Panini、Strawberry Latte、Cheese Bun、Coffee Cake、Panini、Sweet Bagel、Strawberry Cake、Choco Chai Latte、Tea Cake、To Go Box、Chocolate Bomb、Double Espresso、Choco Berry Donut、Cheesecake、Cake Donut、Savory Bagel、Fusion Tea、Strawberry Tiramisu、Tres Leches、Canned Coffee。
+- Chapter 2 Bad Recipes 新版清單包含 Security Card、Healthy Cake、Drawing、Paper Cup、Breadception、Thermos、Don't Donut、Edible Money、Painted Mug、Paper Plane、Dollar、Paper Cup Phone、Menu、Is It Cake、Ew Panini、Healthy Donut、Mug Boy、Paper Trash、Painting、Food Drawing、Tea Strainer、Cups Game、Chocolate Coins、Mended Mug、Poison、Strawberry Horror、Counterfeit Money、Heart Attack、Disaster Dish、Hot Air、Terrible Spread、Specialty Espresso、Flavored Coffee、Cup Tower、Bad Milkshake、Awful Tea、Flat Croissant、Terrible Bagel、Spilled Coffee、Void Bagel。
+- Student Dorm 新版補充 Tomato/Egg Stir Fry = Can of Tomatoes + Egg。
+- 注意 Chapter 2 的同名材料與加工物件不可混為一談：Coffee Beans、Espresso Shot、Filled Coffee Cup、Cup of Espresso 需分別建檔；Paper、Paper Cup、Cup of Espresso 亦是不同物件。
+- Treyex 2026-04-27 的早期攻略提供 Chapter 1 與 Chapter 2 的另一份交叉線索，但內容較早、較簡化，不能覆蓋 8/10 更新版。ref：turn603364search0。
