@@ -214,3 +214,12 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Bistro 七國料理的確切七道菜名未能從文字來源完整確認。日文玩家通關紀錄只明確舉出 Mochi 作為日本料理，並說有七國料理、製作後磁鐵會貼在抽油煙機；不可擅自把七個看似異國料理的菜名當成官方七國清單。ref：turn672179search0。
 - 官方 store listing 只保證 over 300 recipes，不保證每個攻略清單的計數完全一致；資料庫需按遊戲實際 cookbook 記錄，而不是只採用指南合計。ref：turn832030search0。
 - 復刻物理模組應先定義可觀察行為與驗收，不虛構原作數值：pointer/touch grab、drag joint、release impulse、collision、stacking、breakable objects、water buoyancy、container insertion、cutting action、machine processing。所有係數留在本專案可調參數中，並標註為復刻設計值而非原作反編譯值。
+
+
+## 21. 2026-11-16｜Student Dorm 1.0 路線與 To-Do 詳細補充
+- Pixel Questing 2026-10-09 Chapter 1 guide明列 Student Dorm 有 48 Good / 29 Bad，並提供完整 24 項場景物件清單、48 Good、29 Bad 與 To-Do。ref：turn673517search0。
+- Shane locker 解鎖：粉紅便條提示 D,2；杯子上方磁磚有 1 B C [空格] E；盆栽後方顯示 3；反覆點擊 D2 磁磚取得 key，拖到 Shane 紅鎖，解鎖 Cheese 與 canned tomato。其餘三個 locker 亦需打開。
+- Student Dorm To-Do 至少 6 項：①使用 Ramen/Pasta 作材料完成 8 道 pasta dishes；②借用 Shane's Cheese（開鎖後製作一道含 cheese 的 good dish）；③播放所有磁帶（red、green、合成 Remix 後也要播放）；④Make Coffee（洗碗、放好餐具、發現 coffee maker、放上 gas stove）；⑤Water the basil（濕海綿碰枯萎 basil）；⑥Cook new dishes（累積 40 道 good + bad）。完成所有 Good Recipes 與 To-Do 才解鎖 Chapter 2；攻略作者表示 Bad Recipes 似乎可選，但未有官方證實。ref：turn673517search0。
+- Student Dorm 新版配方差異：Beans on Toast = Beans + Toast；French Toast 可用 Toast 或 Bread + Milk + Egg；Savory Sandwich 可用 Bread + Egg 或 Bread + Cheese + Tomato；Tomato Soup = Tomato + Toast；Pasta A La Carbonara = Pasta + Egg + Milk；PB&J Sandwich 可用 Peanut Butter + Jam + Bread / Toast 或 PB&J jar + Bread；Smoothie = Strawberry Jam + Banana + Milk；Tomato Egg Stir Fry = Tomato + Egg。ref：turn673517search0。
+- Student Dorm 食材／互動物件共 24 項：Banana、Pasta、Strawberry Jam、Coffee Maker、Peanut Butter、Canned Beans、Cassette Player、PBJ jar（合成後生成）、Toaster、Milk、Bread、Potatoes、Eggs、Protein Powder、Pink Glass Jar、Ramen、Canned Tomato、Cheese、three kitchen knives、Sponge、Orange Glass Jar、Green Glass Jar、Potted Basil、Cooking Pot。ref：turn673517search0。
+- 9Puz 1.0 completion guide強調各房間各自有 recipe/task ledger；100% 不等於只完成配方。Room achievements、main menu、credits 都是獨立。ref：turn673517search1。
