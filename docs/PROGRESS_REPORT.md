@@ -152,3 +152,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Steam 功能列表包含 Mouse Only 與 Touch Only 操作模式，將以共用輸入層支援桌面與手機橫向。
 - 物理規格尚未完成；原作的質量、摩擦、彈性等精確係數沒有可靠公開資料，復刻版會以可調參數校準，不冒稱原作係數。
 - 七國料理僅能確定其中一項 Mochi；其餘六項仍待查，Bistro 任務線尚未完成。
+
+
+## Student Dorm 1.0 To-Do 補完（2026-11-16）
+- 找到 2026-10-09 全攻略，確認 Student Dorm 48 Good / 29 Bad，並列出 24 個場景物件。
+- To-Do 至少 6 項：8 道 pasta dishes、借用 Shane's Cheese、播放三卷磁帶、清洗整理餐具以解鎖 coffee maker、澆灌 basil、累積 40 道 good + bad dishes。
+- 新攻略對 Beans on Toast、French Toast、Savory Sandwich、Tomato Soup、Pasta Carbonara 等配方提供了比 8/10 指南更細的狀態／替代配方，已列入衝突表，尚未實機驗證。
+- 章節解鎖條件需同時完成所有 Good Recipes 與 To-Do；Bad Recipes 是否可選尚未獲官方證實。
