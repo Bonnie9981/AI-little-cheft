@@ -298,3 +298,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/ACHIEVEMENT_MATRIX.md，完整列出 1.0的26項成就與觸發候選。
 - 已排除 v4.0移除的 Early Access成就 Master of Disaster。
 - 未解項目：100%精確條件、Bookworm排序、Going Global七道菜、Coioioin觸發細節。
+
+
+## Student Dorm To-Do 完整清單（2026-11-16）
+- 1.0攻略確認六項：8道Pasta/Ramen料理、Borrow Shane's Cheese、播放Red/Green/Remix三卷卡帶、Make Coffee、Water Basil、Cook New Dishes累積40道Good+Bad料理。
+- 清洗碗盤與收好餐具是Make Coffee前置，不是獨立To-Do。
+- 9Puz指出每個房間都有recipe/task ledger，Student Dorm需完成Good與Bad兩個recipe tabs及全部tasks。
+- Flooded約50%水位時會提示；Bookworm需讓書背波浪線連續。
