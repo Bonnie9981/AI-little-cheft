@@ -115,3 +115,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新版新增 Canned Coffee = Coin + Cup of Espresso；Mocha、Strawberry Latte、Dirty Chai Latte 亦有明確咖啡／茶狀態差異。
 - Student Dorm 新版另列 Tomato/Egg Stir Fry。
 - 目前 Cafe 資料已比前一輪完整，但尚未完成逐條計數、來源比對與 QA，仍不能標記為完成。
+
+
+## Rat Level 與 Bistro 研究補充（2026-11-16）
+- Rat Level 冷爐 5 項、熱爐 4 項的 Good Recipes 已有更新版攻略明確列出；Bad Recipes 也有 12 類輸入線索，含 Eggshell 的取得方式。
+- Rat Level 的第五個冷爐圖示仍有 Eggshell／Leaf 來源衝突，會用 slot 計數作為驗證依據。
+- 可直接讀取的 Bistro Guide 列出 76 項 Good、31 項 Bad；留言補充 6 個配方，並明確確認 Goulash 使用 Ground Tomato。
+- Bistro 仍有配方衝突：Tomato Cheese Appetizer 是否需 Olives、Apple Mochi 是否需 Ground Rice，列入待驗證清單。
