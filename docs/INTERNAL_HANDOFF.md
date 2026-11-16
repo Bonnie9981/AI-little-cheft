@@ -378,3 +378,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 新增 docs/ITEM_STATE_INVENTORY.md，按 Student Dorm、Cafe、Bistro、Rat Level分別列出已知物件、分類、zh-TW候選、狀態與能力。
 - 明確拆開所有高風險狀態：Ground Tomato/Meat/Rice/Pumpkin/Apple、Minced Garlic、Shredded Cheese、Bread/Toast/Burnt/Soggy、Egg/Eggshell、Coffee Beans/Espresso/Filled Cup、Paper/Paper Cup/Photo、Rat power low/high。
 - 尚待補完：Student Dorm其他三個locker內容、Cafe chalkboard/checklist等物件、材料消耗規則、物件位置是否存檔、Bistro/Rat Level全部物件能力。
+
+
+## 42. 2026-11-16｜Student Dorm mouse hole 與成就位置修正
+- 開發者確認 D2磁磚是 Shane locker key；右側另一個磁磚是 mouse hole，兩者不同。mouse hole與解鎖locker無關；解鎖後把 Cheese拿到洞口前即可取得 I Smell Cheese。refs：turn765577search4、turn765577search5。
+- 開發者確認 A Lot to the Right的茶盒位於 Student Dorm上層架，Jam右側，為藤蔓圖案的堆疊盒子；需把圖案排列成連續圖樣。ref：turn765577search10。
+- 9Puz完整成就表確認：Fair Trade在 Cafe（藍色茶壺旁的老鼠，給 Cheese）；What's The Emergency需撥 911並拿起電話；Aw That's Hot是 Panini烤焦後再烹煮；Nothing Nowhere是三個 Bagel一起烹煮，配方在 Safe開啟後取得。ref：turn765577search1。
+- 9Puz與Steam指南補充 Messing Around：先研磨 Pumpkin/Tomato/Meat，再讓 Mixer第二次、第三次運作造成大混亂，之後可用 Cloth清理。ref：turn275853search2。
+- Tea boxes位置與 D2/mouse hole分離已加入 Interaction Spec與 QA；避免把鼠洞當成 locker key tile。
