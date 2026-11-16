@@ -319,3 +319,21 @@
 - 建立 Cafe 71/41逐條清單與來源對照，清除重複 Coffee Cake。
 - 對 Tiramisu、Babyccino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box做逐個狀態與設備測試。
 - 取得 Cafe 8個 ToDo的完整任務名稱與順序，不能把「8 orders」誤當成「8個 ToDo條目」。
+
+
+## 2026-11-16｜Cafe To-Do 數量語意重新核對
+**觀察**
+- 官方 v3.0ea 寫的是單一 To-Do：「complete 8 orders」。
+- 日文玩家將其描述為「ToDo list新增8件」，可能是指八張訂單的計數，而非八個獨立任務條目。
+- Level 2 解鎖攻略確定包含清潔、老鼠交易、火災／滅火、訂單等任務，但未提供完整 UI 清單。
+
+**行動**
+- 修正 handoff / progress 的語意：只確認 order target = 8；To-Do task count = unknown。
+- 保留 4 個可確定的任務類型作最低集合，不再聲稱全部八個 task name 已找齊。
+
+**判斷**
+- 以官方 patch note為優先來源；社群翻譯中「8件」不可直接解讀為八個獨立任務。
+- 完成 8 orders 應是 Level 2 To-Do 的一個計數型目標，需與訂單票數／Coin發放機制整合。
+
+**下一步**
+- 尋找遊戲內 To-Do UI 截圖或 1.0 實機影片，確認 Level 2 任務總數、每項文字與完成條件。
