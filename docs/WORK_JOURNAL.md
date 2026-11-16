@@ -538,3 +538,24 @@
 - 整理 Bistro 83/34候選公式，特別是新舊版本差異。
 - 整理 Rat Level電力狀態與 21個 slot。
 - 把公式表轉成 machine-readable schema前，先完成 item/state dictionary。
+
+
+## 2026-11-16｜Bistro / Rat Level formula matrix
+**觀察**
+- Bistro 76/31 baseline與10個 post-launch additions可整理成83 Good / 34 Bad候選。
+- Rat Level有9 Good slots（5 low/off +4 high/on）及12 Bad slots，標題為符號，需以slot索引識別。
+- 多個 Bistro recipe仍有來源衝突，尤其 Mochi、Kombucha、Tomato Juice、Fried Rice、Sake、Meatballs、Beef Katsu Sando與Bad recipe families。
+
+**行動**
+- 建立 docs/RECIPE_FORMULA_BISTRO_RAT.md，逐筆整理候選輸入與狀態。
+- 將 rat puzzle chain、power levels、wine sorting、rat trade、mixer repair與 scissors解鎖流程納入同一份規格。
+- 保留三位數密碼未知，不猜測。
+
+**判斷**
+- 目前已完成四房間 recipe name inventory與初步 formula drafts；但尚未完成 machine-readable records、完整來源鏈、QA。
+- Rat Level需用slot counter驗證，而不是翻譯圖示標題。
+
+**下一步**
+- 為327個候選recipe補上source_id、source_date、version、confidence、verification_status。
+- 對D級配方列最少測試集，避免大量隨機組合。
+- 完成七國料理、rat request順序與 wine label高度對照。
