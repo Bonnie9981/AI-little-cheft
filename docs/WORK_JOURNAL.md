@@ -743,3 +743,25 @@
 - 將 Early Access已移除的 Master of Disaster排除於1.0目標之外。
 - 對 Level 1/2/3/ Rat Level 100%標記描述已知、精確完成條件未知。
 - 剩餘未解：Bookworm順序、七國菜名、Coioioin條件、100%是否需所有Bad Recipes。
+
+
+## 2026-11-16｜Student Dorm六項To-Do與100% ledger修正
+**觀察**
+- 9Puz 1.0 completion route提供完整六項Student Dorm To-Do：8 pasta dishes、Borrow Shane's Cheese、Play All Cassettes、Make Coffee、Water Basil、Cook New Dishes 40 Good+Bad。
+- 這修正了先前把「清洗碗盤」獨立當成一項To-Do的錯誤；清洗與餐具歸位是Make Coffee前置。
+- 9Puz明確表示每個房間各有recipe與task ledger，並提醒Student Dorm需檢查Good/Bad兩個recipe tabs。
+- Flooded約淹至50%時遊戲會提示；Bookworm需要讓書背的波浪線連續。
+
+**行動**
+- 更新 PROGRESSION_MODEL、INTERACTION_SPEC、QA_TEST_PLAN。
+- 將六項任務完整寫入progression和QA。
+- 修正 room completion規則：Good+Bad recipe tabs與To-Do ledger均須完成；精確百分比公式仍待live counter驗證。
+
+**判斷**
+- Student Dorm To-Do已從「部分推測」提升為 1.0 walkthrough完整候選清單。
+- 不能把任務前置互動誤當成獨立task，也不能把Bad Recipes視為可忽略。
+
+**下一步**
+- 取得Cafe完整task ledger與Bistro task ledger。
+- 核對每個房間的Good/Bad總數與100% counter。
+- 更新成就矩陣的Bookworm排序說明。
