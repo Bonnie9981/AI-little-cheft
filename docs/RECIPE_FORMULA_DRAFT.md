@@ -14,7 +14,7 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Beans on Toast | Bread + Beans (newer guide suggests Beans + Toast; see conflict register) |
 | Boiled Eggs | Egg |
 | Coffee | Clean dishes; place Coffee Pot on stove |
-| Savory Sandwich | Bread + Egg (alternate: Bread + Cheese + Tomato) |
+| Savory Sandwich | Bread + Egg (official v2.9 alternate: Bread + Cheese + Tomato Sauce) |
 | Cheesy Ramen | Cheese + Ramen Noodles |
 | Chili Sin Carne | Can of Beans + Can of Tomatoes |
 | Warm Beans | Can of Beans |
@@ -116,7 +116,7 @@ Source: Pixel Questing Chapter 2 guide (2026-11-09); 8/10 Steam guide used to re
 | Cafe au Lait | Coffee Beans + Milk |
 | Espresso Shot | Coffee Beans + Espresso Machine + Small White Cup under spout |
 | Babyccino | Espresso Shot + Milk (alternate: Milk alone) |
-| Tiramisu | Plain Cake + Filled Coffee Cup + Milk (11/9 guide conflicts: Cheese + Plain Cake + Coffee Beans) |
+| Tiramisu | 1.0 candidate: Plain Cake + Filled Coffee Cup + Milk; official v2.9ea allowed Cake + Coffee + Dough OR Cake + Coffee + Milk; 11/9 guide conflicts: Cheese + Plain Cake + Coffee Beans |
 | Jam | Strawberry in Microwave Oven |
 | Sweet Bagel | Jam + Bagel |
 | Avocado Brownies | Avocado + Kakao |
