@@ -280,3 +280,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## Peanut Butter 隱藏食材（2026-11-16）
 - Developer確認：按下主選單信件中的按鈕即可解鎖 Peanut Butter，不需真的加入願望清單；解鎖會保存到存檔。
 - 已列為 Student Dorm食譜的前置條件，不能依賴外部 Steam Wishlist。
+
+
+## Item / ItemState Inventory（2026-11-16）
+- 新增 docs/ITEM_STATE_INVENTORY.md，列出四個房間的物件分類、狀態與互動能力。
+- 已拆分所有關鍵加工狀態，為後續 machine-readable recipe records打底。
+- Student Dorm其他三個locker內容、Cafe部分道具、材料消耗與物件位置存檔仍待查。
