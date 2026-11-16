@@ -12,7 +12,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Yeast | Blue-capped bubbling jar into pot |
 | Flat Bread | Flour |
 | Salami | Meat + Yeast |
-| Mochi | Rice (Ground Rice variant conflict) |
+| Mochi | Rice (9Puz says grind Rice first; Ground Rice variant conflict) |
 | Tomato Cheese Appetizer | Tomato + Cheese (Olives required in later guide) |
 | Mulled Wine | Wine (green bottle) |
 | Dough | Flour + Yeast |
@@ -20,7 +20,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Mushroom Pie | Bread Dough + Mushroom |
 | Salami Rose | Salami |
 | Fresh Bread | Bread Dough |
-| Sausage Roll | Meat + Bread Dough |
+| Sausage Roll (9Puz calls it Salami Roll) | Meat + Bread Dough |
 | Baked Apple | Apple |
 | Beer | Bread Dough + Yeast |
 | Khachapuri | Bread Dough + Cheese |
@@ -63,19 +63,19 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Fried Apple Rings | Apple + Flour + Olive Oil |
 | Bread Sticks | Pizza Dough + Olive Oil |
 | Fungi Pizza | Pizza + Mushroom |
-| Beef Katsu Sando | Meat + Bread (Olive Oil variant conflict) |
-| Meatballs | Ground Beef (Ground Meat + Garlic + Dough variant conflict) |
+| Beef Katsu Sando | Bread + Meat + Olive Oil (7/14 guide says Meat + Bread) |
+| Meatballs | Ground Meat + Garlic + Dough (7/14 guide says Ground Beef only) |
 | Fried Mushroom | Mushroom + Flour + Olive Oil |
-| Charcuterie Board | Olives + Salami + Bread |
+| Charcuterie Board | Cheese + Olives + Salami (7/14 guide says Olives + Salami + Bread) |
 | Pepperoni Pizza | Pizza + Salami |
 | Steak | Meat + Olive Oil |
 | Stick Bread | Bread Dough + Wooden Spoon |
 | Meatball Sandwich | Bread + Ground Beef |
-| Pizza Speciale | Pizza + Mushroom + Olives |
+| Pizza Speciale | Pizza + Mushrooms + Salami (7/14 guide says Olives instead of Salami) |
 | Focaccia | Bread Dough + Olive Oil + Olives |
 | Cheeseburger | Bread + Ground Beef + Cheese |
 | Aioli | Garlic + Olive Oil |
-| Fried Rice | Rice + Olive Oil (Mushroom variant conflict) |
+| Fried Rice | Rice + Olive Oil + Mushrooms (7/14 guide says Rice + Olive Oil) |
 | Pizza Rolls | Pizza Dough + Cheese + Salami |
 | Stuffed Olives | Olives + Cheese |
 | Wine Barrel | Wine + Wooden Spoon |
@@ -101,8 +101,8 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Endless Possibilities | Run cooking pot empty |
 | Fungus | Mushroom + Rice |
 | Pink Pencil | Red Pencil + White Pencil |
-| Yeast Monster | Yeast + Wine (Tomato variant conflict) |
-| Cookbook | Newspaper + Apple (Tomato variant conflict) |
+| Yeast Monster | Yeast + Tomato (7/14 guide says Wine; conflict) |
+| Cookbook | Newspaper + Tomato (7/14 guide says Apple; conflict) |
 | Ghost | Table Cloth + Scissors |
 | Wine Glass | Wine + Scissors |
 | Toothpick | Wooden Spoon + Scissors |
@@ -111,18 +111,18 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Scissors | Empty Blender Jar into pot |
 | Red 40 | Tomato + Meat + Apple |
 | Compass | Scissors + any Magnet |
-| Bad Pastry | Bread Dough + Flour (Pizza variant conflict) |
+| Bad Pastry | Bread Dough + Flour + Pizza (7/14 guide omits Pizza; conflict) |
 | Cheese Cloth | Table Cloth + Cheese |
 | Sketchbook | Newspaper + any Pencil |
-| Bad Meatloaf | Meat + Flour (Olives variant conflict) |
+| Bad Meatloaf | Meat + Olives (7/14 guide says Flour; conflict) |
 | Pumpkin Friend | Pumpkin + any Pencil |
-| Food Sketch | Apple + any Pencil (Cheese variant conflict) |
+| Food Sketch | Any Pencil + Cheese (7/14 guide says Apple; conflict) |
 | Cheese Grater | Cheese + Scissors |
 | Jack O Lantern | Pumpkin + Scissors |
 | Origami | Newspaper |
 | Barely Edible | Apple + Olives (generic invalid food combinations also reported) |
 | Paper Snowflake | Newspaper + Scissors |
-| Fried Balls | Bread + Olive Oil (Salami variant conflict) |
+| Fried Balls | Olive Oil + Salami (7/14 guide says Bread; conflict) |
 | Drum Sticks | Wooden Spoon |
 | Definitely Not Wine | Wine + Newspaper |
 | Paper Towel | Table Cloth + Newspaper |
