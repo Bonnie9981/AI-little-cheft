@@ -219,3 +219,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 目前候選總量 327：211 Good、116 Bad。
 - Student Dorm 48/29、Cafe 71/41、Bistro 83/34（推算）、Rat Level 9/12。
 - 327與官方「over 300 recipes」相符，但尚未由遊戲內 cookbook counter驗證；仍需逐筆補配方、狀態、設備、來源、信心與繁中名稱。
+
+
+## Student Dorm / Cafe 配方公式初稿（2026-11-16）
+- 新增 docs/RECIPE_FORMULA_DRAFT.md，整理 Student Dorm 77筆、Cafe 112筆候選公式，共189筆。
+- 已標出配方狀態、設備依賴與來源衝突；尚未實機驗證，不能標記為完成。
+- Bistro與 Rat Level公式矩陣尚未完成。
