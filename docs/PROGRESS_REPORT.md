@@ -310,3 +310,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## Cafe To-Do範圍更新（2026-11-16）
 - 已確認至少四項：清理廚房、與老鼠交易、完成8張訂單、讓廚房起火。
 - 21931電話、Coins、Espresso Cup、Safe與fire alarm是其他100% blockers，是否為獨立To-Do row仍待確認。
+
+
+## zh-TW 配方名稱字典（2026-11-16）
+- 新增 docs/ZH_TW_RECIPE_TRANSLATIONS.md，完成312筆命名配方的台灣繁中候選譯名。
+- Rat Level 21個符號槽位保留slot標示，不自行命名。
+- 翻譯覆蓋已完整；雙關、罕見料理、畫面長度與母語校對仍待完成。
