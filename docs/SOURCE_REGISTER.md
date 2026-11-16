@@ -94,3 +94,6 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-037 | [9Puz 1.0 completion route](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/) | 2026-09-02 | Complete six Student Dorm To-Do tasks; each room has a separate recipe/task ledger; both Good and Bad tabs matter for room completion; Flooded and Bookworm details | Community walkthrough; strong 1.0 route evidence.
+
+
+- SRC-038 | [Steam Bistro guide comments / July 17 recipe discoveries](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550) | 2026-07-17 | Crazy Calzone = Pizza + Pizza Dough; five additional Bad recipes: Breadless Burger, Vampire Defense Kit, Bread and Wine, Sorrow Sandwich, Risky Rice Pudding | Player comments; formulas cross-checked with 9Puz 1.0 route where available.
