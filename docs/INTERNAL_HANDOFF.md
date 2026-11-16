@@ -372,3 +372,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Developer於 Steam討論確認：主選單信件下方的按鈕會解鎖 Peanut Butter；不需要真的將遊戲加入願望清單。按下按鈕後 Peanut Butter會生成在場景中，且此解鎖會保存到 save file。ref：turn307019search7。
 - 這個解鎖是 Student Dorm多道料理的前置：PB&J、Peanuts、Smoothie、Good Protein Shake等。
 - 不要實作成 Steam Wishlist API；只需本地化的信件互動與永久 save flag。
+
+
+## 41. 2026-11-16｜Item / ItemState inventory 第一版
+- 新增 docs/ITEM_STATE_INVENTORY.md，按 Student Dorm、Cafe、Bistro、Rat Level分別列出已知物件、分類、zh-TW候選、狀態與能力。
+- 明確拆開所有高風險狀態：Ground Tomato/Meat/Rice/Pumpkin/Apple、Minced Garlic、Shredded Cheese、Bread/Toast/Burnt/Soggy、Egg/Eggshell、Coffee Beans/Espresso/Filled Cup、Paper/Paper Cup/Photo、Rat power low/high。
+- 尚待補完：Student Dorm其他三個locker內容、Cafe chalkboard/checklist等物件、材料消耗規則、物件位置是否存檔、Bistro/Rat Level全部物件能力。
