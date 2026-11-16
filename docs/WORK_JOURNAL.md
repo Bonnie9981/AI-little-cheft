@@ -599,3 +599,25 @@
 **下一步**
 - 建立每個 Item的 capability matrix：drag、throw、cut、mix、cook、burn、wet、break、container_insert。
 - 測試1/2/3材料上限、順序是否影響結果、材料是否消耗與可否重複使用。
+
+
+## 2026-11-16｜互動與物理規格整理
+**觀察**
+- 官方資料、攻略與成就說明已足以定義大部分可觀察互動。
+- 物理手感是核心，不只是動畫；但沒有原作 mass/friction/bounce數值。
+- 手機觸控與桌面滑鼠都需使用同一互動抽象層。
+
+**行動**
+- 建立 docs/INTERACTION_SPEC.md。
+- 拆分 Item、Tool、Container、Appliance、Clue、PuzzleInteractable、Environment、Character類別。
+- 整理 Item state、appliance conditions、puzzle chains與acceptance tests。
+- 將未知的材料消耗、順序、設備暫存、save object positions列為 open questions。
+
+**判斷**
+- 物理系統可以開始做設計規格，但在 recipe資料和QA未完成前仍不能開始實作。
+- 所有 numeric physics values都屬復刻版調校值，不能宣稱還原原作內部係數。
+
+**下一步**
+- 完成 QA test catalog，涵蓋每個任務、配方、成就、存檔與輸入裝置。
+- 針對每個未解問題設計最小測試組。
+- 由 Critic審查資料完整度與風險。
