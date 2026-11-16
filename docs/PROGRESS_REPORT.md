@@ -199,3 +199,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 玩家通關記錄確認首次獎勵為 Tomato；後續還有 Apple、Olive、Garlic等獎勵支線。
 - Going Global需完成 7道國家料理並收集 7個磁鐵；目前只確認日本料理 Mochi，其餘六道仍待圖片／實機確認。
 - 老鼠顯示愛心是所有交易完成的感謝訊息，不是新的料理請求。
+
+
+## zh-TW 詞彙基準（2026-11-16）
+- 已建立 docs/ZH_TW_GLOSSARY.md，涵蓋主要 UI、食材、Student Dorm/Cafe/Bistro料理與成就。
+- 台灣用語基準：起司、馬鈴薯、可頌、吐司、披薩、果昔、調理機；「美味料理／怪奇料理」為 Good/Bad分類暫定譯名。
+- 官方 Steam不支援繁體中文，因此本專案需自行在地化，不可直接複製簡體中文攻略翻譯。
+- Rat Level、所有 Bad Recipes、My Room與完整劇情文本仍未完成詞彙校對。
