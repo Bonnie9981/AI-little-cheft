@@ -104,3 +104,9 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 - Removed one duplicate Chocolate Spread item.
 - Allowed alternate Tiramisu input sets: Cake + Coffee + Dough, or Cake + Coffee + Milk.
 - Added Bread + Cheese + Tomato Sauce as another Savory Sandwich combination.
+
+
+## 2026-11-16｜Bistro recipe inventory correction
+- 7/14 Bistro Guide main list is 76 Good / 31 Bad, but July 17 Steam comments add 1 Good (Crazy Calzone) and 5 Bad (Breadless Burger, Vampire Defense Kit, Bread and Wine, Sorrow Sandwich, Risky Rice Pudding).
+- Combined with 8/27 additions (7 Good + 2 Bad) and 1.0 Clutter, current candidate Bistro total becomes 84 Good / 39 Bad.
+- All-room candidate total becomes 333 (212 Good + 121 Bad). This is still a cross-source estimate, not an in-game counter.
