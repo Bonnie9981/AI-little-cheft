@@ -2,7 +2,7 @@
 
 更新：2026-11-16  
 目標：台灣繁體中文（zh-TW），不是把簡體中文逐字轉成繁體。  
-狀態：第一版術語基準；料理名稱仍需在完整 recipe inventory完成後逐項校對。
+狀態：UI與系統術語基準；完整312筆料理名稱候選譯名見 docs/ZH_TW_RECIPE_TRANSLATIONS.md，仍需最後母語校對與UI長度測試。
 
 ## 原則
 
@@ -312,3 +312,8 @@
 - Taiwan recipe usage supports 佛卡夏 for Focaccia: https://www.tehmag.com.tw/baking.php?NO=1&cNO=31&sNO=189 and https://cookpad.com/tw/搜尋/佛卡夏
 - Taiwan menu usage supports 法式熱三明治 for Croque Monsieur: https://capellahotels.com/assets/docs/taipei/Plume_All_Day_Dining.pdf
 - Taiwan food writing uses 古拉什 / 匈牙利燉肉 / 匈牙利燉牛肉; prefer 古拉什（匈牙利燉肉） because the game input says Meat rather than specifically Beef: https://www.sanmin.com.tw/product/index/005557643
+
+
+## 完整料理名稱字典
+
+請以 [ZH_TW_RECIPE_TRANSLATIONS.md](ZH_TW_RECIPE_TRANSLATIONS.md) 作為 Student Dorm、Cafe Job、Bistro全部312筆命名配方的候選翻譯清單；本文件保留UI與系統術語、料理用詞原則及成就翻譯。Rat Level的21個符號槽位不擅自命名。
