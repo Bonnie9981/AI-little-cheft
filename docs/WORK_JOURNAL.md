@@ -559,3 +559,23 @@
 - 為327個候選recipe補上source_id、source_date、version、confidence、verification_status。
 - 對D級配方列最少測試集，避免大量隨機組合。
 - 完成七國料理、rat request順序與 wine label高度對照。
+
+
+## 2026-11-16｜官方 v2.9ea 配方歷史
+**觀察**
+- 官方 v2.9ea（3/19）移除其中一個重複 Chocolate Spread。
+- 官方 v2.9ea允許 Tiramisu多種有效配方：Cake + Coffee + Dough，或 Cake + Coffee + Milk。
+- 官方 v2.9ea新增 Savory Sandwich的 Bread + Cheese + Tomato Sauce配方。
+
+**行動**
+- 將以上資訊加入 Recipe Conflict Register，標記為官方 Early Access歷史。
+- 將 Tiramisu記錄為多個可接受配方候選，而非單一固定配方。
+- 將 Savory Sandwich的 Tomato Sauce與 raw Tomato分開記錄。
+
+**判斷**
+- 遊戲內可能存在「一個 recipe多種有效 input set」的設計；recipe schema需支援 alternate_input_sets。
+- 配方歷史不能被最新配方覆蓋，因為研究目標需保留版本差異。
+
+**下一步**
+- 對照 1.0 recipe book確認 Tiramisu最終有效輸入集合。
+- 確認 Chocolate Spread只有一個item ID，避免把早期重複物件帶進復刻版。
