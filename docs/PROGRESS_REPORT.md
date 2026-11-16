@@ -172,3 +172,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 官方 v3.0ea 原文只確認一項 To-Do：「complete 8 orders」；日文攻略「ToDo list新增8件」語意不明，不能視為八個獨立任務。
 - 已將 order target = 8 與 Level 2 To-Do task count = unknown 分開記錄。
 - Bistro 解鎖流程目前只確認清潔、老鼠交易、火災／滅火、訂單等任務類型；完整 UI 清單仍待實機畫面或影片。
+
+
+## Rat Level 設備模型修正（2026-11-16）
+- 新增 1.0 玩家完整攻略指出 Rat Level 是通電罐頭式 cooker，近似微波爐；酒瓶謎題解開後可切換電力強／弱，同一配方產生不同結果。
+- 復刻規格將採 ElectricCanCooker 與 power_level = low/high，不再把它當一般烤箱溫度。
+- 9項 Good Recipes 仍可按攻略 OFF 5項、ON 4項分類，但 ON/OFF 與 low/high映射尚待實機確認。
+- 花盆 note的三位數密碼未在可讀文字來源披露，明確列為待取得畫面，不猜測。
