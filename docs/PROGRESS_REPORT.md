@@ -257,3 +257,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/QA_TEST_PLAN.md，包含 recipe、physics、四個房間、My Room、26成就、zh-TW、responsive與save/load驗收。
 - 這是測試設計，不是測試通過紀錄。
 - 主要 blockers：Cafe完整To-Do、七國料理與rat順序、Rat code/power mapping、D級配方衝突、327候選數量確認。
+
+
+## Rat Level 材料數量例外（2026-11-16）
+- 新增 1.0玩家攻略指出 Rat Level每次只使用兩種材料；已從通用三材料規則中排除，單獨建模 max_inputs = 2。
