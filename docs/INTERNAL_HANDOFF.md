@@ -192,3 +192,15 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 官方 1.0 公告（2026-08-26）確認 Level 1、2、3 都達到 100% 才會找到額外驚喜內容；Rat Level 是 1.0 後的第四個隱藏內容層，不是一般第四主廚房。ref：turn227999search1。
 - v1.1（2026-09-11）修正 Coioioin、四個英文拼字、Level 1 重複 jar、食譜書 settings button、Goulash/Tomato Cocktail cookbook entries，並改善 Rat Level number lock 點擊區。ref：turn302948search14。
 - 官方 1.0 後 Steam 語言列表只列 English、German、Simplified Chinese；沒有 Traditional Chinese。復刻的 zh-TW 是本專案新增在地化。ref：turn227999search2。
+
+
+## 19. 2026-11-16｜Level 2 To-Do 清單與 Bistro 解鎖完整線索
+- 日文玩家完整通關紀錄（2026-09-09）明確記載：Level 3 解鎖條件是完成 Level 2 所有 To-Do；實際流程先清理 Cafe、與抽油煙機內老鼠交易、完成國際料理／其他任務、製作 Burnt Panini 並再次烹煮引發火災、撲滅火災，最後完成剩餘訂單；返回 My Room 後收到遺產通知並解鎖 Bistro。ref：turn727664search0。
+- Level 2 To-Do 項目可確定至少包含 Clean the kitchen、Trade with the rat、Complete 8 orders、Set the kitchen on fire；需保留「至少」標記，因攻略文字未以完整可複製清單呈現所有項目。refs：turn786170search0、turn727664search0。
+- Cafe 火災流程：Panini 先進烤箱成 Burnt Panini，再把 Burnt Panini 再次烹煮引發火災；之後點擊警報玻璃三次打破，再按下露出的按鈕撲滅。refs：turn523039search0、turn727664search0。
+- Bistro rat 在抽油煙機內；先給 Cheese，之後每次老鼠出示畫有料理的便條，完成該料理即可換取新食材；日文攻略指出最初 Cheese 交易會解鎖 Tomato，後續逐步解鎖 Apple、Olive、Garlic 等。refs：turn727664search0、turn798867search8。
+- 七國料理／磁鐵：完成 7 種國際料理後磁鐵會貼在抽油煙機上，取得 Going Global。具體每個國家料理和食譜對應仍需逐項整理，不能只把七個磁鐵當成純裝飾。ref：turn727664search0。
+- Mixer 是 Bistro 的重要工具，需修復右側花盆中的 electrical panel 才能使用；將 Apple 放入會變成 Crushed Apple，煮出 Apple Sauce；整顆 Apple 則可做 Baked Apple。Mixer 超載／失控可取得 Messing Around。ref：turn727664search0。
+- Pizza Dough 由三種材料組成；Wine 有五瓶，其中四種由 Wine + 顏色製作，五瓶需按標籤順序排列取得 Wine About It。ref：turn727664search0。
+- Level 2 的 25 個電話號碼是 Café Update 新增內容；日文玩家記錄逐一撥打後，多數為聲音／語音彩蛋，666 也有特別效果。需建立 PhoneEasterEggs 資料表，但不應影響主線電話解鎖。ref：turn786170search0。
+- Cafe Update 另有 To-Do「完成 8 張訂單」；官方 3.0ea 公告確認。ref：turn810315search5。
