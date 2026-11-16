@@ -14,7 +14,7 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Beans on Toast | Bread + Beans (newer guide suggests Beans + Toast; see conflict register) |
 | Boiled Eggs | Egg |
 | Coffee | Clean dishes; place Coffee Pot on stove |
-| Savory Sandwich | Bread + Egg (official v2.9 alternate: Bread + Cheese + Tomato Sauce) |
+| Savory Sandwich | Bread + Egg (official v2.9 alternate: Bread + Cheese + Tomato Sauce; 10/9 guide says Bread + Cheese + Tomato) |
 | Cheesy Ramen | Cheese + Ramen Noodles |
 | Chili Sin Carne | Can of Beans + Can of Tomatoes |
 | Warm Beans | Can of Beans |
@@ -29,7 +29,7 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Pasta A La Carbonara | Pasta + Egg + Cheese (Milk variant conflict) |
 | Pasta | Pasta |
 | PB&J | Peanut Butter + Jam |
-| PB&J Sandwich | Bread + Peanut Butter + Jam (PB&J jar variant also reported) |
+| PB&J Sandwich | Bread + Strawberry Jam (10/9 guide conflicts: Bread + Peanut Butter) + Jam (PB&J jar variant also reported) |
 | Pesto | Revived Basil |
 | Ramen | Ramen Noodles + Egg |
 | English Breakfast | Can of Beans + Egg + Bread |
@@ -51,8 +51,8 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Good Protein Shake | Protein Powder + Milk + Peanut Butter (developer confirms milk, not egg) |
 | Peanuts | Peanut Butter |
 | Banana Pancake | Banana + Egg + Milk |
-| Smoothie | Milk + Banana + Peanut Butter (Pixel Questing 10/9 instead says Strawberry Jam + Banana + Milk; developer says Smoothie includes Peanut Butter) |
-| Cheese Jamwich | Bread + Cheese + Jam |
+| Smoothie | Milk + Banana + Peanut Butter (10/9 guide instead says Strawberry Jam + Banana + Milk; developer says Smoothie includes Peanut Butter) |
+| Cheese Jamwich | Bread + Cheese + Strawberry Jam |
 | Banana Milk | Milk + Banana |
 | Potato Bread | Potato + Bread |
 | Hash Brown | Potato + Egg |
@@ -112,56 +112,56 @@ Source: Pixel Questing Chapter 2 guide (2026-11-09); 8/10 Steam guide used to re
 | To Go Drink | Paper Cup + any Drink |
 | Tres Leches | Cake + Milk |
 | Marble Cake | Cake + Chocolate Cake |
-| Cake Pop | Plain Cake in Microwave Oven |
+| Cake Pop | Cake |
 | Cafe au Lait | Coffee Beans + Milk |
 | Espresso Shot | Coffee Beans in Espresso Machine with Small White Cup under spout |
 | Babyccino | Milk |
 | Tiramisu | 1.0 candidate: Plain Cake + Filled Coffee Cup + Milk; official v2.9ea allowed Cake + Coffee + Dough OR Cake + Coffee + Milk; 11/9 guide conflicts: Cheese + Plain Cake + Coffee Beans |
-| Jam | Strawberry in Microwave Oven |
+| Jam | Strawberry |
 | Sweet Bagel | Bagel + Chocolate Spread OR Jam |
 | Avocado Brownies | Avocado + Chocolate Spread (optional Dough; Kakao alone is not the listed formula) |
 | Savory Croissant | Croissant + Avocado (alternate: Croissant + Cheese) |
 | Sweet Croissant | Croissant + Jam OR Chocolate Spread |
-| Berry Tea | Tea Leaves + Strawberry |
+| Berry Tea | Tea Box + Strawberry |
 | Chocolate Covered Strawberries | Kakao + Strawberries |
 | Mug Cake | Mug + Cake |
-| Grilled Lettuce | Lettuce in Microwave Oven |
-| Salad | Avocado + Lettuce |
+| Grilled Lettuce | Lettuce |
+| Salad | Lettuce + Avocado OR Cheese |
 | Mug Bread | Mug + Dough |
-| Avocado Milk | Mouse Mug + Milk + Avocado |
+| Avocado Milk | Avocado + Milk |
 | Green Smoothie | Lettuce + Avocado + Milk |
 | Strawberry Cake | Cake + Strawberry |
 | Neapolitan Cake | Plain Cake + Chocolate Cake + Strawberry Cake |
-| Strawberry Tiramisu | Strawberry Cake + Milk (alternate: Strawberry + Plain Cake + Milk) |
-| Strawberry Cake Parfait | Strawberry Cake in Microwave Oven |
+| Strawberry Tiramisu | Cake + Strawberry + Milk |
+| Strawberry Cake Parfait | Strawberry Cake |
 | Hot Cocoa | Milk + Chocolate Spread (11/9 guide conflicts: Espresso Shot + Milk + Kakao) |
 | Latte | Milk + Coffee Beans |
 | Pink Donut | Strawberry + Dough |
 | Mozzarella | Cheese + Milk |
-| Chocolate Bomb | Chocolate Syrup + Kakao |
-| Brownies | Chocolate Cake in Microwave Oven |
+| Chocolate Bomb | Chocolate Spread + Kakao |
+| Brownies | Chocolate Cake |
 | Chocolate Donut | Dough + Chocolate Spread |
-| Guacamole | Avocado in Microwave Oven |
+| Guacamole | Avocado |
 | Cheese and Berries | Cheese + Strawberry |
-| Strawberry Cheesecake | Strawberry Cake + Cheese |
+| Strawberry Cheesecake | Strawberry Cake + Cheese + Strawberry |
 | Pain Au Chocolat | Croissant + Chocolate Spread |
 | Canned Bread | Bread + Lid |
 | Croutons | Panini OR Bagel |
 | Tea Donut | Dough + Tea Leaves |
 | Chocolate Cheesecake | Chocolate Cake + Cheese |
 | Milk Bread | Dough + Milk |
-| Bento Box | Metal Lid + Avocado (alternate: Metal Lid + Food Item) |
+| Bento Box | Metal Lid + Food Item |
 | Strawberry Milkshake | Strawberry + Milk |
-| Oven Cheese | Cheese in Microwave Oven |
+| Oven Cheese | Cheese |
 | Sweet Panini | Panini + Chocolate Spread |
 | Cheese Bun | Dough + Cheese |
-| Tea Cake | Plain Cake + Tea |
+| Tea Cake | Tea + Cake |
 | Double Espresso | Run Coffee Beans through machine with Small White Cup; leave filled cup in machine, wait for beans to regenerate, run again |
-| Choco Berry Donut | Strawberry + Chocolate Spread + Dough |
+| Choco Berry Donut | Dough + Chocolate Spread + Strawberry |
 | Cheesecake | Cheese + Plain Cake |
-| Cake Donut | Plain Cake + Dough |
+| Cake Donut | Plain Cake + Donut |
 | Savory Bagel | Bagel + Cheese OR Avocado |
-| Fusion Tea | Strawberry Tea Leaves + Tea Leaves |
+| Fusion Tea | Tea + Berry Tea |
 | Canned Coffee | Coin + Cup of Espresso (older guide: Metal Lid + Coffee Beans) |
 | Cronut | Croissant + Dough |
 | Jelly Filled Donut | Jam + Dough |
@@ -190,7 +190,7 @@ Source: Pixel Questing Chapter 2 guide (2026-11-09); some formulas vary across v
 | Flat Croissant | Croissant in Microwave Oven |
 | Terrible Spread | Plain Cake + Kakao + Jam |
 | Cup Tower | Mouse Mug + White Cup + Green Cup |
-| Disaster Dish | Croissant + Strawberry + Kakao |
+| Disaster Dish | Croissant + Strawberry + Chocolate Spread |
 | Don't Donut | Dough + Strawberry + Croissant |
 | Painting | All three Chalks in Microwave Oven |
 | Painted Mug | Chalk + Green Mug |
@@ -232,3 +232,11 @@ Source: Pixel Questing Chapter 2 guide (2026-11-09); some formulas vary across v
 
 ## Source caveat added 2026-11-16
 The Steam guide (Guide ID 3713640352) is no longer publicly visible on its original page according to a later cached page response, but search indexing still exposes its full text and player corrections. Treat its detailed formulas as strong community evidence, not as an official source. Cross-check with the 1.0 Pixel Questing walkthrough and direct developer replies. Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352
+
+
+## Corrections from developer replies and cached Steam guide text (2026-11-16)
+
+- Developer confirms Smoothie includes Peanut Butter; developer separately confirms Good Protein Shake uses Milk + Peanut Butter + Protein Powder (not Egg). See SRC-012 / SRC-026 and the Steam discussions in SOURCE_REGISTER.
+- Cached Steam Guide 3713640352 provides the preferred Cafe formula set: Babyccino = Milk; Black Coffee = Coffee Beans; Latte = Milk + Coffee Beans; Hot Cocoa = Milk + Chocolate Spread; Avocado Milk = Avocado + Milk; Strawberry Cheesecake = Strawberry Cake + Cheese + Strawberry; Chocolate Bomb = Chocolate Spread + Kakao; Cake Pop = Cake; Jam = Strawberry; Grilled Lettuce = Lettuce; Guacamole = Avocado; Oven Cheese = Cheese.
+- Some formulas from the 2026-11-09 Pixel Questing guide conflict with the cached Steam guide. Keep both variants in RECIPE_CONFLICTS; do not silently treat the later publication date as proof of correctness.
+- The Steam guide page now reports that it has been removed from the public community, but its indexed content remains retrievable. Treat it as cached community evidence, not a live official source.
