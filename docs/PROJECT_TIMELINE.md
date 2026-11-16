@@ -79,3 +79,9 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 - Rat Level：修正設備模型為通電罐頭式 cooker，電力強弱決定相同材料的不同輸出；三位數密碼仍待實際 note畫面。
 - 版本基準：以 1.0（2026-08-26）及 v1.1（2026-09-11）為主要目標版本；Early Access配方需標註版本，不混成同一份資料。
 - Research Only持續；目前尚未完成完整 Bistro rat request順序、七國料理對照、所有 recipe逐筆驗證、完整物理互動矩陣、繁中詞典、QA與Critic。
+
+
+## 2026-11-16｜Bistro recipe count revision
+- 7/14 Bistro Guide：76 Good / 31 Bad（EA baseline）。
+- 8/27追加：7 Good + 2 Bad；9/10玩家通關記錄再補 Clutter（Bad candidate）。
+- 1.0候選總量推算 83 Good / 34 Bad；尚未有官方 counter畫面確認，禁止當成最終定案。
