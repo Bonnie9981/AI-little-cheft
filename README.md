@@ -2,7 +2,7 @@
 
 台灣繁體中文（zh-TW）的《Little Chef: Cozy Cooking》忠實網頁復刻研究專案。
 
-<badge>Research Only</badge>
+**Research Only**
 
 **目前不開始遊戲實作。** 必須先完成全場景食譜、互動機制、解鎖、成就、zh-TW 詞彙、QA 與 Critic 審查。
 
