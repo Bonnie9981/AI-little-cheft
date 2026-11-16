@@ -647,3 +647,22 @@
 - 新增日文 1.0通關攻略明確指出 Rat Level每次只用兩種材料。
 - 修正互動規格：主廚房通用最多三材料；Rat Level cooker獨立 max_inputs = 2。
 - QA新增 Rat Level第三材料拒絕／不接受測試，避免錯誤沿用主廚房規則。
+
+
+## 2026-11-16｜建立 Source Register
+**觀察**
+- 目前研究來源跨官方 patch、開發者回覆、Steam guide、Pixel Questing、9Puz、日文玩家筆記與台灣餐飲詞彙來源。
+- 部分頁面只有搜尋索引可讀，部分攻略有版本衝突；需要可稽核來源清單。
+
+**行動**
+- 建立 docs/SOURCE_REGISTER.md，編號 SRC-001至SRC-030。
+- 定義 evidence hierarchy與來源限制。
+- 後續資料表將以 SRC IDs取代散落在文字中的模糊來源描述。
+
+**判斷**
+- Source Register可避免後續配方修改時失去版本依據。
+- 搜尋摘要只作線索，不能寫成直接讀取正文的結論。
+
+**下一步**
+- 將 recipe inventory/formula draft逐筆對應 SRC IDs。
+- 為每個來源增加具體段落／comment位置，優先補足未直接開啟的Steam guide與9Puz。
