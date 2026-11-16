@@ -150,7 +150,7 @@ Coioioin candidate trigger: press the blue switch, then throw the coin in the re
 
 ## Bistro count reconciliation
 
-The directly opened 2026-07-14 Bistro Guide contains 76 Good entries (lines 91-166) and 31 Bad entries (lines 170-200): this is the Early Access baseline, not necessarily the 1.0 final total. The 2026-08-27 update list adds 7 Good + 2 Bad; the 2026-09-10 1.0 player completion report identifies Clutter as another final Bad entry. Current cross-source candidate total: 83 Good / 34 Bad = 117. This remains a derived estimate until a 1.0 cookbook counter is verified.
+The directly opened 2026-07-14 Bistro Guide contains 76 Good entries (lines 91-166) and 31 Bad entries (lines 170-200): this is the Early Access baseline, not necessarily the 1.0 final total. The 2026-08-27 update list adds 7 Good + 2 Bad; the 2026-09-10 1.0 player completion report identifies Clutter as another final Bad entry. This 83/34 estimate is superseded by the July 17 comment discoveries below. Current cross-source candidate total: 84 Good / 39 Bad = 123. This remains a derived estimate until a 1.0 cookbook counter is verified.
 
 Sources:
 - [7/14 Bistro Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
@@ -287,3 +287,27 @@ Developer evidence:
 | Smoothie | Milk + Banana + Peanut Butter; or Strawberry Jam + Banana + Milk | Developer says Peanut Butter is an ingredient; 10/9 guide says Strawberry Jam. | B/C; version test |
 | Good Protein Shake | Protein Powder + Milk + Peanut Butter; or Protein Powder + Milk + Banana | Developer confirms Peanut Butter and Milk, not Egg; 10/9 guide lists Banana as alternate. | B; Peanut Butter confirmed, Banana candidate |
 | Tomato/Egg Stir Fry | Can of Tomatoes + Egg; or Tomato + Egg | Cached Steam guide vs 10/9 guide. | C/D; check canned vs raw Tomato |
+
+
+## Bistro inventory correction — July 17 discoveries (2026-11-16)
+
+The 2026-07-14 guide's 76 Good / 31 Bad list is not the complete Early Access inventory. Steam discussion comments dated July 17 identify one additional Good recipe and five additional Bad recipes that were missing from the guide's main list:
+
+- Good: Crazy Calzone = Pizza + Pizza Dough.
+- Bad: Breadless Burger = Ground Meat + Cheese + Tomato.
+- Bad: Vampire Defense Kit = Garlic + Wooden Spoon (older comment from July 14 says Garlic + any Pencil; preserve this formula conflict).
+- Bad: Bread and Wine = Wine + Bread.
+- Bad: Sorrow Sandwich = Bread + Flour.
+- Bad: Risky Rice Pudding = Rice + Flour.
+
+Then add the 2026-08-27 update list (7 Good + 2 Bad) and the 1.0 Clutter Bad recipe:
+- Good: 76 + 1 + 7 = 84.
+- Bad: 31 + 5 + 2 + 1 = 39.
+- Bistro candidate total = 123.
+
+This revises the all-room candidate register to 333 entries: 212 Good + 121 Bad. This is a stronger cross-source estimate, still not an official in-game counter.
+
+Sources:
+- [Steam Bistro Guide and July 17 player comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
+- [9Puz 1.0 completion route, Crazy Calzone and Bistro cleanup](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/)
+- [Steam guide updated with 8/27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352)
