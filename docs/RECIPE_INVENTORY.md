@@ -9,11 +9,11 @@ Purpose: one countable name inventory across all rooms before implementation. Th
 |---|---:|---:|---:|---|
 | Student Dorm | 48 | 29 | 77 | Single 1.0 walkthrough count |
 | Cafe Job | 71 | 41 | 112 | Single 1.0 walkthrough count |
-| Bistro | 83 | 34 | 117 | Derived cross-source estimate |
+| Bistro | 84 | 39 | 123 | Derived cross-source estimate |
 | Rat Level | 9 | 12 | 21 | Slot-based community guide |
-| **All rooms** | **211** | **116** | **333** | **Candidate total; not in-game audited** |
+| **All rooms** | **212** | **121** | **333** | **Candidate total; not in-game audited** |
 
-Steam store describes the release as containing over 300 recipes. The current candidate register totals 327, which is consistent with that broad claim, but the register must not be treated as an official counter.
+Steam store describes the release as containing over 300 recipes. The current candidate register totals 333, which is consistent with that broad claim, but the register must not be treated as an official counter.
 
 ## Student Dorm
 
@@ -226,7 +226,7 @@ Steam store describes the release as containing over 300 recipes. The current ca
 
 ### Bistro — 1.0 candidate (76/31 listed baseline + July additions + 10 post-launch additions)
 
-**Good (83)**
+**Good (84)**
 
 1. Yeast
 2. Flat Bread
@@ -311,8 +311,9 @@ Steam store describes the release as containing over 300 recipes. The current ca
 81. Leftover Pizza
 82. Minced Garlic
 83. Mini Pizzas
+84. Crazy Calzone
 
-**Bad (34)**
+**Bad (39)**
 
 1. Endless Possibilities
 2. Fungus
