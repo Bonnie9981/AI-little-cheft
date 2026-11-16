@@ -108,7 +108,7 @@ Bad Recipes being optional for chapter unlock remains unverified; test both with
 | CAF-015 | Press exposed button | Fire extinguishes |
 | CAF-016 | Complete all Level 2 To-Do | Bistro unlocks |
 
-The complete Level 2 To-Do list has not yet been recovered. Test cases CAF-001 through CAF-016 cover known tasks only; add missing tasks after evidence is found.
+At least four Level 2 task entries are known: clean the kitchen, trade with the rat, complete 8 orders, and set the kitchen on fire. The exact total and whether phone / Safe / Espresso Cup are separate To-Do rows remain unverified. Test cases CAF-001 through CAF-016 cover known tasks only; add missing rows after the in-game UI is recovered.
 
 ## 6. Bistro tests
 
