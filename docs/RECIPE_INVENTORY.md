@@ -11,7 +11,7 @@ Purpose: one countable name inventory across all rooms before implementation. Th
 | Cafe Job | 71 | 41 | 112 | Single 1.0 walkthrough count |
 | Bistro | 83 | 34 | 117 | Derived cross-source estimate |
 | Rat Level | 9 | 12 | 21 | Slot-based community guide |
-| **All rooms** | **211** | **116** | **327** | **Candidate total; not in-game audited** |
+| **All rooms** | **211** | **116** | **333** | **Candidate total; not in-game audited** |
 
 Steam store describes the release as containing over 300 recipes. The current candidate register totals 327, which is consistent with that broad claim, but the register must not be treated as an official counter.
 
@@ -224,7 +224,7 @@ Steam store describes the release as containing over 300 recipes. The current ca
 40. Burnt Panini
 41. Void Bagel
 
-### Bistro — 1.0 candidate (76/31 baseline + 10 post-launch additions)
+### Bistro — 1.0 candidate (76/31 listed baseline + July additions + 10 post-launch additions)
 
 **Good (83)**
 
@@ -382,7 +382,7 @@ Steam store describes the release as containing over 300 recipes. The current ca
 
 - Student Dorm: 48 Good / 29 Bad is reported by the 2026-10-09 1.0 walkthrough. Tomato/Egg Stir Fry is the later-added Good recipe.
 - Cafe Job: 71 Good / 41 Bad is reported by the 2026-11-09 walkthrough. The source lists Coffee Cake twice; this register deduplicates it to one recipe ID while preserving the source count.
-- Bistro: 76 Good / 31 Bad is the directly readable 2026-07-14 Early Access baseline. The 2026-08-27 guide adds 7 Good + 2 Bad, and the 2026-09-10 1.0 player report adds Clutter as a third Bad candidate. The 83/34 total is derived, not official.
+- Bistro: 76 Good / 31 Bad is the directly readable 2026-07-14 guide list. July 17 player comments add 1 Good (Crazy Calzone) + 5 Bad (Breadless Burger, Vampire Defense Kit, Bread and Wine, Sorrow Sandwich, Risky Rice Pudding). The 2026-08-27 guide adds 7 Good + 2 Bad, and the 2026-09-10 1.0 player report adds Clutter. Current cross-source candidate total: 84 Good / 39 Bad; not an official cookbook counter.
 - Rat Level: the 9 Good entries are 5 low/OFF + 4 high/ON slots. The Bad list has 12 candidate slots; the empty cooker must be tested in both power states. Eggshell/Leaf and Egg/Eggshell conflicts remain unresolved.
 - Recipe formulas and evidence are tracked separately in docs/RECIPE_CONFLICTS.md and docs/INTERNAL_HANDOFF.md. Do not implement an unresolved candidate as definitive.
 - Recipe names in this file are source-language keys. Taiwan Traditional Chinese display names are in docs/ZH_TW_GLOSSARY.md.
