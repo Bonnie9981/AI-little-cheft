@@ -159,3 +159,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - To-Do 至少 6 項：8 道 pasta dishes、借用 Shane's Cheese、播放三卷磁帶、清洗整理餐具以解鎖 coffee maker、澆灌 basil、累積 40 道 good + bad dishes。
 - 新攻略對 Beans on Toast、French Toast、Savory Sandwich、Tomato Soup、Pasta Carbonara 等配方提供了比 8/10 指南更細的狀態／替代配方，已列入衝突表，尚未實機驗證。
 - 章節解鎖條件需同時完成所有 Good Recipes 與 To-Do；Bad Recipes 是否可選尚未獲官方證實。
+
+
+## Cafe Job 1.0 數量與配方衝突（2026-11-16）
+- Pixel Questing 2026-11-09攻略列出 Cafe 71 Good / 41 Bad、37 個場景物件；Good 清單有 Coffee Cake 重複列，去重後為 71 種。
+- 新攻略對 Tiramisu、Babycino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box 等配方與 8/10 Steam Guide／官方版本資料有衝突，已加入 Recipe Reconciliation Register。
+- 21931電話流程需撥號後拿起 handset 並等待對方說完，開發者於 Steam 討論確認。
+- Cafe 8 個 ToDo條目完整名稱仍待查；目前只確認官方新增 8項 ToDo，以及其中一項為完成訂單。
