@@ -518,3 +518,23 @@
 - 每筆補齊 inputs、processed states、appliance、power/heat condition、source、confidence、version、zh-TW。
 - 對所有 D級配方建立最小化實機測試方案。
 - 產生正式 Recipe DB draft前，先完成三主廚房與 Rat Level的來源對照。
+
+
+## 2026-11-16｜Student Dorm / Cafe 配方矩陣
+**觀察**
+- 目前兩個章節的 Good/Bad清單已完整到可逐筆整理；來源包含 10/9與11/9攻略及 8/10 Steam guide。
+- 兩個章節存在若干加工狀態與替代配方衝突，特別是 Beans on Toast、French Toast、Tomato Soup、Carbonara、Tiramisu、Canned Coffee、Dirty Chai Latte。
+
+**行動**
+- 建立 docs/RECIPE_FORMULA_DRAFT.md，整理 189筆 Student Dorm/Cafe候選公式。
+- 為每筆保留來源語境，標示替代／衝突項。
+- 將設備與狀態作為公式條件，而不是把所有輸入當一般物品。
+
+**判斷**
+- 這份表可作為資料整理基礎，但仍未達 implementation-ready：缺少逐筆 source id、version range、confidence、verification status與 item IDs。
+- 公式表中「any unrelated ingredient」只能作條件描述，不能直接轉成硬編碼組合。
+
+**下一步**
+- 整理 Bistro 83/34候選公式，特別是新舊版本差異。
+- 整理 Rat Level電力狀態與 21個 slot。
+- 把公式表轉成 machine-readable schema前，先完成 item/state dictionary。
