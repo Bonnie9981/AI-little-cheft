@@ -666,3 +666,25 @@
 **下一步**
 - 將 recipe inventory/formula draft逐筆對應 SRC IDs。
 - 為每個來源增加具體段落／comment位置，優先補足未直接開啟的Steam guide與9Puz。
+
+
+## 2026-11-16｜Steam cached guide與開發者配方回覆校正
+**觀察**
+- Steam Guide 3713640352已從公開社群頁面移除，但搜尋索引仍可讀取完整內容與留言。
+- Developer確認 Smoothie需要 Peanut Butter；另一則 developer reply明確確認 Good Protein Shake使用 Milk + Peanut Butter + Protein Powder，不是 Egg。
+- 8/10 Steam guide對 Cafe多筆配方比 11/9 Pixel Questing更具體，尤其 Babyccino、Latte、Hot Cocoa、Avocado Milk、Strawberry Cheesecake、Chocolate Bomb、Canned Bread等。
+- 11/9 Pixel Questing對多項Cafe Bad Recipes有不同輸入組合，不能因日期較新就直接覆蓋。
+
+**行動**
+- 更新 RECIPE_FORMULA_DRAFT.md的 Student Dorm與Cafe公式。
+- 將 Smoothie、Sweet Sandwich、Carbonara、Tomato Soup、Beans on Toast、Tiramisu、Latte、Hot Cocoa、Avocado Milk等差異加入 RECIPE_CONFLICTS。
+- Source Register新增 SRC-031 / SRC-032並註記Steam guide已被移除、只剩索引快取。
+
+**判斷**
+- Developer reply是特定配方的強證據，但日期較早；若 1.0指南有相反公式，仍需做版本核對。
+- 目前資料應採「候選＋版本＋證據」而不是單一權威答案；這能避免將早期EA公式誤套到1.0。
+
+**下一步**
+- 把 189筆 Student Dorm/Cafe formula逐筆加上SRC IDs與confidence。
+- 對 11/9 Pixel Questing與 cached Steam guide不同的Bad Recipes做最小化測試。
+- 進一步確認 1.0 Smoothie與Sweet Sandwich最終配方。
