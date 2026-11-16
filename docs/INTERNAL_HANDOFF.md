@@ -260,3 +260,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 同一攻略指出遊戲內取得 Coioioin 後，部分玩家需關閉並重新啟動遊戲，Steam achievement才會同步；此為 Steam同步 bug 線索，不是遊戲內解鎖條件。ref：turn384561search1。
 - 1.0 通關後 My Room 出現生日蛋糕與媽媽的信；蛋糕可互動點亮／吹熄蠟燭。此為主線完成後的 hub內容，需存檔並保留 candle state。ref：turn384561search1。
 - Level 2 To-Do 的 Set the kitchen on fire 在 1.0 玩家記錄中可能出現完成但未顯示的 bug；玩家再次點火後才更新。應把 task state與Steam achievement state分開，並設計重試／同步機制。ref：turn384561search1。
+
+
+## 26. 2026-11-16｜Bistro 食譜總量分期重算（重要）
+- 直接開啟的 7/14 Bistro Guide正文可逐行核算為 76 Good / 31 Bad；這是 Bistro 初始 EA guide baseline，不應當成 1.0 最終數量。ref：turn349496view0（Good lines 91-166；Bad lines 170-200）。
+- 8/10更新版 Steam Guide在「New Recipes as of 08/27/2026」列出 7 Good：Boiled Rice、Roasted Mushrooms、Shredded Cheese、Meat Skewers、Leftover Pizza、Minced Garlic、Mini Pizzas；另列 2 Bad：Big Magnet、Boo Tomato。ref：turn970896search1。
+- 9/10正式版玩家通關報告指出 Bistro追加食譜約 10 項，最後 Good為 Mini Pizzas、最後 Bad為 Clutter。將 Clutter視為第三個新增 Bad候選。ref：turn384561search0。
+- 因此目前最合理的 1.0候選總量是 **83 Good / 34 Bad（117 total）**，由 76/31 baseline + 7/2 於 8/27新增 + Clutter 1項推導。這是跨來源推算，必須以 1.0遊戲內 cookbook counter核對，不能標為官方確定數字。
+- 這個分期模型能解釋 7/14指南沒有 Big Magnet、Boo Tomato、Clutter，而 8/27後的指南與 9/10玩家通關紀錄有新增內容；後續 recipe DB必須保留 introduced_version / source_date。
