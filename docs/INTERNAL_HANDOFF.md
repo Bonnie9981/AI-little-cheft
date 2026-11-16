@@ -339,3 +339,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 明確區分 observed evidence與 implementation choice；沒有公開的原作物理係數不會被假裝成已知。
 - 目前可驗收的互動包含 drag/toss/gentle place、最多三材料設備操作、切割、淹水、澆水、整理、調理機加工、訂單、電話、保險箱、鼠鼠交易、酒瓶排序與 Rat Level power states。
 - 仍待確認：材料消耗、輸入順序、設備暫存、精確 Rat code、save是否保存物件位置。
+
+
+## 36. 2026-11-16｜QA acceptance test plan 第一版
+- 新增 docs/QA_TEST_PLAN.md，涵蓋 Recipe Engine、物理互動、Student Dorm、Cafe、Bistro、Rat Level、My Room、26成就、zh-TW、桌面／手機橫向與存檔。
+- QA test cases已把未解資料轉成明確 blocker：Cafe To-Do完整清單、七國料理與rat reward順序、Rat Level密碼／power mapping、D級配方衝突、327候選數量核對。
+- QA計畫目前是 test design，不是已通過測試；實作前仍需完成研究資料與 Critic review。
