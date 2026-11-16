@@ -119,3 +119,8 @@ Student Dorm To-Do（Pixel Questing 2026-10-09）：
 
 - Official v3.0ea says 8 To-Do entries were added; one is completing 8 orders. Japanese player notes confirm illustrated order slips, tip coins, and that completing a dish checks the corresponding order.
 - The complete names/order of all 8 Cafe To-Do entries have not yet been recovered. Do not equate “8 orders” with “8 To-Do entries”; keep these as separate counters until verified.
+
+
+## Rat Level 電力狀態模型修正
+
+Rat Level 的設備不是普通烤箱，而是通電罐頭式 cooker（近似微波爐）。日文玩家 2026-09-10 攻略描述解開酒瓶機關後可調整電力輸出強／弱，同一組材料會因電力強弱產生不同料理。資料模型採 power_level = low | high；Steam guide的 OFF/ON 暫存為來源狀態，直到遊戲畫面確認兩者映射。來源：[日文 1.0 成就完成攻略](https://note.com/utsukinoel/n/n2734d08070ca)。
