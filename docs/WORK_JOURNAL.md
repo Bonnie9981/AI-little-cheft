@@ -406,3 +406,27 @@
 **下一步**
 - 找到 1.0 cookbook counter截圖或影片，確認 Bistro Good/Bad總量。
 - 逐筆比對 7/14 baseline與 8/27新增項目，檢查是否有被刪除／替換的舊 recipe。
+
+
+## 2026-11-16｜Bistro Rat Trade 任務鏈查證
+**觀察**
+- 開發者 Steam 回覆直接說明：先找到抽油煙機可疑門，給 Cheese啟動任務；之後老鼠展示料理圖，完成料理換取新食材。
+- 日文玩家通關紀錄確認首次 Cheese交易取得 Tomato；後續依序有圖畫便條與新食材獎勵。
+- 9Puz指出 Apple、Olive、Garlic等支線材料需要從 mouse-gift chain取得。
+- Going Global有 7道國家料理；Mochi是已明確辨識的日本料理，其他六道沒有可讀文字來源。
+- 老鼠完成所有請求後顯示愛心，玩家確認這是 thank-you note，不是額外食譜請求。
+
+**行動**
+- 將 rat trade改為狀態機，不做成一次性商店。
+- 將 first reward tomato、後續 Apple/Olive/Garlic gift、request note與 heart completion分別記錄。
+- 七國料理與 rat request分開建表；magnet collection count 0..7。
+- 將愛心圖示定義為任務完成回饋，不觸發新 request。
+
+**判斷**
+- 這條任務線同時負責解鎖材料、成就 Best Friends與七國磁鐵；不能用 recipe count替代。
+- 目前只知道 Mochi屬日本料理，其他六道必須有圖片／實機證據才可定案。
+
+**下一步**
+- 追查老鼠每張 request note對應的 recipe與 reward ingredient。
+- 找到七個 magnet的圖案／國旗或對應菜名；沒有證據的六項保持 unknown。
+- 確認最後愛心是否所有交易都完成，以及是否同時解鎖 Best Friends。
