@@ -72,3 +72,28 @@
 2. 玩家攻略一致不等於已實機驗證；來源版本、語言、遊戲更新日期要一併記錄。
 3. 配方輸入有疑義時，優先逐個測試狀態與設備，不要同時混入多個替代材料。
 4. 只有通過遊戲內 cookbook counter / recipe card 的實際結果，才能標記 verified_in_game。
+
+
+## Student Dorm 版本／配方衝突
+
+| Recipe | 候選配方／狀態 | 證據與問題 | 目前處理 |
+|---|---|---|---|
+| Beans on Toast | Bread + Beans；或 Beans + Toast | 8/10 Steam guide簡寫 Bread + Beans；10/9 Pixel Questing明確要求 Toast 狀態。 | C；暫採 Beans + Toast，待實機 |
+| French Toast | Bread + Egg + Milk；或 Toast；或 Bread + Milk + Egg | 不同攻略對 Bread/Toast 狀態表述不同。 | D；測試兩種狀態 |
+| Savory Sandwich | Bread + Egg；或 Bread + Cheese + Tomato | 10/9攻略列兩種可行路徑，較早指南只列 Bread + Egg。 | C；記錄 alternate_inputs |
+| Tomato Soup | Tomato；或 Tomato + Toast | 10/9攻略列 Tomato + Toast；8/10 guide列 Tomato。 | D；待實機 |
+| Pasta A La Carbonara | Pasta + Egg + Cheese；或 Pasta + Egg + Milk | 8/10 guide列 Cheese；10/9 Pixel Questing列 Milk。 | D；待實機 |
+| PB&J Sandwich | Peanut Butter + Jam + Bread；或 PB&J jar + Bread | 新攻略指出先製作 PB&J jar 會成為另一個中間物件。 | C；保留兩條候選 |
+| Smoothie | Milk + Banana + Peanut；或 Strawberry Jam + Banana + Milk | 8/10 guide與10/9攻略的配方不同；可能存在不同版本／名稱混淆。 | D；待實機 |
+| Tomato Egg Stir Fry | Can of Tomatoes + Egg；或 Tomato + Egg | 新版指南與更新版 Steam guide都支持番茄罐頭 + 蛋，物件命名需確認。 | B；保留 canned tomato state |
+| Bad Protein Shake | Protein Powder；或 Protein Powder + Egg + Tomato | 不同指南有不同錯誤料理輸入。 | D；待實機 |
+| Bad Ramen | Ramen + 2 unrelated items；或 Milk + Ramen + Cheese | 8/10 guide給泛用組合，10/9 guide提供具體組合。 | D；待實機 |
+
+Student Dorm To-Do（Pixel Questing 2026-10-09）：
+1. 8 道 pasta/ramen dishes。
+2. 解鎖 Shane locker 並使用 Cheese 製作一道 good dish。
+3. 播放 Red、Green、Remix 三卷磁帶。
+4. 洗淨並整理餐具，取得 Coffee Maker，放上爐台製作 Coffee。
+5. 用濕海綿澆灌 Basil。
+6. 累積 40 道 Good + Bad dishes。
+以上為單一攻略線索，待 1.0 實機驗證。
