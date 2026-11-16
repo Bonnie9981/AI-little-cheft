@@ -736,3 +736,10 @@
 **下一步**
 - 核對 26成就每項觸發與所屬場景。
 - 查明 Student Dorm其他三個 locker/cupboard內容與打開方式。
+
+
+## 2026-11-16｜建立 26項 Achievement Matrix
+- 新增 docs/ACHIEVEMENT_MATRIX.md，列出所有1.0成就與觸發候選。
+- 將 Early Access已移除的 Master of Disaster排除於1.0目標之外。
+- 對 Level 1/2/3/ Rat Level 100%標記描述已知、精確完成條件未知。
+- 剩餘未解：Bookworm順序、七國菜名、Coioioin條件、100%是否需所有Bad Recipes。
