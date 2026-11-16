@@ -190,3 +190,13 @@ Purpose: normalize all known objects and processed states before creating machin
 - Whether item positions persist in save files.
 - Exact object count and capabilities for Bistro and Rat Level.
 - Whether some processed outputs are both recipe results and reusable ingredients.
+
+
+## Student Dorm To-Do state additions
+- To-Do task 1: pasta_dish_counter = 0..8 (Pasta or Ramen appears as one ingredient).
+- To-Do task 2: shane_cheese_borrowed; D2 key unlock is prerequisite; use Cheese in a Good recipe to complete.
+- To-Do task 3: red_cassette_played, green_cassette_played, remix_created, remix_played.
+- To-Do task 4: dishes_cleaned, utensils_arranged, coffee_maker_revealed, coffee_brewed.
+- To-Do task 5: basil_watered.
+- To-Do task 6: new_dish_counter = 0..40 across Good + Bad discoveries.
+- The mouse hole is a separate tile to the right of D2; Cheese held at the hole triggers I Smell Cheese, not the Shane locker task.
