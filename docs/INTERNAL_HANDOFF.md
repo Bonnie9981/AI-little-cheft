@@ -204,3 +204,13 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Pizza Dough 由三種材料組成；Wine 有五瓶，其中四種由 Wine + 顏色製作，五瓶需按標籤順序排列取得 Wine About It。ref：turn727664search0。
 - Level 2 的 25 個電話號碼是 Café Update 新增內容；日文玩家記錄逐一撥打後，多數為聲音／語音彩蛋，666 也有特別效果。需建立 PhoneEasterEggs 資料表，但不應影響主線電話解鎖。ref：turn786170search0。
 - Cafe Update 另有 To-Do「完成 8 張訂單」；官方 3.0ea 公告確認。ref：turn810315search5。
+
+
+## 20. 2026-11-16｜物理互動、輸入方式與七國料理待查
+- 官方 Steam 商店描述明確定義核心互動：drag、toss、combine、gently place ingredients into pots/ovens/pans；所有物件都有 weight、motion、personality，並可 throw、mix、match、break。ref：turn832030search0。
+- 官方新聞稿補充：三個廚房各自是 puzzle sandbox；每個 cabinet/shelf 都可能藏有食材；物件可以被拖曳、拋擲、放置，正確組合可解鎖 good/bad recipes。ref：turn832030search3。
+- SteamDB 功能列表顯示 Mouse Only Option、Touch Only Option；本專案的手機橫向操作不是憑空擴充，原作已有觸控操作支援。ref：turn227999search2。
+- Student Dorm 的物理／環境任務：水槽可持續放水使廚房淹水約半個房間；香蕉需在空中被切開取得 Fruit Samurai；物件需拋到螢幕上方取得 To Infinity；茶盒可旋轉／排列對齊。refs：turn832030search11、turn970635search0。
+- Bistro 七國料理的確切七道菜名未能從文字來源完整確認。日文玩家通關紀錄只明確舉出 Mochi 作為日本料理，並說有七國料理、製作後磁鐵會貼在抽油煙機；不可擅自把七個看似異國料理的菜名當成官方七國清單。ref：turn672179search0。
+- 官方 store listing 只保證 over 300 recipes，不保證每個攻略清單的計數完全一致；資料庫需按遊戲實際 cookbook 記錄，而不是只採用指南合計。ref：turn832030search0。
+- 復刻物理模組應先定義可觀察行為與驗收，不虛構原作數值：pointer/touch grab、drag joint、release impulse、collision、stacking、breakable objects、water buoyancy、container insertion、cutting action、machine processing。所有係數留在本專案可調參數中，並標註為復刻設計值而非原作反編譯值。
