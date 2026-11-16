@@ -117,3 +117,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - User final decision：沿用使用者已確認的範圍與方向。
 
 目前最大風險不是畫面，而是規則資料庫的錯漏。應先完成可追溯、可驗證、可測試的全場景資料庫，避免過早開發造成返工。
+
+
+## 12. 2026-11-16 研究補充與更正
+- 新找到 Steam Guide ID 3713640352，搜尋索引標示更新至 2026-08-10，包含 Bistro 配方章節；但頁面快取正文曾顯示 2026-04-25，版本日期衝突。故該指南僅作社群線索，不升級為官方證據。
+- 新增 Bistro 候選：Beef Wellington、Garlic Powder、Meat Sandwich、Apple Cider、Garlic Bread、Kombucha、Goulash（Meat + Wine + Ground Tomato）、Pumpkin Seeds 等。
+- 官方 v1.1 確認修正 Goulash 與 Tomato Cocktail 的 cookbook 資料，但 changelog 沒有直接公開精確組合；Tomato Cocktail 配方仍待查。
+- Rat Level 冷爐／熱爐配方必須以烤箱狀態作條件；Eggshell/Leaf 線索衝突保留待驗證。
+- 詳細決策紀錄見 docs/WORK_JOURNAL.md；遊戲與專案時間線見 docs/PROJECT_TIMELINE.md。
