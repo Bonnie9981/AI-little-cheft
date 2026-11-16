@@ -65,29 +65,29 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09); older Steam guide for cross
 | Recipe | Candidate formula / action |
 |---|---|
 | Mystery Meal | Any Squiggle Jar + any ingredient |
-| Horrible Sandwich | Bread + 2 unrelated ingredients |
-| Beany Mess | Can of Beans + 2 unrelated ingredients |
-| Carb Overload | Pasta + Bread + Potato |
+| Horrible Sandwich | Toast + Egg + Tomato (alternate: Bread + 2 unrelated ingredients) |
+| Beany Mess | Beans + Milk + Tomato (alternate: Beans + 2 unrelated ingredients) |
+| Carb Overload | Potato + Pasta + Ramen (alternate: Pasta + Bread + Potato) |
 | Carb Sandwich | Bread + Pasta |
-| Tomato Mess | Can of Tomatoes + 2 unrelated ingredients |
-| Bad Protein Shake | Protein Powder + 2 unrelated ingredients (single Protein Powder also reported) |
+| Tomato Mess | Tomato + Cheese (alternate: Can of Tomatoes + 2 unrelated ingredients) |
+| Bad Protein Shake | Big Protein + Egg + Tomato (alternate: Protein Powder + 2 unrelated ingredients; single Protein Powder also reported) |
 | SpongeMan | Sponge |
-| Bad Ramen | Ramen Noodles + 2 unrelated ingredients |
+| Bad Ramen | Milk + Ramen + Cheese (alternate: Ramen Noodles + 2 unrelated ingredients) |
 | Basta | Pasta + 2 unrelated ingredients |
 | Pre Workout Disaster | Protein Powder + Egg |
-| Sponge Sandwich | Sponge + 2 unrelated ingredients |
-| Remix | Two of the three audio tapes |
-| Musical Dish | Audio Tape + 2 food ingredients |
+| Sponge Sandwich | Bread + Sponge + Cheese (alternate: Sponge + 2 unrelated ingredients) |
+| Remix | Pink + Green Cassette (two of the three tapes) |
+| Musical Dish | Cassette + any ingredient (alternate: Audio Tape + 2 food ingredients) |
 | Katana | Chef Knife + Bread Knife + Butter Knife |
-| Canned Food | Key + food ingredient |
-| Terrible Smoothie | Milk + unrelated ingredient(s) |
+| Canned Food | Kitchen Knife + Beans (alternate: Key + food ingredient) |
+| Terrible Smoothie | Egg + Milk + Tomato (alternate: Milk + unrelated ingredient(s)) |
 | Breadless Sandwich | Jam |
 | Nothing | Run the Cooking Pot empty |
-| Tape Spaghetti | Audio Tape + Pasta |
+| Tape Spaghetti | Ramen + Cassette |
 | Heavy Metal | Key + Audio Tape |
-| Iron Ingot | Any Knife |
+| Iron Ingot | Key (alternate: any Knife) |
 | Secret Sauce | All three Squiggle Jars |
-| Food Monster | Any three unrelated ingredients |
+| Food Monster | Cheese + Egg + Banana (alternate: any three unrelated ingredients) |
 | Mold | Any one Squiggle Jar |
 | Burnt Toast | Toast reinserted into Toaster until burnt |
 | Soggy Toast | Wet Bread/Toast, then cook while wet |
@@ -240,3 +240,6 @@ The Steam guide (Guide ID 3713640352) is no longer publicly visible on its origi
 - Cached Steam Guide 3713640352 provides the preferred Cafe formula set: Babyccino = Milk; Black Coffee = Coffee Beans; Latte = Milk + Coffee Beans; Hot Cocoa = Milk + Chocolate Spread; Avocado Milk = Avocado + Milk; Strawberry Cheesecake = Strawberry Cake + Cheese + Strawberry; Chocolate Bomb = Chocolate Spread + Kakao; Cake Pop = Cake; Jam = Strawberry; Grilled Lettuce = Lettuce; Guacamole = Avocado; Oven Cheese = Cheese.
 - Some formulas from the 2026-11-09 Pixel Questing guide conflict with the cached Steam guide. Keep both variants in RECIPE_CONFLICTS; do not silently treat the later publication date as proof of correctness.
 - The Steam guide page now reports that it has been removed from the public community, but its indexed content remains retrievable. Treat it as cached community evidence, not a live official source.
+
+
+Student Dorm Bad Recipe formulas above prioritize the 2026-10-09 Pixel Questing 1.0 walkthrough where it provides a concrete combination; older Steam guide predicates are retained as alternates. Do not assume that every “weird ingredient” category is identical without in-game verification.
