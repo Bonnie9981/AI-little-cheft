@@ -140,3 +140,28 @@
 - 將 Cafe 所有 Good/Bad Recipes 逐筆轉為表格，標示設備、加工狀態、可替代材料與版本。
 - 釐清 Cafe 的訂單／Coin 發放、Photo、Safe、Security Card、Void Bagel 等完整任務鏈。
 - 對 Student Dorm 新配方與舊配方做差異表，補上 1.0 後是否仍存在的證據。
+
+
+## 2026-11-16｜Rat Level bad recipes 與 Bistro 衝突項盤點
+**觀察**
+- 更新版 Steam Guide 索引明列 Rat Level 冷爐五項、熱爐四項與 Bad Recipes 清單。
+- Eggshell 取得方式是多次點擊 Egg 使其裂開；Bad Recipe 清單中 Egg + Pencil 與 Eggshell + Paper 分屬不同項目。
+- 9Puz 仍提示第五個冷爐圖示有 Eggshell / Leaf 文字衝突，代表不能只憑翻譯菜名定義 slot。
+- 可直接讀取的 Bistro Guide 正文列出 76 Good Recipes、31 Bad Recipes；作者留言確認 Goulash 需要 Ground Tomato。
+- Bistro 來源仍有 Tomato Cheese Appetizer（含不含 Olives）、Apple Mochi（Rice 或 Ground Rice）等差異。
+
+**行動**
+- 將 Rat Level Good Recipes 按 oven_state 分開建模；Bad Recipes 按 exact inputs / item state 建立。
+- 將 Eggshell 作為 Egg 的獨立可取得 item state，不能把 Egg 與 Eggshell 合併。
+- 將 Bistro Tomato Cheese Appetizer、Apple Mochi 等衝突配方加入 RecipeEvidence conflict queue。
+- 將作者留言作為配方交叉證據，並保留它是社群作者回覆而非官方資料的來源層級。
+
+**判斷**
+- Rat Level 的第五個冷爐項目與 Eggshell/Leaf 衝突，最可靠的處理方式是以 slot 是否完成為判斷，而不是在資料庫裡提前猜測。
+- 來源清單可用來建立初始候選，但只有逐條成功解鎖或有多個獨立一致來源，才可提高 confidence。
+- Bistro 的 Good/Bad 數量仍需和更新版 8/10 清單逐條比對；單一 7/14 指南不是最新完整資料。
+
+**下一步**
+- 建立 Bistro 的 recipe reconciliation 表：recipe_id、guide_7_14、guide_8_10、player_comment、official_patch、candidate_inputs、state、confidence、status。
+- 將 Rat Level 13 項 Bad Recipes 做成逐項 QA，不將「空爐冷／熱」合併成錯誤的單一狀態。
+- 繼續查詢 Student Dorm / Cafe 的成就和任務流程，尤其订单、coins、安全箱、火警與相框。
