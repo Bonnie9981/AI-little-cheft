@@ -332,3 +332,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 不是所有可移動物件都是食材；道具、紙張、餐具、工具、磁鐵、鑰匙等也可被投入設備或組合成 Bad Recipes。
 - 料理設備不能共用一個無條件的 recipe evaluator；同一材料組合需同時檢查 chapter、appliance、item state、power/temperature、recipe version。
 - 目前尚未找到官方明確說明材料是否每次都被消耗、是否可在設備中保留、配方輸入順序是否完全不影響結果；這些列為實機測試項，不先寫死。
+
+
+## 35. 2026-11-16｜互動／物理規格第一版
+- 新增 docs/INTERACTION_SPEC.md，整合四房間互動鏈、桌面／觸控輸入、物件分類、加工狀態、設備條件與 QA acceptance tests。
+- 明確區分 observed evidence與 implementation choice；沒有公開的原作物理係數不會被假裝成已知。
+- 目前可驗收的互動包含 drag/toss/gentle place、最多三材料設備操作、切割、淹水、澆水、整理、調理機加工、訂單、電話、保險箱、鼠鼠交易、酒瓶排序與 Rat Level power states。
+- 仍待確認：材料消耗、輸入順序、設備暫存、精確 Rat code、save是否保存物件位置。
