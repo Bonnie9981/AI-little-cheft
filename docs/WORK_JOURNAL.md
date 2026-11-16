@@ -715,3 +715,24 @@
 - 補齊 Cafe未列物件、三個locker內容與所有場景隱藏道具。
 - 建立 item-to-recipe references，確保每個 ingredient都被 recipe使用或標記為puzzle-only。
 - 把 ItemState與RecipeConditions合併成可驗證資料規格。
+
+
+## 2026-11-16｜Student Dorm mouse hole / tea boxes 與成就定位
+**觀察**
+- Developer確認 D2是 Shane locker key tile；右側另一格是 mouse hole，兩者不同。
+- Developer確認把 Cheese拿到 mouse hole前即可解 I Smell Cheese；這與 Shane locker unlock無關。
+- Developer確認 tea boxes位於上層架、Jam右側，藤蔓圖案需排列成連續圖樣。
+- 9Puz成就表補足 Fair Trade、What's The Emergency、Aw That's Hot、Nothing Nowhere等位置與觸發。
+
+**行動**
+- 將 D2 key與 mouse hole拆成兩個 PuzzleInteractable。
+- 將 A Lot to the Right位置寫入 Student Dorm場景資料。
+- 將 Cafe 911、三 Bagel Void Bagel、Panini fire、Bistro Mixer二三次運作等成就觸發補入 QA。
+
+**判斷**
+- 場景中外觀相近的牆磚可能是不同互動點；不能只用 tile grid index推斷整面牆的功能。
+- Achievement與recipe unlock有重疊但不完全相同，需分開保存觸發狀態。
+
+**下一步**
+- 核對 26成就每項觸發與所屬場景。
+- 查明 Student Dorm其他三個 locker/cupboard內容與打開方式。
