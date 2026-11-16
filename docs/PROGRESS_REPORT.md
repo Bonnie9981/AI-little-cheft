@@ -122,3 +122,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Rat Level 的第五個冷爐圖示仍有 Eggshell／Leaf 來源衝突，會用 slot 計數作為驗證依據。
 - 可直接讀取的 Bistro Guide 列出 76 項 Good、31 項 Bad；留言補充 6 個配方，並明確確認 Goulash 使用 Ground Tomato。
 - Bistro 仍有配方衝突：Tomato Cheese Appetizer 是否需 Olives、Apple Mochi 是否需 Ground Rice，列入待驗證清單。
+
+
+## Cafe 經濟與 My Room 支線（2026-11-16）
+- 開發者確認 Cafe 訂單紙會要求製作特定料理，完成後給予 tip coin；取下已完成訂單後，稍後會有新訂單。
+- v3.0ea 更新新增 8 orders To Do、18 道 Cafe 食譜、espresso machine、提示系統與 25 個電話號碼。
+- Safe 需要 keycard；攻略線索為 Photo + Coin。Void Bagel 由三個 Bagel 在 oven 製作，再於 Safe 取得。
+- My Room 裝飾可能與 Cafe 訂單硬幣連動：日文攻略稱存入 20 枚硬幣後可取得畫筆，解鎖更多房間裝飾；仍需補官方／獨立來源。
