@@ -579,3 +579,23 @@
 **下一步**
 - 對照 1.0 recipe book確認 Tiramisu最終有效輸入集合。
 - 確認 Chocolate Spread只有一個item ID，避免把早期重複物件帶進復刻版。
+
+
+## 2026-11-16｜確認三材料上限與章節設備差異
+**觀察**
+- Pixel Questing Chapter 1 guide說明最多拖入三種材料，再點擊烹調設備；Chapter 1是 Cooking Pot，Chapter 2是 Microwave Oven。
+- Bistro有 pot與Mixer；Rat Level使用通電罐頭式 cooker。
+- 非食材物件也會被投入設備，形成大量 Bad Recipes。
+
+**行動**
+- 將共同烹調流程寫成 1..3 inputs → drop into appliance → activate → evaluate conditions → output/cookbook update。
+- 章節設備分開建模，保留 Toaster、Coffee Maker、Espresso Machine、Mixer等獨立機器。
+- 將「是否消耗材料」「輸入順序」「設備內暫存」列為實機待測，不做假設。
+
+**判斷**
+- Recipe evaluator必須依設備與章節分派；不能只用 ingredient set做全域配方查詢。
+- 非食材物件是玩法核心之一，Item schema需有 category與interactable capabilities，不可只建立 Ingredient表。
+
+**下一步**
+- 建立每個 Item的 capability matrix：drag、throw、cut、mix、cook、burn、wet、break、container_insert。
+- 測試1/2/3材料上限、順序是否影響結果、材料是否消耗與可否重複使用。
