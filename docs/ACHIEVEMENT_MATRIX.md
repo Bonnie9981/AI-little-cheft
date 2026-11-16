@@ -34,7 +34,7 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 
 ## Removed / historical achievement
 
-- Master of Disaster (cook all Bad Recipes) appeared in Early Access achievement guides but was removed in the v4.0ea update. Do not include it in the 1.0 target's 26 achievements. It may still be useful as historical context for Bad Recipe completion.
+- Master Chef and Master of Disaster (cook all Good Recipes / all Bad Recipes) appeared in Early Access achievement guides but were removed in the v4.0ea update. Do not include either in the 1.0 target's 26 achievements. Their removal does not mean Good or Bad recipes are optional for room completion.
 
 ## Important caveats
 
