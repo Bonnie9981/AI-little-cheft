@@ -214,3 +214,8 @@ Rat Level cooking attempts use at most two ingredients according to the 1.0 play
 - Cafe: cook three Bagels together, then use Security Card on Safe to discover Void Bagel for Nothing Nowhere.
 - Cafe: give Cheese to mouse near Blue Teapot for Fair Trade.
 - Bistro: grind Pumpkin/Tomato/Meat, then run Mixer second and third times to make a large mess for Messing Around; Cloth cleans it afterward.
+
+
+## Achievement matrix reference
+
+Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievements. Do not implement the removed Early Access Master of Disaster achievement.
