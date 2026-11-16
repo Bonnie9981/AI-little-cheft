@@ -349,6 +349,11 @@ Steam store describes the release as containing over 300 recipes. The current ca
 32. Big Magnet
 33. Boo Tomato
 34. Clutter
+35. Breadless Burger
+36. Vampire Defense Kit
+37. Bread and Wine
+38. Sorrow Sandwich
+39. Risky Rice Pudding
 
 ### Rat Level — 1.0 candidate (slot-based; titles are symbols)
 
