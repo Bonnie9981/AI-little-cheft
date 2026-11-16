@@ -131,7 +131,7 @@ Source: Pixel Questing Chapter 2 guide (2026-11-09); 8/10 Steam guide used to re
 | Avocado Milk | Avocado + Milk |
 | Green Smoothie | Lettuce + Avocado + Milk |
 | Strawberry Cake | Cake + Strawberry |
-| Neapolitan Cake | Plain Chocolate Cake + Cake + Strawberry Cake |
+| Neapolitan Cake | Chocolate Cake + Cake + Strawberry Cake |
 | Strawberry Tiramisu | Cake + Strawberry + Milk |
 | Strawberry Cake Parfait | Strawberry Cake |
 | Hot Cocoa | Milk + Chocolate Spread (11/9 guide conflicts: Espresso Shot + Milk + Kakao) |
