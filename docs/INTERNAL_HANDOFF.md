@@ -235,3 +235,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Cafe order slips 在 microwave 右側，以圖像顯示料理；製作對應料理完成訂單取得 Coin；Coin 可解鎖部分 Bad Recipes。ref：turn513227search0。
 - Cafe v3.0ea 新增 8 個 ToDo 任務項、18 道食譜、espresso machine、25 個電話號碼、訂單與 tip coins；日文玩家確認 25 號碼逐一撥打後多為音效／語音彩蛋。refs：turn810315search5、turn194117search0。
 - 11/9指南的 Tiramisu、Canned Coffee 等配方與官方後續更新不一致，官方 v4.1ea 明確允許 Canned Coffee 用 Coin；8/10 guide和9/2 9Puz更支持 Espresso cup 狀態。release 資料優先保留 8/10 + official patch evidence，11/9 guide作為衝突候選。refs：turn227999search1、turn302948search14、turn749693search1。
+
+
+## 23. 2026-11-16｜Cafe To-Do 數量語意校正
+- 官方 v3.0ea 公告原文是單數「New Todo: complete 8 orders」，明確表示一項 To-Do 目標是完成 8 張訂單；不是已證明有 8 個獨立 To-Do 條目。ref：turn545252search0。
+- 日文玩家把同一更新描述為「ToDoリスト、8件追加」，語意可能是 To-Do 內新增 8 個訂單計數／條目，與官方 patch note不完全一致。ref：turn194117search0。
+- 1.0解鎖 Bistro 的 Level 2 To-Do 至少包括 Clean the kitchen、Trade with the rat、Set the kitchen on fire、完成訂單；其中「完成訂單」可能對應 v3.0ea 的 8 orders 任務，但完整清單與任務數仍未被可讀文字來源確認。ref：turn727664search0。
+- 因此文件中不再把「8 To-Do entries」當作確定事實；需拆分為 order_completion_target = 8 與 level2_todo_task_count = unknown。
