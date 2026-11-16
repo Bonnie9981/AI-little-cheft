@@ -29,13 +29,13 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Pasta A La Carbonara | Pasta + Egg + Cheese (Milk variant conflict) |
 | Pasta | Pasta |
 | PB&J | Peanut Butter + Jam |
-| PB&J Sandwich | Bread + Strawberry Jam (10/9 guide conflicts: Bread + Peanut Butter) + Jam (PB&J jar variant also reported) |
+| PB&J Sandwich | Bread + Peanut Butter + Strawberry Jam (alternate: Toast instead of Bread; PB&J jar + Bread) |
 | Pesto | Revived Basil |
 | Ramen | Ramen Noodles + Egg |
 | English Breakfast | Can of Beans + Egg + Bread |
 | Scrambled Eggs | Egg + Milk |
 | Decent Protein Shake | Protein Powder + Milk |
-| Sweet Sandwich | Bread + Peanut Butter |
+| Sweet Sandwich | Bread + Peanut Butter (10/9 guide instead says Bread + Strawberry Jam) |
 | Red Pasta | Pasta + Can of Tomatoes |
 | Tomato Soup | Can of Tomatoes (Tomato + Toast variant conflict) |
 | Toast | Bread in Toaster |
@@ -56,7 +56,7 @@ Source: Pixel Questing Chapter 1 guide (2026-10-09), cross-checked against the 2
 | Banana Milk | Milk + Banana |
 | Potato Bread | Potato + Bread |
 | Hash Brown | Potato + Egg |
-| Tomato/Egg Stir Fry | Can of Tomatoes + Egg |
+| Tomato/Egg Stir Fry | Can of Tomatoes + Egg (10/9 guide says Tomato + Egg) |
 
 ## Student Dorm — 29 Bad
 
