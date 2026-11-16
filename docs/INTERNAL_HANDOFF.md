@@ -167,3 +167,16 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 需要避免錯誤：該 Bistro 指南把 Tomato Cheese Appetizer 寫 Tomato + Cheese，另一份更新版攻略寫 Tomato + Cheese + Olives；此配方保留衝突，不可硬定。
 - Bistro 指南的 Apple Mochi = Ground Rice + Apple，但 8/10 更新版另一處寫 Rice + Apple；社群留言也指出需先磨碎 Rice。故候選以 Ground Rice + Apple 為較強版本線索，待實測。
 - Bistro 指南將 Hamburger 列為 Ground Beef + Bread + Tomato；8/10 指南的 Hamburger 也列 Bread + Tomato + Ground Meat。這與部分普通 Meat / Ground Meat 分支必須分開記錄。
+
+
+## 17. 2026-11-16｜Cafe 訂單、電話與安全箱流程補證
+- Pixel Questing Chapter 2 搜尋索引提供 Cafe 食材清單、電話解鎖流程、訂單硬幣、Security Card、Safe 與 Void Bagel 步驟；原頁本輪無法直接開啟（cache miss），因此作為攻略線索。ref：turn810315search0。
+- Cafe 缺少的食材清單會提示訂購 Avocado 與 Lettuce；老鼠交出的紙片補足電話號碼，攻略記載號碼 21931。這個數字屬於可變版本／攻略線索，正式資料庫不應硬編碼成跨版本常數，應記錄為場景 puzzle clue。
+- 開發者在 Steam 討論中確認：牆上訂單紙會畫出需製作的料理；完成該料理即可得到 tip coin；完成一張訂單後可將紙條取下，過一段時間會出現新訂單。ref：turn810315search2。
+- 開發者在 Steam 討論中確認 Safe 需要先製作 keycard；keycard 通常包含 photo 與 metal/computer chip。玩家攻略具體列為 Photo + Coin。ref：turn810315search4。
+- Pixel Questing 攻略記載 Safe 在相框後方；先取得 Photo，再與 Coin 組成 Security Card，將卡片插入／刷過 Safe 卡槽開啟。Void Bagel 需 Bagel x3 放入 oven，之後可在 Safe 中取得。ref：turn810315search0。
+- Café Update v3.0ea（2026-04-23）新增 Hint System、espresso machine、18 道 Café 食譜、rolling pin、三個 shelf、order tickets/tips、To Do「complete 8 orders」、25 個電話號碼等。ref：turn810315search5。
+- 訂單系統除了賺 Coin，還有 8 orders 的 To Do 任務；需把「完成訂單數」與「累積 Coin」分開記錄。ref：turn810315search5。
+- 2026-06-08 更新後，Student Dorm 和 Cafe 各新增一道食譜；Student Dorm 新增 Tomato/Egg Stir Fry。ref：turn798867search11。
+- Cafe My Room 裝飾線索：咖啡廳杯中硬幣投入存錢筒；完成訂單取得硬幣；存入 20 枚後 My Room 出現畫筆，可調整牆紙、桌面木色、海報框。ref：turn810315search6。需進一步查證 20 枚是否為最終版本要求。
+- 1.0 官方成就總數 26；官方 Steam 成就統計亦列出全部 26 名稱與描述。ref：turn648764search9。
