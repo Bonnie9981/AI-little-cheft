@@ -97,3 +97,25 @@ Student Dorm To-Do（Pixel Questing 2026-10-09）：
 5. 用濕海綿澆灌 Basil。
 6. 累積 40 道 Good + Bad dishes。
 以上為單一攻略線索，待 1.0 實機驗證。
+
+
+## Cafe Job 2026-11-09 guide conflicts
+
+| Recipe | Candidate配方／狀態 | Evidence conflict | Current handling |
+|---|---|---|---|
+| Tiramisu | Cheese + Plain Cake + Coffee Beans；或 Cake + Filled Coffee Cup + Milk | 11/9 Pixel Questing 與 8/10 Steam guide、9/2 9Puz不一致；官方版本的咖啡狀態鏈較支持 filled cup。 | D；優先實測 1.0 cookbook |
+| Babycino | Milk；或 Espresso Shot + Milk | 11/9 guide提供兩條路徑；8/10 guide只列 Milk。 | C/D；保留兩條候選 |
+| Hot Cocoa | Espresso Shot + Milk + Kakao；或 Milk + Chocolate Spread | 11/9 guide與8/10 guide不同。 | D；測試設備與材料狀態 |
+| Latte | Espresso Shot + Milk；或 Coffee Beans + Milk | 新舊指南對是否必須先萃取 Espresso有差異。 | D；測試設備與狀態 |
+| Canned Coffee | Metal Lid + Coffee Beans；或 Coin + Cup of Espresso | 11/9 guide列 Lid + Beans；8/10 guide列 Coin + Cup of Espresso；v4.1ea官方公告確認 Coin 配方。 | A/B；Coin版本優先，仍測試替代 |
+| Dirty Chai Latte | Espresso Shot + Tea Leaves + Milk；或 Coffee + Tea + Milk | 11/9 guide與8/10 guide不一致；8/10 guide作者留言更正為 Coffee而非 Coffee Beans。 | D；保留設備差異 |
+| To Go Drink | Paper Cup + Kakao；或 Paper Cup + Drink（如 Milk） | 11/9 guide列 Kakao；8/10 guide列一般 Drink，舊攻略也用 Milk。 | D；測試可接受輸入 |
+| Bento Box | Metal Lid + Avocado；或 Metal Lid + 任一 Food | 11/9 guide列 Avocado；8/10 guide列 Lid + Food Item。 | D；測試泛用類型條件 |
+| Savory Croissant | Croissant + Avocado；或 Croissant + Cheese / Avocado | 11/9 guide只列 Avocado；8/10 guide列 Cheese 或 Avocado。 | C；保留 alternate_inputs |
+| Strawberry Tiramisu | Strawberry Cake + Milk；或 Cake + Strawberry + Milk | 新舊攻略對中間物件是否必要表述不同。 | C；狀態候選 |
+| Espresso Shot | Coffee Beans + Espresso Machine + Small White Cup | 無杯會變成 Spilled Coffee；咖啡機狀態與杯子位置必須作為條件。 | B；必須記設備條件 |
+
+### Cafe To-Do evidence note
+
+- Official v3.0ea says 8 To-Do entries were added; one is completing 8 orders. Japanese player notes confirm illustrated order slips, tip coins, and that completing a dish checks the corresponding order.
+- The complete names/order of all 8 Cafe To-Do entries have not yet been recovered. Do not equate “8 orders” with “8 To-Do entries”; keep these as separate counters until verified.
