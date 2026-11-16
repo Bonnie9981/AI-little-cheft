@@ -286,3 +286,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/ITEM_STATE_INVENTORY.md，列出四個房間的物件分類、狀態與互動能力。
 - 已拆分所有關鍵加工狀態，為後續 machine-readable recipe records打底。
 - Student Dorm其他三個locker內容、Cafe部分道具、材料消耗與物件位置存檔仍待查。
+
+
+## Student Dorm / Achievement 定位補充（2026-11-16）
+- D2是 Shane locker key；右側另一個 tile是 mouse hole。給洞口 Cheese觸發 I Smell Cheese，與locker unlock無關。
+- A Lot to the Right的茶盒在上層架、Jam右側。
+- 補入成就流程：Fair Trade（Cafe老鼠）、What's The Emergency（911）、Aw That's Hot（Burnt Panini再烹煮）、Nothing Nowhere（三個Bagel）、Messing Around（Mixer第二、三次運作造成混亂）。
