@@ -192,3 +192,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 7/14 Bistro Guide正文逐行核算為 76 Good / 31 Bad，屬 EA baseline。
 - 8/27更新新增 7 Good + 2 Bad；9/10正式版玩家另記錄 Clutter為新增 Bad。
 - 目前 1.0候選總量為 83 Good / 34 Bad（117 total），但這是跨來源推算，仍待遊戲內 cookbook counter確認。
+
+
+## Bistro Rat Trade 與七國料理（2026-11-16）
+- 開發者確認：給抽油煙機後方老鼠 Cheese啟動交易；之後依照老鼠展示的料理圖製作，即可換取新食材。
+- 玩家通關記錄確認首次獎勵為 Tomato；後續還有 Apple、Olive、Garlic等獎勵支線。
+- Going Global需完成 7道國家料理並收集 7個磁鐵；目前只確認日本料理 Mochi，其餘六道仍待圖片／實機確認。
+- 老鼠顯示愛心是所有交易完成的感謝訊息，不是新的料理請求。
