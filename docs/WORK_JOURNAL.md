@@ -641,3 +641,9 @@
 - 完成 Cafe To-Do、七國料理、Rat code、recipe conflicts。
 - 寫出 Critic review並列 P0/P1 blockers。
 - 只有研究與 Critic gate通過後才進 implementation。
+
+
+## 2026-11-16｜Rat Level 兩材料上限
+- 新增日文 1.0通關攻略明確指出 Rat Level每次只用兩種材料。
+- 修正互動規格：主廚房通用最多三材料；Rat Level cooker獨立 max_inputs = 2。
+- QA新增 Rat Level第三材料拒絕／不接受測試，避免錯誤沿用主廚房規則。
