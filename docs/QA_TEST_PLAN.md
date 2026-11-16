@@ -1,0 +1,192 @@
+# QA Test Plan — Little Chef: Cozy Cooking Recreation
+
+Updated: 2026-11-16  
+Status: Test design only; implementation has not started.  
+Target: 1.0 release behavior with zh-TW localization, desktop and mobile landscape.
+
+## 1. Release acceptance gates
+
+A release candidate cannot pass until:
+
+- All 327 current candidate recipe entries are reconciled against the 1.0 cookbook count. The 327 total is a cross-source estimate, not an official counter.
+- Every recipe record has exact input set(s), item states, appliance, room, version, evidence, confidence, and verification status.
+- Every Good and Bad recipe is discoverable and recorded exactly once; duplicate source rows do not create duplicate recipe IDs.
+- All room unlock tasks and puzzle chains pass.
+- All 26 achievements have a trigger test and persistence test.
+- Save/load preserves all confirmed progression and customization.
+- zh-TW contains no Simplified Chinese glyphs or Mainland-only terminology; no text overflows.
+- Desktop mouse and mobile landscape touch controls both pass.
+- Critic review has no unresolved P0 or P1 blocker.
+
+## 2. Recipe engine tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| REC-001 | Submit one-input recipe | Correct recipe resolves for matching room/appliance/state |
+| REC-002 | Submit two-input recipe | Correct recipe resolves |
+| REC-003 | Submit three-input recipe | Correct recipe resolves |
+| REC-004 | Submit four inputs | Rejected or handled according to verified game behavior; never silently truncate |
+| REC-005 | Submit same ingredients in different order | Same output only if order-independence is verified |
+| REC-006 | Submit raw vs processed item | Different result where recipe requires Ground/Minced/Shredded state |
+| REC-007 | Submit same inputs to wrong appliance | No unintended recipe |
+| REC-008 | Submit valid alternative input set | All confirmed alternatives unlock the same recipe |
+| REC-009 | Submit a Bad Recipe | Correct Bad entry unlocks; Good entry must not unlock |
+| REC-010 | Submit duplicate recipe | Cookbook count increments once only |
+| REC-011 | Submit unknown combination | No false-positive recipe; item handling matches verified behavior |
+| REC-012 | Submit a recipe from another room | Room restriction is respected if present |
+| REC-013 | Process item twice | Output matches observed state transition; no accidental alias |
+| REC-014 | Save/reload after recipe unlock | Recipe remains discovered and counter remains correct |
+
+Parameterized recipe suite:
+- Run one positive test for every candidate recipe in docs/RECIPE_INVENTORY.md.
+- Run one negative test for every D-level conflict in docs/RECIPE_CONFLICTS.md.
+- Record exact item IDs and state IDs, not localized labels alone.
+
+## 3. Physics and input tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| PHY-001 | Mouse grab / drag / release | Item follows pointer and falls naturally |
+| PHY-002 | Touch grab / drag / release | Same behavior as mouse |
+| PHY-003 | Fast release / toss | Release velocity produces a stronger impulse than gentle place |
+| PHY-004 | Gentle place | Item settles without an exaggerated impulse |
+| PHY-005 | Item-item collision | No tunneling at expected gameplay speeds |
+| PHY-006 | Stack objects | Objects can rest and remain stable |
+| PHY-007 | Put ingredient in pot | Ingredient enters container and can be cooked |
+| PHY-008 | Toss Banana then cut mid-air | Fruit Samurai condition is detected only while airborne |
+| PHY-009 | Cut hanging ropes | Scissors interact with each target rope |
+| PHY-010 | Flood room | Water level increases and reaches the correct flood threshold |
+| PHY-011 | Wet sponge | Sponge state changes and can water Basil |
+| PHY-012 | Mixer processing | Raw ingredient transforms into correct processed state |
+| PHY-013 | Mixer overload | Repeated blending reaches Messing Around condition |
+| PHY-014 | Mobile drag near screen edge | Item remains reachable; scene does not scroll unexpectedly |
+| PHY-015 | Rotate / sort objects | Rotation and alignment interactions are stable |
+
+No original mass, friction, elasticity, drag stiffness, or impulse constants are known. Test for behavior and feel; document recreation parameters separately.
+
+## 4. Student Dorm tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| STD-001 | Solve D2 wall tile puzzle | Key appears |
+| STD-002 | Drag key to Shane's lock | Cheese and canned tomatoes become available |
+| STD-003 | Open all remaining lockers | All hidden ingredients / items become available |
+| STD-004 | Clean dishes | Squeaky Clean triggers |
+| STD-005 | Place utensils correctly | Coffee Maker is revealed |
+| STD-006 | Brew Coffee | Coffee task completes |
+| STD-007 | Play Red and Green cassettes | Both count |
+| STD-008 | Combine tapes into Remix and play it | Cassette task completes |
+| STD-009 | Make 8 pasta / ramen dishes | Pasta task counter reaches 8 |
+| STD-010 | Water Basil with wet sponge | Basil revives |
+| STD-011 | Flood room | Flooded triggers |
+| STD-012 | Throw item high | To Infinity triggers |
+| STD-013 | Align tea boxes | A Lot to the Right triggers |
+| STD-014 | Cut Banana mid-air | Fruit Samurai triggers |
+| STD-015 | Reach 40 Good + Bad dishes | Cook-new-dishes task completes |
+| STD-016 | Complete all Good recipes and To-Do tasks | Cafe unlocks |
+
+Bad Recipes being optional for chapter unlock remains unverified; test both with and without all Bad recipes.
+
+## 5. Cafe Job tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| CAF-001 | Offer Cheese to mouse | Torn paper is revealed |
+| CAF-002 | Put paper near phone | Phone clue becomes usable |
+| CAF-003 | Dial 21931 | Call begins |
+| CAF-004 | Pick up handset and wait | Avocado / Lettuce order unlock completes |
+| CAF-005 | Complete one order slip | Tip Coin is awarded |
+| CAF-006 | Remove completed order slip | New order can appear after delay |
+| CAF-007 | Complete 8 orders | Order target counter reaches 8 |
+| CAF-008 | Save 20 Coins in Piggy Bank | Paintbrush unlocks in My Room |
+| CAF-009 | Use paintbrush | Wallpaper, wood type, poster frame changes save |
+| CAF-010 | Photo + Coin | Security Card is created |
+| CAF-011 | Use Security Card on Safe | Safe opens |
+| CAF-012 | Make three Bagels and cook them | Void Bagel discovery / Nothing Nowhere chain works |
+| CAF-013 | Panini → Burnt Panini → recook | Fire starts |
+| CAF-014 | Break alarm glass three times | Fire button becomes available |
+| CAF-015 | Press exposed button | Fire extinguishes |
+| CAF-016 | Complete all Level 2 To-Do | Bistro unlocks |
+
+The complete Level 2 To-Do list has not yet been recovered. Test cases CAF-001 through CAF-016 cover known tasks only; add missing tasks after evidence is found.
+
+## 6. Bistro tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| BIS-001 | Put empty Mixer jar in Cooking Pot | Scissors appear |
+| BIS-002 | Bring Scissors near plant leaves | Hidden Mixer switch is revealed |
+| BIS-003 | Repair / activate fuse box | Mixer becomes usable |
+| BIS-004 | Process Tomato | Ground Tomato state appears |
+| BIS-005 | Process Meat | Ground Meat state appears |
+| BIS-006 | Process Rice | Ground Rice state appears |
+| BIS-007 | Process Pumpkin / Apple / Garlic / Cheese | Correct states appear |
+| BIS-008 | Offer Cheese to rat | First rat request starts; Tomato reward expected |
+| BIS-009 | Complete each rat drawing request | Correct ingredient reward and next request |
+| BIS-010 | Finish rat requests | Heart thank-you note / Best Friends |
+| BIS-011 | Complete seven country dishes | Seven magnets and Going Global |
+| BIS-012 | Sort five wines by label height | Wine About It |
+| BIS-013 | Cut hanging ropes | Cut The Rope |
+| BIS-014 | Repeatedly use Mixer | Messing Around |
+| BIS-015 | Unlock all 83 Good / 34 Bad candidates | Compare with verified 1.0 cookbook counter |
+
+The seven country dishes are not fully identified; BIS-011 remains blocked until the list is recovered.
+
+## 7. Rat Level tests
+
+| ID | Test | Expected result |
+|---|---|---|
+| RAT-001 | Click portrait / picture | Anti-gravity switch appears |
+| RAT-002 | Activate anti-gravity | Objects float and planter note is revealed |
+| RAT-003 | Click wine bottle label | Keypad is revealed |
+| RAT-004 | Enter three-digit clue from planter note | Power control unlocks |
+| RAT-005 | Test low power | Five Good slot candidates resolve |
+| RAT-006 | Test high power | Four Good slot candidates resolve |
+| RAT-007 | Test every Bad slot | Twelve Bad candidates are reconciled |
+| RAT-008 | Press blue switch and toss coin | Coioioin triggers according to verified condition |
+| RAT-009 | Complete all Rat recipes | Little Rat / Rat Level completion triggers |
+
+The numeric code is unknown from readable text sources. Do not invent a code. Eggshell/Leaf and Egg/Pencil/Pasta slot variants must be resolved before RAT-005 through RAT-007 pass.
+
+## 8. My Room and achievements
+
+- Verify Unpacked after all moving boxes are opened.
+- Verify Tilted after the picture frame falls.
+- Verify Post A Lot with 15 Post-it notes at the same time.
+- Verify Bookworm with correct book arrangement.
+- Verify Is This Logo Taken? by dragging the “c” from the main menu logo.
+- Verify Credits To You by finding all 12 rats in credits; progress must persist.
+- Verify all 26 achievement triggers and Steam-like unlock state.
+- Verify 20-Coin paintbrush, wallpaper, wood type, poster frames, and persistence.
+- Verify post-game birthday cake, letter, and candle interaction.
+
+## 9. Localization tests
+
+- All UI strings, recipes, items, achievements, tasks, clues, and descriptions use zh-TW.
+- No Simplified Chinese glyphs or Mainland-only terms remain.
+- Taiwan terminology uses 起司、馬鈴薯、吐司、可頌、披薩、果昔、調理機.
+- Processed states are not collapsed (番茄 / 絞碎番茄; 肉 / 絞碎肉; 米 / 磨碎米).
+- Long names fit recipe cards, buttons, book entries, and mobile layout.
+- Recipe English keys remain available in debug / research mode.
+- Test punctuation, full-width symbols, line wrapping, and fallback fonts.
+
+## 10. Responsive and performance tests
+
+- Desktop: 16:9 and 16:10 windows; mouse interaction.
+- Mobile: landscape phone and tablet; touch interaction.
+- Test smallest supported viewport, safe areas, browser address-bar resize, and device rotation.
+- No essential object is hidden under HUD, cookbook, or To-Do list.
+- Drag operations remain responsive at target frame rate.
+- Save/load works after refresh, tab close, and offline restart.
+- JSON export/import round-trip preserves all confirmed progress.
+
+## 11. Blockers before implementation
+
+1. Complete Cafe Level 2 To-Do list.
+2. Identify all seven country dishes and the full rat request / reward sequence.
+3. Verify Rat Level code and power-state mapping.
+4. Resolve all D-level recipe conflicts, especially Bistro and Rat Level.
+5. Confirm 1.0 cookbook counters and the 327 candidate total.
+6. Finish zh-TW glossary and review every string.
+7. Critic review must accept data completeness, architecture, UX, and QA gates.
+
