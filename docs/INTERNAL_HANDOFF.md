@@ -315,3 +315,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Bistro formula draft涵蓋 76/31 EA baseline、8/27新增 7 Good + 2 Bad，以及 1.0 Clutter候選。
 - Rat Level用 Electric Can Cooker與 power_level low/high建模；Eggshell/Leaf、Egg/Pencil、Pasta相關 slot仍標註衝突。
 - 目前四個房間都有候選名稱清單與部分公式矩陣；下一步需補每筆 recipe的 source IDs、version、confidence與 verification status。
+
+
+## 33. 2026-11-16｜官方 v2.9 配方調整補證
+- 官方 v2.9ea（2026-03-19）移除重複的其中一個 Chocolate Spread，避免兩個同名材料混淆。
+- 官方 v2.9ea允許 Tiramisu更多配方：Cake + Coffee + Dough，或 Cake + Coffee + Milk；應記為當時版本的兩種有效組合。
+- 官方 v2.9ea另新增 Savory Sandwich配方 Bread + Cheese + Tomato Sauce。
+- 這些是 Early Access版本的官方變更，必須保留 version range；不能直接覆蓋 1.0候選配方。
+- ref：turn521540search2。
