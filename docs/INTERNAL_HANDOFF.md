@@ -424,3 +424,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 最新全遊戲候選總量為 **333筆：212 Good +121 Bad**（Student Dorm 48/29、Cafe 71/41、Bistro 84/39、Rat Level 9/12）。
 - 333仍是多來源候選總量，尚未由1.0遊戲內 cookbook counter驗證。已更新 RECIPE_INVENTORY、RECIPE_FORMULA_BISTRO_RAT、README、PROGRESS_REPORT、PROGRESSION_MODEL與QA。
 - refs：turn443888search0、turn443888search1、turn443888search2。
+
+
+## 47. 2026-11-16｜312筆配方 zh-TW候選譯名
+- 新增 docs/ZH_TW_RECIPE_TRANSLATIONS.md，涵蓋 Student Dorm 77、Cafe 112、Bistro 123，共312筆有名稱的配方。
+- Rat Level另列9 Good +12 Bad共21個符號槽位，不自行替外星符號命名。
+- 台灣繁中候選已完整覆蓋所有命名配方；雙關、罕見料理與部分壞料理仍標記暫定，最終需UI截圖與母語校對。
