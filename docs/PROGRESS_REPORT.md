@@ -261,3 +261,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 ## Rat Level 材料數量例外（2026-11-16）
 - 新增 1.0玩家攻略指出 Rat Level每次只使用兩種材料；已從通用三材料規則中排除，單獨建模 max_inputs = 2。
+
+
+## Source Register（2026-11-16）
+- 新增 docs/SOURCE_REGISTER.md，整理 SRC-001至SRC-030，涵蓋官方版本、開發者回覆、食譜攻略、玩家通關紀錄與台灣繁中詞彙。
+- 已建立證據優先級與搜尋摘要／快取限制註記。
+- 下一步需把 327個候選 recipe逐筆連結到 SRC IDs。
