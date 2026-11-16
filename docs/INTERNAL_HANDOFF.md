@@ -180,3 +180,15 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 2026-06-08 更新後，Student Dorm 和 Cafe 各新增一道食譜；Student Dorm 新增 Tomato/Egg Stir Fry。ref：turn798867search11。
 - Cafe My Room 裝飾線索：咖啡廳杯中硬幣投入存錢筒；完成訂單取得硬幣；存入 20 枚後 My Room 出現畫筆，可調整牆紙、桌面木色、海報框。ref：turn810315search6。需進一步查證 20 枚是否為最終版本要求。
 - 1.0 官方成就總數 26；官方 Steam 成就統計亦列出全部 26 名稱與描述。ref：turn648764search9。
+
+
+## 18. 2026-11-16｜官方版本依賴鏈修正與 My Room 更新
+- 官方 v5.1ea（2026-07-14）明確寫出：要進入 Level 3，必須先到 Level 2 完成 To-Do list；同時 Level 2 新增一項食譜。這比「只要把 Cafe 燒起來即可進 Bistro」更完整，後者只能視為必要互動之一，不可視為充分條件。ref：turn227999search0。
+- v5.1ea 同時加入 fuse box hint、食譜書中的 Level 3 提示，並修正 ToDo 因交易老鼠而顯示 -1、老鼠任務重複啟動等問題。ref：turn227999search0。
+- 目前解鎖規格應記錄：Level 2 完成 To-Do list → Level 3 可進入；To-Do 中可能包含訂單、老鼠交易、火警等項目，需依正式版實機／完整攻略核對清單。不要把「燒廚房」當作單一充分條件。
+- 官方 v4.0ea My Room Update（2026-06-07）新增 Level 2 存錢筒，存入 20 coins 解鎖 Level 0 畫筆；可改 wallpaper、wood type、poster frames，並會保存自訂設定。新增書本排列成就、Level 1/2 完成獎盃、主選單 logo 成就、兩個菜單資料夾、新的 Level 1 Good dish；刪除 Cookie Jar、Pencils、Jelly Box，移除 Master Chef / Master of Disaster 成就。ref：turn302948search0。
+- v4.1ea（2026-06-10）完成存錢筒後會出現 happy post-it；Coin 掉落後會重生；Canned Coffee 可用 coin 製作；修正多項提示。ref：turn227999search1。
+- v5.4ea（2026-07-30）新增一鍵清除食譜書 new stars、Level 3 音效與更多食譜提示。ref：turn227999search1。
+- 官方 1.0 公告（2026-08-26）確認 Level 1、2、3 都達到 100% 才會找到額外驚喜內容；Rat Level 是 1.0 後的第四個隱藏內容層，不是一般第四主廚房。ref：turn227999search1。
+- v1.1（2026-09-11）修正 Coioioin、四個英文拼字、Level 1 重複 jar、食譜書 settings button、Goulash/Tomato Cocktail cookbook entries，並改善 Rat Level number lock 點擊區。ref：turn302948search14。
+- 官方 1.0 後 Steam 語言列表只列 English、German、Simplified Chinese；沒有 Traditional Chinese。復刻的 zh-TW 是本專案新增在地化。ref：turn227999search2。
