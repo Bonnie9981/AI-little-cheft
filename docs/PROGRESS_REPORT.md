@@ -267,3 +267,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/SOURCE_REGISTER.md，整理 SRC-001至SRC-030，涵蓋官方版本、開發者回覆、食譜攻略、玩家通關紀錄與台灣繁中詞彙。
 - 已建立證據優先級與搜尋摘要／快取限制註記。
 - 下一步需把 327個候選 recipe逐筆連結到 SRC IDs。
+
+
+## Student Dorm / Cafe 配方修正（2026-11-16）
+- 已根據 Steam cached guide與 developer replies校正公式草稿。
+- Developer確認 Smoothie包含 Peanut Butter；Good Protein Shake = Milk + Peanut Butter + Protein Powder。
+- Cafe主要配方已校正：Babyccino、Latte、Hot Cocoa、Avocado Milk、Strawberry Cheesecake、Chocolate Bomb、Canned Bread等。
+- Steam Guide 3713640352目前已從公開頁面移除，但搜尋索引仍有內容；已標記為 cached community evidence。
+- 10/9與11/9 Pixel Questing仍與Steam guide存在配方差異，已加入衝突表。
