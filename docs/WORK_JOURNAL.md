@@ -688,3 +688,9 @@
 - 把 189筆 Student Dorm/Cafe formula逐筆加上SRC IDs與confidence。
 - 對 11/9 Pixel Questing與 cached Steam guide不同的Bad Recipes做最小化測試。
 - 進一步確認 1.0 Smoothie與Sweet Sandwich最終配方。
+
+
+## 2026-11-16｜Peanut Butter 隱藏解鎖查證
+- Developer確認主選單信件的按鈕會解鎖 Peanut Butter，不需要真的 wishlist；解鎖後食材生成並寫入 save file。
+- 將其列為主選單 → Student Dorm的前置狀態，不呼叫外部Steam wishlist。
+- QA新增：首次按下信件按鈕後生成 Peanut Butter；重載後仍保留。
