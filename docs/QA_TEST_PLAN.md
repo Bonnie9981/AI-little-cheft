@@ -8,7 +8,7 @@ Target: 1.0 release behavior with zh-TW localization, desktop and mobile landsca
 
 A release candidate cannot pass until:
 
-- All 327 current candidate recipe entries are reconciled against the 1.0 cookbook count. The 327 total is a cross-source estimate, not an official counter.
+- All 333 current candidate recipe entries are reconciled against the 1.0 cookbook count. The 333 total is a cross-source estimate, not an official counter.
 - Every recipe record has exact input set(s), item states, appliance, room, version, evidence, confidence, and verification status.
 - Every Good and Bad recipe is discoverable and recorded exactly once; duplicate source rows do not create duplicate recipe IDs.
 - All room unlock tasks and puzzle chains pass.
@@ -128,7 +128,7 @@ At least four Level 2 task entries are known: clean the kitchen, trade with the 
 | BIS-012 | Sort five wines by label height | Wine About It |
 | BIS-013 | Cut hanging ropes | Cut The Rope |
 | BIS-014 | Repeatedly use Mixer | Messing Around |
-| BIS-015 | Unlock all 83 Good / 34 Bad candidates | Compare with verified 1.0 cookbook counter |
+| BIS-015 | Unlock all 84 Good / 39 Bad candidates | Compare with verified 1.0 cookbook counter |
 
 The seven country dishes are not fully identified; BIS-011 remains blocked until the list is recovered.
 
@@ -186,7 +186,7 @@ The numeric code is unknown from readable text sources. Do not invent a code. Eg
 2. Identify all seven country dishes and the full rat request / reward sequence.
 3. Verify Rat Level code and power-state mapping.
 4. Resolve all D-level recipe conflicts, especially Bistro and Rat Level.
-5. Confirm 1.0 cookbook counters and the 327 candidate total.
+5. Confirm 1.0 cookbook counters and the 333 candidate total.
 6. Finish zh-TW glossary and review every string.
 7. Critic review must accept data completeness, architecture, UX, and QA gates.
 
