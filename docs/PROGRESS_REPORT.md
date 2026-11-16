@@ -238,3 +238,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - v2.9ea允許 Tiramisu多種有效輸入：Cake + Coffee + Dough 或 Cake + Coffee + Milk。
 - v2.9ea新增 Savory Sandwich的 Bread + Cheese + Tomato Sauce組合。
 - 這些是 Early Access官方規則，已與 1.0候選配方分開記錄。
+
+
+## 料理設備與輸入規則（2026-11-16）
+- 已找到明確攻略說明：最多放入三種材料，再點擊設備烹調；Student Dorm用 Cooking Pot，Cafe用 Microwave Oven。
+- Bistro需 Cooking Pot + Mixer；Rat Level為低／高電力的 Electric Can Cooker。
+- 非食材道具也可投入設備形成 Bad Recipes，因此資料模型必須區分 Ingredient、Tool、Clue、Container與Interactable。
+- 材料消耗、輸入順序、設備暫存等仍待實機驗證。
