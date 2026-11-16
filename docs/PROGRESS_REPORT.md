@@ -186,3 +186,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Coioioin不是單純隨機連續拋三次：先按藍色開關，再投擲紅框硬幣。
 - 1.0通關後 My Room會出現生日蛋糕與媽媽的信，蛋糕蠟燭可互動。
 - Set the kitchen on fire To-Do有玩家回報顯示不同步；需分離 task、achievement與 Steam sync狀態。
+
+
+## Bistro 配方數量分期校正（2026-11-16）
+- 7/14 Bistro Guide正文逐行核算為 76 Good / 31 Bad，屬 EA baseline。
+- 8/27更新新增 7 Good + 2 Bad；9/10正式版玩家另記錄 Clutter為新增 Bad。
+- 目前 1.0候選總量為 83 Good / 34 Bad（117 total），但這是跨來源推算，仍待遊戲內 cookbook counter確認。
