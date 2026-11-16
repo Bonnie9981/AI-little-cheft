@@ -453,3 +453,26 @@
 - 補齊所有 Bad Recipe、Rat Level與 My Room詞彙。
 - 校對中文 recipe names與英文食材名的對應，尤其 Goulash、Khachapuri、Meatloaf、Clutter等。
 - 建立 zh-TW QA：無簡體字、無中國大陸詞彙、無重複譯名、UI不溢位。
+
+
+## 2026-11-16｜1.0 簡體中文成就攻略交叉核對
+**觀察**
+- 找到 2026-09-01 更新的 1.0 全成就中文攻略；作者明確提醒遊戲更新可能改變配方。
+- 該攻略補出 Clutter = Cloth + Spoon候選，並把 Rat冷爐第五項列為 Cheese + Leaf；這與 8/10英文攻略的 Eggshell衝突。
+- Rat bad slot也有差異：Eggshell + Pencil vs Egg + Pencil；Pasta單獨、Pasta + Paper vs Paperclip + Pasta。
+- Bistro另有多筆配方差異：Mochi、Apple Mochi、Kombucha、Tomato Juice、Fried Rice、Sake、Meatballs、Beef Katsu Sando、Yeast Monster、Cookbook、Bad Meatloaf、Food Sketch、Fried Balls、Vampire Defense Kit。
+
+**行動**
+- 將以上差異逐項加入 RECIPE_CONFLICTS.md。
+- Clutter暫採 Cloth + Wooden Spoon候選，不標 verified。
+- Rat冷爐 #5與Bad #4/#6/#7保留分支，等待實機 slot counter驗證。
+- Kombucha以多份英文攻略及玩家討論支持的 Mushroom + Yeast為優先候選，但保留中文社群反例。
+
+**判斷**
+- 1.0中文攻略對名稱翻譯有幫助，但作者聲明資料可能因更新失效，不能把它視為比官方 patch或多個獨立玩家回報更高的證據。
+- 現在的主要瓶頸已不是缺少配方名字，而是不同版本／攻略對加工狀態和額外輸入的差異。
+
+**下一步**
+- 將 Bistro所有 117個候選逐筆標註 evidence/confidence/introduced version。
+- 將 Rat Level 21-22個候選 slot逐項做 QA測試。
+- 將中文攻略的譯名轉成台灣用語，但不直接照搬簡體配方結論。
