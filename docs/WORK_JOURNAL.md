@@ -114,3 +114,29 @@
 - 建立 Bistro recipe matrix，逐項比對 Guide 3713640352、Guide 3764982550、9Puz、Steam 討論與官方 changelog。
 - 對 48/29 數字與 Cafe 配方數找可直接讀取的來源。
 - 完成 Rat Level slot-by-slot 的冷熱表及 puzzle state machine。
+
+
+## 2026-11-16｜Cafe Job 版本差異與完整食譜線索
+**觀察**
+- 新版 Steam Guide 搜尋索引取得 Chapter 2 完整 Good/Bad Recipes，並明確標示更新至 2026-08-10。
+- 同一 Guide 直接開啟頁面顯示舊版快取，與搜尋索引版本不一致；故本次採搜尋索引內容作研究線索，並保留版本不確定性。
+- 新版清單明確指出 Tiramisu 使用 Filled Coffee Cup，不是 Coffee Beans；Double Espresso 也依賴機器內已裝滿的杯子。
+- 新增 Canned Coffee = Coin + Cup of Espresso；Mocha 與 Strawberry Latte 使用 Espresso Shot；Dirty Chai Latte 使用 Coffee 而非 Coffee Beans。
+
+**行動**
+- 將 Cafe 前置製作補入：Paper Cup、Strawberry Cake、Chocolate Cake、Panini、Photo。
+- 將 Cheese → Cafe rat → 紙片進電話 → 依便利貼號碼撥號 → 解鎖 Avocado/Lettuce 的流程拆成明確任務節點。
+- 把 Coffee Beans、Espresso Shot、Filled Coffee Cup、Cup of Espresso 拆成獨立 item/state。
+- 把 Paper、Paper Cup、Cup of Espresso 拆成獨立物件。
+- 補入 Canned Coffee、Mocha、Strawberry Latte、Dirty Chai Latte 等配方的新版候選資料。
+- 補入 Student Dorm 的 Tomato/Egg Stir Fry 新配方。
+
+**判斷**
+- Cafe 的主要資料風險不是食材組合，而是咖啡設備狀態：豆子、萃取中的杯子、已裝滿的杯子會觸發不同配方。
+- 若只將 Espresso 當成一種材料，會無法還原 Tiramisu、Double Espresso、Canned Coffee 等流程。
+- 8/10 指南比 4/25 舊版增加了更新後的 Bistro 與 Cafe 修正，但頁面快取不同步，應以來源日期與具體段落做證據追蹤，不可只看頁面顯示日期。
+
+**下一步**
+- 將 Cafe 所有 Good/Bad Recipes 逐筆轉為表格，標示設備、加工狀態、可替代材料與版本。
+- 釐清 Cafe 的訂單／Coin 發放、Photo、Safe、Security Card、Void Bagel 等完整任務鏈。
+- 對 Student Dorm 新配方與舊配方做差異表，補上 1.0 後是否仍存在的證據。
