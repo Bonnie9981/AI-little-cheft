@@ -430,3 +430,26 @@
 - 追查老鼠每張 request note對應的 recipe與 reward ingredient。
 - 找到七個 magnet的圖案／國旗或對應菜名；沒有證據的六項保持 unknown。
 - 確認最後愛心是否所有交易都完成，以及是否同時解鎖 Best Friends。
+
+
+## 2026-11-16｜建立台灣繁體中文詞彙基準
+**觀察**
+- 官方 Steam繁中頁面仍標示不支援繁體中文，只有英文、德文、簡體中文。
+- Simplified Chinese攻略有一批可參考譯名，但包含「芝士、土豆、耗子」等非台灣用語。
+- 台灣烘焙／餐飲來源支持佛卡夏、法式熱三明治、古拉什等譯法；遊戲本身的料理名稱需兼顧台灣理解與原作玩笑。
+
+**行動**
+- 建立 docs/ZH_TW_GLOSSARY.md。
+- 將 Good/Bad Recipes暫譯為「美味料理／怪奇料理」。
+- 採用「起司、馬鈴薯、可頌、吐司、披薩、果昔、調理機」等台灣常用詞。
+- 對少見專名採「音譯＋短說明」，並保留英文 key。
+
+**判斷**
+- 不能只做簡繁轉換；簡體指南的料理名稱有錯誤或不符合台灣用語。
+- 每個加工狀態都要有獨立詞條，避免 Ground Tomato與 Tomato都顯示成番茄。
+- 本版只是 glossary draft，待全量 recipe inventory完成後還要統一用字、字數與 UI寬度。
+
+**下一步**
+- 補齊所有 Bad Recipe、Rat Level與 My Room詞彙。
+- 校對中文 recipe names與英文食材名的對應，尤其 Goulash、Khachapuri、Meatloaf、Clutter等。
+- 建立 zh-TW QA：無簡體字、無中國大陸詞彙、無重複譯名、UI不溢位。
