@@ -275,3 +275,8 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Cafe主要配方已校正：Babyccino、Latte、Hot Cocoa、Avocado Milk、Strawberry Cheesecake、Chocolate Bomb、Canned Bread等。
 - Steam Guide 3713640352目前已從公開頁面移除，但搜尋索引仍有內容；已標記為 cached community evidence。
 - 10/9與11/9 Pixel Questing仍與Steam guide存在配方差異，已加入衝突表。
+
+
+## Peanut Butter 隱藏食材（2026-11-16）
+- Developer確認：按下主選單信件中的按鈕即可解鎖 Peanut Butter，不需真的加入願望清單；解鎖會保存到存檔。
+- 已列為 Student Dorm食譜的前置條件，不能依賴外部 Steam Wishlist。
