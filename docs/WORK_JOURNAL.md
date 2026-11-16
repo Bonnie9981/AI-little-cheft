@@ -694,3 +694,24 @@
 - Developer確認主選單信件的按鈕會解鎖 Peanut Butter，不需要真的 wishlist；解鎖後食材生成並寫入 save file。
 - 將其列為主選單 → Student Dorm的前置狀態，不呼叫外部Steam wishlist。
 - QA新增：首次按下信件按鈕後生成 Peanut Butter；重載後仍保留。
+
+
+## 2026-11-16｜Item / ItemState inventory
+**觀察**
+- Recipe公式已顯示多個配方依賴加工狀態，而非只有原始食材名稱。
+- 非食材工具、容器、線索、環境物件都能參與配方或解謎。
+- 四個房間的物件清單可建立第一版，但仍有未辨識的場景道具。
+
+**行動**
+- 建立 docs/ITEM_STATE_INVENTORY.md。
+- 分類 Ingredient、ProcessedIngredient、Tool、Container、Appliance、Clue、PuzzleInteractable、Environment、Character、Decoration。
+- 將所有加工狀態獨立列出，並把未知的物件位置存檔與材料消耗列為待測。
+
+**判斷**
+- Recipe DB必須引用 item_id與state_id，不可用中文顯示名稱當唯一 key。
+- 物件能力需由 capability matrix控制，避免把所有物品都當成可切割／可烹調。
+
+**下一步**
+- 補齊 Cafe未列物件、三個locker內容與所有場景隱藏道具。
+- 建立 item-to-recipe references，確保每個 ingredient都被 recipe使用或標記為puzzle-only。
+- 把 ItemState與RecipeConditions合併成可驗證資料規格。
