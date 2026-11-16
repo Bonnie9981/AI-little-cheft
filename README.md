@@ -33,13 +33,13 @@
 
 ## 目前研究盤點
 
-目前候選清單合計 **327 筆**（211 Good + 116 Bad），與原作「300+ recipes」相符，但這是跨來源推算，尚未由遊戲內 cookbook counter 完整驗證。
+目前候選清單合計 **333 筆**（212 Good + 121 Bad），與原作「300+ recipes」相符，但這是跨來源推算，尚未由遊戲內 cookbook counter 完整驗證。
 
 | 場景 | Good | Bad | 狀態 |
 |---|---:|---:|---|
 | Student Dorm | 48 | 29 | 來源清單已整理，公式仍需逐筆驗證 |
 | Cafe Job | 71 | 41 | 來源清單已整理，版本衝突待處理 |
-| Bistro | 83 | 34 | 由 76/31 EA baseline + 10 項 post-launch additions 推算 |
+| Bistro | 84 | 39 | 由 76/31 guide list + 6項 July discoveries + 10項 post-launch additions 推算 |
 | Rat Level | 9 | 12 | 以 slot 記錄，Eggshell/Leaf 等衝突未定 |
 
 ## 尚未通過的研究 Gate
@@ -48,7 +48,7 @@
 2. Bistro 七國料理完整名單與老鼠交易順序／獎勵。
 3. Rat Level 三位數密碼、power OFF/ON 與 low/high 對應。
 4. 所有 D 級配方衝突與 1.0 cookbook counter。
-5. 327 筆配方的來源、版本、狀態、設備、信心與 zh-TW 名稱。
+5. 333 筆配方的來源、版本、狀態、設備、信心與 zh-TW 名稱。
 6. 完整 zh-TW 校對、QA acceptance tests 與 Critic review。
 
 **完成上述研究與 Critic Gate 前，不開始正式實作。**
