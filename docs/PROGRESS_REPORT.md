@@ -305,3 +305,8 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 清洗碗盤與收好餐具是Make Coffee前置，不是獨立To-Do。
 - 9Puz指出每個房間都有recipe/task ledger，Student Dorm需完成Good與Bad兩個recipe tabs及全部tasks。
 - Flooded約50%水位時會提示；Bookworm需讓書背波浪線連續。
+
+
+## Cafe To-Do範圍更新（2026-11-16）
+- 已確認至少四項：清理廚房、與老鼠交易、完成8張訂單、讓廚房起火。
+- 21931電話、Coins、Espresso Cup、Safe與fire alarm是其他100% blockers，是否為獨立To-Do row仍待確認。
