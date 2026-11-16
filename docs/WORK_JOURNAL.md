@@ -765,3 +765,9 @@
 - 取得Cafe完整task ledger與Bistro task ledger。
 - 核對每個房間的Good/Bad總數與100% counter。
 - 更新成就矩陣的Bookworm排序說明。
+
+
+## 2026-11-16｜Cafe To-Do範圍收斂
+- 將 Cafe已知task entries整理為至少四項：清理廚房、與Blue Teapot老鼠交易、完成8張訂單、讓廚房起火。
+- 官方v3.0ea明確新增 Complete 8 orders To-Do；1.0 walkthrough提及電話stock、訂單Coins、Espresso Cup、Safe、fire alarm等100% blockers，但未證明它們是獨立task rows。
+- 更新 progression model與QA：Cafe任務已有候選清單，但不宣稱已完整。
