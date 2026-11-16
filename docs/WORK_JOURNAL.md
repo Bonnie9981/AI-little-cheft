@@ -358,3 +358,30 @@
 **下一步**
 - 找到 planter note的圖片／清晰畫面，辨識三位數密碼。
 - 確認 power toggle UI、兩種狀態下的食譜 counter、是否有 power-off / power-on 兩種結果。
+
+
+## 2026-11-16｜Bistro 1.0 追加食譜與 Rat Level 成就觸發
+**觀察**
+- 1.0 玩家 9/10 通關記錄稱 Bistro 新增約 10 項食譜，最後 Good Recipe 是 Mini Pizzas，最後 Bad Recipe 是 Clutter。
+- 8/10 Steam guide已列出 7 Good + 2 Bad新增食譜；結合 9/10記錄，可推測 Clutter是第 10 項、第三個 Bad Recipe。
+- Clutter描述提及「物件自己變亂」，但尚未找到確切製作條件。
+- Coioioin的玩家實測流程不是純隨機：先按藍色開關，再投擲紅色區域的硬幣。
+- 1.0玩家報告遊戲內取得 Coioioin後，重啟遊戲才同步Steam achievement。
+- 1.0通關後 My Room會出現生日蛋糕與媽媽的信，蛋糕可開關蠟燭。
+- Set the kitchen on fire To-Do在某些1.0存檔可能顯示未完成，重做一次點火後才更新。
+
+**行動**
+- 把 Bistro 新增食譜列為 7 Good + 3 Bad候選，Clutter狀態設為 unresolved。
+- 把 Coioioin改成「藍色開關 → 投幣」互動鏈，不用隨機連續拋三次的假設。
+- 把 birthday cake、letter、candle toggle加入 My Room post-game interactables。
+- 將 To-Do completion、achievement unlock、Steam sync拆成不同狀態。
+
+**判斷**
+- 1.0的 Clutter是新增 Bad Recipe，不應只把 Messing Around當成achievement而忽略 cookbook entry。
+- Coioioin有明確機關條件，若復刻成純隨機機率，會不忠實。
+- My Room在主線結束後仍有可互動內容，不能在三個廚房100%時直接視為靜態結局畫面。
+
+**下一步**
+- 找出 Clutter的觸發條件與是否由 Mixer mess直接產生。
+- 查明生日蛋糕信件的解鎖門檻與存檔狀態。
+- 核對 1.0 Bistro 10個新增 recipe在實際 counter中的分佈。
