@@ -86,3 +86,8 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-033 | [Developer reply: Peanut Butter unlock](https://steamcommunity.com/app/3376500/discussions/0/760681630846246656/) | 2026-02-22 to 2026-03-01 | Main-menu letter button unlocks Peanut Butter; no actual Steam Wishlist is required; unlock persists in save | Early Access, but direct developer clarification.
+
+
+- SRC-034 | [Developer reply: I Smell Cheese](https://steamcommunity.com/app/3376500/discussions/0/800092239616311057/) | 2026-04-04 | Hold Cheese in front of the Student Dorm mouse hole to unlock I Smell Cheese | Direct developer confirmation.
+- SRC-035 | [Developer reply: Tea Box location](https://steamcommunity.com/app/3376500/discussions/0/800091475572434446/) | 2026-03-27 | Tea boxes are on the top shelf, directly right of Jam; align the vine pattern for A Lot to the Right | Direct developer confirmation.
+- SRC-036 | [9Puz 1.0 achievement guide](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/) | 2026-09-02 | Room-specific achievement locations and actions, including Cafe fire/phone/Bagel and Bistro Mixer | Community walkthrough; cross-check official descriptions.
