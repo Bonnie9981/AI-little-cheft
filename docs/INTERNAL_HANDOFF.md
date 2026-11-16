@@ -301,3 +301,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 合計 211 Good + 116 Bad = 327 candidate entries，與官方商店「over 300 recipes」相符，但這只是來源交叉推算，不是遊戲內 cookbook counter驗證。
 - Cafe 來源的 Good list將 Coffee Cake重複列兩次；inventory去重為一個 recipe ID，保留來源報告的71總數。
 - 下一步不是再增加一份散文清單，而是逐筆補齊 formula、processed state、appliance、source、confidence、verification status與zh-TW。
+
+
+## 31. 2026-11-16｜Student Dorm / Cafe formula matrix 第一版
+- 新增 docs/RECIPE_FORMULA_DRAFT.md，將 Student Dorm 48 Good + 29 Bad、Cafe 71 Good + 41 Bad逐筆整理為候選公式／動作。
+- 其中已標出關鍵狀態與設備：Toast/Burnt Toast/Soggy Toast、Coffee Beans/Espresso Shot/Filled Coffee Cup/Cup of Espresso、Microwave Oven與 Espresso Machine。
+- 來源衝突直接在 formula draft標記，並連結 docs/RECIPE_CONFLICTS.md；未驗證配方不能當正式資料。
+- 下一階段將同樣方式整理 Bistro 83/34候選與 Rat Level 9/12 slots，再轉成結構化 recipe records。
