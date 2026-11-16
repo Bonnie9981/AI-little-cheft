@@ -350,3 +350,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 ## 37. 2026-11-16｜Rat Level 材料數上限例外
 - 1.0日文玩家完整成就攻略明確說明 Rat Level每次只使用兩種材料；其 cooker是通電罐頭，電力強弱改變結果。ref：turn908932search5。
 - 因此主廚房通用最多三種材料的規則不能套用 Rat Level；Rat Level Electric Can Cooker需設 max_inputs = 2。
+
+
+## 38. 2026-11-16｜來源登錄表與證據層級
+- 新增 docs/SOURCE_REGISTER.md，將官方公告、開發者回覆、攻略、玩家討論與台灣繁中術語來源編號 SRC-001..SRC-030。
+- 已定義 evidence hierarchy：實機／官方／開發者 > 多來源玩家一致 > 單一攻略 > 舊版／衝突／推測。
+- 搜尋摘要與無法直接開啟的頁面明確記錄限制；不把搜尋索引當作已完整讀取正文。
+- 後續 recipe records需引用 SRC IDs，並標註 source date/version。
