@@ -771,3 +771,24 @@
 - 將 Cafe已知task entries整理為至少四項：清理廚房、與Blue Teapot老鼠交易、完成8張訂單、讓廚房起火。
 - 官方v3.0ea明確新增 Complete 8 orders To-Do；1.0 walkthrough提及電話stock、訂單Coins、Espresso Cup、Safe、fire alarm等100% blockers，但未證明它們是獨立task rows。
 - 更新 progression model與QA：Cafe任務已有候選清單，但不宣稱已完整。
+
+
+## 2026-11-16｜Bistro 84/39與全遊戲333筆候選總量修正
+**觀察**
+- 9Puz 1.0 completion route明確列出 Crazy Calzone = Pizza + Pizza Dough。
+- Steam 7/17玩家留言補出五個Bad recipes：Breadless Burger、Vampire Defense Kit、Bread and Wine、Sorrow Sandwich、Risky Rice Pudding。
+- 這六項不在7/14 guide主清單，因此原先把76/31當作完整EA baseline的推算漏掉了。
+
+**行動**
+- Bistro Good由83修正為84；Bad由34修正為39。
+- 全遊戲候選總量由327修正為333（212 Good +121 Bad）。
+- 更新 inventory、Bistro formula draft、conflict register、README、progress report、progression與QA。
+
+**判斷**
+- 84/39是目前更完整的跨來源候選清單；仍不是官方counter，不能標為verified。
+- July 17玩家留言是配方發現，不一定是遊戲版本更新；來源時間需保留，不能把它誤寫成patch date。
+
+**下一步**
+- 逐筆把Bistro 123項候選對應SRC IDs與版本。
+- 用1.0 cookbook counter確認Bistro Good/Bad數量。
+- 重新核對其他房間是否也有未列入攻略主清單、但在留言中發現的recipe。
