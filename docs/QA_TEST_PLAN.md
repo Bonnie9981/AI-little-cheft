@@ -219,3 +219,14 @@ Rat Level cooking attempts use at most two ingredients according to the 1.0 play
 ## Achievement matrix reference
 
 Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievements. Do not implement the removed Early Access Master of Disaster achievement.
+
+
+## Student Dorm To-Do exact test list (1.0 route)
+
+- Cook eight dishes with Pasta or Ramen as an ingredient.
+- Unlock Shane's cabinet and use Cheese in a Good dish.
+- Play Red cassette, Green cassette, combine them into Remix, and play Remix.
+- Clean dishes, arrange utensils, reveal Coffee Maker, place it on stove, and brew Coffee.
+- Water Basil with wet Sponge or running faucet.
+- Discover 40 total Good + Bad dishes.
+- Verify both Good and Bad recipe tabs plus all six tasks are required for Student Dorm 100%.
