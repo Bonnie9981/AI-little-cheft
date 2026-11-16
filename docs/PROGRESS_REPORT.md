@@ -292,3 +292,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - D2是 Shane locker key；右側另一個 tile是 mouse hole。給洞口 Cheese觸發 I Smell Cheese，與locker unlock無關。
 - A Lot to the Right的茶盒在上層架、Jam右側。
 - 補入成就流程：Fair Trade（Cafe老鼠）、What's The Emergency（911）、Aw That's Hot（Burnt Panini再烹煮）、Nothing Nowhere（三個Bagel）、Messing Around（Mixer第二、三次運作造成混亂）。
+
+
+## Achievement Matrix（2026-11-16）
+- 新增 docs/ACHIEVEMENT_MATRIX.md，完整列出 1.0的26項成就與觸發候選。
+- 已排除 v4.0移除的 Early Access成就 Master of Disaster。
+- 未解項目：100%精確條件、Bookworm排序、Going Global七道菜、Coioioin觸發細節。
