@@ -166,3 +166,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新攻略對 Tiramisu、Babycino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box 等配方與 8/10 Steam Guide／官方版本資料有衝突，已加入 Recipe Reconciliation Register。
 - 21931電話流程需撥號後拿起 handset 並等待對方說完，開發者於 Steam 討論確認。
 - Cafe 8 個 ToDo條目完整名稱仍待查；目前只確認官方新增 8項 ToDo，以及其中一項為完成訂單。
+
+
+## Cafe To-Do 數量校正（2026-11-16）
+- 官方 v3.0ea 原文只確認一項 To-Do：「complete 8 orders」；日文攻略「ToDo list新增8件」語意不明，不能視為八個獨立任務。
+- 已將 order target = 8 與 Level 2 To-Do task count = unknown 分開記錄。
+- Bistro 解鎖流程目前只確認清潔、老鼠交易、火災／滅火、訂單等任務類型；完整 UI 清單仍待實機畫面或影片。
