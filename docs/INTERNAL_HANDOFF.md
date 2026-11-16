@@ -285,3 +285,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 使用者要求台灣繁體中文，因此不直接沿用簡體攻略的「芝士、土豆、牛角包、耗子」等詞。
 - 料理專名第一版候選：Focaccia=佛卡夏、Goulash=古拉什（匈牙利燉肉）、Croque Monsieur=法式熱三明治、Schnitzel=炸肉排、Mochi=日式麻糬、Kombucha=康普茶。
 - 目前 glossary只涵蓋已整理的主要 UI、食材、Student Dorm/Cafe/Bistro recipe與成就；仍需補齊所有 Bad Recipes、Rat Level描述、My Room物件、道具與劇情文本。
+
+
+## 29. 2026-11-16｜Wine About It 與 Rat Level slot 的可操作驗證
+- Steam玩家在 Level 3 討論中指出 Wine About It 的五瓶酒排序依「瓶身標籤高度由短到長」排列，不是依酒色或名稱猜測。ref：turn241221search6。
+- 這可轉成穩定的 puzzle rule：取得五瓶酒後，依 label_height ascending 排列；實際五瓶的順序仍需以遊戲畫面確認。
+- 1.0簡體中文成就攻略列 Rat Level冷爐第五個 Good slot為 Cheese + Leaf；8/10英文攻略列 Cheese + Eggshell；需保留 live slot測試分支。ref：turn553799search0、turn839723search0。
+- 同一中文攻略列 Rat Level Bad slot：Eggshell + Pencil、Pasta單獨、Pasta + Paper；英文攻略列 Egg + Pencil、Paperclip + Pasta。這些差異需逐項測試，不可合併為同一 recipe。
+- Coioioin：9/10玩家說先按藍色開關再拋紅色區域硬幣；8/10指南與舊攻略只說連續三次同面，故機關觸發為較新的 1.0 evidence。ref：turn384561search1。
