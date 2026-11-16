@@ -85,7 +85,7 @@ Official 1.0 gate:
 - Rat Level unlocks only after Student Dorm, Cafe Job, and Bistro are all at 100%.
 
 Open questions:
-- Does Bistro 100% require all 83 Good + 34 Bad candidate recipes, all rat requests, and all puzzles?
+- Does Bistro 100% require all 84 Good + 39 Bad candidate recipes, all rat requests, and all puzzles?
 - What are the seven country dish names and the exact order of rat requests / rewards?
 
 ## 6. Rat Level completion
