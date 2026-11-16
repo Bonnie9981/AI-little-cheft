@@ -132,3 +132,14 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Bistro 攻略搜尋索引明確列出 Tomato Cocktail = Olives + Wine + Ground Tomato；同一份索引也列出 Mushroom Soup = Mushroom + Garlic、Apple Mochi = Rice + Apple、Croque Monster = Bread + Cheese + Meat、Pumpkin Soup = Ground Pumpkin + Garlic、Tomato Juice = Tomato、White Wine = Wine + White Pencil、Pumpkin Bread = Pumpkin + Bread、Hamburger = Bread + Tomato + Ground Meat、Apple Sauce = Ground Apple、Olive Oil = Olive、Rosé = Wine + Pink Pencil、Vegan Sandwich = Bread + Pumpkin + Tomato、Pumpkin Fries = Pumpkin + Olive Oil、Meatloaf = Meat + Ground Meat、Pizza = Pizza Dough + Ground Tomato + Cheese、Italian Rice Balls = Cheese + Rice + Olive Oil、Schnitzel = Flour + Meat + Olive Oil、Meat Lover Pizza = Pizza + Meat + Salami。ref：turn706207search10。
 - v1.1 官方 changelog 只確認修正 Goulash 與 Tomato Cocktail 的 cookbook 資料，並未列出配方；社群來源現在補足候選配方，但狀態仍應是 community-confirmed / pending in-game verification。ref：turn706207search1。
 - 重要狀態更正：Goulash 的 Ground Tomato 是加工後番茄，不是 Ground Meat；Ground Meat 用於其他料理。Tomato Cocktail 同樣需要 Ground Tomato。
+
+
+## 14. 2026-11-16｜新來源交叉核對與 Bistro 擴充
+- 新找到 Pixel Questing 的 Student Dorm walkthrough 搜尋結果，摘要列出 Chapter 1 有 48 good recipes、29 bad recipes；但頁面本次無法直接開啟（cache miss），因此數量只作待核實線索。ref：turn798867search0。
+- Steam 社群最新 Bistro Guide（Guide ID 3764982550）提供另一份較完整的配方表，明確列出 Goulash = Meat + Ground Tomato + Wine、Tomato Cocktail = Ground Tomato + Olives + Wine、Focaccia = Bread Dough + Olive Oil + Olives，並補入多筆 Bistro 食譜。ref：turn970635search2。
+- 這份 Bistro Guide 同時提供 Bad Recipes 線索：Endless Possibilities（空鍋）、Fungus、Pink Pencil、Yeast Monster、Cookbook、Ghost、Wine Glass、Toothpick、Corkscrew、Table Cloth、Scissors（空 Mixer）、Red 40、Compass、Bad Pastry、Cheese Cloth、Sketchbook、Bad Meatloaf、Pumpkin Friend、Food Sketch、Cheese Grater、Jack O Lantern、Origami、Barely Edible、Paper Snowflake、Fried Balls、Drum Sticks、Definitely Not Wine、Paper Towel、Instant Calories、Pencil Sharpener、Oil Paint。
+- 注意同一指南部分條目有拼字、用料與其他指南不一致（例如 Tomato Cheese Appetizer 是否需 Olives、Apple Mochi 是否使用 Ground Rice、Hamburger 是否使用 Ground Beef），因此配方要保留來源欄，不可直接視為全部定案。
+- 9Puz 2026-09-02 完成路線指南詳細說明 Rat Level 的反重力／密碼／冷熱爐順序，以及 Eggshell/Leaf 第五項衝突；並整理 26 成就的觸發位置。ref：turn970635search0。
+- 9Puz 指南特別強調「狀態視為材料」：例如 Bread / Toast / Burnt Toast / Soggy Toast、Coffee Beans / Filled Espresso Cup、整顆食材 / Mixer 輸出、Rat Level 冷爐 / 熱爐結果都要分開記錄。ref：turn970635search0。
+- 新增來源：Steam v1.1 changelog（SteamDB mirror）確認 2026-09-11 修正 Goulash 與 Tomato Cocktail cookbook entries；沒有列出配方細節。ref：turn798867search15。
+- 新增流程線索：Bistro 的剪刀可透過把 Mixer jar 放入 pot 取得；剪刀靠近植物葉片可找到 Blender switch。ref：turn970635search2。
