@@ -393,3 +393,17 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 已特別區分 I Smell Cheese（Student Dorm mouse hole）、Fair Trade（Cafe Blue Teapot rat）、Best Friends（Bistro rat trades）。
 - Master of Disaster為早期EA成就，v4.0移除，不列入1.0的26項。
 - 仍需確認：100%是否要求Good+Bad全配方、Bookworm書本排序、Going Global七道菜完整名單、Coioioin藍色開關與三次同面是否兼容。
+
+
+## 44. 2026-11-16｜Student Dorm 六項 To-Do 完整查證與100%規則
+- 9Puz 2026-09-02 1.0 completion route完整列出 Student Dorm六項 To-Do：
+  1. 用 Pasta或Ramen作為材料完成8道料理。
+  2. Borrow Shane's Cheese：D2拿key開locker，並用Cheese完成一道Good dish。
+  3. Play All Cassettes：播放Red、Green，組合成Remix，再播放Remix。
+  4. Make Coffee：清潔碗盤、收好餐具、顯示Coffee Maker、放上瓦斯爐沖煮。
+  5. Water Basil：濕海綿澆水或開水龍頭。
+  6. Cook New Dishes：累積完成40道Good + Bad料理。
+- 9Puz明確說每個廚房各有自己的 recipe/task ledger，且Student Dorm below 100%需檢查Good與Bad兩個tab；Good+Bad recipes與全部To-Do都影響room completion。
+- 因此修正先前錯誤：Clean Dishes是Make Coffee任務的前置，不是獨立To-Do；D2 key也不是獨立To-Do，而是Borrow Shane's Cheese任務的一部分。
+- 9Puz另指出Flooded約淹到房間50%時會跳成就提示可關水；Bookworm是讓書背上的波浪圖案連成一條線。
+- ref：turn973369search0、turn973369search2。
