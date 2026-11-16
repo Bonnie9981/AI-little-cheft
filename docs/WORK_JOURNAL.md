@@ -497,3 +497,24 @@
 - 取得五瓶酒畫面並記錄實際 label height順序。
 - 用每個 Rat slot的計數器驗證 Leaf/Eggshell與Egg/Eggshell差異。
 - 確認 Coioioin按藍色開關後是否可直接觸發，或是否仍需同面三次。
+
+
+## 2026-11-16｜建立全關卡 recipe inventory
+**觀察**
+- Student Dorm、Cafe、Bistro、Rat Level的 recipe候選已能形成一份跨關卡總表。
+- 來源總量推算為327：211 Good、116 Bad；與官方商店「over 300 recipes」一致。
+- Cafe來源清單重複列出 Coffee Cake，已在 inventory去重。
+
+**行動**
+- 建立 docs/RECIPE_INVENTORY.md，列出各關卡所有候選 recipe名稱與計數。
+- 將 Bistro 83/34明確標為推算值，Rat Level以slot而非翻譯名稱記錄。
+- 將 recipe names與 formulas分開：inventory管清單與計數，conflict register管配方爭議。
+
+**判斷**
+- 327是目前可解釋官方「300+」的工作估計，不是官方精確總數。
+- 下一階段需從 name inventory轉成結構化 recipe records；只列名稱不足以開工。
+
+**下一步**
+- 每筆補齊 inputs、processed states、appliance、power/heat condition、source、confidence、version、zh-TW。
+- 對所有 D級配方建立最小化實機測試方案。
+- 產生正式 Recipe DB draft前，先完成三主廚房與 Rat Level的來源對照。
