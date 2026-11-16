@@ -231,3 +231,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/RECIPE_FORMULA_BISTRO_RAT.md，整理 Bistro 83 Good / 34 Bad候選與 Rat Level 9 Good / 12 Bad slots。
 - 四個房間現在都有候選 recipe names與初步 formula drafts。
 - Bistro來源衝突、Rat Level power state與slot差異仍未完成實機驗證。
+
+
+## 官方配方歷史補充（2026-11-16）
+- v2.9ea移除一個重複 Chocolate Spread。
+- v2.9ea允許 Tiramisu多種有效輸入：Cake + Coffee + Dough 或 Cake + Coffee + Milk。
+- v2.9ea新增 Savory Sandwich的 Bread + Cheese + Tomato Sauce組合。
+- 這些是 Early Access官方規則，已與 1.0候選配方分開記錄。
