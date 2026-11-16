@@ -187,3 +187,16 @@ The 1.0 Japanese completion guide states Rat Level uses only two ingredients per
 - Cafe: cook three Bagels together; discover the Void Bagel recipe in the Safe after using the Security Card for Nothing Nowhere.
 - Cafe: offer Cheese to the mouse by the Blue Teapot for Fair Trade.
 - Bistro: after grinding Pumpkin, Tomato, or Meat, run the Mixer a second and third time to create a large mess for Messing Around; clean it with Cloth afterward.
+
+
+## Student Dorm To-Do ledger (1.0 route)
+
+The six tasks are:
+1. Cook eight pasta dishes using Pasta or Ramen as an ingredient.
+2. Borrow Shane's Cheese: unlock D2 locker and use Cheese in a Good dish.
+3. Play all three cassettes: Red, Green, and the Remix created by combining Red + Green.
+4. Make Coffee: clean dishes, put utensils away, reveal Coffee Maker, place it on the gas stove.
+5. Water Basil using a wet Sponge or running faucet.
+6. Cook new dishes: discover 40 total Good + Bad dishes.
+
+The room's 100% ledger includes both Good and Bad recipe tabs plus all To-Do tasks, according to the 1.0 completion route. Keep recipe count and task count separate in the UI.
