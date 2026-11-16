@@ -293,3 +293,29 @@
 - 把 48 Good / 29 Bad 逐筆對照 Steam 8/10 guide，標記每項配方的 recipe-state、替代輸入與來源版本。
 - 尋找 Student Dorm To-Do 是否確實只有 6 項，及 Bad Recipes 是否會影響 100%。
 - 確認三個 locker 的位置、內容與解鎖方式。
+
+
+## 2026-11-16｜Cafe Job 1.0 配方總量與新版攻略衝突
+**觀察**
+- 找到 Pixel Questing 2026-11-09 Chapter 2 全攻略，列出 71 Good / 41 Bad，場景物件 37 項。
+- Good list 有 Coffee Cake 重複列兩次；去重後 71 個名稱。
+- 新攻略與 8/10 Steam guide有明顯差異：Tiramisu、Babyccino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box 等。
+- 官方 v4.1ea說明 Canned Coffee 可以使用 Coin；9/2 9Puz與 8/10 Steam guide都明確把 Espresso cup state用於咖啡配方。
+
+**行動**
+- 將 Cafe 候選總數更新為 71 Good / 41 Bad（以 11/9攻略為新來源，待遊戲內 counter 確認）。
+- 將 Coffee Cake duplicate標記為 source duplicate，不建立第二筆。
+- 將新指南的配方逐項加入 RecipeEvidence conflict queue。
+- 將 21931電話號碼的完整互動補上「撥號後拿起 handset 並等對方講完」的開發者確認條件。
+- 將 Coin 與 OrderTicket分開建模：訂單完成生成 Coin；Coin可以作為 recipe input與解鎖資源。
+- 保留官方 v4.1ea、8/10 Steam guide、9/2 9Puz作為較高優先級的 release evidence。
+
+**判斷**
+- Cafe 的 Good/Bad recipe總數目前有新資料支持，但仍需與遊戲內 recipe folder counter核對。
+- 11/9攻略可能混用不同設備與不同版本配方；不可只因日期較新就取代官方 patch與多來源一致的配方。
+- Tiramisu 的 11/9版本 Cheese + Plain Cake + Coffee Beans 與 8/10版本 Filled Coffee Cup + Cake + Milk差異巨大，屬高優先實機測試。
+
+**下一步**
+- 建立 Cafe 71/41逐條清單與來源對照，清除重複 Coffee Cake。
+- 對 Tiramisu、Babyccino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box做逐個狀態與設備測試。
+- 取得 Cafe 8個 ToDo的完整任務名稱與順序，不能把「8 orders」誤當成「8個 ToDo條目」。
