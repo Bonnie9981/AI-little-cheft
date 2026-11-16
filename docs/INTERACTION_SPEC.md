@@ -168,3 +168,9 @@ No original physics coefficients are public. All numeric values must be tuned ag
 ## Rat Level input-count exception
 
 The 1.0 Japanese completion guide states Rat Level uses only two ingredients per cooking attempt. Treat the Rat Level Electric Can Cooker as a separate two-input appliance, not the general up-to-three ingredient appliance. The common 1–3 input rule applies to the main kitchens unless later evidence proves otherwise. Source: https://note.com/utsukinoel/n/n2734d08070ca
+
+
+### Main Menu hidden ingredient
+- Click the button in the main-menu letter to unlock Peanut Butter.
+- This does not require an actual Steam Wishlist action; the developer says the button itself grants the ingredient and saves the unlock flag.
+- Peanut Butter then appears in the Student Dorm and is used by PB&J, Peanuts, Smoothie / Good Protein Shake candidate recipes.
