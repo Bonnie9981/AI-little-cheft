@@ -245,3 +245,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Bistro需 Cooking Pot + Mixer；Rat Level為低／高電力的 Electric Can Cooker。
 - 非食材道具也可投入設備形成 Bad Recipes，因此資料模型必須區分 Ingredient、Tool、Clue、Container與Interactable。
 - 材料消耗、輸入順序、設備暫存等仍待實機驗證。
+
+
+## 互動與物理規格（2026-11-16）
+- 新增 docs/INTERACTION_SPEC.md，整理桌面／手機輸入、物件分類、狀態轉換、設備互動、各關卡 puzzle chain與 acceptance tests。
+- 已有可觀察互動規格，但原作物理係數、材料消耗、輸入順序、設備暫存與物件位置存檔仍未知。
+- 復刻版物理參數會標註為本專案調校值，不冒稱原作數值。
