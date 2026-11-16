@@ -132,3 +132,14 @@ Keep these distinct:
 - Secret-level completion: Rat Level 100%.
 
 The 1.0 completion route says each kitchen has a separate recipe and task ledger, and specifically advises checking both recipe tabs. Treat both Good and Bad recipes plus the room's To-Do / task ledger as required components of room completion, while keeping the exact percent formula configurable until verified from live counters.
+
+
+## Cafe Job task ledger — known entries (not yet proven exhaustive)
+
+At least four task entries are supported by official update notes and 1.0 player walkthroughs:
+1. Clean the kitchen.
+2. Trade with the rat by the Blue Teapot (offer Cheese).
+3. Complete 8 orders (official v3.0ea added this To-Do).
+4. Set the kitchen on fire (Burnt Panini cooked a second time).
+
+Other progression blockers noted by the 1.0 route include phone stock / 21931 call, collecting order Coins, obtaining an Espresso Cup, opening the Safe, and completing the fire-alarm interaction. These may be subtasks, puzzle gates, or additional ledger entries; do not count them as To-Do rows until the actual UI is seen.
