@@ -156,3 +156,11 @@ Sources:
 - [7/14 Bistro Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
 - [8/10 guide, updated with 8/27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352)
 - [9/10 1.0 completion report](https://note.com/utsukinoel/n/n2734d08070ca)
+
+
+## Bistro rat request and country-dish evidence
+
+- Developer-confirmed interaction: offer Cheese to the rat behind the suspicious extractor-hood door; the rat then displays a dish drawing, and completing that dish trades for a new ingredient. Source: [Steam developer reply, 2026-07-16](https://steamcommunity.com/app/3376500/discussions/0/574921459914308481/).
+- First player-recorded reward is Tomato. Later mouse rewards include Apple, Olive, and Garlic. The exact order of all rewards is not yet established.
+- Going Global requires seven country dishes and seven magnets. Only Mochi (Japan) is explicitly identified in readable text. The other six dish-country pairs remain unknown and must not be inferred from recipe names alone.
+- The final heart note is a thank-you after the request chain is complete, not a request to cook Meat Lover Pizza. Source: [Steam discussion](https://steamcommunity.com/app/3376500/discussions/0/582806564883159730/).
