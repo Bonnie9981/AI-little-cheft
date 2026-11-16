@@ -3,7 +3,7 @@
 Updated: 2026-11-16  
 Status: candidate formulas from community guides and player reports; not verified in-game. Use docs/RECIPE_CONFLICTS.md for unresolved variants. Rat Level entries are slot-based because the recipe labels are alien symbols.
 
-## Bistro — 83 Good (76 baseline + 7 post-launch additions)
+## Bistro — 84 Good (76 listed baseline + 1 July-discovered + 7 post-launch additions)
 
 Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550); [Steam complete guide with 2026-08-27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352); [1.0 completion report, 2026-09-10](https://note.com/utsukinoel/n/n2734d08070ca).
 
@@ -54,6 +54,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Pumpkin Fries | Pumpkin + Olive Oil |
 | Meatloaf | Meat + Ground Meat |
 | Pizza | Pizza Dough + Ground Tomato + Cheese |
+| Crazy Calzone | Pizza + Pizza Dough |
 | Tomato Cocktail | Ground Tomato + Olives + Wine |
 | Italian Rice Balls | Rice + Cheese + Olive Oil |
 | Schnitzel | Meat + Flour + Olive Oil |
@@ -81,7 +82,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Mozzarella Sticks | Bread Dough + Cheese + Olive Oil |
 | Fried Olives | Olives + Flour + Olive Oil |
 | Rice Paper | Rice + Newspaper |
-| Sake | Rice + Yeast |
+| Sake | Rice + Wine (7/14 guide says Rice + Yeast; conflict) |
 | Tomato Rice | Tomato + Rice |
 | Roasted Veggies | Tomato + Pumpkin + Mushroom |
 | Cheesy Bread | Bread + Cheese |
@@ -93,7 +94,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Minced Garlic | Garlic through Mixer, then cooking pot |
 | Mini Pizzas | Pizza + Scissors |
 
-## Bistro — 34 Bad (31 baseline + 2 post-launch additions + Clutter)
+## Bistro — 39 Bad (31 listed baseline + 5 July-discovered + 2 post-launch additions + Clutter)
 
 | Recipe | Candidate formula / action |
 |---|---|
@@ -128,6 +129,11 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Instant Calories | Olive Oil |
 | Pencil Sharpener | Any Pencil + Scissors |
 | Oil Paint | Any Pencil + Olive Oil |
+| Breadless Burger | Ground Meat + Cheese + Tomato |
+| Vampire Defense Kit | Garlic + Wooden Spoon (older Steam comment: Garlic + any Pencil) |
+| Bread and Wine | Wine + Bread |
+| Sorrow Sandwich | Bread + Flour |
+| Risky Rice Pudding | Rice + Flour |
 | Big Magnet | Magnet received from mouse trade |
 | Boo Tomato | Tomato |
 | Clutter | Cloth + Wooden Spoon (1.0 Chinese guide candidate; verify) |
@@ -185,7 +191,7 @@ The numeric code itself is not present in the readable sources. Do not hardcode 
 - Seven country dishes create seven magnets. Only Mochi/Japan is explicitly named in readable text; do not infer the other six.
 - Five wine bottles are ordered by label height, shortest to tallest. Actual bottle identities / order need screenshot verification.
 - Mixer outputs are separate states: Ground Meat, Ground Tomato, Ground Pumpkin, Ground Apple, Ground Rice, Minced Garlic, Shredded Cheese.
-- 1.0 candidate total is 83 Good / 34 Bad. This is derived from the 76/31 July baseline + 7/2 additions + Clutter; not an official cookbook counter.
+- 1.0 candidate total is 84 Good / 39 Bad. The 7/14 guide lists 76/31; July 17 player comments add Crazy Calzone (Good) and five Bad recipes; 8/27 adds 7 Good + 2 Bad; 1.0 completion report adds Clutter. This is a cross-source candidate count, not an official cookbook counter.
 
 ## State and validation rules
 
