@@ -337,3 +337,24 @@
 
 **下一步**
 - 尋找遊戲內 To-Do UI 截圖或 1.0 實機影片，確認 Level 2 任務總數、每項文字與完成條件。
+
+
+## 2026-11-16｜Rat Level 的「冷熱爐」模型修正為電力高低
+**觀察**
+- 日文玩家 2026-09-10 的 1.0 完成攻略指出，Rat Level 的烹調設備是通電罐頭，類似微波爐；酒瓶機關解鎖後可調整電力輸出強／弱，同一配方因電力不同產生不同料理。
+- 8/10 Steam Guide將食譜分成 oven OFF / ON；這是社群攻略對設備狀態的簡寫，未必代表一般烤箱的冷／熱溫度。
+
+**行動**
+- 將 Rat Level 設備改名為 ElectricCanCooker。
+- 將 RecipeCondition從 oven_temperature 改為 power_level = low | high。
+- 將 OFF/ON來源記錄成 source_state，等待與遊戲內控制開關映射核對。
+- 三位數密碼只記錄為 planter note clue，沒有文字來源就不猜實際數字。
+
+**判斷**
+- 復刻若把 Rat Level做成普通烤箱，會錯失最重要的機制：同樣輸入受電力輸出狀態影響。
+- 目前 low/high與 OFF/ON 的映射仍需實機畫面驗證，不能直接假設 ON=high。
+- Rat Level 的設備名稱、狀態與 puzzle gate要分開建模。
+
+**下一步**
+- 找到 planter note的圖片／清晰畫面，辨識三位數密碼。
+- 確認 power toggle UI、兩種狀態下的食譜 counter、是否有 power-off / power-on 兩種結果。
