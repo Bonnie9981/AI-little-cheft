@@ -195,3 +195,11 @@ The numeric code is unknown from readable text sources. Do not invent a code. Eg
 ## Rat Level two-input exception
 
 Rat Level cooking attempts use at most two ingredients according to the 1.0 player completion guide. Add a dedicated test: a third ingredient must not be accepted by the Rat Level cooker unless a later in-game test contradicts this. Do not apply the main-kitchen three-input assumption to Rat Level.
+
+
+## Main Menu hidden ingredient tests
+
+- Click the button in the main-menu letter; Peanut Butter appears in the Student Dorm.
+- Do not require a Steam Wishlist API or external account connection.
+- Save/reload; Peanut Butter unlock remains persisted.
+- Verify PB&J, Peanuts, Smoothie, and Good Protein Shake use the unlocked item according to the final recipe evidence.
