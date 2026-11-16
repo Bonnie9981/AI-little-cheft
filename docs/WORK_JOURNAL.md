@@ -621,3 +621,23 @@
 - 完成 QA test catalog，涵蓋每個任務、配方、成就、存檔與輸入裝置。
 - 針對每個未解問題設計最小測試組。
 - 由 Critic審查資料完整度與風險。
+
+
+## 2026-11-16｜建立 QA acceptance test plan
+**觀察**
+- 已有足夠證據將大部分已知流程轉成可測試條件；主要阻塞集中在少數未解任務與配方衝突。
+- 桌面／觸控、recipe state、appliance、unlock flow、achievement、save與zh-TW都需要獨立驗收。
+
+**行動**
+- 建立 docs/QA_TEST_PLAN.md。
+- 將每個關卡的任務、配方、成就與物理互動拆成 test case。
+- 將未查明內容保留為明確 blockers，不用推測填補。
+
+**判斷**
+- QA設計已能開始，但不能執行；沒有遊戲實作或實機畫面時，不可聲稱任何測試 PASS。
+- Recipe data的完整性是最大的前置風險；Critic需先檢查數量、版本與衝突管理。
+
+**下一步**
+- 完成 Cafe To-Do、七國料理、Rat code、recipe conflicts。
+- 寫出 Critic review並列 P0/P1 blockers。
+- 只有研究與 Critic gate通過後才進 implementation。
