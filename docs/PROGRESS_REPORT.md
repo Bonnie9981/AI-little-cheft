@@ -251,3 +251,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/INTERACTION_SPEC.md，整理桌面／手機輸入、物件分類、狀態轉換、設備互動、各關卡 puzzle chain與 acceptance tests。
 - 已有可觀察互動規格，但原作物理係數、材料消耗、輸入順序、設備暫存與物件位置存檔仍未知。
 - 復刻版物理參數會標註為本專案調校值，不冒稱原作數值。
+
+
+## QA Test Plan（2026-11-16）
+- 新增 docs/QA_TEST_PLAN.md，包含 recipe、physics、四個房間、My Room、26成就、zh-TW、responsive與save/load驗收。
+- 這是測試設計，不是測試通過紀錄。
+- 主要 blockers：Cafe完整To-Do、七國料理與rat順序、Rat code/power mapping、D級配方衝突、327候選數量確認。
