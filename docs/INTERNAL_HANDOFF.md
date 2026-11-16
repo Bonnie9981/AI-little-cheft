@@ -155,3 +155,15 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Student Dorm 新版補充 Tomato/Egg Stir Fry = Can of Tomatoes + Egg。
 - 注意 Chapter 2 的同名材料與加工物件不可混為一談：Coffee Beans、Espresso Shot、Filled Coffee Cup、Cup of Espresso 需分別建檔；Paper、Paper Cup、Cup of Espresso 亦是不同物件。
 - Treyex 2026-04-27 的早期攻略提供 Chapter 1 與 Chapter 2 的另一份交叉線索，但內容較早、較簡化，不能覆蓋 8/10 更新版。ref：turn603364search0。
+
+
+## 16. 2026-11-16｜Rat Level 完整配方線索與成就細節
+- 2026-08-10 Steam Guide 搜尋索引補出 Rat Level (Chapter 4) Good Recipes：冷爐 Cheese、Cheese+Cheese、Cheese+Paper、Cheese+Pencil、Cheese+Eggshell；熱爐 Cheese、Cheese+Cheese、Cheese+Paper、Cheese+Pencil。ref：turn523039search0。
+- 同一來源列出 Bad Recipes：空爐（冷或熱皆可）、Leaf、Paperclip+Paper、Egg+Pencil、Leaf+Pencil、Paperclip+Pasta（Pasta 來自項鍊）、Eggshell+Paper、Paperclip、Paper、Eggshell、Pencil、Pencil+Paper。Eggshell 需反覆點擊 Egg 使其裂開後取得。ref：turn523039search0。
+- 9Puz 2026-09-02 指南補充：Rat Level 反重力與密碼操作順序；冷熱狀態作為配方條件；Eggshell / Leaf 第五個冷爐圖示存在來源衝突，建議以即時 cookbook slot 是否更新作驗證。ref：turn970635search0。
+- Rat Level 的成就 Coioioin：點擊烤箱旁的硬幣，直到連續三次落在相同面；Little Rat：完成 Rat Level 100%。ref：turn523039search0。
+- Bistro 指南可直接開啟正文（Steam Guide 3764982550），其 Good Recipes 76 條（逐行清單）與 Bad Recipes 31 條，並有留言補充 Crazy Calzone、Breadless Burger、Vampire Defense Kit、Bread and Wine、Sorrow Sandwich、Risky Rice Pudding。ref：turn851401view0。
+- Bistro 指南作者留言確認 Goulash 需要 Ground Tomato。ref：turn851401view0（lines 293-297）；食譜清單亦列 Tomato Cocktail = Ground Tomato + Olives + Wine、Focaccia = Bread Dough + Olive Oil + Olives。ref：turn851401view0（lines 117-153）。
+- 需要避免錯誤：該 Bistro 指南把 Tomato Cheese Appetizer 寫 Tomato + Cheese，另一份更新版攻略寫 Tomato + Cheese + Olives；此配方保留衝突，不可硬定。
+- Bistro 指南的 Apple Mochi = Ground Rice + Apple，但 8/10 更新版另一處寫 Rice + Apple；社群留言也指出需先磨碎 Rice。故候選以 Ground Rice + Apple 為較強版本線索，待實測。
+- Bistro 指南將 Hamburger 列為 Ground Beef + Bread + Tomato；8/10 指南的 Hamburger 也列 Bread + Tomato + Ground Meat。這與部分普通 Meat / Ground Meat 分支必須分開記錄。
