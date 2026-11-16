@@ -323,3 +323,12 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 官方 v2.9ea另新增 Savory Sandwich配方 Bread + Cheese + Tomato Sauce。
 - 這些是 Early Access版本的官方變更，必須保留 version range；不能直接覆蓋 1.0候選配方。
 - ref：turn521540search2。
+
+
+## 34. 2026-11-16｜料理設備共通互動規則
+- Pixel Questing Chapter 1 guide明確寫出：最多拖入三種材料到烹調設備，再點擊設備執行料理；Chapter 1使用 Cooking Pot，Chapter 2使用 Microwave Oven。ref：turn420164search4。
+- 這是目前最清楚的通用 recipe interaction規則：ingredient_count 1..3，drop into appliance → activate/click appliance → evaluate recipe conditions → produce output / update cookbook。
+- 章節設備候選：Student Dorm = Cooking Pot（另有 Toaster、Coffee Maker）；Cafe = Microwave Oven（另有 Espresso Machine）；Bistro = Cooking Pot + Mixer；Rat Level = Electric Can Cooker（低／高電力）。
+- 不是所有可移動物件都是食材；道具、紙張、餐具、工具、磁鐵、鑰匙等也可被投入設備或組合成 Bad Recipes。
+- 料理設備不能共用一個無條件的 recipe evaluator；同一材料組合需同時檢查 chapter、appliance、item state、power/temperature、recipe version。
+- 目前尚未找到官方明確說明材料是否每次都被消耗、是否可在設備中保留、配方輸入順序是否完全不影響結果；這些列為實機測試項，不先寫死。
