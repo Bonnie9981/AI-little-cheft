@@ -357,3 +357,12 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 已定義 evidence hierarchy：實機／官方／開發者 > 多來源玩家一致 > 單一攻略 > 舊版／衝突／推測。
 - 搜尋摘要與無法直接開啟的頁面明確記錄限制；不把搜尋索引當作已完整讀取正文。
 - 後續 recipe records需引用 SRC IDs，並標註 source date/version。
+
+
+## 39. 2026-11-16｜Student Dorm / Cafe 配方再次校正
+- 8/10 Steam recipe guide完整搜尋索引（目前原頁被移除）提供比 11/9 Pixel Questing更細的 Cafe formula set；已將公式草稿校正並把兩份來源差異加入 RECIPE_CONFLICTS。
+- Developer直接確認 Smoothie包含 Peanut Butter；另一位 developer確認 Good Protein Shake = Milk + Peanut Butter + Protein Powder（不是 Egg）。refs：turn307019search0、turn307019search7。
+- Cafe重要校正：Babyccino=Milk、Black Coffee=Coffee Beans、Latte=Milk+Coffee Beans、Hot Cocoa=Milk+Chocolate Spread、Avocado Milk=Avocado+Milk、Strawberry Cheesecake需第三個 Strawberry、Chocolate Bomb=Chocolate Spread+Kakao、Canned Bread=Bread+Lid。
+- Student Dorm重要衝突：Smoothie（Peanut Butter vs Strawberry Jam）、Sweet Sandwich（Peanut Butter vs Strawberry Jam）、Carbonara（Cheese vs Milk）、Tomato Soup（Tomato vs Tomato+Toast）、Beans on Toast（Bread vs Toast）等。
+- Steam Guide ID 3713640352已被移除公開頁面，搜尋索引仍保留內容；將其視為 cached community evidence，不當作可即時讀取的官方來源。
+- 新增 SRC-031 Smoothie developer reply、SRC-032 Good Protein Shake developer reply；Source Register已更新。
