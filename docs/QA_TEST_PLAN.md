@@ -190,3 +190,8 @@ The numeric code is unknown from readable text sources. Do not invent a code. Eg
 6. Finish zh-TW glossary and review every string.
 7. Critic review must accept data completeness, architecture, UX, and QA gates.
 
+
+
+## Rat Level two-input exception
+
+Rat Level cooking attempts use at most two ingredients according to the 1.0 player completion guide. Add a dedicated test: a third ingredient must not be accepted by the Rat Level cooker unless a later in-game test contradicts this. Do not apply the main-kitchen three-input assumption to Rat Level.
