@@ -86,3 +86,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 ---
 *本報告中的百分比是工作估計，不是驗收結果；未確認資料須在正式開發前再次核對。*
+
+
+## 本輪新增（2026-11-16）
+- 新增工作日誌與時間線兩份文件。
+- Bistro 配方補入多筆社群候選，但全部仍標記未實機驗證。
+- 重新確認官方版本節點：Early Access 2026-03-16、Bistro 2026-07-12、1.0 2026-08-26、v1.1 2026-09-11、Steam Trading Cards 2026-09-25。
+- 下一優先事項：釐清 Goulash／Tomato Cocktail 的修正後配方、補齊 Bistro 食譜，接著完成 Rat Level 冷熱條件。
