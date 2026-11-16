@@ -43,3 +43,4 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 - The exact seven country dishes for Going Global are not fully identified in readable sources. Mochi / Japan is the only currently named pair.
 - Bookworm's exact book order / arrangement is not yet documented with a readable source.
 - Post A Lot requires 15 Post-it notes simultaneously, not merely 15 notes collected over time.
+- Bookworm's pattern is a continuous wave across the book spines.
