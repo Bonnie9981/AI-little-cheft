@@ -164,3 +164,36 @@ Sources:
 - First player-recorded reward is Tomato. Later mouse rewards include Apple, Olive, and Garlic. The exact order of all rewards is not yet established.
 - Going Global requires seven country dishes and seven magnets. Only Mochi (Japan) is explicitly identified in readable text. The other six dish-country pairs remain unknown and must not be inferred from recipe names alone.
 - The final heart note is a thank-you after the request chain is complete, not a request to cook Meat Lover Pizza. Source: [Steam discussion](https://steamcommunity.com/app/3376500/discussions/0/582806564883159730/).
+
+
+## Additional 1.0 Bistro conflicts from the Simplified Chinese 1.0 guide
+
+The 2026-09-01 community guide is useful as a later-version cross-check, but its author explicitly warns that updates may change recipes. It also includes several formula claims that conflict with other guides, so these remain candidates.
+
+| Recipe | Candidate inputs / states | Conflict | Handling |
+|---|---|---|---|
+| Mochi | Rice; or Ground Rice | 7/14 guide says Rice; 8/10 guide says Rice; 9/1 Chinese guide says rice flour. | D; test whole vs processed Rice |
+| Apple Mochi | Rice + Apple; or Ground Rice + Apple | 7/14 guide says Ground Rice; 8/10 guide says Rice; 9/1 Chinese guide says rice flour + Apple. | B/C; Ground Rice candidate, test |
+| Kombucha | Mushroom + Yeast; or Yeast + another ingredient | 7/14 guide, 8/10 guide, and Steam player replies repeatedly support Mushroom + Yeast; one Chinese community correction says it does not use Mushroom. | B; Mushroom + Yeast favored, verify |
+| Tomato Juice | Tomato; or Ground Tomato | 7/14 guide and player comment support Ground Tomato; 8/10 guide says Tomato. | B; Ground Tomato candidate |
+| Fried Rice | Rice + Olive Oil; or Rice + Olive Oil + Mushroom | 7/14 guide uses two inputs; 8/10 guide adds Mushroom. | D; test two- and three-input variants |
+| Sake | Rice + Yeast; or Rice + Wine | Older and later sources are inconsistent. | D; test both |
+| Meatballs | Ground Beef alone; or Ground Meat + Garlic + Dough | 7/14 guide lists Ground Beef; 8/10 guide lists three inputs; 9/1 guide uses Ground Meat. | D; preserve variants |
+| Beef Katsu Sando | Meat + Bread; or Bread + Beef + Olive Oil | 7/14 guide lists Meat + Bread; 8/10 guide adds Olive Oil. | D; test |
+| Tomato Cheese Appetizer | Tomato + Cheese; or Tomato + Cheese + Olives | 7/14 guide omits Olives; 8/10 guide says Olives (mouse gift) are required. | D; test with and without Olives |
+| Yeast Monster | Yeast + Wine; or Yeast + Tomato | 7/14 guide says Wine; 8/10 guide says Tomato. | D; test both |
+| Cookbook | Newspaper + Apple; or Newspaper + Tomato | 7/14 guide says Apple; 8/10 guide says Tomato. | D; test both |
+| Bad Meatloaf | Meat + Flour; or Meat + Olives | 7/14 guide and later guide differ. | D; test |
+| Food Sketch | Apple + Any Pencil; or Cheese + Any Pencil | 7/14 guide says Apple; later guide says Cheese. | D; test |
+| Fried Balls | Bread + Olive Oil; or Salami + Olive Oil | 7/14 guide says Bread; 8/10 guide says Salami. | D; test |
+| Vampire Defense Kit | Garlic + Any Pencil; Garlic + Wooden Spoon; or Tomato + Spoon | 7/14 comment, 8/10 guide, and 9/1 Chinese guide differ. | D; test |
+| Clutter | Cloth + Wooden Spoon | 9/1 Chinese guide gives this formula; 9/10 Japanese guide confirms Clutter exists but does not list inputs. | C; best current candidate |
+| Rat cold Good slot #5 | Cheese + Eggshell; or Cheese + Leaf | 8/10 guide says Eggshell; 9/1 Chinese guide says Leaf; 9/10 Japanese guide does not resolve. | D; test both and inspect live slot |
+| Rat bad slot #4 | Egg + Pencil; or Eggshell + Pencil | 8/10 guide says Egg; 9/1 Chinese guide says Eggshell. | D; test both |
+| Rat bad slot #6/#7 | Pasta alone; Pasta + Paper; or Paperclip + Pasta | 8/10 guide lists Paperclip + Pasta; 9/1 Chinese guide lists Pasta alone and an additional Pasta + Paper candidate. | D; test all separately |
+
+Sources:
+- [Simplified Chinese 1.0 achievement guide (updated 2026-09-01)](https://steamcommunity.com/sharedfiles/filedetails/?id=3686619896)
+- [Steam Bistro recipe discussion (July 12 onward)](https://steamcommunity.com/app/3376500/discussions/0/568165880361398668/)
+- [Steam 8/10 recipe guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352)
+- [Steam 7/14 Bistro guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
