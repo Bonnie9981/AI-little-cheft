@@ -308,3 +308,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 其中已標出關鍵狀態與設備：Toast/Burnt Toast/Soggy Toast、Coffee Beans/Espresso Shot/Filled Coffee Cup/Cup of Espresso、Microwave Oven與 Espresso Machine。
 - 來源衝突直接在 formula draft標記，並連結 docs/RECIPE_CONFLICTS.md；未驗證配方不能當正式資料。
 - 下一階段將同樣方式整理 Bistro 83/34候選與 Rat Level 9/12 slots，再轉成結構化 recipe records。
+
+
+## 32. 2026-11-16｜Bistro / Rat Level formula matrix 第一版
+- 新增 docs/RECIPE_FORMULA_BISTRO_RAT.md，整理 Bistro 83 Good / 34 Bad候選與 Rat Level 9 Good / 12 Bad slots。
+- Bistro formula draft涵蓋 76/31 EA baseline、8/27新增 7 Good + 2 Bad，以及 1.0 Clutter候選。
+- Rat Level用 Electric Can Cooker與 power_level low/high建模；Eggshell/Leaf、Egg/Pencil、Pasta相關 slot仍標註衝突。
+- 目前四個房間都有候選名稱清單與部分公式矩陣；下一步需補每筆 recipe的 source IDs、version、confidence與 verification status。
