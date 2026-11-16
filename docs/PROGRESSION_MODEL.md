@@ -124,11 +124,11 @@ Open questions:
 ## 8. Completion semantics
 
 Keep these distinct:
-- Recipe completion: Good / Bad recipe discovery.
+- Recipe completion: Good and Bad recipe discovery.
 - To-Do completion: task list.
 - Puzzle completion: hidden mechanisms and item unlocks.
 - Room completion: displayed 0–100% level progress.
 - Achievement completion: 26 Steam-like achievements.
 - Secret-level completion: Rat Level 100%.
 
-Until the 1.0 in-game counter is verified, room completion must be a configurable derived rule with separate sub-counters. Do not assume Bad Recipes are optional or mandatory.
+The 1.0 completion route says each kitchen has a separate recipe and task ledger, and specifically advises checking both recipe tabs. Treat both Good and Bad recipes plus the room's To-Do / task ledger as required components of room completion, while keeping the exact percent formula configurable until verified from live counters.
