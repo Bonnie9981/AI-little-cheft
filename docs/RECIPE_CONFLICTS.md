@@ -146,3 +146,13 @@ The 1.0 player walkthrough reports approximately 10 Bistro additions. The 8/10 S
 ## Rat Level achievement interaction
 
 Coioioin candidate trigger: press the blue switch, then throw the coin in the red-marked area. This supersedes the older assumption that the player must rely on random consecutive flips. A player also reports a Steam achievement sync issue requiring a game restart after the in-game achievement triggers. Source: [1.0 completion report, 2026-09-10](https://note.com/utsukinoel/n/n2734d08070ca).
+
+
+## Bistro count reconciliation
+
+The directly opened 2026-07-14 Bistro Guide contains 76 Good entries (lines 91-166) and 31 Bad entries (lines 170-200): this is the Early Access baseline, not necessarily the 1.0 final total. The 2026-08-27 update list adds 7 Good + 2 Bad; the 2026-09-10 1.0 player completion report identifies Clutter as another final Bad entry. Current cross-source candidate total: 83 Good / 34 Bad = 117. This remains a derived estimate until a 1.0 cookbook counter is verified.
+
+Sources:
+- [7/14 Bistro Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
+- [8/10 guide, updated with 8/27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352)
+- [9/10 1.0 completion report](https://note.com/utsukinoel/n/n2734d08070ca)
