@@ -386,3 +386,10 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 9Puz完整成就表確認：Fair Trade在 Cafe（藍色茶壺旁的老鼠，給 Cheese）；What's The Emergency需撥 911並拿起電話；Aw That's Hot是 Panini烤焦後再烹煮；Nothing Nowhere是三個 Bagel一起烹煮，配方在 Safe開啟後取得。ref：turn765577search1。
 - 9Puz與Steam指南補充 Messing Around：先研磨 Pumpkin/Tomato/Meat，再讓 Mixer第二次、第三次運作造成大混亂，之後可用 Cloth清理。ref：turn275853search2。
 - Tea boxes位置與 D2/mouse hole分離已加入 Interaction Spec與 QA；避免把鼠洞當成 locker key tile。
+
+
+## 43. 2026-11-16｜26項成就矩陣
+- 新增 docs/ACHIEVEMENT_MATRIX.md，整理 1.0／v1.1的26項成就、所屬場景、觸發候選與證據信心。
+- 已特別區分 I Smell Cheese（Student Dorm mouse hole）、Fair Trade（Cafe Blue Teapot rat）、Best Friends（Bistro rat trades）。
+- Master of Disaster為早期EA成就，v4.0移除，不列入1.0的26項。
+- 仍需確認：100%是否要求Good+Bad全配方、Bookworm書本排序、Going Global七道菜完整名單、Coioioin藍色開關與三次同面是否兼容。
