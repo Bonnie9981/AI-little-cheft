@@ -225,3 +225,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/RECIPE_FORMULA_DRAFT.md，整理 Student Dorm 77筆、Cafe 112筆候選公式，共189筆。
 - 已標出配方狀態、設備依賴與來源衝突；尚未實機驗證，不能標記為完成。
 - Bistro與 Rat Level公式矩陣尚未完成。
+
+
+## Bistro / Rat Level 配方矩陣（2026-11-16）
+- 新增 docs/RECIPE_FORMULA_BISTRO_RAT.md，整理 Bistro 83 Good / 34 Bad候選與 Rat Level 9 Good / 12 Bad slots。
+- 四個房間現在都有候選 recipe names與初步 formula drafts。
+- Bistro來源衝突、Rat Level power state與slot差異仍未完成實機驗證。
