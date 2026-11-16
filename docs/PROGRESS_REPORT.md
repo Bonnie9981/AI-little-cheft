@@ -107,3 +107,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 找到 2026-09-02 Rat Level 完成路線指南，整理冷爐五項、熱爐四項、反重力與密碼操作，以及 26 項成就觸發位置。
 - Student Dorm 48 good / 29 bad 的數量線索來自搜尋摘要，原頁未能開啟，暫不視為已核實。
 - 研究仍處於 Research Only；下一個可驗收交付物是 Bistro 配方矩陣、Rat Level 狀態機與 Student Dorm/Cafe 全量計數表。
+
+
+## 2026-11-16｜Cafe 與 Student Dorm 研究補充
+- 取得 Steam 2026-08-10 更新版攻略搜尋索引，已補出 Cafe Job 的完整 Good/Bad Recipe 候選清單與前置互動。
+- 重要更正：Tiramisu 使用 Cake + Filled Coffee Cup + Milk；Double Espresso 需把已裝滿的杯子留在機器中，等待咖啡豆恢復後再操作。
+- 新版新增 Canned Coffee = Coin + Cup of Espresso；Mocha、Strawberry Latte、Dirty Chai Latte 亦有明確咖啡／茶狀態差異。
+- Student Dorm 新版另列 Tomato/Egg Stir Fry。
+- 目前 Cafe 資料已比前一輪完整，但尚未完成逐條計數、來源比對與 QA，仍不能標記為完成。
