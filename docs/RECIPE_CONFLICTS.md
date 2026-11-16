@@ -124,3 +124,25 @@ Student Dorm To-Do（Pixel Questing 2026-10-09）：
 ## Rat Level 電力狀態模型修正
 
 Rat Level 的設備不是普通烤箱，而是通電罐頭式 cooker（近似微波爐）。日文玩家 2026-09-10 攻略描述解開酒瓶機關後可調整電力輸出強／弱，同一組材料會因電力強弱產生不同料理。資料模型採 power_level = low | high；Steam guide的 OFF/ON 暫存為來源狀態，直到遊戲畫面確認兩者映射。來源：[日文 1.0 成就完成攻略](https://note.com/utsukinoel/n/n2734d08070ca)。
+
+
+## Bistro 1.0 added recipes (2026-08-27 onward)
+
+| Category | Recipe | Candidate input / action | Status |
+|---|---|---|---|
+| Good | Boiled Rice | Rice | Community guide lists it as new |
+| Good | Roasted Mushrooms | Mushrooms | Community guide lists it as new |
+| Good | Shredded Cheese | Cheese through Mixer, then cooking station | Official Aug 26 hotfix corrected a bug where it became Pizza |
+| Good | Meat Skewers | Meat + Wooden Spoon | Community guide lists it as new |
+| Good | Leftover Pizza | Slice of Pizza | Community guide lists it as new |
+| Good | Minced Garlic | Garlic through Mixer, then cooking station | Community guide lists it as new |
+| Good | Mini Pizzas | Pizza + Scissors | Community guide lists it as new; 1.0 player says this was final Good recipe |
+| Bad | Big Magnet | Magnet received from rat reward | Community guide lists it as new |
+| Bad | Boo Tomato | Tomato | Community guide lists it as new |
+| Bad | Clutter | Trigger unknown; description suggests spontaneous mess | 1.0 player reports this as final Bad recipe; do not assume Mixer until verified |
+
+The 1.0 player walkthrough reports approximately 10 Bistro additions. The 8/10 Steam Guide lists 7 Good + 2 Bad; the 9/10 completion report adds Clutter as a final Bad entry. This is a coherent 7+3 candidate set, but the exact in-game counter should be checked before treating the count as final.
+
+## Rat Level achievement interaction
+
+Coioioin candidate trigger: press the blue switch, then throw the coin in the red-marked area. This supersedes the older assumption that the player must rely on random consecutive flips. A player also reports a Steam achievement sync issue requiring a game restart after the in-game achievement triggers. Source: [1.0 completion report, 2026-09-10](https://note.com/utsukinoel/n/n2734d08070ca).
