@@ -206,3 +206,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 台灣用語基準：起司、馬鈴薯、可頌、吐司、披薩、果昔、調理機；「美味料理／怪奇料理」為 Good/Bad分類暫定譯名。
 - 官方 Steam不支援繁體中文，因此本專案需自行在地化，不可直接複製簡體中文攻略翻譯。
 - Rat Level、所有 Bad Recipes、My Room與完整劇情文本仍未完成詞彙校對。
+
+
+## Bistro／Rat Level 最後一輪線索（2026-11-16）
+- Wine About It 的玩家解法為依五瓶酒的標籤高度由短到長排列；實際瓶身順序仍待畫面確認。
+- Rat Level冷爐第五項存在 Leaf／Eggshell衝突；Bad slots另有 Egg／Eggshell、Pasta／Paperclip組合衝突。
+- Coioioin的新版玩家提示是先按藍色開關，再投擲紅色區域硬幣；仍需在遊戲內確認是否還需要三次同面。
