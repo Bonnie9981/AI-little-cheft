@@ -129,3 +129,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - v3.0ea 更新新增 8 orders To Do、18 道 Cafe 食譜、espresso machine、提示系統與 25 個電話號碼。
 - Safe 需要 keycard；攻略線索為 Photo + Coin。Void Bagel 由三個 Bagel 在 oven 製作，再於 Safe 取得。
 - My Room 裝飾可能與 Cafe 訂單硬幣連動：日文攻略稱存入 20 枚硬幣後可取得畫筆，解鎖更多房間裝飾；仍需補官方／獨立來源。
+
+
+## 官方版本與解鎖條件修正（2026-11-16）
+- **重要修正：** 官方 v5.1ea 明確要求先完成 Level 2 的 To-Do list 才能進入 Level 3；「把 Cafe 燒起來」不能單獨當作充分解鎖條件。
+- My Room 有正式裝飾與存檔系統：20 Coin 解鎖畫筆，可調整 wallpaper、wood type、poster frame；另有書本排列與主選單 logo 成就。
+- v4.0ea 移除 Master Chef / Master of Disaster，最終成就清單以 26 項為準。
+- v4.1ea 調整 Coin 重生與 Canned Coffee 配方；v5.4ea 加入 Bistro 提示與食譜書清除 new stars 功能。
+- 目前需補完 Level 2 To-Do 完整項目與 My Room 可互動物件清單。
