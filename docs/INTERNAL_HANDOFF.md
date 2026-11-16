@@ -407,3 +407,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 因此修正先前錯誤：Clean Dishes是Make Coffee任務的前置，不是獨立To-Do；D2 key也不是獨立To-Do，而是Borrow Shane's Cheese任務的一部分。
 - 9Puz另指出Flooded約淹到房間50%時會跳成就提示可關水；Bookworm是讓書背上的波浪圖案連成一條線。
 - ref：turn973369search0、turn973369search2。
+
+
+## 45. 2026-11-16｜Cafe To-Do已知項目整理
+- 目前可支持的 Cafe task entries至少四項：Clean the kitchen、Trade with the rat、Complete 8 orders（官方v3.0ea新增To-Do）、Set the kitchen on fire。
+- 1.0 walkthrough另外指出 Cafe未達100%時需檢查電話stock/21931、訂單Coins、Espresso Cup、Safe與fire alarm；這些可能是任務子步驟或額外ledger rows，尚未證明是獨立To-Do。
+- 因此不再稱 Cafe To-Do「完全未知」；目前為至少4項已知，完整總數仍待遊戲UI。
