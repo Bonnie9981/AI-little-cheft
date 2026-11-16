@@ -100,3 +100,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Tomato Cocktail 候選配方為 Olives + Wine + Ground Tomato。
 - 兩者均有官方 v1.1 cookbook 修正背景，但精確配方仍以社群來源為線索，尚未實機驗證。
 - 追加 Bistro 食譜候選：Mushroom Soup、Apple Mochi、Croque Monster、Pumpkin Soup、Tomato Juice、White Wine、Pumpkin Bread、Hamburger、Apple Sauce、Olive Oil、Rosé、Vegan Sandwich、Pumpkin Fries、Meatloaf、Pizza、Italian Rice Balls、Schnitzel、Meat Lover Pizza。
+
+
+## 2026-11-16｜追加研究進展
+- 新增第二份 Steam Bistro Guide（ID 3764982550），與先前攻略交叉支持 Goulash、Tomato Cocktail、Focaccia 等配方；同時補出多筆 Good/Bad Recipes 候選。
+- 找到 2026-09-02 Rat Level 完成路線指南，整理冷爐五項、熱爐四項、反重力與密碼操作，以及 26 項成就觸發位置。
+- Student Dorm 48 good / 29 bad 的數量線索來自搜尋摘要，原頁未能開啟，暫不視為已核實。
+- 研究仍處於 Research Only；下一個可驗收交付物是 Bistro 配方矩陣、Rat Level 狀態機與 Student Dorm/Cafe 全量計數表。
