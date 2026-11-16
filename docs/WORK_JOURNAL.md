@@ -90,3 +90,27 @@
 - 這次查證修正了一個很容易造成資料庫錯誤的核心混淆：Ground Meat 和 Ground Tomato 不是可互換的狀態。
 - 這也驗證 RecipeInputs 必須包含 item_state / processing_state，而不是只有 ingredient_id。
 - 官方 v1.1 修正 cookbook 的公告提供版本證據，但配方本身仍由社群討論與指南提供候選組合。
+
+
+## 2026-11-16｜擴充來源：Bistro Guide 與 Rat Level 完成路線
+**觀察**
+- 新找到 Steam 社群 Bistro Guide（ID 3764982550），包含 Good Recipes、Bad Recipes、Blender Switch、Secret Achievements 等完整章節摘要。
+- 新找到 9Puz 於 2026-09-02 發布的完成路線指南，整理三主廚房、Rat Level、26 項成就及狀態錯誤排查。
+- Pixel Questing 搜尋摘要聲稱 Student Dorm 有 48 good recipes、29 bad recipes，但原頁本次無法直接開啟。
+
+**行動**
+- 將新 Bistro Guide 的食譜與壞食譜納入候選資料集，來源欄標為 community guide。
+- 將剪刀解鎖線索（Mixer jar 放入 pot）與 Blender switch（剪刀靠近植物葉片）補入互動研究。
+- 將 Rat Level 冷熱爐、反重力、花盆密碼、酒瓶標籤與冷爐五項／熱爐四項的狀態差異納入測試設計。
+- 將狀態建模擴充到 Toast、Burnt Toast、Soggy Toast、Filled Espresso Cup、Mixer outputs、oven temperature。
+- Student Dorm 48 good / 29 bad 先記為待核實數字，不當作完成計數。
+
+**判斷**
+- Bistro 的第二份攻略與先前 8/10 指南對多個關鍵配方相互支持，尤其 Goulash、Tomato Cocktail、Focaccia；可提升為「多來源社群支持」，仍不是官方配方證明。
+- 來源之間對某些配方仍有分歧（例如是否需要 Olives、是否要先 Ground Rice、Ground Beef 或一般 Meat），必須將「配方組合」與「加工狀態」分欄，逐項保留證據。
+- Rat Level 不應用翻譯後的菜名做唯一識別；用 slot index、inputs、temperature state 與 output state 較可靠。
+
+**下一步**
+- 建立 Bistro recipe matrix，逐項比對 Guide 3713640352、Guide 3764982550、9Puz、Steam 討論與官方 changelog。
+- 對 48/29 數字與 Cafe 配方數找可直接讀取的來源。
+- 完成 Rat Level slot-by-slot 的冷熱表及 puzzle state machine。
