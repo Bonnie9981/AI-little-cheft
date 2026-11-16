@@ -92,3 +92,9 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 - First reward recorded as Tomato; later gifts include Apple, Olive, Garlic.
 - Seven country dishes create seven magnets; only Mochi/Japan is currently named by a readable source. Other six remain unresolved.
 - Heart note marks the rat quest complete; not an extra recipe request.
+
+
+## 2026-11-16｜Recipe inventory baseline
+- Added docs/RECIPE_INVENTORY.md with 327 candidate entries: 211 Good + 116 Bad.
+- Student Dorm 48/29; Cafe 71/41; Bistro 83/34 derived; Rat Level 9/12 slot candidates.
+- The count aligns with Steam's over-300 claim but remains unverified by in-game counters.
