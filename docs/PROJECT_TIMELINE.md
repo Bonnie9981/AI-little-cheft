@@ -85,3 +85,10 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 - 7/14 Bistro Guide：76 Good / 31 Bad（EA baseline）。
 - 8/27追加：7 Good + 2 Bad；9/10玩家通關記錄再補 Clutter（Bad candidate）。
 - 1.0候選總量推算 83 Good / 34 Bad；尚未有官方 counter畫面確認，禁止當成最終定案。
+
+
+## 2026-11-16｜Bistro rat trade evidence
+- Developer confirms Cheese starts the extractor-hood rat quest; each requested dish is shown as a drawing and trades for a new ingredient.
+- First reward recorded as Tomato; later gifts include Apple, Olive, Garlic.
+- Seven country dishes create seven magnets; only Mochi/Japan is currently named by a readable source. Other six remain unresolved.
+- Heart note marks the rat quest complete; not an extra recipe request.
