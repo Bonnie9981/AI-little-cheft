@@ -174,3 +174,16 @@ The 1.0 Japanese completion guide states Rat Level uses only two ingredients per
 - Click the button in the main-menu letter to unlock Peanut Butter.
 - This does not require an actual Steam Wishlist action; the developer says the button itself grants the ingredient and saves the unlock flag.
 - Peanut Butter then appears in the Student Dorm and is used by PB&J, Peanuts, Smoothie / Good Protein Shake candidate recipes.
+
+
+### Student Dorm mouse hole and tea boxes
+- D2 is the Shane locker key tile. The mouse hole is a separate tile to the right; it is not part of the D2 key puzzle.
+- Hold Cheese in front of the revealed mouse hole to trigger I Smell Cheese.
+- Tea boxes are stacked on the top shelf directly to the right of the Jam; align their vine pattern into one continuous image for A Lot to the Right.
+
+### Additional achievement interactions
+- Cafe: dial 911 and pick up the phone for What's The Emergency.
+- Cafe: cook Panini to Burnt Panini, then cook the Burnt Panini again for Aw That's Hot.
+- Cafe: cook three Bagels together; discover the Void Bagel recipe in the Safe after using the Security Card for Nothing Nowhere.
+- Cafe: offer Cheese to the mouse by the Blue Teapot for Fair Trade.
+- Bistro: after grinding Pumpkin, Tomato, or Meat, run the Mixer a second and third time to create a large mess for Messing Around; clean it with Cloth afterward.
