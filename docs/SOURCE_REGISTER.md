@@ -91,3 +91,6 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - SRC-034 | [Developer reply: I Smell Cheese](https://steamcommunity.com/app/3376500/discussions/0/800092239616311057/) | 2026-04-04 | Hold Cheese in front of the Student Dorm mouse hole to unlock I Smell Cheese | Direct developer confirmation.
 - SRC-035 | [Developer reply: Tea Box location](https://steamcommunity.com/app/3376500/discussions/0/800091475572434446/) | 2026-03-27 | Tea boxes are on the top shelf, directly right of Jam; align the vine pattern for A Lot to the Right | Direct developer confirmation.
 - SRC-036 | [9Puz 1.0 achievement guide](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/) | 2026-09-02 | Room-specific achievement locations and actions, including Cafe fire/phone/Bagel and Bistro Mixer | Community walkthrough; cross-check official descriptions.
+
+
+- SRC-037 | [9Puz 1.0 completion route](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/) | 2026-09-02 | Complete six Student Dorm To-Do tasks; each room has a separate recipe/task ledger; both Good and Bad tabs matter for room completion; Flooded and Bookworm details | Community walkthrough; strong 1.0 route evidence.
