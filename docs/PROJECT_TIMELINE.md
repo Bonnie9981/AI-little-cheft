@@ -110,3 +110,8 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 - 7/14 Bistro Guide main list is 76 Good / 31 Bad, but July 17 Steam comments add 1 Good (Crazy Calzone) and 5 Bad (Breadless Burger, Vampire Defense Kit, Bread and Wine, Sorrow Sandwich, Risky Rice Pudding).
 - Combined with 8/27 additions (7 Good + 2 Bad) and 1.0 Clutter, current candidate Bistro total becomes 84 Good / 39 Bad.
 - All-room candidate total becomes 333 (212 Good + 121 Bad). This is still a cross-source estimate, not an in-game counter.
+
+
+## 2026-11-16｜zh-TW recipe translation coverage
+- Added docs/ZH_TW_RECIPE_TRANSLATIONS.md with candidate Taiwan Traditional Chinese names for all 312 named recipes; Rat Level's 21 symbol slots remain slot-indexed.
+- Translation coverage is complete as a draft; linguistic and UI-fit review remains.
