@@ -33,6 +33,7 @@
 | [ITEM_STATE_INVENTORY](docs/ITEM_STATE_INVENTORY.md) | 四個房間的物件、加工狀態與互動能力 |
 | [ACHIEVEMENT_MATRIX](docs/ACHIEVEMENT_MATRIX.md) | 1.0正式26項成就與觸發條件 |
 | [PROGRESSION_MODEL](docs/PROGRESSION_MODEL.md) | 房間進度、To-Do與解鎖狀態模型 |
+| [ZH_TW_RECIPE_TRANSLATIONS](docs/ZH_TW_RECIPE_TRANSLATIONS.md) | 全312筆命名配方的台灣繁中候選譯名 |
 
 ## 目前研究盤點
 
