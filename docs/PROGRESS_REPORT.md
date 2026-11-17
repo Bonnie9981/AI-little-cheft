@@ -347,3 +347,12 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 台灣繁中命名表：312筆命名料理；Rat Level 21格使用slot標籤而非杜撰菜名。
 - Student Dorm六項To-Do已由1.0攻略列出；Cafe完整To-Do仍未找回，已修正「8 orders」誤讀；Bistro至少可讀到清潔與老鼠交易兩項。
 - QA與Critic尚未通過；Research Only維持。
+
+
+## 2026-11-17｜配方／翻譯資料完整性稽核
+- 以程式逐條比對Inventory、Formula Draft與zh-TW Translation Dictionary。
+- 333個候選條目全部有對應公式列：Student Dorm 77、Cafe 112、Bistro 123、Rat Level 21。
+- 312筆命名料理全部有繁中譯名：Student Dorm 77、Cafe 112、Bistro 123；無缺漏、無重複key。
+- Rat Level 21格是符號slot，不杜撰菜名。
+- 修正Sausage Roll主鍵一致性與English Breakfast缺少譯名。
+- 注意：這是資料列完整性檢查，不是遊戲內配方驗證。
