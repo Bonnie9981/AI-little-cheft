@@ -374,3 +374,26 @@ Sources: [Japanese 1.0 first-hand walkthrough](https://note.com/utsukinoel/n/n27
 - Big Magnet: 9Puz 1.0 route explicitly says to cook one of the rat-reward Magnets; cached Steam guide only says “Magnet from mouse rewards”. Preserve the cook action as a candidate and verify the Bad Recipe counter before finalizing.
 - Compass: Scissors + any country Magnet. 9Puz recommends waiting until the magnet has registered for Going Global before making Compass; represent this as a progression dependency.
 - This adds a distinction between receiving a rat reward, registering its country magnet, and consuming a magnet as a recipe ingredient.
+
+
+## SRC-017 v1.0 mixed-guide corrections (2026-11-17)
+
+SRC-017 is confirmed to be a v1.0-titled guide updated 2026-09-08, with legacy v4.0 EA material plus Bistro and Rat Level sections. The author warns that first-two-room data may be stale and manually typed formulas may be wrong. Use its Bistro/Rat Level data as C-level 1.0 candidates, not definitive truth.
+
+| Recipe / slot | SRC-017 candidate | Competing candidate | Current handling |
+|---|---|---|---|
+| Goulash | Meat + Ground Tomato + Wine; author says cookbook icon showed whole Tomato incorrectly | SRC-050 list says Meat + Ground Tomato + Wine; official v1.1 says cookbook recipe fixed | Formula now has strong community convergence; retain v1.1 regression test for exact current item state |
+| Tomato Cocktail | Olives + Ground Tomato + Red Wine; author/player comment reports cookbook icon mismatch | SRC-050 says Olives + Ground Tomato + Wine | Prefer Red Wine as a test candidate; do not collapse wine-state difference without live check |
+| Clutter | Cloth + Wooden Spoon | 1.0 Japanese walkthrough clue suggests spontaneous mess | Test both direct combination and idle/physics-trigger hypotheses |
+| Vampire Defense Kit | Tomato + Wooden Spoon | SRC-050 says Garlic + Wooden Spoon; older comment says Garlic + Pencil | D-level; test all separately |
+| Bread Sticks | Pizza Dough alone | SRC-015 says Pizza Dough + Olive Oil | D-level; test both |
+| Crazy Calzone / Pizza Calzone | Pizza + Wooden Spoon | SRC-015/SRC-050 say Pizza + Pizza Dough | D-level; test both |
+| Bad Pastry | Yeast + Bread Dough + Pizza Dough | SRC-015/SRC-050 list Bread Dough + Flour (+/- Pizza) | D-level; test separately |
+| Sorrow Sandwich | Bread + Wooden Spoon | SRC-050 says Bread + Flour | D-level; test both |
+| Risky Rice Pudding | Rice + Wooden Spoon | SRC-050 says Rice + Flour | D-level; test both |
+| Rat cold Good #5 | Cheese + Leaf | SRC-050 says Cheese + Eggshell; 9Puz notes icon ambiguity | SRC-017 is now the strongest direct 1.0 candidate; test Leaf first, Eggshell alternate |
+| Rat Bad #4 | Eggshell + Pencil | SRC-050 says Egg + Pencil | Keep both; 1.0 source favors Eggshell |
+| Rat Bad #6 | Pasta alone | SRC-050 says Paperclip + Pasta | Keep both; 1.0 source favors Pasta alone |
+| Rat Bad #7 | Pasta + Paper | SRC-050 says Eggshell + Paper | Keep both; 1.0 source favors Pasta + Paper |
+
+Other SRC-017 Bistro confirmations: Mochi uses Ground Rice; Apple Mochi uses Ground Rice + Apple; Pizza Dough = Flour + Yeast + Olive Oil; Meatloaf = Ground Meat + Meat; Tomato Juice = Ground Tomato. These strengthen existing candidates and reduce earlier ambiguity.
