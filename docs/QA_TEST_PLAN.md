@@ -408,7 +408,7 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 ## SRC-065 Student Dorm To-Do screenshot regression
 | ID | Test | Expected evidence |
 |---|---|---|
-| SD-017 | Verify Student Dorm To-Do rows and counters against the visible screenshot | Confirm Cook pasta dishes (0/8), “Borrow” Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, and Cook new dishes (0/40); record each increment/completion trigger and verify all Good recipes plus all tasks are required for Chapter 2 unlock. Source is third-party screenshot evidence; no execution is claimed |
+| STD-017 | Verify Student Dorm To-Do rows and counters against the visible screenshot | Confirm Cook pasta dishes (0/8), “Borrow” Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, and Cook new dishes (0/40); record each increment/completion trigger and verify all Good recipes plus all tasks are required for Chapter 2 unlock. Source is third-party screenshot evidence; no execution is claimed |
 
 
 ## SRC-066 v1.0 Chinese-guide recipe conflict tests
