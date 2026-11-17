@@ -444,3 +444,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Steam Guide ID 3686619896 is **v4.0 EA**, posted 2026-03-17 and updated 2026-06-08. It explicitly says its recipes are based on v3.0 EA and its readable contents cover Student Dorm and Cafe only. It is not a 1.0 source and contains no Bistro/Rat Level section.
 - Steam Guide ID 3713640352 search snippets expose later Aug 10 full-game content, but the directly opened removed PT-BR page still shows Apr 25 EA text. Later Bistro/Rat Level material is cached search-index evidence only.
 - All claims formerly attributed to a “2026-09-01 Simplified Chinese 1.0 guide” are withdrawn unless independently supported elsewhere. In particular, do not use SRC-017 for Clutter, Rat Level Leaf/Eggshell conflicts, or Bistro recipes.
+
+
+## 2026-11-17｜SRC-023版本範圍補充
+- Japanese Level 3 article published Sep 9 explicitly states it covers the July 13 Early Access Level 3 update. Treat it as EA-era first-hand evidence, not a 1.0 guide solely because of its publication date.
+- Its seven-country cuisine section names only Japan = Mochi. Keep the other six country-dish names unknown until an image or 1.0 gameplay source identifies them.
