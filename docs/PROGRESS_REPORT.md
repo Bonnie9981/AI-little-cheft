@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為161個唯一設計ID（0執行；新增BIS-063..069）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為164個唯一設計ID（0執行；新增RAT-024..026）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -653,3 +653,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Goulash的SRC-066記錄支持Meat + Ground Tomato + Wine，並指出圖鑑可能把Ground Tomato顯示為Tomato，與現有BIS-023候選一致。
 - 新增BIS-063..069七項獨立驗證設計，並在RECIPE_CONFLICTS建立逐項對照。QA更新為161 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22），0 executed。
 - 本來源未提供Cafe最終To-Do、四張老鼠訂單／獎勵對照、七國其餘六道料理或Rat Level密碼。專案仍Research Only / Critic FAIL。
+
+
+## 2026-11-17｜Rat Level新增獨立Steam攻略與slot衝突
+- 新增SRC-067：RoyalUyenRuby於2026/08/27發布的Rat Level攻略，獨立記錄反重力肖像→花盆密碼→酒瓶鍵盤→爐具電力流程，並逐格列出冷／熱Good及Bad候選。
+- 第五個冷爐Good格：SRC-018/SRC-067列Cheese+Eggshell，SRC-066列Cheese+Leaf；保留衝突。Pasta Bad格：SRC-066列Pasta單獨一格及Pasta+Paperclip，其他攻略只列Paperclip+Pasta；需確認是否一格或兩格。
+- 新增RAT-024（Eggshell/Leaf）、RAT-025（Pasta Bad slots）、RAT-026（密碼鎖揭露互動步驟）三項測試。QA更新為164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。
+- 完整三位數密碼仍無法由任何找到的文字來源讀出；不猜數字。Cafe最終To-Do、四張老鼠請求／獎勵與其餘六國料理仍未找到。Research Only / Critic FAIL。
