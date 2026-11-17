@@ -174,3 +174,10 @@ A separately authored October 9 walkthrough includes a legible To-Do screenshot.
 6. Cook new dishes (0/40)
 
 The screenshot visibly displays 0/8, 0/3 and 0/40. The guide states that Chapter 2 unlock requires all Good recipes plus all To-Do tasks. This is third-party 1.0-era walkthrough evidence, not a test run by this project. SD-017 is the acceptance test; exact counter increment rules and unlock behavior remain unexecuted.
+
+
+## Rat Level source comparison: fifth cold slot and Pasta Bad slots (SRC-066 / SRC-067)
+- SRC-067 (Aug 27 Steam guide) lists Cheese + Eggshell as the fifth cold Good candidate and separately lists Pasta + Paperclip among Bad results.
+- SRC-066 (v1.0 Chinese guide) lists Cheese + Leaf as the fifth cold Good candidate; it also lists Pasta alone as one Bad slot and another Pasta + Paperclip combination.
+- SRC-018's 1.0 walkthrough lists Eggshell for the fifth cold Good candidate and Paperclip + Pasta in its Bad sweep, while noting Eggshell/Leaf uncertainty.
+- Keep the cold fifth Good slot and Pasta Bad slots as explicit conflicts until tested in the target client. RAT-024 and RAT-025 are the acceptance tests. RAT-026 captures the keypad reveal sequence without assuming the numeric code.
