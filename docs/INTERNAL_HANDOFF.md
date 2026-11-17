@@ -524,3 +524,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜SRC-053 official Cafe To-Do addition
 - 新增SRC-053：SteamDB鏡像官方v3.0ea changelog，2026/04/23新增Cafe To-Do「complete 8 orders」。這與3月Cafe截圖四項舊任務及9月「Set the kitchen on fire」線索形成版本演進證據；但未能直接證明最終1.0完整任務列。
 - README與Critic來源範圍同步至SRC-053；QA維持140個唯一ID。
+
+
+## 2026-11-17｜自動推進工作方式與開工門檻
+- CEO要求助手不要每次找到一小段資料就停下來。每次收到「繼續」或延續指示，直接讀取最新repo狀態並連續執行研究、交叉驗證、文件更新、QA與Critic；不要要求CEO重複背景。
+- 不可聲稱能在對話回合結束後背景自主運作；實際可行方式是在每個工作回合內盡可能完成連續工作，並留下可接手的repo狀態。
+- Ready for CEO Approval標準已寫入README：核心循環、progression、互動物理、recipe data、任務成就、zh-TW、例外及QA規格可實作；未解未知有隔離策略／實機驗證步驟；Critic沒有未處置P1。CEO核准前不得進正式遊戲實作。
+- 本次新增SRC-054開發者對Bistro rat交易機制說明；來源登錄現至SRC-054。QA 140個唯一ID仍未執行。專案維持Research Only。
