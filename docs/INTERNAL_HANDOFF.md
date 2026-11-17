@@ -612,3 +612,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-024 1.0存檔卡片顯示305/333 recipes、26/26 achievements，支持全遊戲總食譜數333及成就26項。
 - 333筆名稱清單與全局分母對齊；211 Good / 122 Bad仍為候選拆分，不等於每一列已核實。
 - 需繼續驗證逐筆配方、狀態、分類、重複與房間歸屬。QA 147 unique，0 executed。
+
+
+## 2026-11-17｜最新接手狀態：七國磁鐵觸發衝突
+- SRC-018完整1.0攻略已逐段重查：可確認Cafe緊急電話需撥911、按通話、拿起話筒；Bistro剪刀／Mixer／吊掛繩流程；Rat Level密碼操作順序與冷熱狀態差異。但它沒有列出Cafe最終To-Do、四張rat request/reward對照、七國料理全名或實際密碼。
+- 新衝突：SRC-050稱七國磁鐵由老鼠在請求料理後給予；SRC-057則把rat trade（換特殊食材）與七道國際料理（磁鐵附到抽油煙機）分開；SRC-054開發者回覆只確認交易換食材。已在RECIPE_CONFLICTS記錄，新增BIS-062逐項分離測試。
+- QA最新148 unique（REC14 / PHY15 / STD16 / CAF22 / BIS62 / RAT18），0 executed。333筆候選中332筆有來源公式／動作引用，Clutter僅trigger hint；來源引用不等於驗證。
+- P1仍包括：老鼠四次請求／獎勵對照、七國磁鐵觸發與六國菜名、Cafe最終To-Do、Rat Level數字密碼與電力映射、逐筆配方實測與QA執行。Critic FAIL；Research Only；CEO批准前禁止正式實作。
