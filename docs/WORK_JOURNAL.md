@@ -1134,3 +1134,11 @@
 - 重新逐張開啟日文EA Bistro文章的嵌入圖：可視覺確認Cheese交易後Tomato出現；下一張老鼠便條圖案太小，無法可靠辨識料理；Mochi解鎖圖明確有日本國旗；Going Global畫面明示七個國家磁鐵。
 - 因此維持：Cheese→Tomato、Japan=Mochi可確認；其餘請求圖與六國料理仍Unknown。不得將看不清的便條猜成Goulash、Tomato Juice或其他菜。
 - 新增SRC-070（Crystal Dreams影片線索）與SRC-071（日文嵌入圖逐張檢視）至SOURCE_REGISTER。研究仍未解除五項P1；QA 164設計／0執行，Critic FAIL，Research Only。
+
+
+## 2026-11-17｜1.0影音證據突破：Cozy K Games三章節影片
+- CEO提供三支正式版影片網址及字幕整理。直接使用YouTube影片摘要工具處理其中兩支：1YgAz9LT22o（Bistro/Rat Level，57:41）與LXX8_jiJJIM（Cafe Job，46:24）；兩者均成功完成字幕摘要及時間戳問答。第三支CW7plgBoL5c（Student Dorm，32:54）因本週免費摘要／問答額度達上限，尚未獨立處理。
+- 1YgAz9LT22o可定位首次Cheese→Tomato（04:20–04:28）、Going Global（44:38–44:43）、Rat Level入口（50:45–50:55）、密碼725輸入（52:11–52:16）。自動分析未完整復原四次交易與九個配方，不把不完整摘要當成答案。
+- LXX8_jiJJIM可定位Cafe To-Do面板（02:56–03:12）、21931電話（05:54–06:12）、12單與Paintbrush（18:01–19:54）、60道新菜（19:31）、火災操作（30:44–30:57）、71 Good及41 hidden/Bad（37:36–44:07）。自動分析指出To-Do另有Restock the paninis，與CEO提供的六項清單不同；暫記七項候選，等待完整畫面確認。
+- CEO字幕摘錄指出Bistro交易候選序列、七國料理例子與Rat Level配方；其中Rat Level配方項目存在計數／組合矛盾，必須以時間戳逐格核對，不可直接標記完成。七國完整六個非日本國家及料理仍未由目前摘要可靠提取。
+- 來源登錄SRC-072至SRC-074。Video summarizer本週三次免費摘要額度已用完；不得重試同服務繞過限制。QA仍164 designed / 0 executed；Critic FAIL；Research Only。
