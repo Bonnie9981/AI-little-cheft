@@ -455,3 +455,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜Rat Level 截圖審查補充
 - 已檢視日文 1.0通關文的Rat Level嵌入截圖，確認場景包含電器罐、控制面板、數字便條區與紅框投幣目標；截圖不足以還原通用三位數密碼或OFF/ON與強弱電力映射。
 - 藍框開關與紅框投幣目標可見，但官方成就條件仍是同面連續三次；操作關係留待實機驗證。
+
+
+## 2026-11-17｜SRC-017 1.0指南重新審查
+- 修正先前來源判讀：Steam Guide ID 3686619896頁面標題為v1.0全成就指南（9/8更新），雖保留v4.0 EA舊章節，正文仍含Bistro與Rat Level。先前稱其不含第三關的結論撤回。
+- 新增Rat Level候選：冷Good #5 = Cheese + Leaf；Bad #4 = Eggshell + Pencil；Bad #6 = Pasta；Bad #7 = Pasta + Paper。與SRC-050快取指南衝突，新增RAT-016至RAT-019逐項測試。
+- Clutter新增1.0指南候選 Cloth + Wooden Spoon；新增Bistro配方衝突測試BIS-041至BIS-047。
+- Goulash與Tomato Cocktail已取得1.0候選配方，不再列為完全未知；v1.1後仍需回歸驗證。
+- QA總數更新為127個唯一案例，均為設計，尚未實際執行。
