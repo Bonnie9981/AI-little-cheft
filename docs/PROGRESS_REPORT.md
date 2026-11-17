@@ -165,7 +165,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Pixel Questing 2026-11-09攻略列出 Cafe 71 Good / 41 Bad、37 個場景物件；Good 清單有 Coffee Cake 重複列，去重後為 71 種。
 - 新攻略對 Tiramisu、Babycino、Hot Cocoa、Latte、Canned Coffee、Dirty Chai Latte、To Go Drink、Bento Box 等配方與 8/10 Steam Guide／官方版本資料有衝突，已加入 Recipe Reconciliation Register。
 - 21931電話流程需撥號後拿起 handset 並等待對方說完，開發者於 Steam 討論確認。
-- Cafe 8 個 ToDo條目完整名稱仍待查；目前只確認官方新增 8項 ToDo，以及其中一項為完成訂單。
+- Cafe完整To-Do列數仍待查；官方v3.0ea只確認新增一項「完成8張訂單」，v1.0另有火災任務。不可把8張訂單誤認成8個任務。
 
 
 ## Cafe To-Do 數量校正（2026-11-16）
@@ -308,7 +308,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 
 ## Cafe To-Do範圍更新（2026-11-16）
-- 已確認至少四項：清理廚房、與老鼠交易、完成8張訂單、讓廚房起火。
+- 已確認 Cafe To-Do中有「完成8張訂單」；1.0攻略另列火災任務。清理與老鼠交易是必要進度互動，但其是否為獨立To-Do row仍未確認。
 - 21931電話、Coins、Espresso Cup、Safe與fire alarm是其他100% blockers，是否為獨立To-Do row仍待確認。
 
 
