@@ -250,3 +250,8 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 - It agrees with SRC-050 and 9Puz on cold Good #5 = Cheese + Eggshell, Bad #4 = Eggshell + Pencil, Bad #6 = Paperclip + Pasta, Bad #7 = Eggshell + Paper. These now have stronger multi-source support than the conflicting SRC-017 manual list; keep SRC-017 variants as alternatives.
 - It says Coioioin can be obtained by repeatedly clicking the coin beside the planter, aligning with official achievement text; the Japanese 1.0 blue-switch/red-target route remains an alternate method to test.
 - It still does not disclose the numeric password. Do not guess it.
+
+
+## Additional SRC-017 candidate conflicts (2026-11-17)
+- Mochi (Japan country dish): SRC-017 manual v1.0 list says Ground Rice; SRC-015/SRC-050 say Rice. Keep whole vs ground rice separate; do not confuse Mochi with Apple Mochi.
+- Yeast Monster: SRC-017 lists Yeast + Wooden Spoon; SRC-015 lists Yeast + Wine; SRC-050 lists Yeast + Tomato. Three-way conflict remains open.
