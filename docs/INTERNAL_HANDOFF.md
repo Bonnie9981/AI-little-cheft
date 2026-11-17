@@ -256,7 +256,7 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 日文玩家 2026-09-10 的 1.0 全成就通關記錄指出：正式版 Bistro 追加食譜合計約 10 項；最後一項 Good Recipe 是 Mini Pizzas，最後一項 Bad Recipe 是 Clutter。此數量是玩家通關觀察，仍需對照遊戲內 cookbook counter。ref：turn384561search0。
 - 8/10 Steam Guide 的 8/27 新增項目列出 7 Good：Boiled Rice、Roasted Mushrooms、Shredded Cheese、Meat Skewers、Leftover Pizza、Minced Garlic、Mini Pizzas；以及 2 Bad：Big Magnet、Boo Tomato。9/10 玩家通關另確認 Clutter，推測為第三個新增 Bad Recipe。refs：turn970896search1、turn384561search0。
 - Clutter 描述為「有時東西會自己變得凌亂」；可能與 Mixer mess／Messing Around有關，但目前沒有可讀來源明確說明輸入條件。記錄為 candidate，不要硬寫成 mixer recipe。
-- Coioioin 不是單純連續隨機拋硬幣：日文 1.0 玩家攻略指出先按藍框開關，再拋紅框硬幣即可輕易取得；因此 Rat Level需要 blue switch、coin toss兩個獨立互動狀態。ref：turn384561search1。
+- Coioioin主要規格依Steam官方成就文字：同一面連續三次。Steam guide與9Puz均描述點擊爐旁硬幣反覆嘗試即可。另有藍開關／紅框投擲區說法，但目前缺乏交叉支持，不要當成必要前置。ref：turn982769search1、turn208555search0、turn982769search2。
 - 同一攻略指出遊戲內取得 Coioioin 後，部分玩家需關閉並重新啟動遊戲，Steam achievement才會同步；此為 Steam同步 bug 線索，不是遊戲內解鎖條件。ref：turn384561search1。
 - 1.0 通關後 My Room 出現生日蛋糕與媽媽的信；蛋糕可互動點亮／吹熄蠟燭。此為主線完成後的 hub內容，需存檔並保留 candle state。ref：turn384561search1。
 - Level 2 To-Do 的 Set the kitchen on fire 在 1.0 玩家記錄中可能出現完成但未顯示的 bug；玩家再次點火後才更新。應把 task state與Steam achievement state分開，並設計重試／同步機制。ref：turn384561search1。
