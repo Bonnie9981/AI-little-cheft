@@ -9,7 +9,7 @@
 
 | 項目 | 目前數量／狀態 | 審查判定 |
 |---|---:|---|
-| 候選配方 | 333（211 Good + 122 Bad） | 跨來源推算，非官方 counter |
+| 候選配方 | 333（211 Good + 122 Bad） | SRC-024 1.0 save screenshot shows 305/333 global denominator; Good/Bad split remains candidate-derived |
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待zh-TW校對、最終UI字串與版本核對 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
@@ -228,3 +228,9 @@
 - SRC-024 screenshot after the wine puzzle shows the power control and a planter note with two visible 3 digits, but the available image does not reliably reveal all three digits. No numeric code is inferred.
 - Strong/weak power selection is supported, but the exact UI OFF/ON mapping remains unverified. Added RAT-020 for full-resolution clue transcription and keypad acceptance.
 - QA now 147 unique designs, zero executed.
+
+
+## Round 1 Addendum — global recipe denominator (SRC-024)
+- The 1.0 save screenshot shows 305/333 recipes and 26/26 achievements. The global recipe denominator 333 and achievement total 26 now have first-hand in-game screenshot support.
+- The 211 Good / 122 Bad split remains derived from room sources and counter alignment; the screenshot does not independently verify every row's room, classification, or formula.
+- The provenance ledger remains 332 rows with formula/action source references and one Clutter row with trigger-hint-only evidence. No row is thereby in-game formula-verified.
