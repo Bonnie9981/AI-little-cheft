@@ -264,3 +264,16 @@ Cross-version additions:
   6. Cook new dishes (0/40)
 - The screenshot visibly confirms counters 0/8, 0/3 and 0/40; the article says completing all Good recipes plus the To-Do tasks unlocks Chapter 2. It also provides action descriptions for each task.
 - This is a third-party walkthrough, not developer documentation or our own client test. Use as a strong candidate specification and QA target, not as proof of execution. The guide's individual recipe formulas still need row-level cross-checking; do not automatically promote every formula from the article.
+
+
+## SRC-066｜Steam Community Chinese v1.0 guide by 一旁冷笑 (updated 2026-09-08)
+- URL: https://steamcommunity.com/sharedfiles/filedetails/?id=3686619896
+- The author labels this as a v1.0 guide but explicitly warns that the first two rooms may not have been updated, hand-entered formulas may contain errors, and some spoiler sections were AI-bulk-added. Treat it as a mixed-quality player source, not an authority.
+- The Bistro section includes several explicit manual observations and even distinguishes actual conditions from incorrect in-game cookbook text:
+  - Goulash: actual Meat + Ground Tomato + Wine; the cookbook may display Meat + Tomato + Wine.
+  - Tomato Cocktail: the author records an actual condition involving Ground Tomato + Wine and says the cookbook icon/text is wrong; the exact role of Olives conflicts with other guides and must be tested.
+  - Mochi is recorded as Ground Rice / rice flour; Apple Mochi is Ground Rice + Apple.
+  - Sake is Rice + Yeast (conflicts with other guides' Rice + Wine).
+  - Tomato Cheese Appetizer is Tomato + Cheese (conflicts with guides that add Olives).
+  - Mushroom Soup is recorded as processed Mushroom alone; Pumpkin Soup as Ground Pumpkin alone; Meatballs as Ground Meat alone. These conflict with other recipe lists that add Garlic or Dough.
+- The guide is valuable for identifying formula conflicts and possible cookbook display errors, but its own caveats require preserving every candidate and testing in the target v1.1+ client. It does not transcribe the full Cafe To-Do list, four rat request cards/rewards, all seven country dish names, or the Rat Level numeric code.
