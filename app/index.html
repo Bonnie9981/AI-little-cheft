@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Little Chef 資料庫</title>
+<style>
+:root{color-scheme:light;--bg:#f7f5ef;--panel:#fff;--ink:#292821;--muted:#777365;--line:#e6e1d6;--accent:#5c7358}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Noto Sans TC",sans-serif}
+header{padding:26px max(20px,calc((100vw - 1100px)/2));background:#e9eddf;border-bottom:1px solid var(--line)}
+h1{margin:0 0 4px;font-size:26px}header p{margin:0;color:var(--muted)}
+main{max-width:1100px;margin:24px auto;padding:0 18px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat,.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}.stat b{display:block;font-size:25px}.stat span{color:var(--muted);font-size:13px}
+.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:18px 0}.controls input,.controls select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:white;font:inherit}
+.panel{padding:0;overflow:hidden}.bar{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}.bar small{color:var(--muted)}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line)}th{font-size:13px;color:var(--muted);background:#fbfaf7}td{font-size:14px}.pill{display:inline-block;border-radius:99px;padding:3px 9px;background:#f2eee2;font-size:12px}.muted{color:var(--muted)}footer{padding:18px;color:var(--muted);font-size:13px}
+@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr}th:nth-child(4),td:nth-child(4){display:none}}
+</style></head><body>
+<header><h1>Little Chef｜料理資料庫</h1><p>1.0 候選資料瀏覽器 · 未驗證配方不會被當成正確答案</p></header>
+<main><section class="stats">
+<div class="stat"><b>333</b><span>候選圖鑑總數</span></div><div class="stat"><b>211</b><span>Good 候選</span></div><div class="stat"><b>122</b><span>Bad 候選</span></div><div class="stat"><b>0</b><span>已實機驗證配方</span></div>
+</section>
+<div class="controls"><input id="q" placeholder="搜尋料理名稱／關鍵字"><select id="room"><option value="">全部場景</option><option>Student Dorm</option><option>Cafe Job</option><option>Bistro</option><option>Rat Level</option></select><select id="kind"><option value="">Good + Bad</option><option>Good</option><option>Bad</option></select></div>
+<section class="panel"><div class="bar"><strong>候選料理清單</strong><small id="count">載入中</small></div><div style="overflow:auto"><table><thead><tr><th>料理名稱</th><th>場景</th><th>分類</th><th>資料狀態</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<footer>目前為資料層與查詢 UI 骨架。食譜清單由 machine-readable JSON 載入；配方輸入未完成前保持停用。資料來源與衝突請參閱 docs/RECIPE_INVENTORY.md 及 docs/RECIPE_CONFLICTS.md。</footer></main>
+<script>
+const counts={"Student Dorm":{"Good":48,"Bad":29},"Cafe Job":{"Good":71,"Bad":41},"Bistro":{"Good":83,"Bad":40},"Rat Level":{"Good":9,"Bad":12}};
+const known=[["Bistro","Good",["Yeast","Flat Bread","Salami","Mochi","Tomato Cheese Appetizer","Mulled Wine","Dough","Blue Cheese","Mushroom Pie","Salami Rose","Fresh Bread","Sausage Roll","Baked Apple","Beer","Khachapuri","Stuffed Tomato","Red Wine","Tomato Mozzarella Sandwich","Bread Soup","Apple Pie","Beef Wellington","Garlic Powder","Meat Sandwich","Apple Cider","Garlic Bread","Kombucha","Goulash","Pumpkin Seeds","Mushroom Soup","Apple Mochi","Risotto","Croque Monster","Pumpkin Soup","Tomato Juice","White Wine","Pumpkin Bread","Hamburger","Apple Sauce","Olive Oil","Rosé","Pizza Dough","Vegan Sandwich","Pumpkin Fries","Meatloaf","Pizza","Tomato Cocktail","Italian Rice Balls","Schnitzel","Meat Lover Pizza","Pumpkin Pie","Fried Apple Rings","Bread Sticks","Fungi Pizza","Beef Katsu Sando","Meatballs","Fried Mushroom","Charcuterie Board","Pepperoni Pizza","Steak","Stick Bread","Meatball Sandwich","Pizza Speciale","Focaccia","Cheeseburger","Aioli","Fried Rice","Pizza Rolls","Stuffed Olives","Wine Barrel","Mozzarella Sticks","Fried Olives","Rice Paper","Sake","Tomato Rice","Roasted Veggies","Cheesy Bread","Boiled Rice","Roasted Mushrooms","Shredded Cheese","Meat Skewers","Leftover Pizza","Minced Garlic","Mini Pizzas"]],
+["Rat Level","Good",["Low/OFF #1: Cheese","Low/OFF #2: Cheese + Cheese","Low/OFF #3: Cheese + Paper","Low/OFF #4: Cheese + Pencil","Low/OFF #5: Cheese + Eggshell OR Leaf","High/ON #1: Cheese","High/ON #2: Cheese + Cheese","High/ON #3: Cheese + Paper","High/ON #4: Cheese + Pencil"]]];
+const data=known.flatMap(([room,kind,names])=>names.map((name,i)=>({room,kind,name,status:room==="Rat Level"?"逐字稿支持候選":"來源候選"})));
+const tbody=document.getElementById('rows'),q=document.getElementById('q'),room=document.getElementById('room'),kind=document.getElementById('kind');
+function render(){const query=q.value.trim().toLowerCase();const list=data.filter(x=>(!query||x.name.toLowerCase().includes(query))&&(!room.value||x.room===room.value)&&(!kind.value||x.kind===kind.value));tbody.innerHTML=list.map(x=>'<tr><td><strong>'+x.name.replaceAll('&','&amp;').replaceAll('<','&lt;')+'</strong></td><td>'+x.room+'</td><td><span class="pill">'+x.kind+'</span></td><td class="muted">'+x.status+'</td></tr>').join('');document.getElementById('count').textContent=list.length+' 筆目前載入的名稱樣本 / 333 候選總數';}
+[q,room,kind].forEach(x=>x.addEventListener('input',render));render();
+</script></body></html>
