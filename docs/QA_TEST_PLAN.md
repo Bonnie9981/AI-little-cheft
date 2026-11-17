@@ -293,7 +293,7 @@ SRC-048 confirms that the original EA build had a rat-trade To-Do counter bug (-
 ## Version-sensitive Bistro formula regression (SRC-049 / SRC-050)
 | ID | Test | Expected evidence |
 |---|---|---|
-| BIS-023 | In current v1.1+ client, test Meat + Wine + Ground Tomato for Goulash | Record exact output card, cookbook registration, and save/reload persistence; old guide candidate is not accepted as final until confirmed |
+| BIS-023 | In current v1.1+ client, test **Normal Meat** + Ground Tomato + Wine for Goulash (not Ground Meat) | Record exact output card, cookbook registration, and save/reload persistence; old guide candidate is not accepted as final until confirmed |
 | BIS-024 | In current v1.1+ client, test Olives + Wine + Ground Tomato for Tomato Cocktail | Record exact output card, cookbook registration, and save/reload persistence; old guide candidate is not accepted as final until confirmed |
 | BIS-025 | Compare Tomato Juice using whole Tomato vs Ground Tomato | Determine which state registers the intended cookbook slot; preserve both attempts and outputs |
 | BIS-026 | Compare Dirty Chai Latte using Tea + Milk + Coffee vs Tea + Milk + Coffee Beans | Confirm exact object identity/state and resulting card; community comment correction is not sufficient alone |
@@ -360,3 +360,13 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 | CAF-020 | Cafe To-Do: complete 8 orders | Verify the official v3.0ea order task counter reaches 8 and determine whether 1.0 retains it |
 | CAF-021 | Cafe To-Do: Set the kitchen on fire | Confirm the 1.0 To-Do registration after Panini → Burnt Panini → recook, separate from merely earning the achievement |
 | CAF-022 | Cafe To-Do full-list audit | Capture every visible 1.0 task, counter, order, completion trigger, and Bistro unlock dependency; compare against legacy EA list and official additions |
+
+
+## SRC-055 / SRC-056 recipe-state regression additions
+| ID | Test | Expected evidence |
+|---|---|---|
+| BIS-056 | Kombucha: test Yeast alone and Yeast + Mushroom as separate attempts | Resolve the player correction (SRC-056) against recipe-guide candidates; record exact item IDs, output, cookbook slot and version. Do not assume either formula before execution |
+| BIS-057 | Risotto: Rice + Mushroom + Cheese | Verify the SRC-055 player-thread candidate in the 1.0+ client and capture exact output/cookbook registration |
+| BIS-058 | Focaccia: Bread Dough + Olives + Olive Oil | Verify the SRC-055 candidate against the existing guide evidence; record item states and cookbook registration |
+
+These three cases are test designs only. They have not been executed. BIS-023 now explicitly distinguishes Normal Meat from Ground Meat for Goulash based on SRC-055.
