@@ -1111,3 +1111,8 @@
 ## 2026-11-17｜Critic發現後補齊 Bistro 配方衝突 QA
 - 初審發現 Bistro 配方衝突表已有多筆 D 級變體，但 QA 未逐項覆蓋。新增 BIS-027 至 BIS-040：Tomato Cheese Appetizer、Apple Mochi、Meatballs、Beef Katsu Sando、Fried Rice、Sake、Yeast Monster、Cookbook、Bad Meatloaf、Food Sketch、Fried Balls、Charcuterie Board、Pizza Speciale、Clutter。
 - QA總數由102增至116個唯一案例；仍全部屬測試設計，未聲稱已執行。
+
+
+## 2026-11-17｜QA補齊 Mochi / Yeast Monster 衝突
+- 將Mochi whole Rice vs Ground Rice與Yeast Monster三種候選配方轉為BIS-048、BIS-049。
+- 配方衝突表與Bistro/Rat配方文件同步補註；QA總數129，均為待執行設計。
