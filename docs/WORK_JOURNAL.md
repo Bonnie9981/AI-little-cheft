@@ -1106,3 +1106,8 @@
 - 作者文字支持每次最多兩材料、解鎖後強／弱電力切換、相同材料因電力不同產生不同料理；OFF/ON對應仍沒有足夠圖像證據。
 - Coioioin的藍框開關與紅框投幣目標在圖像中可見；官方成就條件是同面連續三次，兩者是否為捷徑／必要條件仍待實機驗證。
 - 本輪未取得七國其餘六道菜名或完整 rat request index；不以推測填補。
+
+
+## 2026-11-17｜Critic發現後補齊 Bistro 配方衝突 QA
+- 初審發現 Bistro 配方衝突表已有多筆 D 級變體，但 QA 未逐項覆蓋。新增 BIS-027 至 BIS-040：Tomato Cheese Appetizer、Apple Mochi、Meatballs、Beef Katsu Sando、Fried Rice、Sake、Yeast Monster、Cookbook、Bad Meatloaf、Food Sketch、Fried Balls、Charcuterie Board、Pizza Speciale、Clutter。
+- QA總數由102增至116個唯一案例；仍全部屬測試設計，未聲稱已執行。
