@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為164個唯一設計ID（0執行；新增RAT-024..026）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-069；QA為164個唯一設計ID（0執行；新增RAT-024..026）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -666,3 +666,13 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 補登J_Moon 2026/07/14 Steam Bistro Guide（EA時期），來源編號SRC-064。它記錄Tomato Cheese Appetizer不加Olives、Apple Mochi用Ground Rice、Sake用Rice+Yeast、Mushroom Soup加Garlic、Pumpkin Soup用Ground Pumpkin+Garlic、Meatballs用Ground Beef單獨完成等候選。
 - 這些與8月及1.0指南存在交叉與衝突；因來源早於1.0，僅作歷史候選，不能與正式版來源等權處理。RECIPE_CONFLICTS已補上版本註記。
 - Source Register仍連續涵蓋SRC-001…SRC-067；QA維持164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。
+
+
+## 2026-11-17｜不依賴CEO持有遊戲的研究路線更新
+- CEO沒有本作，因此不再把本機安裝檔當作必要前提。已改以公開Steam頁面、SteamDB版本資料、玩家圖文攻略、日文第一手通關紀錄、官方公告與玩家討論持續研究。
+- 查明Steam免費Demo的Windows build停留在2026-03-21，早於Bistro與Rat Level；不能用它的Assembly-CSharp.dll解決本輪P1。此替代路線已排除，不要求CEO下載Demo。
+- 重新檢查9Puz 1.0攻略與日文玩家截圖後，Rat Level的OFF/ON與冷熱狀態可建立工作假設（OFF=冷／弱、ON=熱／強），但缺少明確UI逐字對照，尚未升級為已確認規則。三位數密碼仍不可讀，不猜333。
+- 七國磁鐵觸發有來源衝突：日文第一手紀錄把國際料理完成後磁鐵出現與老鼠換食材分開描述；Steam指南則把磁鐵寫成老鼠任務獎勵。僅Japan=Mochi有直接文字與旗幟支持。
+- 9Puz完整1.0路線沒有列出Cafe最終To-Do完整清單；早期四項、8 orders、火災任務不能拼成最終清單。
+- **P1仍未解除：**四次老鼠請求與獎勵順序、其餘六國料理與磁鐵觸發、Cafe最終To-Do、Rat Level完整密碼與OFF/ON精確對應，以及QA實際執行。QA仍164設計／0執行；332/333筆有來源公式／動作引用；Critic FAIL；Research Only。
+- GitHub研究記錄：SRC-069已加入SOURCE_REGISTER；WORK_JOURNAL已追加本輪方法修正與證據邊界。
