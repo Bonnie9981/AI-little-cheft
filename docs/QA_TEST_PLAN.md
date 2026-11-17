@@ -346,3 +346,7 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 
 | BIS-048 | Mochi: whole Rice vs Ground Rice | Resolve the SRC-017 1.0 manual entry against SRC-015/SRC-050 whole-Rice candidates; this is also the Japan country dish, distinct from Apple Mochi |
 | BIS-049 | Yeast Monster: Yeast + Wooden Spoon vs Yeast + Wine vs Yeast + Tomato | Compare the SRC-017, SRC-015, and SRC-050 candidate combinations separately |
+
+| BIS-050 | First Bistro rat trade: offer Cheese at extractor hood | Rat accepts Cheese, awards Tomato, and starts the note-driven trade chain |
+| BIS-051 | Complete each rat note request in sequence | The displayed dish illustration is the required request; cooking it awards the next ingredient without skipping/restarting the chain |
+| BIS-052 | Validate mouse-gated ingredients | Confirm Apple, Garlic, and Olives are unavailable until their respective rat rewards; verify each reward against the in-game inventory |
