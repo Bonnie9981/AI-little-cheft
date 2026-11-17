@@ -121,7 +121,7 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 ## SRC-016 / SRC-017 version verification (2026-11-17)
 - SRC-016 Steam Guide ID 3713640352: search snippets expose an “updated 10 August 2026” full-game/Bistro/Rat Level text, but the directly opened Brazilian-language page is a removed-community item whose readable body still identifies an April 25 EA version. Treat the August text as search-index/cache evidence only, not a currently inspectable guide.
-- SRC-017 Steam Guide ID 3686619896: direct page title is “v4.0EA” (not 1.0); page says posted March 17, updated June 8, and explicitly states recipes are based on v3.0 EA. It contains Student Dorm/Cafe sections but no Bistro or Rat Level sections. All previous claims attributed to a September 1 “1.0 Chinese guide” are withdrawn unless independently supported by another source.
+- SRC-017 Steam Guide ID 3686619896: direct page title is “v4.0EA” (not 1.0); page says posted March 17, updated June 8, and explicitly states recipes are based on v3.0 EA. It contains Student Dorm/Cafe sections but no Bistro or Rat Level sections. The earlier withdrawal is superseded by the SRC-017 critical correction below: the actual page title is a v1.0 guide updated Sep 8 and its body includes Bistro/Rat Level. Its 1.0 candidates are retained with the author's stated manual-entry/version caveats.
 
 
 ## SRC-023 version clarification (2026-11-17)
