@@ -556,3 +556,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - QA計數以實際ID逐列重新統計：143個唯一ID（REC 14、PHY 15、STD 16、CAF 22、BIS 58、RAT 18），沒有重複ID；全部是設計，0執行。
 - RECIPE_PROVENANCE_AUDIT.md含333個候選名稱列（SD 77、CA 112、BI 123、RL 21）；name source family已映射，formula_source_ids仍全部UNMAPPED / NOT_AUDITED。
 - README、PROGRESS_REPORT、CRITIC_REVIEW、INTERNAL_HANDOFF、QA_TEST_PLAN已同步本輪最新計數。專案仍Research Only，Critic Round 1 FAIL。
+
+
+## 2026-11-17｜SRC-057 Bistro雙軌進度補充
+- 老鼠交易鏈：抽油煙機找到老鼠→給Cheese→Tomato→後續依便條圖示料理換取新食材。開發者說明見SRC-054，EA實機圖文見SRC-057。
+- 七國磁鐵鏈：七道國際料理完成後各附磁鐵；只有Japan = Mochi有可讀文字與日本國旗截圖。Apple Mochi不是該磁鐵料理；可疑料理不計入。
+- 76/76 cookbook counter僅是2026-09-09 EA截圖，非1.0最終數量。
+- BIS-059/060新增磁鐵與Mochi/Apple Mochi排除測試；QA 145 unique，0 executed。完整交易獎勵映射與其他六國仍未知。
