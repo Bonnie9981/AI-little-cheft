@@ -267,3 +267,9 @@
 - It adds concrete alternatives for Mochi (whole vs ground rice), Apple Mochi, Sake (Rice+Yeast vs Rice+Wine), Tomato Cheese Appetizer (with/without Olives), Tomato Cocktail (with/without Olives and cookbook display issue), Mushroom Soup, Pumpkin Soup and Meatballs. Added BIS-063..069 and a conflict table. Goulash's Ground Tomato candidate agrees with BIS-023.
 - QA now 161 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22), zero executed. None of the new candidates is considered verified.
 - P1 remains: Cafe final To-Do; four rat request/reward mapping; seven country recipe identities/magnet trigger; Rat Level code and control mapping; and full recipe/interaction execution. Round 1 FAIL / Research Only.
+
+
+## Round 1 Addendum — SRC-067 Rat Level independent slot list (2026-11-17)
+- SRC-067 independently documents the Rat Level interaction sequence and cold/hot candidate ordering. It agrees with SRC-018 on Cheese+Eggshell for the fifth cold Good candidate, while SRC-066 instead lists Cheese+Leaf. It also separates Pasta alone and Pasta+Paperclip into two Bad slots, unlike other guides' combined shorthand.
+- Added RAT-024, RAT-025 and RAT-026. QA now 164 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25), zero executed.
+- Exact planter code remains unreadable/unpublished in all located text sources. Rat Level slot conflicts remain open; do not infer or hardcode the code. Round 1 remains FAIL / Research Only.
