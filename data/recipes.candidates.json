@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetStatus": "CANDIDATE_REGISTER_NOT_GAME_VERIFIED",
+  "sourceInventory": "docs/RECIPE_INVENTORY.md",
+  "counts": {
+    "Student Dorm": {
+      "Good": 48,
+      "Bad": 29
+    },
+    "Cafe Job": {
+      "Good": 71,
+      "Bad": 41
+    },
+    "Bistro": {
+      "Good": 83,
+      "Bad": 40
+    },
+    "Rat Level": {
+      "Good": 9,
+      "Bad": 12
+    }
+  },
+  "recipes": [],
+  "importPolicy": "No candidate is executable until exact inputs, state, appliance, version and evidence are supplied and reviewed."
+}
