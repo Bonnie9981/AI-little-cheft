@@ -176,3 +176,10 @@
 - Critical distinction: all 333 formula_source_ids remain UNMAPPED / NOT_AUDITED. Room-level list sources are not formula-level proof. This does not close the recipe-traceability P1; it makes the gap measurable and prevents false readiness claims.
 - QA expanded from 140 to 143 unique designed IDs: BIS-056 Kombucha conflict, BIS-057 Risotto, BIS-058 Focaccia. BIS-023 now requires Normal Meat (not Ground Meat) for the Goulash candidate. None of the 143 cases has been executed.
 - SRC-056 adds a developer warning that EA dish translations were temporary DeepL output, plus player evidence of a wrong Tomato Cocktail icon and a conflicting Kombucha formula. Translation/formula validation remains open.
+
+
+## Round 1 Addendum — SRC-057 progression model correction (2026-11-17)
+- SRC-057 first-hand EA screenshots/text confirm Cheese → Tomato at the extractor-hood rat, followed by illustrated note → cook dish → receive ingredient.
+- The same source explicitly distinguishes seven international dishes from the rat's note-driven ingredient trade chain. Each international dish attaches a magnet; only Japan = Mochi is named and visually shown with a Japanese flag. Apple Mochi is explicitly excluded as the Japan magnet dish; suspicious recipes do not count.
+- A visible 76/76 cookbook counter is an EA snapshot dated 2026-09-09 and cannot be promoted to final 1.0 count.
+- QA now 145 unique designed IDs (BIS-059/060 added), still 0 executed. This evidence improves model separation but does not close P1-01 or P1-02: complete rat reward mapping and six country mappings remain unknown.
