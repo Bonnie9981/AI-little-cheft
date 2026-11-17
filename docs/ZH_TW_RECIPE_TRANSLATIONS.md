@@ -41,6 +41,7 @@
 | Pesto | 青醬 |  |
 | Ramen | 拉麵 |  |
 | English Breakfast | 英式早餐 |  |
+| English Breakfast | 英式早餐 |  |
 | Scrambled Eggs | 炒蛋 |  |
 | Decent Protein Shake | 還不錯的蛋白質奶昔 |  |
 | Sweet Sandwich | 甜味三明治 |  |
