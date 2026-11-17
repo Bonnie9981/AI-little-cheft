@@ -129,6 +129,9 @@ Confirmed Cafe To-Do candidates: complete 8 orders (official v3.0ea) and set the
 | BIS-013 | Cut hanging ropes | Cut The Rope |
 | BIS-014 | Repeatedly use Mixer | Messing Around |
 | BIS-015 | Unlock all 84 Good / 39 Bad candidates | Compare with verified 1.0 cookbook counter |
+| BIS-016 | Complete Bistro “Clean the kitchen” task using Cloth | To-Do row updates; clean state persists |
+| BIS-017 | Complete Bistro “Trade with the rat” task by offering Cheese and completing the first request | To-Do row updates; Tomato reward and next drawing appear |
+| BIS-018 | Investigate Clutter without assuming a recipe formula | Record exact interaction / inputs that unlock it; if unavailable, leave trigger unknown and block recipe implementation |
 
 The seven country dishes are not fully identified; BIS-011 remains blocked until the list is recovered.
 
@@ -262,7 +265,3 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - If the fire row remains unchecked, repeat the fire interaction once and verify whether the task registers; record this as a bug-compatibility case rather than a normal success path.
 - After extinguishing the fire, complete remaining orders and verify the Level 3 unlock gate.
 
-
-| BIS-016 | Complete Bistro “Clean the kitchen” task using Cloth | To-Do row updates; clean state persists |
-| BIS-017 | Complete Bistro “Trade with the rat” task by offering Cheese and completing the first request | To-Do row updates; Tomato reward and next drawing appear |
-| BIS-018 | Investigate Clutter without assuming a recipe formula | Record the exact interaction / inputs that unlock it; if unavailable, leave trigger unknown and block recipe implementation |
