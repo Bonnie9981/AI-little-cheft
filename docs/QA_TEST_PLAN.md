@@ -423,3 +423,11 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 | BIS-069 | Meatballs: Ground Meat alone vs Ground Meat + Garlic + Dough | Test each candidate independently; record exact mixer state and resulting card |
 
 All seven cases are test designs only. SRC-066 is a player guide with explicit caveats; none of these formulas is promoted to verified status.
+
+
+## SRC-066 / SRC-067 Rat Level slot and interaction conflicts
+| ID | Test | Expected evidence |
+|---|---|---|
+| RAT-024 | Fifth cold Good slot: Cheese + Eggshell vs Cheese + Leaf | Test both separately in cold state; record slot index, exact object state and counter change. SRC-018/SRC-067 list Eggshell; SRC-066 lists Leaf |
+| RAT-025 | Rat Level Pasta Bad slots: Pasta alone vs Paperclip + Pasta | Test Pasta alone, then Paperclip + Pasta as separate attempts; record whether one or two distinct Bad cards/counter increments occur. Do not merge them based on a guide's shorthand |
+| RAT-026 | Rat Level keypad reveal sequence | Record portrait click → anti-gravity button → planter note → note interaction with wine bottle/label → keypad reveal → code entry → confirmation → power knob. Capture each state transition and game version; do not infer the hidden code |
