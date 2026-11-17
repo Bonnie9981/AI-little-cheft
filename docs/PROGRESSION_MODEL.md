@@ -162,3 +162,15 @@ Model these as separate progression tracks with a dependency edge, not as one co
 ## Rat Level: planter code evidence boundary (SRC-024)
 
 The 2026-09-10 Japanese 1.0 walkthrough screenshot after the wine-bottle puzzle shows the cooker power control and a yellow note by the planter. The available screenshot makes two '3' digits visible, but does not reliably expose a complete three-digit code; the article text does not transcribe the code. Do not infer 333 or any other code from the partial image. The progression remains: reveal anti-gravity → expose/read planter note → reveal keypad under wine label → enter the exact three-digit clue → unlock adjustable strong/weak output. Strong/weak changes results for the same two ingredients; the mapping to UI OFF/ON labels remains unverified.
+
+
+## Student Dorm To-Do list: screenshot-backed candidate (SRC-065)
+A separately authored October 9 walkthrough includes a legible To-Do screenshot. The six visible tasks are:
+1. Cook pasta dishes (0/8)
+2. “Borrow” Shane's cheese
+3. Play all cassettes (0/3)
+4. Make coffee
+5. Water the basil
+6. Cook new dishes (0/40)
+
+The screenshot visibly displays 0/8, 0/3 and 0/40. The guide states that Chapter 2 unlock requires all Good recipes plus all To-Do tasks. This is third-party 1.0-era walkthrough evidence, not a test run by this project. SD-017 is the acceptance test; exact counter increment rules and unlock behavior remain unexecuted.
