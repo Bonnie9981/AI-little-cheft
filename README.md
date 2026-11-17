@@ -23,7 +23,7 @@
 | [CRITIC_REVIEW](docs/CRITIC_REVIEW.md) | 獨立審查與開工 Gate |
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
-| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-052來源登錄與證據層級 |
+| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-053來源登錄與證據層級 |
 | [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
 | [RECIPE_FORMULA_DRAFT](docs/RECIPE_FORMULA_DRAFT.md) | Student Dorm / Cafe 配方公式初稿 |
 | [RECIPE_FORMULA_BISTRO_RAT](docs/RECIPE_FORMULA_BISTRO_RAT.md) | Bistro / Rat Level 配方公式初稿 |
