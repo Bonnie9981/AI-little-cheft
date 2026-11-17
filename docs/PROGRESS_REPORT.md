@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為148個唯一設計ID（0執行；新增BIS-062）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-063；QA為153個唯一設計ID（0執行；新增RAT-022/023）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -630,3 +630,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 1.0攻略與Steam配方指南交叉確認火災復原：警報玻璃連點三次打破，再按露出的按鈕。新增CAF-024，將火災成就與復原互動分開驗收。
 - 官方v1.1（2026-09-11）明確加大Rat Level密碼鎖點擊區域，故舊版畫面座標不可直接當作1.1+通用命中區。新增SRC-059與RAT-021版本回歸測試。
 - Source Register擴至SRC-061；QA新增CAF-023、CAF-024、RAT-021，總數151 unique，均為設計尚未執行。Research Only維持。
+
+
+## 2026-11-17｜跨來源擴充：Cafe獨立攻略與Rat Level電力／硬幣互動
+- 新增SRC-062：Pixel Questing於2026/11/09發布的Cafe Chapter 2攻略，獨立重述藍茶壺老鼠→Cheese→電話紙片→撥21931→拿起話筒完成訂貨流程，也確認訂單可賺Coin。與開發者SRC-060相互支持。
+- SRC-062的Cafe總數自稱71 Good / 41 Bad，但其Good清單編號到72且Coffee Cake重複，故總數有內部矛盾；不可用它覆蓋已整理的候選數量，也不可將其所有公式直接升級為定案。該文沒有Cafe To-Do清單。
+- 新增SRC-063：日文玩家2026/09/10正式版通關紀錄指出Rat Level酒瓶謎題後可調強／弱電力，同一材料會因輸出強度不同產生不同料理；另觀察到先按藍框開關再擲硬幣可容易取得Coioioin。Steam成就同步延遲至重啟是單一玩家觀察，不能當作通用規則。
+- 新增RAT-022（電力強弱輸出回歸）及RAT-023（藍框開關與遊戲內／Steam成就同步分開記錄）。QA更新為153 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT22），0 executed。
+- Bistro四次老鼠訂單、七國磁鐵完整菜名／觸發、Cafe 1.0完整To-Do及Rat Level密碼仍未解決。專案維持Research Only，Critic Round 1 FAIL。
