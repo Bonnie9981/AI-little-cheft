@@ -44,7 +44,7 @@
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
 ### P1-06｜核心 QA 尚未實際執行
-目前有 129 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
+目前有 132 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
 **影響：** 任何配方與互動都不能標為 verified_in_game；核心流程尚無實測回歸證據。  
 **下一步：** 取得可執行遊戲的測試環境，先跑所有 P1 解鎖流程、每房間代表性 Good/Bad 配方、Rat Level 狀態測試，再擴至全表。
 
@@ -120,10 +120,16 @@
 - The same Japanese walkthrough says there are seven country-dish recipes, identifies Japan = Mochi, and explicitly excludes Apple Mochi and suspicious dishes. It does not name the other six. This strengthens the negative finding: no nationality inference is permitted.
 - The 9Puz route adds a practical dependency order: empty mixer container → Scissors; Scissors expose hidden mixer switch; Scissors cut the hanging ingredient rope; rat requests yield special ingredients and seven country magnets; five wine bottles must be sorted. It does not list the individual rat request dishes or reward order.
 - Cafe evidence: the 1.0 Japanese walkthrough confirms the Level 2 To-Do includes “Set the kitchen on fire”; Burnt Panini must be cooked again to trigger the fire. It also confirms the task list is a progression gate to Bistro. It still does not provide the complete Cafe To-Do list, so P1-03 remains open.
-- QA count is 129 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
+- QA count is 132 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
 
 
 ## Round 1 Addendum — direct inspection of the 1.0 Steam recipe guide (2026-11-17)
 - Re-opened SRC-050's complete Steam guide page (not just the search excerpt). Its Bistro section explicitly lists Mochi = Rice, Tomato Cheese Appetizer = Tomato + Cheese + Olives, Baked Apple = Apple (mouse gift), Garlic Powder = Garlic, and several other mouse-gated items. It lists the recipe candidates and says each country magnet comes from the mouse after making requested recipes, but it does not label the six non-Japan dishes with their countries or give the rat's sequential note/reward ledger.
 - Its achievement notes say Going Global requires all seven country magnets and Best Friends requires completing the mouse's requested trades. This independently supports the distinction between recipe discovery, magnet collection, and the Best Friends trade chain; it does not clear P1-01 or P1-02.
-- QA count is verified from the actual table: 129 rows with 129 unique IDs. The older 127 count in this review has been corrected. All 129 remain unexecuted designs.
+- QA count is verified from the actual table: 132 rows with 132 unique IDs. The older 127 count in this review has been corrected. All 129 remain unexecuted designs.
+
+
+## Round 1 Addendum — Bistro mouse reward evidence (2026-11-17)
+- SRC-050's full 1.0 guide annotates Olives as a mouse gift for Tomato Cheese Appetizer, Apple as a mouse gift for Baked Apple, and Garlic as a mouse gift for Pumpkin Soup. SRC-023 separately confirms the initial Cheese → Tomato trade and the note-driven recipe-for-ingredient loop.
+- This narrows the mouse-gated ingredient set, but neither source provides the full ordered request-card / reward ledger. P1-01 remains open; new QA cases BIS-050..052 cover first exchange, sequential note fulfillment, and gated-ingredient inventory.
+- QA now contains 132 unique designed IDs (BIS-050..052 added); none are executed.
