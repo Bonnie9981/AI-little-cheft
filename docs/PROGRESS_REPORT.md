@@ -407,3 +407,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Steam Guide ID 3713640352雖有8/10全遊戲搜尋索引，但直接開啟頁面仍是4/25 EA內容且已被下架；其8/10 Bistro/Rat Level資料只算快取線索。
 - RECIPE_CONFLICTS已撤回所有錯誤歸因SRC-017的Bistro/Rat Level配方：Clutter Cloth + Wooden Spoon、Rat Leaf、Eggshell + Pencil、Pasta-only/Pasta+Paper等。
 - Bistro其餘配方衝突只保留可追溯至7/14、8/10快取、9/2 9Puz及獨立玩家討論的候選。研究仍為Research Only。
+
+
+## 2026-11-17｜SRC-023版本範圍更正
+- 日本Level 3攻略雖於2026-09-09刊出，但作者明確說文章內容是2026-07-13的Early Access Level 3更新，不是1.0完整版本攻略。
+- 因此其中的Bistro To-Do、老鼠交易、七國料理、Mixer與Wine puzzle保留為EA第一手歷史證據；是否延續至1.0須由SRC-024及其他正式版來源交叉確認。
+- 七國料理段落只明確命名日本的Mochi，其餘六道仍未有可讀文字證據，不從料理名稱猜國籍。
