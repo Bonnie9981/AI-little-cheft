@@ -1127,3 +1127,10 @@
 - Cafe To-Do：9Puz完整1.0路線沒有列出最終任務清單，只要求完成當前To-Do與火災互動。早期四項、8 orders、Set the kitchen on fire不能拼接成1.0最終清單。
 - QA仍164個唯一設計ID、0執行；333筆候選配方仍332筆有來源公式／動作引用、Clutter僅有觸發提示；Critic仍FAIL，Research Only維持。未宣稱五項P1已解決。
 - SRC-069已寫入SOURCE_REGISTER；commit eeddeea6186311d1269d16c64f519669b6f59b21。
+
+
+## 2026-11-17｜新增Bistro影片與日文截圖的逐張檢視
+- 找到Crystal Dreams的Level 3 Early Access Part 4影片（2026-07-12，YouTube ID 95WMQpkPs7o）。影片說明表示會一路探索Level 3新食譜與成就；YouTube頁面本輪遭節流，尚未取得可核對的影片畫格或逐字稿，因此只列為視聽來源線索，不拿它證明配方。
+- 重新逐張開啟日文EA Bistro文章的嵌入圖：可視覺確認Cheese交易後Tomato出現；下一張老鼠便條圖案太小，無法可靠辨識料理；Mochi解鎖圖明確有日本國旗；Going Global畫面明示七個國家磁鐵。
+- 因此維持：Cheese→Tomato、Japan=Mochi可確認；其餘請求圖與六國料理仍Unknown。不得將看不清的便條猜成Goulash、Tomato Juice或其他菜。
+- 新增SRC-070（Crystal Dreams影片線索）與SRC-071（日文嵌入圖逐張檢視）至SOURCE_REGISTER。研究仍未解除五項P1；QA 164設計／0執行，Critic FAIL，Research Only。
