@@ -463,3 +463,12 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜Critic補強：Bistro D級配方測試覆蓋
 - 將配方衝突表中14項未充分覆蓋的 Bistro 候選變體轉成獨立QA：BIS-027至BIS-040。
 - QA總數更新為116個唯一測試ID。這補足測試設計覆蓋，不代表已取得遊戲內答案。
+
+
+## 2026-11-17｜重大來源更正：SRC-017實為v1.0混合版指南
+- 重新從Steam遊戲指南索引點入SRC-017，確認頁面標題為v1.0全成就指南，更新日期2026-09-08。正文保留舊「v4.0 ea」章節，但後續明確有Bistro（家常小館）及Rat Level（耗子餐廳）內容。先前判定它不含Bistro/Rat Level是錯誤，已撤回。
+- 這份指南的作者提醒前兩關未更新、手動配方可能錯誤；故Bistro/Rat Level資料列為1.0社群候選，不視為官方或實機驗證。
+- 新增重要候選：Mochi=Ground Rice；Apple Mochi=Ground Rice+Apple；Goulash=Meat+Ground Tomato+Wine；Tomato Cocktail=Olives+Ground Tomato+Red Wine；Clutter=Cloth+Wooden Spoon。
+- Rat Level候選修正：冷Good #5偏向Cheese+Leaf；Bad #4 Eggshell+Pencil；Bad #6 Pasta；Bad #7 Pasta+Paper。與SRC-050快取攻略衝突，必須在QA中保留對照。
+- 新增配方衝突：Vampire Defense Kit（Tomato+Spoon vs Garlic+Spoon）、Bread Sticks（Pizza Dough vs Pizza Dough+Olive Oil）、Crazy Calzone（Pizza+Spoon vs Pizza+Pizza Dough）、Bad Pastry、Sorrow Sandwich、Risky Rice Pudding等。
+- 因此Goulash/Tomato Cocktail不再列為完全無配方的P1 blocker；已取得1.0候選與圖鑑圖示錯誤線索，但v1.1後仍需回歸驗證。七國菜名及老鼠完整請求順序仍未解。
