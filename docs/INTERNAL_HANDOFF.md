@@ -438,3 +438,9 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - Japanese 1.0 first-hand guide (2026-09-10) explicitly says the achievement is not simply random same-face repetition; press the switch in the blue frame, then throw the coin into the red frame. The author reports Steam unlock sync occurred only after closing and relaunching the game.
 - Current decision: neither route is final. QA must test both; gameplay trigger and Steam synchronization are separate states. This section supersedes earlier handoff notes that dismissed the blue-switch route as low-confidence or made same-face repetition the only required trigger.
 Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com/stats/3376500/achievements ; https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/
+
+
+## 2026-11-17｜重要來源版本更正（supersedes SRC-017 references above）
+- Steam Guide ID 3686619896 is **v4.0 EA**, posted 2026-03-17 and updated 2026-06-08. It explicitly says its recipes are based on v3.0 EA and its readable contents cover Student Dorm and Cafe only. It is not a 1.0 source and contains no Bistro/Rat Level section.
+- Steam Guide ID 3713640352 search snippets expose later Aug 10 full-game content, but the directly opened removed PT-BR page still shows Apr 25 EA text. Later Bistro/Rat Level material is cached search-index evidence only.
+- All claims formerly attributed to a “2026-09-01 Simplified Chinese 1.0 guide” are withdrawn unless independently supported elsewhere. In particular, do not use SRC-017 for Clutter, Rat Level Leaf/Eggshell conflicts, or Bistro recipes.
