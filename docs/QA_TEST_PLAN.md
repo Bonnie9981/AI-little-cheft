@@ -370,3 +370,12 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 | BIS-058 | Focaccia: Bread Dough + Olives + Olive Oil | Verify the SRC-055 candidate against the existing guide evidence; record item states and cookbook registration |
 
 These three cases are test designs only. They have not been executed. BIS-023 now explicitly distinguishes Normal Meat from Ground Meat for Goulash based on SRC-055.
+
+
+## SRC-057 country-magnet separation tests
+| ID | Test | Expected evidence |
+|---|---|---|
+| BIS-059 | Complete each of the seven suspected country dishes one at a time and inspect the hood after each cook | Record exact recipe card, magnet artwork/country cue, whether one magnet attaches, and whether Going Global counter advances; do not infer country from dish name alone |
+| BIS-060 | Compare Japan's Mochi against Apple Mochi and a suspicious/non-recipe result | Only the exact Mochi dish should register the Japan magnet; Apple Mochi and suspicious results should not advance the seven-country magnet set |
+
+These are test designs only; the Japanese walkthrough is an EA-era visual reference, not final 1.0 execution evidence.
