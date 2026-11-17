@@ -431,3 +431,19 @@ All seven cases are test designs only. SRC-066 is a player guide with explicit c
 | RAT-024 | Fifth cold Good slot: Cheese + Eggshell vs Cheese + Leaf | Test both separately in cold state; record slot index, exact object state and counter change. SRC-018/SRC-067 list Eggshell; SRC-066 lists Leaf |
 | RAT-025 | Rat Level Pasta Bad slots: Pasta alone vs Paperclip + Pasta | Test Pasta alone, then Paperclip + Pasta as separate attempts; record whether one or two distinct Bad cards/counter increments occur. Do not merge them based on a guide's shorthand |
 | RAT-026 | Rat Level keypad reveal sequence | Record portrait click → anti-gravity button → planter note → note interaction with wine bottle/label → keypad reveal → code entry → confirmation → power knob. Capture each state transition and game version; do not infer the hidden code |
+
+
+## SRC-072 / SRC-073 1.0 video-derived acceptance tests (not yet executed)
+| ID | Test | Expected evidence |
+|---|---|---|
+| BIS-070 | Execute all four Bistro rat exchanges in the claimed order: Cheese; Tomato Cheese Appetizer; Apple Pie; Garlic Bread | Capture each rat note, submitted dish, consumed inputs, reward item(s), To-Do counter and Best Friends state. Specifically verify first reward includes both Tomato and Grape and final reward includes Pumpkin |
+| BIS-071 | Complete the seven-country achievement using the exact dishes shown in the 1.0 Bistro video | Record each country popup/flag, dish card, ingredient states and achievement counter. Current transcript lead names Mochi, Sake, Apple Cider and White Wine but does not yet supply a complete six-country mapping |
+| BIS-072 | Verify the magnet object/crafting side mechanic separately from country-unlock progress | Record any small Magnet drops, Big Magnet crafting, Compass crafting, and whether these object drops are independent of Going Global country unlocks |
+| CAF-025 | Capture the entire 1.0 Cafe To-Do panel without scrolling/cropping | Determine whether there are six or seven rows; explicitly check whether Restock the paninis is a separate row in addition to Restock the cakes |
+| CAF-026 | Complete all 1.0 Cafe To-Do rows and record exact counters/rewards | Verify Cook new dishes target 60, Complete orders target 12 and Paintbrush reward, phone ordering, drink/cake/panini restocking, and fire task. Video summary lists 71 Good + 41 hidden/Bad recipes; keep recipe count separate from To-Do target |
+| CAF-027 | Dial 21931, complete the full handset conversation, and record all spawned ingredients | Verify whether both Avocado and Lettuce are delivered by this call or whether Lettuce is a separate task/mention; capture timing and item spawn |
+| RAT-027 | Enter Rat Level code 725 on the v1.0+ keypad and verify the powered state | Capture planter clue, keypad digits, accepted/rejected response, exact control label/state and whether power remains toggled after scene reload |
+| RAT-028 | Reproduce the complete nine-card Rat Level recipe book from the 1.0 video | One row per card with exact ingredients and Charged/No Charge state. Resolve Macaroni Necklace (Macaroni alone vs Macaroni + Paper Clip), Nothing Cheese (empty vs Cheese), and every Pencil combination before marking the matrix complete |
+| CAF-028 | Verify Cafe security-card and safe clue chain | Record counterfeit-money recipe, security-card acquisition, safe interaction and exact clue text; verify the “three donuts = infinity” claim against the visible clue rather than transcript paraphrase |
+
+These are newly designed tests from SRC-072/SRC-073 and the CEO-provided transcript extraction. They are **not executed**. Automated video Q&A is useful for timestamps but did not reliably recover the complete Rat Level recipe matrix or all seven country mappings.
