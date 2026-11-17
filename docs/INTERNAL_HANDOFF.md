@@ -650,3 +650,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Goulash的SRC-066記錄Meat + Ground Tomato + Wine，支持既有BIS-023候選。
 - RECIPE_CONFLICTS新增對照表；QA新增BIS-063..069。QA最新161 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22），0 executed。
 - SRC-066仍未提供Cafe最終To-Do、老鼠四張訂單完整獎勵、七國菜名、Rat Level完整密碼。Critic FAIL；Research Only。
+
+
+## 2026-11-17｜Rat Level獨立slot攻略補證（SRC-067）
+- 新增SRC-067：RoyalUyenRuby的Steam Rat Level攻略，獨立記錄反重力、花盆密碼、酒瓶鍵盤、爐具電力操作與冷／熱配方slot。
+- 第五冷爐Good：SRC-018/067為Cheese+Eggshell，SRC-066為Cheese+Leaf。Pasta Bad：SRC-066分列Pasta單獨與Pasta+Paperclip，其他來源可能合併。新增RAT-024/025驗證。
+- 新增RAT-026記錄花盆紙條與酒瓶／鍵盤互動順序；仍沒有任何文字來源披露完整三位數密碼。
+- QA最新164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。Source Register至SRC-067；Critic FAIL；Research Only。
