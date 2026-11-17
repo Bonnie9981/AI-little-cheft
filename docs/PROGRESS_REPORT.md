@@ -363,3 +363,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 該玩家遇到火災已發生但To-Do未勾選的狀況，重做火災互動後才繼續；應視為任務登錄bug候選。
 - 目前 Cafe明確可命名的To-Do為「Complete 8 orders」與「Set the kitchen on fire」；完整總列數仍未由UI畫面證實。
 - Bistro To-Do則已確認「Clean the kitchen」與「Trade with the rat」，不可把這兩項錯放到Cafe。
+
+
+## 2026-11-17｜本輪交付數量與剩餘研究閘門
+- 公式表完整列出333筆候選：Student Dorm 77、Cafe 112、Bistro 123、Rat Level 21 slots。
+- 繁中翻譯表列出312筆命名料理及21個Rat Level符號slot；與Inventory逐條對齊，無缺漏或重複key。
+- QA目前88個唯一測試案例；來源登錄SRC-001至SRC-046，共46筆來源。
+- 尚未完成的關鍵研究閘門：Cafe完整To-Do UI列數與名稱、Bistro七國料理其餘六項、Rat Level三位數密碼與OFF/ON對應low/high、Clutter觸發條件、全部D級配方衝突的實機驗證、完整物理行為校準。
+- 這些是明確未完成項目；沒有把候選配方數量或文件列數冒充成遊戲內驗證。
