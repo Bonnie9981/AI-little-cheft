@@ -9,9 +9,9 @@ Purpose: one countable name inventory across all rooms before implementation. Th
 |---|---:|---:|---:|---|
 | Student Dorm | 48 | 29 | 77 | Single 1.0 walkthrough count |
 | Cafe Job | 71 | 41 | 112 | Single 1.0 walkthrough count |
-| Bistro | 84 | 39 | 123 | Derived cross-source estimate |
+| Bistro | 83 | 40 | 123 | Derived cross-source estimate |
 | Rat Level | 9 | 12 | 21 | Slot-based community guide |
-| **All rooms** | **212** | **121** | **333** | **Candidate total; not in-game audited** |
+| **All rooms** | **211** | **122** | **333** **Candidate total; not in-game audited** |
 
 Steam store describes the release as containing over 300 recipes. The current candidate register totals 333, which is consistent with that broad claim, but the register must not be treated as an official counter.
 
@@ -224,9 +224,9 @@ Steam store describes the release as containing over 300 recipes. The current ca
 40. Burnt Panini
 41. Void Bagel
 
-### Bistro — 1.0 candidate (76/31 listed baseline + July additions + 10 post-launch additions)
+### Bistro — 1.0 candidate (counter-aligned 83/40; 1.0 screenshot snapshot)
 
-**Good (84)**
+**Good (83)**
 
 1. Yeast
 2. Flat Bread
@@ -311,9 +311,8 @@ Steam store describes the release as containing over 300 recipes. The current ca
 81. Leftover Pizza
 82. Minced Garlic
 83. Mini Pizzas
-84. Crazy Calzone
 
-**Bad (39)**
+**Bad (40)**
 
 1. Endless Possibilities
 2. Fungus
@@ -354,6 +353,7 @@ Steam store describes the release as containing over 300 recipes. The current ca
 37. Bread and Wine
 38. Sorrow Sandwich
 39. Risky Rice Pudding
+40. Crazy Calzone
 
 ### Rat Level — 1.0 candidate (slot-based; titles are symbols)
 
@@ -392,3 +392,8 @@ Steam store describes the release as containing over 300 recipes. The current ca
 - Rat Level: the 9 Good entries are 5 low/OFF + 4 high/ON slots. The Bad list has 12 candidate slots; the empty cooker must be tested in both power states. Eggshell/Leaf and Egg/Eggshell conflicts remain unresolved.
 - Recipe formulas and evidence are tracked separately in docs/RECIPE_CONFLICTS.md and docs/INTERNAL_HANDOFF.md. Do not implement an unresolved candidate as definitive.
 - Recipe names in this file are source-language keys. Taiwan Traditional Chinese display names are in docs/ZH_TW_GLOSSARY.md.
+
+
+## 1.0 Bistro counter correction (SRC-024 screenshot)
+
+The 2026-09-10 1.0 player screenshot shows Bistro counters of **76/83 Good** and **37/40 Bad**. The previous derived list was 84 Good / 39 Bad. SRC-050 places Crazy Calzone in its Bad Recipes section, while the previous inventory had placed it in Good. The candidate register now moves Crazy Calzone to Bad, producing **83 Good / 40 Bad** and matching the 1.0 counter totals. This is a strong counter-aligned classification hypothesis, not a direct screenshot of the Crazy Calzone card/tab; BIS-061 remains to verify the exact tab in a client.
