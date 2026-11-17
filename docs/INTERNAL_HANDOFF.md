@@ -626,3 +626,12 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-061補足Cafe火災復原：警報玻璃連點三次打破，再按露出的控制鈕。CAF-024將復原與Aw That's Hot成就分開測試。
 - SRC-059官方v1.1擴大Rat Level密碼鎖點擊區域。新增RAT-021作版本命中區回歸測試。
 - QA最新151 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT20），0 executed。Research Only / Critic FAIL。
+
+
+## 2026-11-17｜最新延續工作快照（SRC-063）
+- Source Register：SRC-001…SRC-063。
+- QA：153個唯一設計ID（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT22），0 executed；新增RAT-022電力強弱與RAT-023硬幣成就開關／Steam同步測試。
+- 新來源：SRC-062 Pixel Questing 2026/11/09 Cafe walkthrough，獨立支持撥號後拿起話筒、訂單賺Coin；該文Good清單編號到72卻自稱71，且Coffee Cake重複，總數不採信。它沒有Cafe To-Do資料。
+- SRC-063日文1.0玩家通關紀錄：Rat Level強／弱電力會改變同材料輸出；藍框開關可讓Coioioin更容易觸發。Steam成就需重啟才同步僅是單一玩家經驗，需與遊戲內成就分開驗收。
+- Bistro候選83 Good / 40 Bad；全遊戲333候選（211 Good / 122 Bad），332/333列有來源公式／動作引用，Clutter仍只有觸發提示。所有來源引用均不代表本專案實機驗證。
+- 未解P1：Bistro四張請求便條與reward mapping、七國磁鐵六國菜名／觸發衝突、Cafe 1.0完整To-Do、Rat Level三位數密碼與電力UI映射、QA實機執行。Critic FAIL；Research Only；未獲CEO核准前不開工。
