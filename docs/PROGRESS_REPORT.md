@@ -540,3 +540,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 同一玩家稱Kombucha不含Mushroom，與現有攻略的Mushroom + Yeast衝突。這是玩家反證，不是開發者確認；已將其提升為必須實測的候選，不可直接改成定案。
 - 開發者Leek確認當時新菜名為DeepL暫譯，待文本定稿後再由中文譯者校正。故EA繁中菜名不能直接當作1.0正式用語。
 - 本次未執行遊戲內測試；QA仍140個設計ID。
+
+## 2026-11-17｜333筆候選配方逐筆追溯稽核啟動
+- 新增docs/RECIPE_PROVENANCE_AUDIT.md，將Student Dorm 77、Cafe 112、Bistro 123、Rat Level 21，共333筆候選名稱全部拆成唯一Candidate ID。
+- 稽核明確區分名稱清單來源與公式來源：目前每列名稱可追溯到來源家族，但333列公式來源尚未逐筆映射，公式欄標為UNMAPPED / NOT_AUDITED。這是誠實的稽核基線，不是完成宣稱。
+- QA新增BIS-056..058（Kombucha反證、Risotto、Focaccia），並修正BIS-023將Goulash明確寫為Normal Meat + Ground Tomato + Wine。QA由140增至143個唯一設計ID，全部未執行。
+- README同步SRC-056與稽核文件；專案仍Research Only，未達Ready for CEO Approval。
