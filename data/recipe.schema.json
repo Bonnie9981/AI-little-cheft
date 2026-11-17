@@ -43,7 +43,8 @@
         "WALKTHROUGH_SUPPORTED_CANDIDATE",
         "SOURCE_LISTED_NOT_VERIFIED",
         "CONFLICTED",
-        "UNVERIFIED_FROM_VIDEO"
+        "UNVERIFIED_FROM_VIDEO",
+        "CANDIDATE_UNVERIFIED"
       ]
     },
     "enabled": {
@@ -124,6 +125,77 @@
     },
     "notes": {
       "type": "string"
+    },
+    "candidateFormula": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceEvidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sourceId",
+          "locator",
+          "section"
+        ],
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "formulaCandidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "raw",
+          "terms"
+        ],
+        "properties": {
+          "raw": {
+            "type": "string"
+          },
+          "terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "normalization": {
+      "type": "object",
+      "required": [
+        "method",
+        "reviewRequired",
+        "normalized"
+      ],
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "reviewRequired": {
+          "type": "boolean"
+        },
+        "normalized": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false
