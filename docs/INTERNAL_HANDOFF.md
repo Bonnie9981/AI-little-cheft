@@ -531,3 +531,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 不可聲稱能在對話回合結束後背景自主運作；實際可行方式是在每個工作回合內盡可能完成連續工作，並留下可接手的repo狀態。
 - Ready for CEO Approval標準已寫入README：核心循環、progression、互動物理、recipe data、任務成就、zh-TW、例外及QA規格可實作；未解未知有隔離策略／實機驗證步驟；Critic沒有未處置P1。CEO核准前不得進正式遊戲實作。
 - 本次新增SRC-054開發者對Bistro rat交易機制說明；來源登錄現至SRC-054。QA 140個唯一ID仍未執行。專案維持Research Only。
+
+
+## 2026-11-17｜SRC-055 Bistro 配方狀態修正
+- Steam 76-comment thread補充Goulash、Risotto、Focaccia。Goulash最終候選為Normal Meat + Ground Tomato + Wine（不是Ground Meat）；留言串有明確更正與原提問者回應。
+- Risotto = Rice + Mushroom + Cheese（C級單一討論串）；Focaccia = Bread Dough + Olives + Olive Oil（與既有攻略交叉一致，B級）。全部維持community_candidate，沒有標記實機驗證。
+- 配方資料必須將normal_meat與ground_meat分成獨立item key。QA維持140個設計案例，仍無實際執行紀錄。
