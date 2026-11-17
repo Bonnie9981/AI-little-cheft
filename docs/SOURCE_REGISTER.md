@@ -297,3 +297,15 @@ Cross-version additions:
 - URL: https://steamdb.info/depot/3956681/subs/ and https://steamdb.info/app/3956680/
 - The official Steam store links a free Little Chef: Cozy Cooking Demo. SteamDB lists its Windows depot as build 22441504, last updated 2026-03-21, with a 539.50 KiB Assembly-CSharp.dll. The demo predates the July Bistro update and August 1.0 Rat Level, so it cannot contain the missing Bistro rat chain, seven magnets, final Cafe To-Do state, or Rat Level puzzle implementation. It is not a viable substitute for the full 1.1 depot for these blockers.
 - This closes the free-demo route as a source for the five current P1 questions; do not claim the demo binary can resolve them.
+
+
+## SRC-070｜Crystal Dreams Level 3 gameplay video (2026-07-12)
+- URL: https://www.youtube.com/watch?v=95WMQpkPs7o
+- Search metadata identifies this as an Early Access Part 4 video titled “Little Chef: Cozy Cooking (Early Access) - Level 3, the Bistro, is here!”, published 2026-07-12 by Crystal Dreams. The description says the episode plays until the creator figures out all new recipes and achievements for Level 3.
+- This is a distinct audiovisual source and a promising way to inspect the Bistro interaction sequence, rat request drawings, and magnet events. The YouTube page itself was throttled in this pass; the video frames and transcript have **not** yet been inspected. Do not cite it as proof of any recipe or request order until a timestamped segment is reviewed.
+- Version caveat: this is the July Early Access Bistro, not the August 1.0 build. Use it for visualizing interaction order only, then cross-check against 1.0 evidence.
+
+## SRC-071｜Direct image inspection of SRC-057 embedded screenshots (2026-11-17)
+- URLs: https://assets.st-note.com/img/1788941160-vieIr6B3zfbmNhFMclauZO9G.jpg?width=1200 ; https://assets.st-note.com/img/1788941286-kOXJtj0MpCDiRv7oQGYaNUn3.jpg?width=1200 ; https://assets.st-note.com/img/1788942259-hV5gbw4PJCFdifE8oyxXHYaO.jpg?width=1200 ; https://assets.st-note.com/img/1788942955-uzGFR8tvO1XVQ6g9snqfMINc.jpg?width=1200
+- Directly opened the Japanese EA walkthrough's embedded images. The sequence visibly shows the initial Cheese interaction followed by Tomato appearing; a subsequent rat-note drawing is visible but too small/ambiguous to identify as a specific recipe. The Mochi unlock popup visibly includes a Japan flag, and the achievement screen explicitly says “Unlock all 7 country magnets.”
+- These images reinforce Cheese → Tomato and Japan = Mochi, but do not disclose the remaining rat request dishes, exact reward order, or the other six country dishes. Do not infer the note drawing from its low-resolution silhouette.
