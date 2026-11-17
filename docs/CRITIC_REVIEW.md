@@ -234,3 +234,9 @@
 - The 1.0 save screenshot shows 305/333 recipes and 26/26 achievements. The global recipe denominator 333 and achievement total 26 now have first-hand in-game screenshot support.
 - The 211 Good / 122 Bad split remains derived from room sources and counter alignment; the screenshot does not independently verify every row's room, classification, or formula.
 - The provenance ledger remains 332 rows with formula/action source references and one Clutter row with trigger-hint-only evidence. No row is thereby in-game formula-verified.
+
+
+## Round 1 Addendum — country magnet trigger conflict (2026-11-17)
+- SRC-050 says each country magnet is obtained from the mouse after requested recipes; SRC-057 describes rat-note trades as special-ingredient rewards and separately says seven international dishes attach magnets to the hood. SRC-054 developer reply confirms only the rat trade loop and does not mention country magnets.
+- This is an unresolved P1 mechanism conflict, not evidence that either guide is definitively wrong. Added BIS-062 to test each rat reward and each international dish as separate events, recording hood state and counter changes.
+- QA now has 148 unique designed IDs, 0 executed. Critic Round 1 remains FAIL; Research Only remains.
