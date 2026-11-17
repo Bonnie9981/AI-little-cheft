@@ -115,7 +115,7 @@ Purpose: normalize all known objects and processed states before creating machin
 | flour | Ingredient | 麵粉 | raw | drag, combine, cook |
 | rice | Ingredient | 米 | raw; ground | drag, process, cook |
 | bread_dough | Ingredient/ProcessedIngredient | 麵包麵糰 | formed | drag, combine, cook |
-| meat | Ingredient | 肉 | raw; ground | drag, process, cook |
+| meat | Ingredient | 肉 | raw; ground (some guides label the same state Ground Beef) | drag, process, cook |
 | salami | Ingredient | 義式臘腸 | raw/processed | drag, combine |
 | tomato | Ingredient | 番茄 | whole; ground | drag, process, cook |
 | pumpkin | Ingredient | 南瓜 | whole; ground | drag, process, cook |
@@ -162,8 +162,8 @@ Purpose: normalize all known objects and processed states before creating machin
 | wine_bottle_label | PuzzleInteractable | 酒瓶標籤 | attached; lifted; keypad revealed | click, reveal |
 | number_keypad | PuzzleInteractable | 數字鍵盤 | locked; code entered; unlocked | input, unlock |
 | electric_can_cooker | Appliance | 通電罐頭鍋 | power low/high; max 2 ingredients | accept 2 inputs, activate |
-| blue_switch | PuzzleInteractable | 藍色開關 | off; pressed | toggle |
-| red_coin_zone | PuzzleInteractable | 紅色投幣區 | target zone | toss, score |
+| blue_switch | PuzzleInteractable | 藍色開關 | reported by one player as off; pressed; not confirmed as Coioioin prerequisite | optional investigation only |
+| red_coin_zone | PuzzleInteractable | 紅色投幣區 | reported by one player; not corroborated as required for Coioioin | optional investigation only |
 
 ## Required state separation
 
