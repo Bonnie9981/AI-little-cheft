@@ -20,7 +20,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Mushroom Pie | Bread Dough + Mushroom |
 | Salami Rose | Salami |
 | Fresh Bread | Bread Dough |
-| Sausage Roll (9Puz calls it Salami Roll) | Meat + Bread Dough |
+| Sausage Roll | Meat + Bread Dough |
 | Baked Apple | Apple |
 | Beer | Bread Dough + Yeast |
 | Khachapuri | Bread Dough + Cheese |
