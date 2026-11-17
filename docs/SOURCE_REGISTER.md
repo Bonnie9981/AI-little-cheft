@@ -251,3 +251,16 @@ Cross-version additions:
 - The author reports that pressing the blue-framed switch before flipping the coin makes the Coioioin achievement easy to obtain; the screenshot visually identifies the switch and coin. This adds a deterministic interaction candidate beyond the older “keep flipping until lucky” guide instruction.
 - The author also reports that the in-game achievement appeared first and the Steam achievement synchronized after closing and relaunching the game. Treat this as one player's observed sync behavior, not a guaranteed global requirement. Official v1.1 separately records a fix to Coioioin Steam achievement registration (SRC-059).
 - This source is version-specific player evidence, not developer confirmation. RAT-022/023 are test designs only; no game test has been executed.
+
+
+## SRC-065｜Pixel Questing Chapter 1 walkthrough and visible Student Dorm To-Do screenshot (2026-10-09)
+- URL: https://www.pixelquesting.com/little-chef-cozy-cooking-walkthrough-recipes/
+- This separately authored walkthrough provides a readable screenshot of the Student Dorm To-Do panel and transcribes six tasks:
+  1. Cook pasta dishes (0/8)
+  2. “Borrow” Shane's cheese
+  3. Play all cassettes (0/3)
+  4. Make coffee
+  5. Water the basil
+  6. Cook new dishes (0/40)
+- The screenshot visibly confirms counters 0/8, 0/3 and 0/40; the article says completing all Good recipes plus the To-Do tasks unlocks Chapter 2. It also provides action descriptions for each task.
+- This is a third-party walkthrough, not developer documentation or our own client test. Use as a strong candidate specification and QA target, not as proof of execution. The guide's individual recipe formulas still need row-level cross-checking; do not automatically promote every formula from the article.
