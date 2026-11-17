@@ -396,3 +396,10 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 | CAF-023 | After dialing the Cafe phone number, lift the handset and wait for the caller to finish speaking before putting it down | Confirm Avocado and Lettuce spawn only after the complete call interaction; record phone state, spawn result, game version and whether leaving the handset untouched fails. Developer Crazydvd explicitly confirmed this sequence in Steam discussion |
 | CAF-024 | Recover from the Cafe kitchen fire by clicking alarm glass three times, then pressing the exposed control | Record glass break state, button exposure, fire-clear state and whether the room returns to normal; distinguish achievement unlock from fire recovery |
 | RAT-021 | Test Rat Level number-lock interaction on v1.0 and v1.1+ clients | Record cursor hit area, successful click positions and keypad response; official v1.1 says the clickable area was enlarged, so do not reuse pre-v1.1 click coordinates as universal |
+
+
+## SRC-062 / SRC-063 additional cross-source regression tests
+| ID | Test | Expected evidence |
+|---|---|---|
+| RAT-022 | Toggle Rat Level electrical output between the two strength settings and repeat the same ingredient combination | Capture both control states, output cards, slot counter changes and game version. Confirm that power strength is a recipe condition; do not infer which UI label means strong/weak without direct capture |
+| RAT-023 | Press the blue-framed Rat Level switch before flipping the coin for Coioioin; separately observe in-game and Steam achievement states | Record switch state, coin outcome, in-game achievement notification, Steam sync immediately and after relaunch. SRC-063 is a single-player 1.0 observation; do not hard-code relaunch as a universal requirement |
