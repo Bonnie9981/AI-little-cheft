@@ -110,7 +110,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Table Cloth | Kitchen Cloth |
 | Scissors | Empty Blender Jar into pot |
 | Red 40 | Tomato + Meat + Apple |
-| Compass | Scissors + any Magnet |
+| Compass | Scissors + any country Magnet (after the magnet has registered for Going Global) |
 | Bad Pastry | Bread Dough + Flour + Pizza (7/14 guide omits Pizza; conflict) |
 | Cheese Cloth | Table Cloth + Cheese |
 | Sketchbook | Newspaper + any Pencil |
@@ -134,7 +134,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Bread and Wine | Wine + Bread |
 | Sorrow Sandwich | Bread + Flour |
 | Risky Rice Pudding | Rice + Flour |
-| Big Magnet | Magnet received from mouse trade |
+| Big Magnet | Candidate: cook one Magnet received from the rat trade in the cooking station; older Steam guide shorthand says “Magnet from mouse rewards” |
 | Boo Tomato | Tomato |
 | Clutter | Unknown; 1.0 player report confirms the recipe name but readable text does not disclose its trigger |
 
@@ -199,3 +199,10 @@ The numeric code itself is not present in the readable sources. Do not hardcode 
 - Include appliance and power state in RecipeConditions.
 - Preserve source/version and confidence for every candidate.
 - The current draft is not implementation-ready until all D-level variants are tested and all 1.0 counts are confirmed.
+
+
+## Bistro tool/magnet dependency clarification (2026-11-17)
+- 9Puz 1.0 route gives a more specific candidate for Big Magnet: cook one of the rat-reward Magnets. The cached Steam guide only says “Magnet from the mouse rewards”, which may omit the cooking action. Keep the action as a candidate pending in-game counter confirmation.
+- Compass uses Scissors + any country Magnet, but 9Puz advises doing this only after that magnet has registered for Going Global. Model `magnet_registered` as a progression precondition, not just inventory ownership.
+- Empty Mixer Jar → cooking station → Scissors remains supported; Scissors are then used to expose the Mixer switch and cut the hanging ingredient rope.
+Source: SRC-018 (9Puz 1.0 route), SRC-016 (cached Steam guide).
