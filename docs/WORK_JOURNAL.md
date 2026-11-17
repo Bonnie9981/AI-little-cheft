@@ -878,3 +878,10 @@
 - 全文件搜尋發現INTERNAL_HANDOFF早期段落、QA與RECIPE_CONFLICTS仍有「八個Cafe To-Do」或「四項已確認」的舊說法。
 - 已修正：官方v3.0ea只明確命名一項「完成8張訂單」；火災任務由1.0攻略支持；清潔與老鼠交易為必要進度互動，但UI是否列為To-Do未確認。
 - Cafe任務總列數不再猜測，等待可讀的實際To-Do畫面或影片。
+
+
+## 2026-11-17｜Cafe To-Do來源矛盾補登
+- SteamDB保存的官方v3.0ea原文寫單數「New Todo: complete 8 orders」；日本4/24攻略卻概述「ToDo list、8件追加」。
+- 兩者有語意／計數衝突，不能單憑日本攻略把Cafe任務列數寫成8，也不能把官方更新條目推成最終版本完整清單。
+- 9/10日文1.0玩家又回報Set the kitchen on fire可能已做但To-Do未勾選，代表任務狀態可能有同步問題。
+- 已在RECIPE_CONFLICTS與SOURCE_REGISTER記錄此差異；規格採不硬編碼總列數，等遊戲內To-Do UI或完整影片確認。
