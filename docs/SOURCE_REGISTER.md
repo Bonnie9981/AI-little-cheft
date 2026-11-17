@@ -53,7 +53,7 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 | ID | Source | Date | Supports | Caveat |
 |---|---|---|---|---|
 | SRC-022 | [Steam Level 3 recipe discussion](https://steamcommunity.com/app/3376500/discussions/0/568165880361398668/) | 2026-07-12 onward | Goulash uses normal Meat + Ground Tomato + Wine; Kombucha uses Mushroom + Yeast; Wine About It label-height ordering | Individual player reports; some initial guesses are corrected later in thread |
-| SRC-023 | [Japanese Level 3 walkthrough](https://note.com/utsukinoel/nb8001450ad12) | 2026-09-09 | Cafe To-Do / Bistro rat trade / seven country dishes / Mixer repair / wine puzzle | Does not list all seven country dishes in readable text |
+| SRC-023 | [Japanese Level 3 walkthrough](https://note.com/utsukinoel/nb8001450ad12) | Published 2026-09-09; explicitly covers the 2026-07-13 Early Access Level 3 update | EA-era Cafe unlock, Bistro To-Do, rat trade, seven international dishes, Mixer repair and wine puzzle | Author explicitly says this is Early Access content; use as historical mechanic evidence, not proof every detail is unchanged in 1.0; only Japan = Mochi is named in readable text |
 | SRC-024 | [Japanese 1.0 achievement walkthrough](https://note.com/utsukinoel/n/n2734d08070ca) | 2026-09-10 | Bistro 10 additions incl. Mini Pizzas and Clutter; Rat cooker power high/low; two-input limit; Coioioin switch/coin report | Some achievement behavior differs from other guides; keep conflicts |
 | SRC-025 | [Steam Coioioin discussion](https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/) | 2026-08-26 | Click coin until same side lands three times | May be compatible with blue-switch report |
 | SRC-026 | [Steam 1.0 discussion: phone number](https://steamcommunity.com/app/3376500/discussions/0/581680031271570250/) | 2026-08-19 | 21931 and handset interaction | Developer reply is strongest part |
@@ -122,3 +122,9 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 ## SRC-016 / SRC-017 version verification (2026-11-17)
 - SRC-016 Steam Guide ID 3713640352: search snippets expose an “updated 10 August 2026” full-game/Bistro/Rat Level text, but the directly opened Brazilian-language page is a removed-community item whose readable body still identifies an April 25 EA version. Treat the August text as search-index/cache evidence only, not a currently inspectable guide.
 - SRC-017 Steam Guide ID 3686619896: direct page title is “v4.0EA” (not 1.0); page says posted March 17, updated June 8, and explicitly states recipes are based on v3.0 EA. It contains Student Dorm/Cafe sections but no Bistro or Rat Level sections. All previous claims attributed to a September 1 “1.0 Chinese guide” are withdrawn unless independently supported by another source.
+
+
+## SRC-023 version clarification (2026-11-17)
+- The 2026-09-09 publication date does not mean the article describes the 1.0 build. Its introduction explicitly says it covers the July 13 Level 3 update during Early Access, even though the full release had occurred by the time it was written.
+- Keep its Bistro To-Do, rat-trade, Mixer, wine and seven-country statements as EA-era first-hand evidence. Cross-check persistence into 1.0 against SRC-024 (1.0 walkthrough), current patch notes, and later sources.
+- The article names only Japan's Mochi among the seven international dishes; do not infer the other six from the recipe list.
