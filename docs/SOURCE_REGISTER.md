@@ -187,3 +187,17 @@ The Japanese walkthrough's embedded screenshot at the Bistro kitchen shows the f
 5. Make pizza dough
 
 The screenshot also includes a truncated author note reading “Last one coming with 1.0” (partially obscured by the cursor/page crop). This is strong evidence for the EA task list and for four rat trades / six new-ingredient dishes in that build, but it is not proof the final 1.0 task list retained identical wording or counters. The source's text confirms the first Cheese → Tomato trade and says subsequent illustrated requests award ingredients; the full four requested dishes and reward mapping are still not transcribed. Do not mistake this Bistro list for the separate Cafe Level 2 To-Do list.
+
+
+## SRC-023 Cafe To-Do screenshot transcription (2026-11-17)
+The same Japanese Early Access walkthrough (published 2026-03-28; author says game state is 2026-03-26) contains a Cafe screenshot with four visible tasks:
+1. Order missing ingredients
+2. Restock the cakes (0/2)
+3. Make drinks (0/10)
+4. Cook new dishes (0/60)
+The screenshot explicitly says “More coming soon...”, and the author says the Cafe stage / To-Do list was incomplete at that time. Therefore this is a historical baseline only, not the final 1.0 checklist.
+
+Cross-version additions:
+- Official v3.0ea changelog (SteamDB mirror, 2026-04-23; SRC-054 candidate) adds a To-Do task “complete 8 orders”. This should be treated as an official EA addition, not inferred from the March screenshot.
+- The September 2026 Japanese Level 3 walkthrough (SRC-023) records “Set the kitchen on fire” as a Level 2 To-Do / Bistro-unlock condition in the later EA-to-1.0 transition period.
+- The full 1.0 Cafe To-Do list and final counters are still not directly captured in an unambiguous 1.0 screenshot. Keep CAF-018..022 as version reconciliation tests; do not assume the four March tasks, 8-order task, and fire task are the complete final list without a 1.0 capture.
