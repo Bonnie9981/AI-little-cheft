@@ -50,6 +50,8 @@
 
 ## 3. 次要問題（P2）
 
+- Goulash、Tomato Cocktail 的 1.0 輸入候選已有 SRC-017 支持；v1.1 官方修正後的現行行為仍需回歸測試，但不再阻止建立候選資料。
+
 - Coioioin 有「連續同面三次」與藍框開關／紅框目標兩種玩家描述；官方成就文字支持前者，需以 1.0+ 實機為準。
 - QA 的 116 項是規格案例，不是 102 項已執行結果；需要執行紀錄、截圖／影片、版本號與 pass/fail。
 - zh-TW 字典目前是候選版；仍需母語校對、菜名專名核對、按鈕長度與窄螢幕溢位檢查。
@@ -95,3 +97,8 @@
 - It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 127 unique test IDs, all designed but not executed.
 - Goulash and Tomato Cocktail are no longer treated as formula-unknown P1 blockers: SRC-017 and comments provide actual 1.0 candidates. Current v1.1 behavior still needs regression verification because the official patch note says the cookbook was fixed without restating formulas.
 - P1 blockers remain: rat request sequence/reward order, six unnamed country dishes, Cafe To-Do completeness, Rat Level numeric code and OFF/ON mapping, per-recipe source coverage, and executed QA.
+
+
+## Round 1 Addendum — corrected gate after SRC-017 recovery
+- P1-06 is now actual QA execution, not Goulash/Tomato Cocktail formula discovery. The 1.0 Chinese guide provides current candidates; only v1.1 regression remains.
+- QA count is 127 unique test IDs, all unexecuted.
