@@ -445,7 +445,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 
 ## 2026-11-17｜Critic 初審結果
-- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前132個唯一測試ID，均為設計案例，尚未執行。
+- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前140個唯一測試ID，均為設計案例，尚未執行。
 - 修正README來源範圍與Cafe QA ID命名。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour取得兩份獨立指南支持；Goulash、Tomato Cocktail仍受官方v1.1修正影響，精確新配方未知。
 - 初審不通過正式全內容開發 Gate。主要阻塞：七國料理／老鼠請求順序、Cafe完整To-Do、Rat密碼與電力映射、逐筆配方來源追溯、D級衝突與實機QA。
@@ -475,14 +475,14 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜新增 Mochi 與 Yeast Monster 配方衝突
 - SRC-017 1.0手打指南將日本Mochi列為Ground Rice；SRC-015/SRC-050列為whole Rice，已加入配方衝突表與BIS-048。
 - Yeast Monster在SRC-017（Yeast+Wooden Spoon）、SRC-015（Yeast+Wine）、SRC-050（Yeast+Tomato）三份候選間衝突，新增BIS-049。
-- QA總數由127增為132個唯一測試ID，均尚未實際執行。
+- QA總數由127增為140個唯一測試ID，均尚未實際執行。
 
 
 ## 2026-11-17｜Bistro / Cafe 任務鏈再核對
 - 重新逐行讀取SRC-023日文Level 3通關文與SRC-047 1.0完整路線：Bistro To-Do起始順序為Clean the kitchen → Trade with the rat；老鼠初次收Cheese後給Tomato，後續依抽油煙機便條料理換取食材。
 - 9Puz補強工具依賴：空Mixer容器煮出Scissors、Scissors找出隱藏Mixer開關並剪斷吊掛食材繩；老鼠請求提供特殊食材與七國磁鐵；五瓶酒需依標籤排序。
 - 七國菜仍只有Japan=Mochi有文字證據，其他六道不能猜。Cafe To-Do已確認包含Set the kitchen on fire，Burnt Panini再次烹煮觸發火災；完整任務清單仍缺。
-- Critic P1仍未清除；QA 132項均未實機執行。
+- Critic P1仍未清除；QA 140項均未實機執行。
 
 
 ## 2026-11-17｜Bistro老鼠贈品鏈補證
@@ -493,4 +493,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜Bistro To-Do 截圖辨識
 - SRC-023日文攻略內嵌的Bistro To-Do截圖可直接辨識五項：Clean the kitchen、Trade with the rat (0/4)、Get the mixer to work、Cook new ingredients (0/6)、Make pizza dough。
 - 這是Early Access版本證據；截圖下方作者註記疑似「Last one coming with 1.0」，因此不能直接當作1.0正式清單。明確區分Bistro To-Do與Cafe Level 2 To-Do。
-- 4次老鼠交易、6項新食材料理新增BIS-053..055作版本回歸測試。QA增至135個唯一ID，全部仍未實機執行。
+- 4次老鼠交易、6項新食材料理新增BIS-053..055作版本回歸測試。QA增至140個唯一ID，全部仍未實機執行。
+
+
+## 2026-11-17｜Cafe To-Do 歷史版本拆解
+- SRC-023 2026/03/28日文EA攻略的Cafe截圖可辨識四項：Order missing ingredients、Restock the cakes (0/2)、Make drinks (0/10)、Cook new dishes (0/60)，並標示More coming soon；作者明言當時Cafe與To-Do未完成。
+- 官方v3.0ea（2026/04/23）後續新增To-Do「complete 8 orders」；2026/09日文攻略又記錄「Set the kitchen on fire」是Level 2 To-Do／Level 3解鎖條件。
+- 這些是版本演進證據，不足以拼湊成最終1.0完整清單。新增CAF-018..022逐項驗證舊任務、新增任務及最終清單。QA目前140個唯一ID，均未實機執行。
