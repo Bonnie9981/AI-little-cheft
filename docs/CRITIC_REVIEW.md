@@ -13,7 +13,7 @@
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待zh-TW校對、最終UI字串與版本核對 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
-| QA | 146 個唯一 ID | 僅為測試設計，未執行 |
+| QA | 147 個唯一 ID | 僅為測試設計，未執行 |
 | 來源 | SRC-001 至 SRC-058 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
@@ -188,7 +188,7 @@
 ## Round 1 Addendum — SRC-058 Pizza Dough and classification audit (2026-11-17)
 - Pizza Dough candidate is now supported by SRC-015, SRC-018, and SRC-058 as Flour + Yeast + Olive Oil; SRC-058 explicitly corrects an earlier Dough + Yeast + Olive Oil answer to Flour, not Dough.
 - Bistro provenance ledger now has 121/123 rows with a formula-source listing or action reference. These are source-listed candidates, not in-game verified. Clutter remains unmapped; Crazy Calzone has a Good/Bad classification conflict (SRC-050 Bad section vs SRC-018 route mention). Added BIS-061 to verify the actual tab.
-- QA count is now 146 unique designed IDs, still zero executed.
+- QA count is now 147 unique designed IDs, still zero executed.
 
 ## 最新狀態覆核（2026-11-17，SRC-058後）
 - Source Register：SRC-001 至 SRC-058。
@@ -203,7 +203,7 @@
 - Cafe: 112/112 rows mapped to SRC-020 formula/action references; the source repeats Coffee Cake in its numbered list, and the audit correctly deduplicates it to one candidate row.
 - Bistro: 121/123 rows have formula/action references in the matching Good/Bad section; Crazy Calzone has a source formula but Good/Bad classification conflict; Clutter remains UNMAPPED.
 - Rat Level: 21/21 slot inputs have source references; four retain explicit alternative-input conflicts.
-- Overall: 332/333 candidate rows now have row-level source formula/action references. **None is thereby verified in this project client.** The only unmapped row is Bistro Clutter. The project remains Research Only; all 146 QA IDs are designs, zero executed.
+- Overall: 332/333 candidate rows now have row-level source formula/action references. **None is thereby verified in this project client.** The only unmapped row is Bistro Clutter. The project remains Research Only; all 147 QA IDs are designs, zero executed.
 
 
 ## Clutter source correction — SRC-024
@@ -222,3 +222,9 @@
 - Bistro candidate split is now 83 Good / 40 Bad; global candidate split is 211 Good / 122 Bad (333 total).
 - Crazy Calzone was moved to Bad because SRC-050 lists it in Bad Recipes and the move exactly aligns the 1.0 screenshot's 83/40 counters. This is a counter-aligned candidate, not a direct tab screenshot; BIS-061 remains open.
 - Clutter remains the only formula-unmapped candidate; SRC-024 gives a spontaneous-mess hint only.
+
+
+## Round 1 Addendum — Rat Level clue legibility (SRC-024)
+- SRC-024 screenshot after the wine puzzle shows the power control and a planter note with two visible 3 digits, but the available image does not reliably reveal all three digits. No numeric code is inferred.
+- Strong/weak power selection is supported, but the exact UI OFF/ON mapping remains unverified. Added RAT-020 for full-resolution clue transcription and keypad acceptance.
+- QA now 147 unique designs, zero executed.
