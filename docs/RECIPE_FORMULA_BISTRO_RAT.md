@@ -221,3 +221,10 @@ The directly readable 9Puz 1.0 route independently confirms the puzzle sequence 
 - 9Puz's Bistro route says Big Magnet is made by cooking a rat-reward Magnet; Compass is Scissors + a country Magnet only after the magnet has registered for Going Global.
 
 Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candidate rules, not in-game verification.
+
+
+## Bistro rat quest persistence / counter requirement (SRC-048)
+- Official v5.1ea notes explicitly fix the Bistro rat-trade To-Do counter displaying -1 and prevent the rat quest from starting again.
+- Recreation requirement: persist one rat quest state machine and current request index; scene reload must not restart the sequence or duplicate rewards. Keep UI To-Do count separate from quest truth state.
+- Suggested implementation fields (project design, not a claim about original internals): quest_started, request_index, request_completed, reward_claimed, quest_completed. Reward claiming must be idempotent per request.
+- The patch note does not reveal the complete rat request order or the exact seven country-dish mapping.
