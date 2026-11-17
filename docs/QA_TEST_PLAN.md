@@ -234,10 +234,11 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 
 ## Cafe To-Do ledger correction
 
-- Official v3.0ea notes say eight To-Do entries were added to Level 2. This is the number of task rows, not the number of orders.
-- One task is to complete 8 orders. The known task candidates also include clean kitchen, rat trade, and fire interaction.
-- Four of eight task names remain unknown. Do not mark Cafe task-ledger coverage complete until all eight rows are identified and tested.
-- Verify Level 3 remains locked until all eight Level 2 To-Do entries are complete.
+- Official v3.0ea notes add one Level 2 To-Do: “complete 8 orders”. This is one task with an eight-order target, not eight separate tasks.
+- v5.1ea says the Level 2 To-Do list must be completed before Level 3 can be played.
+- The 1.0 route identifies the fire interaction as a Level 2 To-Do; cleaning and rat trade are confirmed progression actions but their exact To-Do UI labels are not recovered.
+- Do not assume a total number of Cafe To-Do rows. Verify the complete live To-Do panel before marking coverage complete.
+- Verify Level 3 remains locked until the actual Level 2 To-Do panel is complete.
 
 ## Coioioin conflicting interaction test
 
