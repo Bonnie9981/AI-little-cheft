@@ -163,3 +163,10 @@
 - This exposes a schema risk: generic Meat and Ground Meat cannot be collapsed. Recipe inputs must reference explicit item-state keys.
 - Risotto = Rice + Mushroom + Cheese is a single-thread candidate. Focaccia = Bread Dough + Olives + Olive Oil is corroborated by the existing Bistro guide and is stronger.
 - These are community-source candidates, not in-game verification. No QA case is marked executed. SRC-055 does not resolve the rat request sequence, country mapping, Cafe final To-Do, Rat Level code/power mapping, or the full 333-row provenance gap.
+
+
+## Round 1 Addendum — SRC-056 localization and icon integrity (2026-11-17)
+- Developer Leek states that Bistro's new dish translations at that time were temporary DeepL output, with human Chinese localization planned after text finalization. Therefore any EA Chinese dish name is version-contingent, not a safe 1.0 zh-TW source of truth.
+- A player reports the Tomato Cocktail icon showed a meat symbol where Wine should be, and describes Tomato Sauce + Wine + Olives. This is a concrete example of why recipe icons and text must be independently checked.
+- The same player claims Kombucha does not contain Mushroom, contradicting multiple recipe guides. This is not developer-confirmed; it must remain an explicit competing hypothesis and be tested in-game.
+- Translation QA and Kombucha formula remain unresolved; no test has been marked executed.
