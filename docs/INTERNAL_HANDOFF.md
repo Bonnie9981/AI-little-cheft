@@ -420,8 +420,8 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
   - Good：Crazy Calzone = Pizza + Pizza Dough。
   - Bad：Breadless Burger = Ground Meat + Cheese + Tomato；Vampire Defense Kit = Garlic + Wooden Spoon（另有 Garlic + any Pencil衝突）；Bread and Wine = Wine + Bread；Sorrow Sandwich = Bread + Flour；Risky Rice Pudding = Rice + Flour。
 - 因此7/14 guide list 76/31不能直接當成EA完整基線；修正為 77 Good / 36 Bad候選，再加 8/27的7 Good +2 Bad，以及Clutter 1 Bad。
-- 最新 Bistro候選總量為 **84 Good / 39 Bad（123 total）**。
-- 最新全遊戲候選總量為 **333筆：212 Good +121 Bad**（Student Dorm 48/29、Cafe 71/41、Bistro 84/39、Rat Level 9/12）。
+- 歷史Bistro候選總量曾為84 Good / 39 Bad；已依SRC-024 1.0 counter改為83 Good / 40 Bad（123 total）。
+- 歷史全遊戲候選總量曾為333筆：212 Good + 121 Bad；現依SRC-024修正為211 Good + 122 Bad（Student Dorm 48/29、Cafe 71/41、Bistro 83/40、Rat Level 9/12）。
 - 333仍是多來源候選總量，尚未由1.0遊戲內 cookbook counter驗證。已更新 RECIPE_INVENTORY、RECIPE_FORMULA_BISTRO_RAT、README、PROGRESS_REPORT、PROGRESSION_MODEL與QA。
 - refs：turn443888search0、turn443888search1、turn443888search2。
 
