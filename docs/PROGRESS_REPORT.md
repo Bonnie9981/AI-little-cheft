@@ -356,3 +356,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Rat Level 21格是符號slot，不杜撰菜名。
 - 修正Sausage Roll主鍵一致性與English Breakfast缺少譯名。
 - 注意：這是資料列完整性檢查，不是遊戲內配方驗證。
+
+
+## Cafe To-Do 的 1.0 玩家實際流程補充（2026-11-17）
+- 日本玩家 1.0通關記錄顯示：先完成「Set the kitchen on fire」，再清完剩餘訂單，回 My Room後才解鎖 Bistro。
+- 該玩家遇到火災已發生但To-Do未勾選的狀況，重做火災互動後才繼續；應視為任務登錄bug候選。
+- 目前 Cafe明確可命名的To-Do為「Complete 8 orders」與「Set the kitchen on fire」；完整總列數仍未由UI畫面證實。
+- Bistro To-Do則已確認「Clean the kitchen」與「Trade with the rat」，不可把這兩項錯放到Cafe。
