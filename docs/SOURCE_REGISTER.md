@@ -152,3 +152,10 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - 直接開啟 Steam Bistro Guide（SRC-015）後，逐行核對到 Pizza Dough = Olive Oil + Yeast + Flour；9Puz 1.0 路線亦獨立確認相同三材料依賴。此項可列為 B 級候選，但仍非本專案實機驗證。
 - 同一指南列 Goulash = Meat + Ground Tomato + Wine、Tomato Cocktail = Ground Tomato + Olives + Wine；由於官方 v1.1 只公告「修正食譜書」，沒有公開新配方，兩項仍是版本敏感未定案，不可把舊指南當成 v1.1 的正確配方。
 - Bistro 七國菜：目前只有日文作者直接文字說明 Japan = Mochi；其餘六道只在圖片／遊戲內圖示層面出現，未取得可讀文字證據。不得從菜名或真實國籍自行推定。
+
+
+## SRC-045 視覺補證（2026-11-17）
+- 直接開啟日文 1.0 通關文章中的嵌入截圖（不是只讀文字）：可見 Rat Level 的電器罐、上方控制面板、反重力／紅色投擲目標與場景中的數字便條。截圖支持「數字便條 + 控制器 + coin target」的場景關係。
+- 截圖中的便條數字在不同畫面狀態出現不同組合，且擷取文字／單張截圖不足以可靠還原完整三位數密碼；不得把其中一張局部可見數字拼成通用密碼。
+- 1.0作者文字仍明確描述：兩材料上限、解謎後可切換強／弱電力、同材料在不同電力下產生不同結果；圖片補強控制器位置與 coin target 的存在，但沒有清楚證明 OFF/ON 對應強／弱。
+- Coioioin 圖片可見藍框控制與紅框投幣目標；官方成就文字仍是同面連續三次。兩者關係維持待實機驗證，不把圖片中的操作提示等同成就唯一必要條件。
