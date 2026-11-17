@@ -394,3 +394,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Compass = Scissors + country Magnet；建議先讓磁鐵登記至 Going Global，再把磁鐵投入配方。
 - 復刻資料需區分收到磁鐵、登記國家磁鐵、消耗磁鐵製作 Compass / Big Magnet三種狀態。
 - 以上是候選規則補充，未新增遊戲內驗證。
+
+
+## 2026-11-17｜Bistro 磁鐵依賴 QA 擴充
+- QA新增BIS-019：Country Magnet登記後才測Compass，分離磁鐵持有與Going Global登記狀態。
+- QA新增BIS-020：比較老鼠獎勵Magnet直接使用與放入料理設備後是否觸發Big Magnet。
+- QA目前92個唯一測試案例；兩項均待遊戲內驗證。Research Only維持。
