@@ -168,7 +168,7 @@ Sources:
 
 ## Additional Bistro conflicts cross-checked against 7/14, cached 8/10, and 9/2 sources
 
-The previously cited Steam guide ID 3686619896 was misidentified as a 1.0 guide. Direct inspection shows it is a v4.0 EA Student Dorm/Cafe guide and contains no Bistro or Rat Level section. All formula claims previously attributed to a “9/1 Chinese 1.0 guide” are withdrawn. The remaining candidates below are based only on the listed sources.
+**Correction (2026-11-17):** Steam Guide ID 3686619896 is in fact titled a v1.0 all-achievements guide, updated 2026-09-08. Its body retains a legacy “v4.0 ea” heading for older content but also contains Bistro and Rat Level sections (lines 403–553). The earlier claim that it had no Bistro/Rat Level content, and the blanket withdrawal of its 1.0 claims, are superseded. Its author warns that the first two rooms may be stale and manually entered formulas may be wrong; use its Bistro/Rat Level entries as C-level 1.0 candidates. See SRC-017 critical correction in SOURCE_REGISTER.
 
 | Recipe | Candidate inputs / states | Conflict | Handling |
 |---|---|---|---|
