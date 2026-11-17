@@ -253,3 +253,11 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - Confirm the next To-Do is “Trade with the rat”; offer Cheese at the extractor-hood door.
 - Verify the rat shows one illustrated dish request at a time and awards a new ingredient after the requested dish is cooked.
 - Keep Bistro task ledger, rat-trade sequence, country-magnet collection, and Best Friends achievement as separate state variables until the live UI proves their exact coupling.
+
+
+## Cafe fire-task registration / retry test
+
+- Complete the fire sequence by cooking Panini, then cooking the Burnt Panini again.
+- Verify the Level 2 To-Do row updates independently of the Aw That's Hot Steam achievement.
+- If the fire row remains unchecked, repeat the fire interaction once and verify whether the task registers; record this as a bug-compatibility case rather than a normal success path.
+- After extinguishing the fire, complete remaining orders and verify the Level 3 unlock gate.
