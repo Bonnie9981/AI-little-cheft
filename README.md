@@ -30,7 +30,7 @@
 | [RECIPE_CONFLICTS](docs/RECIPE_CONFLICTS.md) | 配方衝突、版本差異與未驗證項目 |
 | [ZH_TW_GLOSSARY](docs/ZH_TW_GLOSSARY.md) | 台灣繁體中文 UI、食材、料理與成就詞彙 |
 | [INTERACTION_SPEC](docs/INTERACTION_SPEC.md) | 物件、物理、輸入、設備與解謎互動規格 |
-| [QA_TEST_PLAN](docs/QA_TEST_PLAN.md) | 129項測試案例：配方、物理、解鎖、成就、存檔與多裝置驗收 |
+| [QA_TEST_PLAN](docs/QA_TEST_PLAN.md) | 132項測試案例：配方、物理、解鎖、成就、存檔與多裝置驗收 |
 | [ITEM_STATE_INVENTORY](docs/ITEM_STATE_INVENTORY.md) | 四個房間的物件、加工狀態與互動能力 |
 | [ACHIEVEMENT_MATRIX](docs/ACHIEVEMENT_MATRIX.md) | 1.0正式26項成就與觸發條件 |
 | [PROGRESSION_MODEL](docs/PROGRESSION_MODEL.md) | 房間進度、To-Do與解鎖狀態模型 |
