@@ -350,3 +350,7 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 | BIS-050 | First Bistro rat trade: offer Cheese at extractor hood | Rat accepts Cheese, awards Tomato, and starts the note-driven trade chain |
 | BIS-051 | Complete each rat note request in sequence | The displayed dish illustration is the required request; cooking it awards the next ingredient without skipping/restarting the chain |
 | BIS-052 | Validate mouse-gated ingredients | Confirm Apple, Garlic, and Olives are unavailable until their respective rat rewards; verify each reward against the in-game inventory |
+
+| BIS-053 | Bistro To-Do: verify visible task set | Compare Clean the kitchen, Trade with the rat (0/4), Get the mixer to work, Cook new ingredients (0/6), and Make pizza dough against the target 1.0 client; do not silently promote EA screenshot to 1.0 truth |
+| BIS-054 | Bistro rat trade counter | Confirm four rat trades are required in the EA snapshot and determine whether the 1.0 client retains the 0/4 counter |
+| BIS-055 | Bistro new-ingredient counter | Confirm six new-ingredient dishes are required in the EA snapshot and determine whether the 1.0 client retains the 0/6 counter |
