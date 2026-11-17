@@ -384,7 +384,7 @@ SRC-017 is confirmed to be a v1.0-titled guide updated 2026-09-08, with legacy v
 |---|---|---|---|
 | Goulash | Meat + Ground Tomato + Wine; author says cookbook icon showed whole Tomato incorrectly | SRC-050 list says Meat + Ground Tomato + Wine; official v1.1 says cookbook recipe fixed | Formula now has strong community convergence; retain v1.1 regression test for exact current item state |
 | Tomato Cocktail | Olives + Ground Tomato + Red Wine; author/player comment reports cookbook icon mismatch | SRC-050 says Olives + Ground Tomato + Wine | Prefer Red Wine as a test candidate; do not collapse wine-state difference without live check |
-| Clutter | Cloth + Wooden Spoon | 1.0 Japanese walkthrough clue suggests spontaneous mess | Test both direct combination and idle/physics-trigger hypotheses |
+| Clutter | **Formula unknown**; Cloth + Wooden Spoon withdrawn | SRC-024 1.0 player walkthrough describes clutter as happening spontaneously, but gives no reproducible input | Test idle/physics-trigger hypothesis; direct combinations remain experiments, not sourced formula |
 | Vampire Defense Kit | Tomato + Wooden Spoon | SRC-050 says Garlic + Wooden Spoon; older comment says Garlic + Pencil | D-level; test all separately |
 | Bread Sticks | Pizza Dough alone | SRC-015 says Pizza Dough + Olive Oil | D-level; test both |
 | Crazy Calzone / Pizza Calzone | Pizza + Wooden Spoon | SRC-015/SRC-050 say Pizza + Pizza Dough | D-level; test both |
@@ -473,3 +473,8 @@ Steam討論串「help level 3 - pizza dough」最初回覆為 Dough + Yeast + Ol
 - SRC-018 1.0 completion route將Crazy Calzone列為可用Pizza + Pizza Dough製作的Bistro鏈料理，未明確說明Good/Bad tab。
 - SRC-038玩家留言亦確認Pizza + Pizza Dough會做出Crazy Calzone，但未說明分類。
 - 因此配方材料有支持，**Good/Bad分類未定**。不可因名字或攻略章節位置猜分類；實機時必須分別記錄recipe card出現在哪個tab及計數器。
+
+
+## Clutter source correction｜SRC-024（2026-11-17）
+
+Re-opened the actual 2026-09-10 Japanese 1.0 completion article (SRC-024). The player identifies Clutter as the final Bad recipe and quotes its hint as something that sometimes gets messy “on its own”; the article does **not** provide a formula. The earlier Cloth + Wooden Spoon candidate is withdrawn because its alleged source attribution was incorrect. Keep the recipe name and trigger hint, but leave the formula unknown. BIS-018 and BIS-040 remain the required reproduction tests.
