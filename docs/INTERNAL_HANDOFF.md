@@ -595,3 +595,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-024 1.0 screenshots show Bistro target counters 83 Good / 40 Bad (save progress 76/83 and 37/40).
 - SRC-050 places Crazy Calzone under Bad Recipes. Reclassifying it from Good to Bad makes the Bistro inventory 83/40, matching the screenshot. It is marked counter-aligned candidate, not direct card-tab verified; keep BIS-061.
 - Global candidate split is now 211 Good + 122 Bad = 333. Do not keep using old 212/121 or 84/39 counts as current.
+
+
+## 2026-11-17｜候選計數修正後快照
+- Bistro：83 Good / 40 Bad；全遊戲：211 Good / 122 Bad，共333候選。
+- Crazy Calzone已改列Bad，與SRC-050 Bad Recipes章節及SRC-024 1.0 counter吻合；仍須BIS-061實機確認tab。
+- Clutter僅有SRC-024自發混亂提示，公式仍未知。
