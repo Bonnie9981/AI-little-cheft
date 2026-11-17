@@ -657,3 +657,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 第五冷爐Good：SRC-018/067為Cheese+Eggshell，SRC-066為Cheese+Leaf。Pasta Bad：SRC-066分列Pasta單獨與Pasta+Paperclip，其他來源可能合併。新增RAT-024/025驗證。
 - 新增RAT-026記錄花盆紙條與酒瓶／鍵盤互動順序；仍沒有任何文字來源披露完整三位數密碼。
 - QA最新164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。Source Register至SRC-067；Critic FAIL；Research Only。
+
+
+## 2026-11-17｜補登SRC-064早期Bistro來源
+- Source Register補齊SRC-064：J_Moon於2026/07/14發布的Bistro Guide（EA時期）。其配方候選包括Tomato Cheese Appetizer不加Olives、Apple Mochi用Ground Rice、Sake用Rice+Yeast、Mushroom Soup加Garlic、Pumpkin Soup用Ground Pumpkin+Garlic、Meatballs用Ground Beef單獨完成。
+- 因為是1.0前資料，僅作歷史版本線索；RECIPE_CONFLICTS已加註版本權重，不可用它直接定案。
+- 來源編號連續SRC-001…SRC-067；QA仍164 unique、0 executed。Research Only / Critic FAIL。
