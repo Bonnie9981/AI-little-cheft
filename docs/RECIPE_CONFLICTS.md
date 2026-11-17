@@ -187,7 +187,7 @@ The 2026-09-01 community guide is useful as a later-version cross-check, but its
 | Food Sketch | Apple + Any Pencil; or Cheese + Any Pencil | 7/14 guide says Apple; later guide says Cheese. | D; test |
 | Fried Balls | Bread + Olive Oil; or Salami + Olive Oil | 7/14 guide says Bread; 8/10 guide says Salami. | D; test |
 | Vampire Defense Kit | Garlic + Any Pencil; Garlic + Wooden Spoon; or Tomato + Spoon | 7/14 comment, 8/10 guide, and 9/1 Chinese guide differ. | D; test |
-| Clutter | Cloth + Wooden Spoon | 9/1 Chinese guide gives this formula; 9/10 Japanese guide confirms Clutter exists but does not list inputs. | C; best current candidate |
+| Clutter | Unknown; no formula accepted | 9/1 Chinese guide's Cloth + Wooden Spoon claim is not independently corroborated. The 9/10 Japanese 1.0 player identifies Clutter as a Bad Recipe and its clue text implies spontaneous mess, but gives no exact trigger. | D; keep trigger unknown; do not implement Cloth + Wooden Spoon |
 | Rat cold Good slot #5 | Cheese + Eggshell; or Cheese + Leaf | 8/10 guide says Eggshell; 9/1 Chinese guide says Leaf; 9/10 Japanese guide does not resolve. | D; test both and inspect live slot |
 | Rat bad slot #4 | Egg + Pencil; or Eggshell + Pencil | 8/10 guide says Egg; 9/1 Chinese guide says Eggshell. | D; test both |
 | Rat bad slot #6/#7 | Pasta alone; Pasta + Paper; or Paperclip + Pasta | 8/10 guide lists Paperclip + Pasta; 9/1 Chinese guide lists Pasta alone and an additional Pasta + Paper candidate. | D; test all separately |
@@ -221,12 +221,12 @@ Sources:
 |---|---|---|---|
 | Smoothie | Milk + Banana + Peanut Butter; or Strawberry Jam + Banana + Milk | Developer says Smoothie includes Peanut Butter; cached Steam guide lists Milk + Banana + Peanut; 10/9 Pixel Questing lists Strawberry Jam + Banana + Milk. | B/C; Peanut Butter favored, but version difference remains open |
 | Sweet Sandwich | Bread + Peanut Butter; or Bread + Strawberry Jam | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
-| Good Protein Shake | Protein Powder + Milk + Peanut Butter; or Protein Powder + Milk + Banana | Developer explicitly corrects Milk (not Egg); 10/9 guide lists Peanut Butter or Banana. | B; Peanut Butter is confirmed, Banana alternate unverified |
+| Good Protein Shake | Protein Powder + Milk + Peanut Butter; alternate: Protein Powder + Milk + Banana | Developer explicitly gives Milk + Peanut Butter + Protein Powder as the correct formula (and rejects Egg). Pixel Questing 1.0 says Peanut Butter or Banana. | A for Peanut Butter formula; C for Banana alternate; test alternate separately |
 | Savory Sandwich | Bread + Egg; Bread + Cheese + Tomato Sauce; or Bread + Cheese + Tomato | Official v2.9 adds Tomato Sauce variant; later guides differ on Sauce vs raw Tomato. | A/B; preserve separate input sets |
 | Pasta A La Carbonara | Pasta + Egg + Cheese; or Pasta + Egg + Milk | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
 | Beans on Toast | Bread + Beans; or Beans + Toast | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test Bread vs Toast state |
 | Tomato Soup | Tomato; or Tomato + Toast | 8/10 cached Steam guide vs 10/9 Pixel Questing. | D; test both |
-| PB&J Sandwich | Bread + Peanut Butter + Jam; or PB&J jar + Bread | 10/9 guide adds PB&J jar intermediate; 8/10 guide uses three inputs. | C; test both |
+| PB&J Sandwich | Bread + Peanut Butter + Strawberry Jam; alternate: PB&J Jar + Bread (also Toast as bread base) | 10/9 Pixel Questing explicitly lists Bread, Toast, or PB&J Jar + Bread as accepted paths; 8/10 guide lists the three raw inputs. These may be alternate valid paths, not a version conflict. | B/C; preserve alternate_inputs rather than treating as mutually exclusive |
 | Tiramisu | Cake + Filled Coffee Cup + Milk; official v2.9 Cake + Coffee + Dough / Milk; or Cheese + Cake + Coffee Beans | Official v2.9 plus 8/10 guide support coffee state; 11/9 guide conflicts. | B; prioritize filled coffee cup candidate |
 | Babyccino | Milk; or Espresso Shot + Milk | 8/10 cached Steam guide says Milk; 11/9 Pixel Questing lists Milk or Espresso + Milk. | B; Milk is minimum confirmed |
 | Latte | Milk + Coffee Beans; or Espresso Shot + Milk | 8/10 cached Steam guide vs 11/9 guide. | D; test both |
@@ -349,3 +349,14 @@ Sources:
 - The Bistro guide uses “Ground Beef” in Meatball Sandwich and Cheeseburger, while other 1.0 sources and the item-state model use “Ground Meat”.
 - No evidence indicates two distinct processed meat items. Normalize the implementation data key to `ground_meat`; keep “Ground Beef” as a source alias, not a separate item state.
 - Stuffed Tomato, Hamburger, Meatballs, Breadless Burger and other recipes must reference the same processed meat state unless live UI proves otherwise.
+
+
+## 2026-11-17｜Student Dorm配方衝突再審（新增來源交叉核對）
+
+- **Clutter：撤回 Cloth + Wooden Spoon。** 1.0日文玩家只確認 Clutter 存在，提示文字暗示「混亂會自行發生」，沒有提供可重現輸入。9/1簡中攻略的 Cloth + Wooden Spoon 缺乏獨立支持，故改回 trigger = unknown，不能進正式 recipe formula。
+- **Smoothie：不再把 Peanut Butter 說成唯一配方。** 開發者只確認 Peanut Butter 是其中一項材料，沒有在回覆中寫完整三材料組合；10/9 1.0攻略列 Strawberry Jam + Banana + Milk。保留 Milk + Banana + Peanut Butter 與 Strawberry Jam + Banana + Milk 兩條候選，等待實機或更多開發者證據。
+- **Good Protein Shake：開發者已明確給出 Milk + Peanut Butter + Protein Powder，並明確否定 Egg。** 10/9攻略提到 Banana alternate，先保留為低信心替代，不覆蓋開發者公式。
+- **Pasta A La Carbonara：** 8/10 Steam攻略及玩家討論支持 Pasta + Egg + Cheese；10/9 1.0攻略支持 Pasta + Egg + Milk。來源互相矛盾，仍列D級，必須在1.0逐條測試。
+- **PB&J Sandwich：** 10/9攻略明確接受 Bread、Toast 或 PB&J Jar + Bread等路徑；這比較像 alternate_inputs，不應誤判成版本衝突。
+
+Sources: SRC-016, SRC-019, SRC-024, SRC-031, SRC-032; [Steam Carbonara discussion](https://steamcommunity.com/app/3376500/discussions/0/800090354736110017/).
