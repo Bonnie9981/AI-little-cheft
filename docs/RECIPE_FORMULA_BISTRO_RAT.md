@@ -35,7 +35,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Apple Cider | Apple + Yeast |
 | Garlic Bread | Bread + Garlic |
 | Kombucha | Mushroom + Yeast (Chinese community source disputes Mushroom) |
-| Goulash | Meat + Ground Tomato + Wine |
+| Goulash | Meat + Ground Tomato + Wine (SRC-017 says the 1.0 cookbook icon showed whole Tomato in error) |
 | Pumpkin Seeds | Pumpkin |
 | Mushroom Soup | Mushroom + Garlic |
 | Apple Mochi | Ground Rice + Apple (whole Rice variant conflict) |
@@ -54,14 +54,14 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Pumpkin Fries | Pumpkin + Olive Oil |
 | Meatloaf | Meat + Ground Meat |
 | Pizza | Pizza Dough + Ground Tomato + Cheese |
-| Crazy Calzone | Pizza + Pizza Dough |
-| Tomato Cocktail | Ground Tomato + Olives + Wine |
+| Crazy Calzone | Pizza + Pizza Dough (SRC-017 v1.0 guide candidate: Pizza + Wooden Spoon; conflict) |
+| Tomato Cocktail | Ground Tomato + Olives + Wine / Red Wine (SRC-017 author comment identifies Olives + Ground Tomato + Red Wine as the corrected 1.0 condition) |
 | Italian Rice Balls | Rice + Cheese + Olive Oil |
 | Schnitzel | Meat + Flour + Olive Oil |
 | Meat Lover Pizza | Pizza + Meat + Salami |
 | Pumpkin Pie | Bread Dough + Pumpkin |
 | Fried Apple Rings | Apple + Flour + Olive Oil |
-| Bread Sticks | Pizza Dough + Olive Oil |
+| Bread Sticks | Pizza Dough + Olive Oil (SRC-017 v1.0 guide says Pizza Dough alone; conflict) |
 | Fungi Pizza | Pizza + Mushroom |
 | Beef Katsu Sando | Bread + Meat + Olive Oil (7/14 guide says Meat + Bread) |
 | Meatballs | Ground Meat + Garlic + Dough (7/14 guide says Ground Beef only) |
@@ -111,7 +111,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Scissors | Empty Blender Jar into pot |
 | Red 40 | Tomato + Meat + Apple |
 | Compass | Scissors + any country Magnet (after the magnet has registered for Going Global) |
-| Bad Pastry | Bread Dough + Flour + Pizza (7/14 guide omits Pizza; conflict) |
+| Bad Pastry | Bread Dough + Flour + Pizza (SRC-017 v1.0 guide candidate: Yeast + Bread Dough + Pizza Dough; conflict) |
 | Cheese Cloth | Table Cloth + Cheese |
 | Sketchbook | Newspaper + any Pencil |
 | Bad Meatloaf | Meat + Olives (7/14 guide says Flour; conflict) |
@@ -130,13 +130,13 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Pencil Sharpener | Any Pencil + Scissors |
 | Oil Paint | Any Pencil + Olive Oil |
 | Breadless Burger | Ground Meat + Cheese + Tomato |
-| Vampire Defense Kit | Garlic + Wooden Spoon (older Steam comment: Garlic + any Pencil) |
+| Vampire Defense Kit | Garlic + Wooden Spoon (SRC-017 v1.0 guide candidate: Tomato + Wooden Spoon; older comment: Garlic + any Pencil) |
 | Bread and Wine | Wine + Bread |
-| Sorrow Sandwich | Bread + Flour |
-| Risky Rice Pudding | Rice + Flour |
+| Sorrow Sandwich | Bread + Flour (SRC-017 v1.0 guide candidate: Bread + Wooden Spoon; conflict) |
+| Risky Rice Pudding | Rice + Flour (SRC-017 v1.0 guide candidate: Rice + Wooden Spoon; conflict) |
 | Big Magnet | Candidate: cook one Magnet received from the rat trade in the cooking station; older Steam guide shorthand says “Magnet from mouse rewards” |
 | Boo Tomato | Tomato |
-| Clutter | Unknown; 1.0 player report confirms the recipe name but readable text does not disclose its trigger |
+| Clutter | Cloth + Wooden Spoon (SRC-017 1.0 candidate); spontaneous-mess clue from 1.0 walkthrough remains an alternate interpretation |
 
 ## Rat Level — 9 Good slots
 
@@ -148,7 +148,7 @@ Device: Electric Can Cooker (microwave-like powered tin can). Use power_level = 
 | Low/OFF #2 | Cheese + Cheese |
 | Low/OFF #3 | Cheese + Paper |
 | Low/OFF #4 | Cheese + Pencil |
-| Low/OFF #5 | Cheese + Eggshell OR Leaf (conflict) |
+| Low/OFF #5 | Cheese + Leaf (SRC-017 1.0 guide); Cheese + Eggshell (SRC-050 cached guide / 9Puz ambiguity) remains alternate |
 | High/ON #1 | Cheese |
 | High/ON #2 | Cheese + Cheese |
 | High/ON #3 | Cheese + Paper |
@@ -161,10 +161,10 @@ Device: Electric Can Cooker (microwave-like powered tin can). Use power_level = 
 | Bad #1 | Empty cooker (test low and high separately) |
 | Bad #2 | Leaf |
 | Bad #3 | Paperclip + Paper |
-| Bad #4 | Egg + Pencil OR Eggshell + Pencil (conflict) |
+| Bad #4 | Eggshell + Pencil (SRC-017 1.0 guide) OR Egg + Pencil (SRC-050 cached guide) |
 | Bad #5 | Leaf + Pencil |
-| Bad #6 | Paperclip + Pasta OR Pasta alone (conflict) |
-| Bad #7 | Eggshell + Paper OR Pasta + Paper (conflict) |
+| Bad #6 | Pasta alone (SRC-017 1.0 guide) OR Paperclip + Pasta (SRC-050 cached guide) |
+| Bad #7 | Pasta + Paper (SRC-017 1.0 guide) OR Eggshell + Paper (SRC-050 cached guide) |
 | Bad #8 | Paperclip |
 | Bad #9 | Paper |
 | Bad #10 | Eggshell |
@@ -236,3 +236,10 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 - These two are **not final verified formulas**: official v1.1 explicitly says both cookbook recipes were fixed. Test the current client and record the exact input object states, output card, cookbook registration, and persistence after reload.
 - Community comment corrections on the same guide: Dirty Chai Latte = Tea + Milk + Coffee (not Coffee Beans); Tomato Juice uses Ground Tomato rather than whole Tomato. Keep these as comment-backed corrections, not authoritative facts, until confirmed in-game.
 - The guide's main text says Tomato Juice = Tomato, which conflicts with a later user comment. Preserve both records in the conflict ledger; do not silently overwrite the guide.
+
+
+## SRC-017 1.0 guide correction addendum (2026-11-17)
+- SRC-017 is a mixed historical guide whose page title is v1.0 and whose body includes Bistro and Rat Level; it was previously misclassified because an early section retains the “v4.0 ea” heading. See SOURCE_REGISTER correction.
+- Rat Level candidates are now ordered by version relevance: Leaf for cold Good #5; Eggshell + Pencil for Bad #4; Pasta alone for Bad #6; Pasta + Paper for Bad #7. SRC-050 cached list provides the conflicting alternatives. Keep live-slot tests for all.
+- Clutter now has a concrete community candidate, Cloth + Wooden Spoon, from the v1.0 guide; the 1.0 walkthrough's clue text also suggests spontaneous mess. Do not call it unknown-only; retain both trigger hypotheses.
+- Goulash and Tomato Cocktail have 1.0 actual-condition candidates in SRC-017. For Tomato Cocktail, author/player correction indicates Olives + Ground Tomato + Red Wine; the in-game cookbook icon was reportedly wrong. Official v1.1 later says the cookbook recipes were fixed, but does not restate the formulas.
