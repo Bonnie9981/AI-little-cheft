@@ -332,3 +332,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 1.0攻略確認火災互動也是Level 2 To-Do；清理廚房與老鼠交易屬必要進度互動，但目前未能證明它們在UI中各自是獨立To-Do。
 - 已撤回「Cafe共有8個To-Do、已知4個」的錯誤說法。完整任務列數與其他任務名稱仍待找回。
 - 來源：SteamDB v3.0ea patch notes、官方 v5.1ea、9Puz 1.0 completion route。
+
+
+## 2026-11-17｜Bistro To-Do 與國際料理線索補強
+- 日本玩家 2026-09-09 Level 3 walkthrough明確展示 Bistro To-Do前兩項：「Clean the kitchen」與「Trade with the rat」；用 Cloth清潔，給抽油煙機老鼠 Cheese後得到 Tomato，後續依便條圖製作料理換新食材。
+- Going Global：七道國際料理會在抽油煙機上逐一吸附磁鐵；目前文字仍只明確辨識日本料理 Mochi，其餘六道需從圖片或遊戲畫面確認。
+- Coioioin：Steam官方成就描述與多份玩家指南均只寫同一面連續三次，先以點擊爐旁硬幣作主要測試；藍開關／紅色投擲區說法暫列低信心支線。
+- 來源：日本玩家 Level 3攻略、Steam achievement page、9Puz、Steam guide。
