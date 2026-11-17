@@ -8,7 +8,7 @@ Target: 1.0 release behavior with zh-TW localization, desktop and mobile landsca
 
 A release candidate cannot pass until:
 
-- All 333 current candidate recipe entries are reconciled against the 1.0 cookbook count. The 333 total is a cross-source estimate, not an official counter.
+- The 333-row candidate ledger matches the 1.0 save screenshot denominator (305/333, SRC-024); each candidate must still be checked for exact name, room, Good/Bad tab, formula, item state and duplicate identity. The screenshot confirms the global denominator, not every row.
 - Every recipe record has exact input set(s), item states, appliance, room, version, evidence, confidence, and verification status.
 - Every Good and Bad recipe is discoverable and recorded exactly once; duplicate source rows do not create duplicate recipe IDs.
 - All room unlock tasks and puzzle chains pass.
