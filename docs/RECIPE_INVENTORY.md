@@ -11,7 +11,7 @@ Purpose: one countable name inventory across all rooms before implementation. Th
 | Cafe Job | 71 | 41 | 112 | Single 1.0 walkthrough count |
 | Bistro | 83 | 40 | 123 | Derived cross-source estimate |
 | Rat Level | 9 | 12 | 21 | Slot-based community guide |
-| **All rooms** | **211** | **122** | **333** **Candidate total; not in-game audited** |
+| **All rooms** | **211** | **122** | **333** | **Candidate total; not in-game audited** |
 
 Steam store describes the release as containing over 300 recipes. The current candidate register totals 333, which is consistent with that broad claim, but the register must not be treated as an official counter.
 
