@@ -430,3 +430,11 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 新增 docs/ZH_TW_RECIPE_TRANSLATIONS.md，涵蓋 Student Dorm 77、Cafe 112、Bistro 123，共312筆有名稱的配方。
 - Rat Level另列9 Good +12 Bad共21個符號槽位，不自行替外星符號命名。
 - 台灣繁中候選已完整覆蓋所有命名配方；雙關、罕見料理與部分壞料理仍標記暫定，最終需UI截圖與母語校對。
+
+
+## 2026-11-17｜Coioioin 1.0 trigger conflict — supersedes earlier single-route notes
+- Official Steam achievement text: same coin face lands three times in a row.
+- Older Steam player guide/discussion: repeatedly click the coin beside the cooker until the achievement appears.
+- Japanese 1.0 first-hand guide (2026-09-10) explicitly says the achievement is not simply random same-face repetition; press the switch in the blue frame, then throw the coin into the red frame. The author reports Steam unlock sync occurred only after closing and relaunching the game.
+- Current decision: neither route is final. QA must test both; gameplay trigger and Steam synchronization are separate states. This section supersedes earlier handoff notes that dismissed the blue-switch route as low-confidence or made same-face repetition the only required trigger.
+Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com/stats/3376500/achievements ; https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/
