@@ -255,3 +255,10 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 ## Additional SRC-017 candidate conflicts (2026-11-17)
 - Mochi (Japan country dish): SRC-017 manual v1.0 list says Ground Rice; SRC-015/SRC-050 say Rice. Keep whole vs ground rice separate; do not confuse Mochi with Apple Mochi.
 - Yeast Monster: SRC-017 lists Yeast + Wooden Spoon; SRC-015 lists Yeast + Wine; SRC-050 lists Yeast + Tomato. Three-way conflict remains open.
+
+
+## Mouse-gated ingredient evidence — SRC-023 / SRC-050 (2026-11-17)
+- Confirmed initial exchange: Cheese → Tomato (SRC-023 Japanese 1.0 completion walkthrough).
+- SRC-050 full guide annotates Olives as a mouse gift for Tomato Cheese Appetizer, Apple as a mouse gift for Baked Apple, and Garlic as a mouse gift used by Pumpkin Soup. Treat these as confirmed mouse-gated ingredients, but not as a confirmed sequential reward order.
+- Exact request-card order and the mapping of each request dish to Tomato / Apple / Garlic / Olives / magnets remain unresolved. Do not turn the item annotations into an assumed sequence.
+- Mochi remains a state conflict: SRC-050 main list says whole Rice, while its Aug 28 player comment says grind Rice first; SRC-017 says Ground Rice. BIS-048 must compare whole and ground states.
