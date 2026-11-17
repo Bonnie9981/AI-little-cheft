@@ -296,3 +296,19 @@
 - Static integration QA: source present; three video URLs; timestamp leads extracted; room totals and To-Do/reward conflicts detected and preserved. Bulk recipe import intentionally blocked because rows contain placeholders, ambiguous alternatives and missing inputs. No in-game QA executed.
 - Research stop rule revised: broad evidence collection is no longer a prerequisite for preparing schema, item-state model, room shell, input abstraction, save model, cookbook UI and recipe engine scaffolding. Unresolved recipes must remain disabled/flagged. Full gameplay implementation and release gate remain blocked pending reconciled candidate identities, task panels, P0/P1 isolation, and Critic approval.
 - QA design count remains 173 unique IDs / 0 executed. Round 1 remains FAIL; status is Research Only with implementation preparation permitted.
+
+
+## Round 2 Addendum — Implementation spike review (2026-11-17)
+
+### Scope reviewed
+A browser interaction spike was added at `prototype/index.html`, linked from the recipe browser and README. It includes pointer-based drag, provisional release-velocity/gravity behavior, a three-slot pot drop zone, Raw/Processed demonstration state, scene reset, and localStorage save/load.
+
+### Findings
+- **PASS — preparation work is no longer documentation-only.** There is now a tangible browser prototype to test interaction assumptions.
+- **PASS — unknown recipe behavior remains isolated.** No candidate formula is enabled or used to generate outputs.
+- **PASS — provisional physics is labeled as implementation tuning, not original-game evidence.**
+- **OPEN — browser/device QA has not been executed.** PRO-001..009 are defined but pending real browser and touch-device testing.
+- **OPEN — full game remains blocked by research P1s** listed in Round 1: rat trade sequence, seven-country dishes, Cafe To-Do completeness, Rat Level code/power mapping, per-recipe validation, and real client QA.
+
+### Gate decision
+**Technical spike: implementation-ready / syntax-checked. Full faithful recreation: NOT READY.** The CEO-approved README scope permits preparation spikes; this does not silently authorize full content implementation or release.
