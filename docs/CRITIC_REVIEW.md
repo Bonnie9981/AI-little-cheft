@@ -39,7 +39,7 @@
 **下一步：** 取得花盆便條、電源控制器和爐具指示燈同一版本的截圖；以遊戲 counter 確認 OFF/ON 對應。
 
 ### P1-05｜333 筆配方缺逐筆證據鏈
-已建立333列逐筆稽核表。Bistro 123列中，121列已對應到來源中明確列出的配方／動作，1列（Crazy Calzone）有來源但Good/Bad分類衝突，1列（Clutter）仍無公式來源；這些都不是本專案實機驗證。Student Dorm、Cafe及Rat Level仍需逐筆完成公式來源映射、版本、item state、設備、信心與驗證狀態。  
+已建立333列逐筆稽核表。Bistro 123列中，121列已對應到來源中明確列出的配方／動作，1列（Crazy Calzone）已依SRC-050與SRC-024計數器對齊改列Bad，仍待卡片tab確認；1列（Clutter）只有trigger hint，沒有公式來源；這些都不是本專案實機驗證。Student Dorm、Cafe及Rat Level仍需逐筆完成公式來源映射、版本、item state、設備、信心與驗證狀態。  
 **影響：** 無法安全把全部配方匯入正式 recipe database。  
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
@@ -216,3 +216,9 @@
 - SRC-024's 1.0 screenshots show Bistro 76/83 Good and 37/40 Bad. The old inventory was 84/39.
 - SRC-050 lists Crazy Calzone (Pizza + Pizza Dough) under Bad Recipes. Moving the candidate from Good to Bad yields 83/40, matching the 1.0 counters. Inventory and provenance IDs were updated to BI-B-040.
 - This is a strong counter-aligned classification, not direct observation of the Crazy Calzone card's tab. BIS-061 remains required. Candidate total is still 333; global split is now 211 Good + 122 Bad. QA remains 146 designed / 0 executed.
+
+
+## SRC-024 count alignment follow-up
+- Bistro candidate split is now 83 Good / 40 Bad; global candidate split is 211 Good / 122 Bad (333 total).
+- Crazy Calzone was moved to Bad because SRC-050 lists it in Bad Recipes and the move exactly aligns the 1.0 screenshot's 83/40 counters. This is a counter-aligned candidate, not a direct tab screenshot; BIS-061 remains open.
+- Clutter remains the only formula-unmapped candidate; SRC-024 gives a spontaneous-mess hint only.
