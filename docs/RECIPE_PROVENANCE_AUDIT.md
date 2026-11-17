@@ -6,7 +6,7 @@ Status: **Audit baseline created; row-level formula provenance is NOT complete.*
 
 ## Audit result
 
-The 333-name candidate inventory now has row-level source formula/action references for 332 rows. The remaining Clutter candidate is still unmapped. Source references establish that a guide lists a formula or action; they do not establish correctness or in-game verification. Conflicted classifications and slot alternatives remain explicitly flagged.
+The 333-name candidate inventory now has row-level source formula/action references for 332 rows. The remaining Clutter candidate has a trigger hint in SRC-024 but no reproducible formula or action mapping. Source references establish that a guide lists a formula or action; they do not establish correctness or in-game verification. Conflicted classifications and slot alternatives remain explicitly flagged.
 
 | Room | Good | Bad | Total | Name-list source family | Formula provenance |
 |---|---:|---:|---:|---|---|
@@ -20,7 +20,7 @@ Name source IDs identify the source family from which a candidate name/list was 
 
 ## Row-level register
 
-| Candidate ID | Room | Type | Recipe name | Name source IDs | Formula source IDs | Formula audit status |
+| Candidate ID | Room | Type | Recipe name | Candidate/list source IDs | Formula source IDs | Formula audit status |
 |---|---|---|---|---|---|---|
 | SD-G-001 | Student Dorm | Good | Baked Banana | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
 | SD-G-002 | Student Dorm | Good | Banana Bread | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
@@ -328,7 +328,7 @@ Name source IDs identify the source family from which a candidate name/list was 
 | BI-B-031 | Bistro | Bad | Oil Paint | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-032 | Bistro | Bad | Big Magnet | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-033 | Bistro | Bad | Boo Tomato | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
-| BI-B-034 | Bistro | Bad | Clutter | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | UNMAPPED | NOT_AUDITED |
+| BI-B-034 | Bistro | Bad | Clutter | SRC-015; SRC-016; SRC-018; SRC-024; SRC-038; SRC-050 | UNMAPPED | TRIGGER_HINT_ONLY |
 | BI-B-035 | Bistro | Bad | Breadless Burger | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-036 | Bistro | Bad | Vampire Defense Kit | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-037 | Bistro | Bad | Bread and Wine | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
