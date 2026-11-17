@@ -137,3 +137,6 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-048 | [Official Steam all-news archive — v5.1ea changelog](https://steamcommunity.com/app/3376500/allnews/) | 2026-07-14 | Fixes Bistro rat-trade To-Do counter displaying -1 and prevents the rat quest from starting again; also reiterates Level 3 requires completing Level 2 To-Do | Official EA patch note; proves a progression/state bug existed and was fixed in that build, but does not disclose the full request order or prove every later 1.0 edge case.
+
+
+- SRC-049 | [Official Steam announcement archive — Little Chef v1.1 changelog](https://store.steampowered.com/news/posts/?enddate=1789112182&feed=steam_community_announcements) | 2026-09-11 | Fixes Coioioin Steam achievement sync, duplicate jar in Level 1, settings button issue, and cookbook entries for Goulash and Tomato Cocktail; enlarges Rat cursor visuals and number-lock click area | Official post-launch patch note. Confirms v1.0 launch data needed a v1.1 correction pass; not a full recipe database.
