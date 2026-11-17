@@ -475,23 +475,30 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 
 
 ## 2026-11-17｜SRC-017 1.0指南重新分類後的 QA 對照
-- QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有127個唯一ID。
+- QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有129個唯一ID。
 - README、Critic與進度報告已同步此數量。這些仍是測試設計，不是實際執行結果。
 
 
 ## 2026-11-17｜Critic Gate更新
 - SRC-017恢復為有效的1.0 Bistro/Rat Level候選來源後，Goulash/Tomato Cocktail不再是「無配方」P1 blocker；v1.1+僅保留回歸驗證。
-- Critic P1-06改為「核心QA尚未實際執行」：127個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
+- Critic P1-06改為「核心QA尚未實際執行」：129個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
 
 
 ## 2026-11-17｜SRC-052 Rat Level第二份獨立指南
 - 新增SRC-052：Steam 2026-08-27 Mouse Recipes guide，獨立列出Rat Level 9 Good / 12 Bad槽位及反重力、花盆密碼、酒標鎖、調整爐具流程。
 - 它與SRC-050及9Puz一致：Cold Good #5 Cheese+Eggshell；Bad #4 Eggshell+Pencil；Bad #6 Paperclip+Pasta；Bad #7 Eggshell+Paper。與SRC-017手打指南不同，現以多來源一致者作優先候選，保留SRC-017做替代測試。
 - Coioioin重複點擊硬幣說法與官方成就文字一致；日文藍開關／紅目標仍列替代方法。密碼數字仍未取得。
-- QA仍為127個唯一ID；RAT-016至RAT-019的測試順序更新為先測多來源支持的Eggshell / Paperclip組合，再測SRC-017替代。
+- QA仍為129個唯一ID；RAT-016至RAT-019的測試順序更新為先測多來源支持的Eggshell / Paperclip組合，再測SRC-017替代。
 
 
 ## 2026-11-17｜Bistro配方衝突測試擴充至129項
 - BIS-048驗證Mochi使用whole Rice或Ground Rice；這道菜同時是已知Japan country dish，必須與Apple Mochi分開。
 - BIS-049驗證Yeast Monster的三種來源候選：Yeast+Wooden Spoon、Yeast+Wine、Yeast+Tomato。
 - QA總數129個唯一ID，仍未取得遊戲內執行紀錄。
+
+
+## 2026-11-17｜Bistro / Cafe progression evidence re-check
+- SRC-023完整日文1.0攻略可讀文字確認Bistro To-Do先Clean the kitchen，再Trade with the rat；初次給抽油煙機老鼠Cheese，取得Tomato；後續抽油煙機便條畫出料理，完成後取得新食材。尚無完整逐步菜色／獎勵清單。
+- SRC-047 9Puz完整1.0路線補充：空Mixer容器煮出Scissors；Scissors找出隱藏Mixer開關並剪斷吊掛食材繩；老鼠請求解鎖特殊食材與七國磁鐵；五瓶酒按標籤排序。
+- 七國料理只有Japan=Mochi可由文字確認；其餘六道不可從菜名推測。Cafe To-Do確認包含Set the kitchen on fire，Burnt Panini需再次烹煮觸發火災，但完整任務列仍未取得。
+- QA最新129個唯一ID，全部仍是測試設計，未有遊戲客戶端實際執行紀錄。
