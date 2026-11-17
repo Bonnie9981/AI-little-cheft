@@ -548,3 +548,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 稽核明確區分名稱清單來源與公式來源：目前每列名稱可追溯到來源家族，但333列公式來源尚未逐筆映射，公式欄標為UNMAPPED / NOT_AUDITED。這是誠實的稽核基線，不是完成宣稱。
 - QA新增BIS-056..058（Kombucha反證、Risotto、Focaccia），並修正BIS-023將Goulash明確寫為Normal Meat + Ground Tomato + Wine。QA由140增至143個唯一設計ID，全部未執行。
 - README同步SRC-056與稽核文件；專案仍Research Only，未達Ready for CEO Approval。
+
+
+## 2026-11-17｜SRC-057：Bistro兩條進度鏈拆分
+- 新增SRC-057：日文玩家實際遊玩紀錄與嵌入截圖，證明Cheese啟動老鼠交易後得到Tomato；後續依抽油煙機便條料理換特殊食材。
+- 同一來源明確將七國料理與老鼠交易分開：七道國際料理各自附磁鐵；目前只有Japan = Mochi有文字與日本國旗截圖支持。Apple Mochi不是日本磁鐵料理，可疑料理不計入。
+- 截圖中的76/76 cookbook counter是2026-09-09 EA快照，不能作為最終1.0數量。
+- 新增BIS-059、BIS-060測試設計，QA從143增至145個唯一ID，0執行。
+- 目前老鼠完整請求順序／獎勵對照及其餘六國磁鐵仍未解決；不得將四次交易、七道料理、七個磁鐵混成同一條計數。
