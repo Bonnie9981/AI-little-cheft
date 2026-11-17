@@ -691,3 +691,12 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Cafe電話摘要明確回傳21931，酪梨在06:00–06:12生成；Lettuce於03:28被提及，需確認是否同次電話訂購。安全卡／保險箱線索與Bookworm成就亦新增待核對線索。
 - 新增SRC-074：Cozy K Games《who let me make these UNHINGED meals?? (Little Chef)》，2026-09-05，32:54，https://www.youtube.com/watch?v=CW7plgBoL5c。CEO提供其字幕範圍為Student Dorm 48 Good+29 hidden/Bad及房間任務；本輪因影片摘要服務每週免費額度用盡，尚未獨立處理字幕，只先登錄來源。
 - 本輪可確認新影片為1.0而非EA，研究路線已從舊版影音轉為正式版影音。尚未完成逐畫面審核，亦未執行遊戲內QA；因此QA數仍164設計／0執行，Critic維持FAIL，Research Only。新證據優先解決：Bistro交易與國際料理磁鐵、Rat Level九配方精確表、Cafe七列To-Do與電話訂貨細節。
+
+
+## 2026-11-17｜Gemini三支1.0影片報告整合與停止無效擴搜
+- 登錄SRC-075：CEO提供的 docs/Gemini Help.md，整理三支1.0影片的時間戳、料理、老鼠交易、電話、任務與成就線索。
+- 新增 docs/GEMINI_INTEGRATION_AUDIT.md：逐項對照現有Inventory、Conflict Register、Provenance與QA，保留衝突而不覆寫舊資料。
+- 本輪抓出四個重要衝突：Bistro 120 vs 123候選；Rat Level 9 special vs 9 Good + 12 Bad slots；Student Dorm 5 vs SRC-065六項To-Do；Cafe Paintbrush 12 orders vs 20 Coins。另將Bistro四次交易與Mushroom Soup→Olives支線分開記錄。
+- 靜態QA通過：來源檔存在、三支影片URL存在、時間戳線索已抽取、房間數量與任務／獎勵衝突已被偵測並保留。整份食譜不可直接匯入：含模糊材料、佔位文字、未證明替代配方。沒有執行遊戲內QA。
+- **停止條件修正：**不再要求先查完六國料理、所有Bad recipes或原作物理係數才開始準備開發。可先做資料結構、物件狀態、場景框架、輸入層、存檔、食譜書UI與引擎骨架；未解配方一律保持disabled/待驗證。
+- QA維持173 unique designs / 0 executed；Critic Round 1仍FAIL。專案狀態：Research Only，但允許進入 implementation preparation；尚未批准完整玩法實作或發布。
