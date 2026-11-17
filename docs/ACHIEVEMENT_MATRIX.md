@@ -29,7 +29,7 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 | 22 | Messing Around | Bistro | Grind Pumpkin, Tomato, or Meat, then run the Mixer a second and third time to create a large mess; clean with Cloth afterward | Steam guide / walkthrough; B |
 | 23 | Wine About It | Bistro | Sort all five wine bottles by label height, shortest to tallest | Steam player discussion; B |
 | 24 | Little Rat | Rat Level | Complete Rat Level to 100% | Official achievement description / guide; A for description, C for exact 100% formula |
-| 25 | Coioioin | Rat Level | Land the same side of the coin three times in a row; 1.0 player also reports pressing a blue switch before tossing into the red-marked area | Achievement description + player walkthrough; B with conflicting interaction details |
+| 25 | Coioioin | Rat Level | Land the same side of the coin three times in a row by clicking the coin beside the cooker | Official Steam achievement description and multiple player guides; B. A separate blue-switch / red-target report is not corroborated. |
 | 26 | Nothing Nowhere | Cafe Job | Cook three Bagels together in the Microwave Oven; recipe is discovered in the Safe after using Security Card | Steam guide / walkthrough; B |
 
 ## Removed / historical achievement
