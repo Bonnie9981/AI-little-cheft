@@ -261,3 +261,8 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - Verify the Level 2 To-Do row updates independently of the Aw That's Hot Steam achievement.
 - If the fire row remains unchecked, repeat the fire interaction once and verify whether the task registers; record this as a bug-compatibility case rather than a normal success path.
 - After extinguishing the fire, complete remaining orders and verify the Level 3 unlock gate.
+
+
+| BIS-016 | Complete Bistro “Clean the kitchen” task using Cloth | To-Do row updates; clean state persists |
+| BIS-017 | Complete Bistro “Trade with the rat” task by offering Cheese and completing the first request | To-Do row updates; Tomato reward and next drawing appear |
+| BIS-018 | Investigate Clutter without assuming a recipe formula | Record the exact interaction / inputs that unlock it; if unavailable, leave trigger unknown and block recipe implementation |
