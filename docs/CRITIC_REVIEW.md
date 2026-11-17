@@ -150,3 +150,9 @@
 ## Round 1 Addendum — developer clarification of Bistro rat loop (2026-11-17)
 - Added SRC-054, a July 16 Steam discussion reply by developer Crazydvd. The developer confirms the player must offer Cheese (the Cafe rat trade item) to the Bistro rat at the extractor hood; the rat then shows a dish drawing, and cooking that dish awards a new ingredient.
 - This is primary developer evidence for the interaction mechanic, but it still does not reveal the four exact request dishes, their order, or reward mapping. P1-01 remains open. QA remains 140 unique designed cases; none executed.
+
+
+## Round 1 Addendum — readiness gate clarified by CEO direction (2026-11-17)
+- The README now defines a practical Ready for CEO Approval threshold: core loop, progression, interaction/physics, recipe data, To-Do/achievement systems, zh-TW terminology, exceptions, and QA acceptance specs must be implementable; unresolved facts must be isolated as replaceable data or explicit in-game verification steps; no unhandled P1 may remain.
+- Public-source gaps do not justify inventing hidden values. Critic must distinguish non-blocking unknowns (safe to parameterize and validate later) from core-play blockers (must be resolved before build approval).
+- Current project remains Research Only. The 140 QA cases are designs, not executed tests. No CEO approval has been granted.
