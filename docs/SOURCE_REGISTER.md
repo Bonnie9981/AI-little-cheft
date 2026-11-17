@@ -97,3 +97,8 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-038 | [Steam Bistro guide comments / July 17 recipe discoveries](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550) | 2026-07-17 | Crazy Calzone = Pizza + Pizza Dough; five additional Bad recipes: Breadless Burger, Vampire Defense Kit, Bread and Wine, Sorrow Sandwich, Risky Rice Pudding | Player comments; formulas cross-checked with 9Puz 1.0 route where available.
+
+
+- SRC-039 | [SteamDB archive: Café Update v3.0ea](https://steamdb.info/patchnotes/22930769/) | 2026-04-23 | Explicitly adds one To-Do: “complete 8 orders”; also adds espresso machine, 18 Cafe recipes, order slips and tip coins | Official patch-note mirror; corrects the mistaken interpretation that eight To-Do rows were added.
+- SRC-040 | [Japanese Level 3 Bistro walkthrough](https://note.com/utsukinoel/n/nb8001450ad12) | 2026-09-09 | Bistro To-Do begins with Clean the kitchen and Trade with the rat; Cheese starts the rat trade and Tomato is first reward; seven international dishes grant magnets, only Mochi/Japan named in readable text | Player walkthrough; strong task-order evidence, incomplete image-only dish names.
+- SRC-041 | [Steam global achievement list](https://steamcommunity.com/stats/3376500/achievements) | 2026-11-17 checked | Coioioin official description: land the same side three times in a row; total achievements 26 | Official Steam achievement text; no blue-switch prerequisite stated.
