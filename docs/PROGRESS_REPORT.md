@@ -556,3 +556,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 截圖中的76/76 cookbook counter是2026-09-09 EA快照，不能作為最終1.0數量。
 - 新增BIS-059、BIS-060測試設計，QA從143增至145個唯一ID，0執行。
 - 目前老鼠完整請求順序／獎勵對照及其餘六國磁鐵仍未解決；不得將四次交易、七道料理、七個磁鐵混成同一條計數。
+
+
+## 2026-11-17｜SRC-058 Pizza Dough更正與Bistro分類衝突
+- 新增SRC-058：Pizza Dough最初被玩家寫成Dough + Yeast + Olive Oil，後續明確更正為Flour而非Dough；與SRC-015及SRC-018一致，首選配方為Flour + Yeast + Olive Oil。
+- RECIPE_PROVENANCE_AUDIT新增Pizza Dough逐筆公式來源映射（SRC-015/SRC-018/SRC-058），Bistro已有121/123列至少有來源清單／公式線索，仍非實機驗證。
+- 另發現Crazy Calzone Good/Bad分類衝突：SRC-050列Bad，SRC-018將其放在料理鏈說明且SRC-038留言確認材料但未說分類。新增BIS-061專門核對實際tab。
+- QA目前146個唯一設計ID，0執行。
