@@ -885,3 +885,21 @@
 - 兩者有語意／計數衝突，不能單憑日本攻略把Cafe任務列數寫成8，也不能把官方更新條目推成最終版本完整清單。
 - 9/10日文1.0玩家又回報Set the kitchen on fire可能已做但To-Do未勾選，代表任務狀態可能有同步問題。
 - 已在RECIPE_CONFLICTS與SOURCE_REGISTER記錄此差異；規格採不硬編碼總列數，等遊戲內To-Do UI或完整影片確認。
+
+
+## 2026-11-17｜333筆配方名稱／公式列／繁中譯名交叉稽核
+**檢查方法**
+- 將RECIPE_INVENTORY的各房間Good/Bad名稱逐條與兩份RECIPE_FORMULA文件比對。
+- 將六個命名料理分類逐條與ZH_TW_RECIPE_TRANSLATIONS比對；Rat Level 21格維持符號slot，不列為菜名。
+
+**結果**
+- 配方名稱與公式列完全對齊：Student Dorm 48+29、Cafe 71+41、Bistro 84+39、Rat Level 9+12，總計333列；未發現缺列或多列。
+- 312筆命名料理與繁中翻譯表完全對齊：Student Dorm 77、Cafe 112、Bistro 123；無缺漏、無重複key。
+- Rat Level 21格是slot條件而非料理名稱，故不加入命名翻譯。
+
+**修正**
+- 發現Bistro公式表曾以「Sausage Roll (9Puz calls it Salami Roll)」作主鍵，與inventory不同；已統一主鍵為Sausage Roll，別名留在衝突登錄。
+- 發現English Breakfast譯名缺列，補入「英式早餐」，並去除重複列。
+
+**限制**
+- 此次只證明名稱清單、公式列與翻譯列數量一致；不代表每個材料公式已實機驗證。
