@@ -141,10 +141,8 @@ The 1.0 completion route says each kitchen has a separate recipe and task ledger
 ## Cafe Job task ledger — known entries (not yet proven exhaustive)
 
 Official v3.0ea patch notes add **one To-Do: complete 8 orders**. They do not state that eight To-Do rows were added. Later v5.1ea patch notes require finishing the Level 2 To-Do list before entering Level 3. The 1.0 completion route and player walkthroughs also show the fire interaction as a Cafe progression blocker. The exact full Level 2 To-Do list is not recovered from the current readable sources.
-Confirmed To-Do / progression entries:
+Confirmed Cafe To-Do entries:
 1. Complete 8 orders — explicitly named by v3.0ea.
-2. Set the kitchen on fire — explicitly named in the 1.0 walkthrough as a Level 2 To-Do; use Burnt Panini a second time.
-3. Clean the kitchen — appears in completion walkthroughs as a required Cafe cleanup action; exact To-Do UI status not confirmed.
-4. Trade with the rat — cheese trade is a required access interaction and may be represented in the To-Do counter; exact UI wording not confirmed.
+2. Set the kitchen on fire — explicitly named in the 1.0 walkthrough as a Level 2 To-Do; cook Panini, then cook Burnt Panini a second time.
 
-Phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm interaction are confirmed progression interactions, but their exact relationship to separate To-Do rows is not proven. Do not invent a total task count.
+The September 1.0 player walkthrough says the fire task may fail to register even after the fire starts; the player repeated the fire interaction and then completed remaining orders before Level 3 unlocked. This is a possible task-registration bug, not proof of an extra To-Do row. The exact total Level 2 To-Do count is not recovered. Keep these two confirmed entries separate from phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm extinguishing interactions, whose exact relationship to separate To-Do rows is not proven.
