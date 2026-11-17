@@ -9,7 +9,7 @@
 
 | 項目 | 目前數量／狀態 | 審查判定 |
 |---|---:|---|
-| 候選配方 | 333（212 Good + 121 Bad） | 跨來源推算，非官方 counter |
+| 候選配方 | 333（211 Good + 122 Bad） | 跨來源推算，非官方 counter |
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待逐筆來源追溯 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
@@ -210,3 +210,9 @@
 - Re-opened the 1.0 Japanese completion article. It identifies Clutter as a final Bad recipe and its hint suggests spontaneous mess, but provides no reproducible formula.
 - Withdraw the earlier Cloth + Wooden Spoon source attribution. BI-B-034 now has SRC-024 as trigger-hint evidence, formula source remains UNMAPPED, status TRIGGER_HINT_ONLY.
 - Formula/action reference coverage remains 332/333; Clutter is the sole formula-unmapped row. All 146 QA IDs remain unexecuted.
+
+
+## Round 1 Addendum — Bistro 1.0 counter-aligned classification (SRC-024)
+- SRC-024's 1.0 screenshots show Bistro 76/83 Good and 37/40 Bad. The old inventory was 84/39.
+- SRC-050 lists Crazy Calzone (Pizza + Pizza Dough) under Bad Recipes. Moving the candidate from Good to Bad yields 83/40, matching the 1.0 counters. Inventory and provenance IDs were updated to BI-B-040.
+- This is a strong counter-aligned classification, not direct observation of the Crazy Calzone card's tab. BIS-061 remains required. Candidate total is still 333; global split is now 211 Good + 122 Bad. QA remains 146 designed / 0 executed.
