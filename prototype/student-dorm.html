@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Student Dorm｜場景復刻測試</title>
+<style>
+:root{--ink:#45433d;--cream:#f5e5c8;--blue:#739aa0;--blue2:#527e85;--pink:#e9a5a5;--wood:#b98257;--tile:#d7c49f}
+*{box-sizing:border-box}body{margin:0;background:#e9e1d1;color:var(--ink);font:14px/1.4 system-ui,"Noto Sans TC",sans-serif}
+header{height:54px;background:#f8f0df;border-bottom:2px solid #d5c3a2;display:flex;align-items:center;justify-content:space-between;padding:0 18px}header b{font-size:16px}header span{font-size:12px;color:#777}
+main{max-width:1280px;margin:auto;padding:14px;display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:12px}
+#room{height:min(76vh,720px);min-height:510px;position:relative;overflow:hidden;border:5px solid #c5a77d;background:#e9d8b7;box-shadow:0 5px 18px #57452b22;isolation:isolate}
+.wall{position:absolute;inset:0 0 23% 0;background-color:#73989b;background-image:linear-gradient(#ffffff12 1px,transparent 1px),linear-gradient(90deg,#ffffff12 1px,transparent 1px);background-size:34px 34px}
+.wall:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#00000008,transparent 18%,transparent 82%,#0000000c)}
+.floor{position:absolute;bottom:0;height:24%;width:100%;background:repeating-linear-gradient(90deg,#d5bd96 0 70px,#c9ad82 71px 74px),linear-gradient(#d7c29f,#c8aa7c);border-top:10px solid #b58d61}
+.cabinet{position:absolute;top:5%;height:25%;width:28%;background:#63878a;border:5px solid #4d7378;box-shadow:inset 0 0 0 3px #88a8a5}
+.cabinet.left{left:2%}.cabinet.right{right:2%;width:34%}
+.cabinet:before{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:4px solid #4d7378}
+.name{position:absolute;top:12%;left:22%;background:#f4e4bd;padding:3px 12px;font: bold 15px Georgia;letter-spacing:2px;transform:rotate(-2deg)}
+.right .name{left:22%}
+.shelf{position:absolute;left:0;right:0;top:32%;height:5%;background:#a77d54;border-top:4px solid #d4ad7b;border-bottom:4px solid #76543d}
+.jar{position:absolute;top:19%;width:7%;height:10%;border-radius:7px 7px 10px 10px;background:#d4b77f;border:3px solid #876d54;box-shadow:inset 0 10px #f2d8a5}
+.jar:before{content:"";position:absolute;top:-8px;left:20%;width:60%;height:8px;background:#b88768}
+.jar.j1{left:4%;background:#d9a0a0}.jar.j2{left:13%;background:#a8b69a}.jar.j3{right:7%;background:#c5a77d}
+.mug{position:absolute;top:38%;width:8%;height:8%;background:#e9d8b7;border:4px solid #d2c4a8;border-radius:4px 4px 12px 12px}
+.mug:after{content:"";position:absolute;right:-12px;top:8px;width:12px;height:17px;border:4px solid #d2c4a8;border-left:0;border-radius:0 12px 12px 0}
+.mug.m1{left:23%}.mug.m2{left:35%}.mug.m3{right:28%}
+.counter{position:absolute;bottom:21%;left:0;width:100%;height:5%;background:#b58c62;border-top:5px solid #d7b98b;border-bottom:3px solid #8d6849}
+.base{position:absolute;bottom:0;height:21%;width:100%;background:#b6a184;border-top:4px solid #927b5f}
+.stove{position:absolute;left:3%;bottom:5%;width:27%;height:15%;background:#e8e3d5;border:5px solid #aaa394;border-radius:8px;box-shadow:inset 0 0 0 3px #f8f4e9}
+.stove:before{content:"";position:absolute;left:9%;top:12%;width:55%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#77716f 0 43%,#aaa49e 45% 65%,#d1cbc0 67%);border:3px solid #b5aea4}
+.stove:after{content:"";position:absolute;right:10%;bottom:12%;width:10px;height:10px;border-radius:50%;background:#a86d60}
+.sink{position:absolute;right:3%;bottom:5%;width:39%;height:15%;background:#b4b8b1;border:6px solid #888e88;border-radius:4px;box-shadow:inset 0 0 0 5px #d0d2c9}
+.sink:before{content:"";position:absolute;left:10%;top:18%;width:78%;height:65%;border-radius:48%;background:#72999b;border:4px solid #8d9992}
+.tap{position:absolute;right:18%;bottom:20%;width:5%;height:12%;border:7px solid #a6aaa1;border-bottom:0;border-radius:20px 20px 0 0}
+.tap:after{content:"";position:absolute;bottom:-18px;left:12px;height:22px;border-left:5px solid #a6aaa1}
+.plant{position:absolute;left:43%;bottom:23%;width:9%;height:12%;background:#c28d72;clip-path:polygon(8% 35%,92% 35%,80% 100%,20% 100%);z-index:2}
+.plant:before{content:"";position:absolute;left:25%;top:-45%;width:50%;height:55%;background:#77966c;border-radius:90% 0 90% 0;transform:rotate(-20deg)}
+.knife{position:absolute;right:46%;top:37%;width:3%;height:16%;background:#a77c57;border-radius:5px;transform:rotate(8deg);z-index:2}
+.knife:before{content:"";position:absolute;top:-65%;left:-30%;width:160%;height:70%;background:#bfc5c0;clip-path:polygon(0 0,100% 0,80% 100%,15% 100%)}
+.item{position:absolute;z-index:4;cursor:grab;touch-action:none;user-select:none;filter:drop-shadow(1px 3px 2px #493b2c55);font-size:clamp(26px,4vw,43px);transition:filter .1s}
+.item:active{cursor:grabbing;filter:drop-shadow(3px 7px 3px #493b2c66)}
+#key{left:29%;top:54%;display:none;font-size:26px}#key.show{display:block}
+.tile{position:absolute;left:37%;top:10%;width:5%;height:7%;border:2px solid #c3b18d;background:#cdbb98;z-index:3;cursor:pointer;box-shadow:inset 0 0 0 2px #e4d5b7}
+.tile:after{content:"D2";font-size:10px;position:absolute;inset:0;display:grid;place-items:center;color:#75664f}
+#locker{position:absolute;right:4%;top:43%;width:19%;height:17%;background:#54777c;border:5px solid #3e6268;z-index:3;display:grid;place-items:center;color:#f1dfb9;font:bold 13px Georgia}
+#lock{position:absolute;right:11%;top:53%;width:22px;height:24px;background:#bd6f62;border:3px solid #824b43;border-radius:5px;z-index:4}
+#speech{position:absolute;left:12px;bottom:12px;z-index:8;background:#fff6dfd9;border:1px solid #c6ad83;padding:8px 12px;max-width:70%;font-size:12px}
+aside{display:flex;flex-direction:column;gap:10px}.card{background:#faf3e5;border:1px solid #d5c3a2;padding:12px;box-shadow:0 2px 6px #57452b12}.card h2{margin:0 0 8px;font-size:14px}.card p{margin:6px 0;font-size:12px;color:#716958}
+button{font:inherit;background:#e4d2b1;border:1px solid #bda27b;border-radius:5px;padding:7px 9px;cursor:pointer;margin:3px 2px}button:hover{background:#d9c19a}
+#inventory{display:grid;grid-template-columns:1fr 1fr;gap:4px}#inventory button{font-size:12px}
+@media(max-width:760px){main{grid-template-columns:1fr;padding:7px}#room{height:62vh;min-height:430px}aside{display:grid;grid-template-columns:1fr 1fr}header span{display:none}}
+</style></head><body>
+<header><b>STUDENT DORM｜學生宿舍</b><span>場景重建 v0.1 · 原創繪製素材 · 非官方</span></header>
+<main><section id="room" aria-label="Student Dorm kitchen">
+<div class="wall"></div><div class="cabinet left"><div class="name">KAYLE</div></div><div class="cabinet right"><div class="name">SHANE</div></div>
+<div class="jar j1"></div><div class="jar j2"></div><div class="jar j3"></div><div class="shelf"></div><div class="mug m1"></div><div class="mug m2"></div><div class="mug m3"></div>
+<div class="tile" id="tile" title="點擊檢查磁磚"></div><div id="locker">SHANE'S LOCKER<div id="lock"></div></div>
+<div class="knife"></div><div class="plant" title="羅勒盆栽"></div><div class="counter"></div><div class="base"></div><div class="stove"></div><div class="sink"></div><div class="tap" id="tap"></div>
+<div class="item" id="key" title="拖曳鑰匙到 Shane 的置物櫃">🗝️</div>
+<div class="item" id="sponge" style="left:66%;top:72%" title="海綿">🧽</div><div class="item" id="bread" style="left:18%;top:72%" title="麵包">🍞</div><div class="item" id="banana" style="left:55%;top:72%" title="香蕉">🍌</div>
+<div id="speech">先觀察廚房。點擊牆面 D2 磁磚，找出 Shane 置物櫃的鑰匙。</div></section>
+<aside>
+<section class="card"><h2>互動提示</h2><p id="status">待探索：D2 磁磚 → 鑰匙 → Shane 置物櫃。</p><button id="inspect">檢查場景</button><button id="reset">重設謎題</button></section>
+<section class="card"><h2>物件狀態</h2><p id="state">選取物件以查看狀態。</p><div id="inventory"><button data-item="bread">麵包</button><button data-item="banana">香蕉</button><button data-item="sponge">海綿</button></div></section>
+<section class="card"><h2>進度</h2><p id="progress">置物櫃：鎖定</p><p>此版本只實作有來源支持的場景與第一段解謎；尚未宣稱完成整關。</p></section>
+<section class="card"><h2>視覺對照基準</h2><p>原版參考：藍綠色牆面、上方雙櫃與名字標籤、磁磚牆、掛杯、木質檯面、左側爐具、右側水槽。此為構圖與色彩近似測試，非逐像素重製。</p></section>
+</aside></main>
+<script>
+const room=document.getElementById('room'),tile=document.getElementById('tile'),key=document.getElementById('key'),locker=document.getElementById('locker'),lock=document.getElementById('lock'),status=document.getElementById('status'),speech=document.getElementById('speech'),state=document.getElementById('state');
+let hits=0,unlocked=false,drag=null;
+tile.addEventListener('click',()=>{if(unlocked)return;hits++;if(hits<4){speech.textContent='磁磚鬆動了……再敲幾下。';status.textContent='D2 磁磚：'+hits+'/4';}else{key.classList.add('show');speech.textContent='磁磚掉下來了！裡面藏著一把鑰匙。';status.textContent='已找到鑰匙，拖曳到 Shane 的紅色鎖頭。';}});
+for(const el of document.querySelectorAll('.item')){el.addEventListener('pointerdown',e=>{e.preventDefault();const r=room.getBoundingClientRect(),b=el.getBoundingClientRect();drag={el,dx:e.clientX-b.left,dy:e.clientY-b.top};el.setPointerCapture(e.pointerId);});el.addEventListener('pointermove',e=>{if(!drag||drag.el!==el)return;const r=room.getBoundingClientRect();el.style.left=Math.max(0,Math.min(r.width-el.offsetWidth,e.clientX-r.left-drag.dx))+'px';el.style.top=Math.max(0,Math.min(r.height-el.offsetHeight,e.clientY-r.top-drag.dy))+'px';});el.addEventListener('pointerup',()=>{if(!drag||drag.el!==el)return;if(el===key){const a=key.getBoundingClientRect(),b=lock.getBoundingClientRect();if(a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top){unlocked=true;lock.style.display='none';locker.style.background='#77918a';speech.textContent='Shane 的置物櫃打開了！';status.textContent='置物櫃已解鎖。';document.getElementById('progress').textContent='置物櫃：已解鎖';}}drag=null;});}
+document.querySelectorAll('[data-item]').forEach(b=>b.onclick=()=>{const id=b.dataset.item,el=document.getElementById(id);state.textContent=({bread:'麵包｜可觀察狀態：raw、wet、toasted、burnt、soggy',banana:'香蕉｜可觀察狀態：whole、airborne、cut',sponge:'海綿｜可觀察狀態：dry、wet、soggy'})[id];el.style.filter='drop-shadow(0 0 8px #e2b64f)';setTimeout(()=>el.style.filter='',600);});
+document.getElementById('tap').onclick=()=>{speech.textContent='水龍頭可切換開關；後續版本會接上水流與積水狀態。';status.textContent='水槽互動已選取（尚未實作水流物理）。'};
+document.getElementById('inspect').onclick=()=>{speech.textContent='場景已載入：上方櫃體、磁磚、掛杯、工具、羅勒、水槽與爐具。';};
+document.getElementById('reset').onclick=()=>{hits=0;unlocked=false;key.classList.remove('show');lock.style.display='block';locker.style.background='#54777c';status.textContent='待探索：D2 磁磚 → 鑰匙 → Shane 置物櫃。';speech.textContent='先觀察廚房。點擊牆面 D2 磁磚，找出 Shane 置物櫃的鑰匙。';document.getElementById('progress').textContent='置物櫃：鎖定';};
+</script></body></html>
