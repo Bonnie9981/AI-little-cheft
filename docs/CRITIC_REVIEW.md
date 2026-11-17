@@ -196,3 +196,11 @@
 - Bistro逐筆來源稽核：121/123列在對應Good/Bad區段找到公式／動作來源；Crazy Calzone列有公式來源但分類衝突；Clutter未映射。任何一列都不能因此標記verified_in_game。
 - Bistro交易與磁鐵已建模為兩條相關但不同的進度鏈；只有Cheese→Tomato與Japan=Mochi可確認，完整交易reward mapping及其他六國仍未知。
 - Gate維持FAIL；未獲CEO批准前不開始正式實作。
+
+
+## Round 1 Addendum — 333-row provenance coverage (2026-11-17)
+- Student Dorm: 77/77 rows mapped to SRC-019 formula/action references.
+- Cafe: 112/112 rows mapped to SRC-020 formula/action references; the source repeats Coffee Cake in its numbered list, and the audit correctly deduplicates it to one candidate row.
+- Bistro: 121/123 rows have formula/action references in the matching Good/Bad section; Crazy Calzone has a source formula but Good/Bad classification conflict; Clutter remains UNMAPPED.
+- Rat Level: 21/21 slot inputs have source references; four retain explicit alternative-input conflicts.
+- Overall: 332/333 candidate rows now have row-level source formula/action references. **None is thereby verified in this project client.** The only unmapped row is Bistro Clutter. The project remains Research Only; all 146 QA IDs are designs, zero executed.
