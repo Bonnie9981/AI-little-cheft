@@ -223,3 +223,17 @@ Cross-version additions:
 - Rat Level details: reveal anti-gravity, read three-digit planter note, reveal keypad under wine label, enter code, then use cooker power state. It lists cold/hot slot candidates but does not disclose the numeric code or map the control labels to low/high with direct UI transcription.
 - Cafe final To-Do: article only says current Cafe To-Do state plus fire interaction must be complete; it does not reproduce the full final 1.0 task list or counters. This is a documented negative search result, not closure of CAF P1.
 - Do not promote any missing values to confirmed data. The article is useful 1.0 route evidence, but its omissions remain explicit blockers.
+
+
+## SRC-059｜Official v1.1 changelog: Rat keypad hit-area update (2026-11-17)
+- Official Steam/SteamDB v1.1 changelog dated 2026-09-11 states that the visuals of the rat cursor were improved and the clickable area on the number lock in the secret level was increased.
+- This is a version-specific interaction change. Any Rat Level click coordinates or hitbox assumptions derived from pre-v1.1 footage must be treated as legacy; verify against v1.1+ behavior.
+- The same changelog confirms fixes for the Coioioin Steam achievement registration and cookbook entries for Goulash and Tomato Cocktail; do not confuse Steam achievement sync with in-game recipe discovery.
+
+## SRC-060｜Cafe phone interaction developer clarification (2026-11-17)
+- In Steam discussion “Please Help with level 2!!”, developer Crazydvd confirms that after dialing the correct phone number, the player must pick up the phone and wait until the person stops talking before leaving the phone again; this allows Avocado and Lettuce to spawn.
+- This makes the call completion sequence an explicit interaction gate, not simply number entry. Added CAF-023 to verify timing and spawn behavior.
+
+## SRC-061｜Cafe fire recovery visual sequence cross-check (2026-11-17)
+- Updated Steam recipe guide and 1.0 completion route state that after Burnt Panini is cooked a second time and the kitchen catches fire, click the alarm glass three times to break it, then press the exposed button/control.
+- Added CAF-024 to distinguish the fire-start achievement from the recovery/reset sequence.
