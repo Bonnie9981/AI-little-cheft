@@ -13,7 +13,7 @@
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待逐筆來源追溯 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
-| QA | 102 個唯一 ID | 僅為測試設計，未執行 |
+| QA | 126 個唯一 ID | 僅為測試設計，未執行 |
 | 來源 | SRC-001 至 SRC-051 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
@@ -63,7 +63,7 @@
 - QA 表格有 116 個唯一測試 ID，沒有重複 ID。
 - 物件狀態模型已明確區分 whole/ground、Coffee Beans/filled cup、Bread/Toast/Burnt/Soggy、Rat cooker state 等重要狀態。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour 由 7/14 Steam Bistro Guide 與 9/2 9Puz 1.0 route 交叉支持；屬 B 級候選，非實機驗證。
-- Goulash / Tomato Cocktail 的官方 v1.1 修正被正確保留為版本敏感 blocker，未推測官方未公開的修正公式。
+- SRC-017 1.0 guide 現已重新分類並直接讀取，提供 Goulash / Tomato Cocktail 的實際輸入候選與 Rat Level slot variants；v1.1 官方修正的當前回歸測試仍保留。
 
 ## 5. 開工 Gate 建議
 
@@ -87,3 +87,11 @@
 - The walkthrough text supports two inputs per attempt and strong/weak power changing outputs. The screenshots do not conclusively map cooker OFF/ON to strong/weak.
 - A blue-framed switch and red-framed coin target are visible in the Coioioin screenshots. Official achievement text remains “same side three times in a row”; whether the switch/target is an alternative shortcut or a required interaction still needs live testing.
 - This does not clear P1-01, P1-02, or P1-04.
+
+
+## Round 1 Addendum — SRC-017 v1.0 guide reclassification (2026-11-17)
+- The previous assessment of SRC-017 was wrong: the actual Steam page title is a v1.0 all-achievements guide updated Sep 8, 2026. Its body retains a “v4.0 ea” legacy section but includes full Bistro and Rat Level sections. This supersedes the earlier statement that it had no Bistro/Rat Level content.
+- It adds 1.0 candidates for Rat Level: cold Good #5 Cheese + Leaf; Bad #4 Eggshell + Pencil; Bad #6 Pasta alone; Bad #7 Pasta + Paper. These conflict with SRC-050; QA now tests each branch (RAT-016 to RAT-019).
+- It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 126 unique test IDs, all designed but not executed.
+- Goulash and Tomato Cocktail are no longer treated as formula-unknown P1 blockers: SRC-017 and comments provide actual 1.0 candidates. Current v1.1 behavior still needs regression verification because the official patch note says the cookbook was fixed without restating formulas.
+- P1 blockers remain: rat request sequence/reward order, six unnamed country dishes, Cafe To-Do completeness, Rat Level numeric code and OFF/ON mapping, per-recipe source coverage, and executed QA.
