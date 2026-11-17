@@ -381,4 +381,4 @@ These three cases are test designs only. They have not been executed. BIS-023 no
 These are test designs only; the Japanese walkthrough is an EA-era visual reference, not final 1.0 execution evidence.
 
 
-| BIS-061 | Crazy Calzone classification: submit Pizza + Pizza Dough and record exact cookbook tab | Confirm whether Crazy Calzone is registered under Good or Bad in the 1.0+ client; source guides disagree, so record both tab and counter rather than assuming classification |
+| BIS-061 | Crazy Calzone classification: submit Pizza + Pizza Dough and record exact cookbook tab | Confirm the counter-aligned Bad candidate by capturing the Crazy Calzone card's actual tab in a 1.0+ client; record both tab and counter |
