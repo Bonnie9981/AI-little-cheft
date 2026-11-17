@@ -245,3 +245,11 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - Primary candidate: click / flip the coin until the same face lands three times consecutively, matching the Steam achievement description.
 - Alternate report: press a blue switch and toss the coin into a red-marked area.
 - QA must test the plain coin interaction first, then the switch / target-area route only if the achievement does not trigger. Do not hardcode the switch as a prerequisite without evidence.
+
+
+## Bistro To-Do / rat sequence tests
+
+- Confirm the first Bistro To-Do is “Clean the kitchen” and can be completed with the Cloth.
+- Confirm the next To-Do is “Trade with the rat”; offer Cheese at the extractor-hood door.
+- Verify the rat shows one illustrated dish request at a time and awards a new ingredient after the requested dish is cooked.
+- Keep Bistro task ledger, rat-trade sequence, country-magnet collection, and Best Friends achievement as separate state variables until the live UI proves their exact coupling.
