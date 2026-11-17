@@ -228,4 +228,11 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 - Recreation requirement: persist one rat quest state machine and current request index; scene reload must not restart the sequence or duplicate rewards. Keep UI To-Do count separate from quest truth state.
 - Suggested implementation fields (project design, not a claim about original internals): quest_started, request_index, request_completed, reward_claimed, quest_completed. Reward claiming must be idempotent per request.
 - The patch note does not reveal the complete rat request order or the exact seven country-dish mapping.
-\n\n## Version-sensitive Bistro formulas (SRC-049 / SRC-050)\n- Steam community list candidate: Goulash = Meat + Wine + Ground Tomato.\n- Steam community list candidate: Tomato Cocktail = Olives + Wine + Ground Tomato.\n- These two are **not final verified formulas**: official v1.1 explicitly says both cookbook recipes were fixed. Test the current client and record the exact input object states, output card, cookbook registration, and persistence after reload.\n- Community comment corrections on the same guide: Dirty Chai Latte = Tea + Milk + Coffee (not Coffee Beans); Tomato Juice uses Ground Tomato rather than whole Tomato. Keep these as comment-backed corrections, not authoritative facts, until confirmed in-game.\n- The guide's main text says Tomato Juice = Tomato, which conflicts with a later user comment. Preserve both records in the conflict ledger; do not silently overwrite the guide.\n
+
+
+## Version-sensitive Bistro formulas (SRC-049 / SRC-050)
+- Steam community list candidate: Goulash = Meat + Wine + Ground Tomato.
+- Steam community list candidate: Tomato Cocktail = Olives + Wine + Ground Tomato.
+- These two are **not final verified formulas**: official v1.1 explicitly says both cookbook recipes were fixed. Test the current client and record the exact input object states, output card, cookbook registration, and persistence after reload.
+- Community comment corrections on the same guide: Dirty Chai Latte = Tea + Milk + Coffee (not Coffee Beans); Tomato Juice uses Ground Tomato rather than whole Tomato. Keep these as comment-backed corrections, not authoritative facts, until confirmed in-game.
+- The guide's main text says Tomato Juice = Tomato, which conflicts with a later user comment. Preserve both records in the conflict ledger; do not silently overwrite the guide.
