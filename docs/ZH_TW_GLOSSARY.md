@@ -317,3 +317,7 @@
 ## 完整料理名稱字典
 
 請以 [ZH_TW_RECIPE_TRANSLATIONS.md](ZH_TW_RECIPE_TRANSLATIONS.md) 作為 Student Dorm、Cafe Job、Bistro全部312筆命名配方的候選翻譯清單；本文件保留UI與系統術語、料理用詞原則及成就翻譯。Rat Level的21個符號槽位不擅自命名。
+
+
+## 2026-11-17｜EA翻譯可靠性警示（SRC-056）
+開發者曾明確表示Bistro新菜名在EA期間是DeepL暫譯，待文本定稿後才會交由中文譯者校正。因此本Glossary中的候選譯名是zh-TW編輯建議，不代表遊戲1.0已採用的正式字串。Tomato Cocktail等菜名需以1.0實際UI核對。
