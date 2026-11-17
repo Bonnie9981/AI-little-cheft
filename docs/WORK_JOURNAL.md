@@ -916,3 +916,9 @@
 - QA_TEST_PLAN新增BIS-016至BIS-018：Bistro清潔To-Do、老鼠交易To-Do、Clutter觸發探索。
 - QA test case總數由85增加到88，ID唯一且無重複。
 - Clutter只確認1.0存在，觸發條件沒有可靠文字證據；QA不得先把Mixer mess或其他任意組合當成公式。
+
+
+## 2026-11-17｜Ground Meat / Ground Beef狀態key統一
+- 稽核Bistro公式表與ItemState inventory，發現Steam 8/10 guide在Meatball Sandwich、Cheeseburger使用Ground Beef，而其他來源用Ground Meat。
+- 未找到證據證明是兩種不同加工物；因此統一使用ground_meat state，Ground Beef只作來源別名。
+- ITEM_STATE_INVENTORY與RECIPE_CONFLICTS已補充說明，避免把同一加工狀態錯建成兩種食材。
