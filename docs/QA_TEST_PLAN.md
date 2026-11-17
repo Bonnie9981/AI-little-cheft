@@ -409,3 +409,17 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 | ID | Test | Expected evidence |
 |---|---|---|
 | SD-017 | Verify Student Dorm To-Do rows and counters against the visible screenshot | Confirm Cook pasta dishes (0/8), “Borrow” Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, and Cook new dishes (0/40); record each increment/completion trigger and verify all Good recipes plus all tasks are required for Chapter 2 unlock. Source is third-party screenshot evidence; no execution is claimed |
+
+
+## SRC-066 v1.0 Chinese-guide recipe conflict tests
+| ID | Test | Expected evidence |
+|---|---|---|
+| BIS-063 | Tomato Cheese Appetizer: Tomato + Cheese vs Tomato + Cheese + Olives | Record exact output card and whether Olives are consumed; compare the SRC-050 and SRC-066 candidates |
+| BIS-064 | Sake: Rice + Wine vs Rice + Yeast | Test candidates separately; record item states, output and cookbook slot |
+| BIS-065 | Mochi: whole Rice vs Ground Rice; separately test Apple Mochi | Record exact input state and output card; determine which Mochi state is the Japan magnet dish and keep Apple Mochi separate |
+| BIS-066 | Tomato Cocktail: Ground Tomato + Wine vs Ground Tomato + Wine + Olives | Record actual result and cookbook icon/text in v1.1+; preserve the source's claim of an incorrect cookbook entry until reproduced |
+| BIS-067 | Mushroom Soup: processed Mushroom alone vs Mushroom + Garlic | Test each candidate independently and record whether the ingredient is consumed |
+| BIS-068 | Pumpkin Soup: Ground Pumpkin alone vs Ground Pumpkin + Garlic | Test each candidate independently; separately record whether Garlic is a rat-gated ingredient or a recipe input |
+| BIS-069 | Meatballs: Ground Meat alone vs Ground Meat + Garlic + Dough | Test each candidate independently; record exact mixer state and resulting card |
+
+All seven cases are test designs only. SRC-066 is a player guide with explicit caveats; none of these formulas is promoted to verified status.
