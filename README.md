@@ -29,7 +29,7 @@
 | [RECIPE_CONFLICTS](docs/RECIPE_CONFLICTS.md) | 配方衝突、版本差異與未驗證項目 |
 | [ZH_TW_GLOSSARY](docs/ZH_TW_GLOSSARY.md) | 台灣繁體中文 UI、食材、料理與成就詞彙 |
 | [INTERACTION_SPEC](docs/INTERACTION_SPEC.md) | 物件、物理、輸入、設備與解謎互動規格 |
-| [QA_TEST_PLAN](docs/QA_TEST_PLAN.md) | 配方、物理、解鎖、成就、存檔與多裝置驗收 |
+| [QA_TEST_PLAN](docs/QA_TEST_PLAN.md) | 88項測試案例：配方、物理、解鎖、成就、存檔與多裝置驗收 |
 | [ITEM_STATE_INVENTORY](docs/ITEM_STATE_INVENTORY.md) | 四個房間的物件、加工狀態與互動能力 |
 | [ACHIEVEMENT_MATRIX](docs/ACHIEVEMENT_MATRIX.md) | 1.0正式26項成就與觸發條件 |
 | [PROGRESSION_MODEL](docs/PROGRESSION_MODEL.md) | 房間進度、To-Do與解鎖狀態模型 |
@@ -52,7 +52,7 @@
 2. Bistro 七國料理完整名單與老鼠交易順序／獎勵。
 3. Rat Level 三位數密碼、power OFF/ON 與 low/high 對應。
 4. 所有 D 級配方衝突、Rat Level密碼與1.0 cookbook counter。
-5. 333 筆配方的來源、版本、狀態、設備、信心與 zh-TW 名稱。
+5. 333 筆配方的逐筆來源ID、版本、狀態、設備、信心與驗證狀態。
 6. 完整 zh-TW 校對、QA acceptance tests 與 Critic review。
 
 **完成上述研究與 Critic Gate 前，不開始正式實作。**
