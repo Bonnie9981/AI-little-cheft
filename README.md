@@ -69,7 +69,7 @@
 
 ## 食譜來源追溯稽核
 
-已建立 [RECIPE_PROVENANCE_AUDIT.md](docs/RECIPE_PROVENANCE_AUDIT.md)，逐筆列出333個候選食譜名稱與候選ID，並明確區分「名稱清單來源」與「配方公式來源」。目前333筆公式來源尚未逐筆映射，因此這份文件是稽核基線，不代表追溯完成；此項仍是開工前P1。
+已建立 [RECIPE_PROVENANCE_AUDIT.md](docs/RECIPE_PROVENANCE_AUDIT.md)，逐筆列出333個候選食譜名稱與候選ID，並明確區分「名稱清單來源」與「配方公式來源」。目前332/333筆已有逐筆公式／動作來源引用，Clutter僅有觸發提示、公式仍未知；來源引用不代表實機驗證，版本、物件狀態與實際輸出仍是開工前P1。
 
 
 ## Bistro 進度鏈最新研究
