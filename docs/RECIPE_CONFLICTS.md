@@ -487,3 +487,20 @@ Re-opened the actual 2026-09-10 Japanese 1.0 completion article (SRC-024). The p
 | 七國磁鐵如何取得 | SRC-050 Steam Bistro recipe guide 的成就說明稱每個磁鐵由老鼠在玩家完成請求料理後給予 | SRC-057 日文實際遊玩紀錄把老鼠便條交易（完成圖示料理→獲得特殊食材）與七道國際料理（完成後磁鐵附到抽油煙機）分開敘述；Japan = Mochi | **未定案。** 不得把 rat trade reward 與 country-magnet trigger 當成同一機制。可能存在食材解鎖依賴，但觸發方式須以逐步畫面／counter驗證。BIS-062新增分離測試。 |
 
 具體差異：SRC-054開發者只確認「Cheese啟動老鼠請求→依料理圖製作→換得新食材」，沒有提國家磁鐵；SRC-057直接文字說國際料理會把磁鐵附在抽油煙機；SRC-050的成就註解則把磁鐵歸因於老鼠。兩份玩家來源不能互相覆蓋。七國料理全名仍只確認Japan = Mochi。
+
+
+## SRC-066｜Chinese v1.0 guide introduces additional Bistro formula conflicts
+The Steam guide by 一旁冷笑 (updated 2026-09-08) explicitly warns that some formulas may be inaccurate and some content is AI-bulk-added. Its manually written Bistro section nonetheless reports several candidates that conflict with the August 10 Steam recipe guide and/or other community sources:
+
+| Recipe | SRC-066 candidate | Conflicting candidate(s) | Required resolution |
+|---|---|---|---|
+| Mochi | Ground Rice | Whole Rice | BIS-065; also determine whether this exact card creates Japan magnet |
+| Apple Mochi | Ground Rice + Apple | Rice + Apple | BIS-065; do not conflate with Mochi |
+| Sake | Rice + Yeast | Rice + Wine | BIS-064 |
+| Tomato Cheese Appetizer | Tomato + Cheese | Tomato + Cheese + Olives | BIS-063 |
+| Tomato Cocktail | Ground Tomato + Wine; guide says cookbook display is wrong | Ground Tomato + Wine + Olives; prior cookbook icon showed Meat | BIS-066; test actual result and v1.1 cookbook display |
+| Mushroom Soup | processed Mushroom alone | Mushroom + Garlic | BIS-067 |
+| Pumpkin Soup | Ground Pumpkin alone | Ground Pumpkin + Garlic | BIS-068 |
+| Meatballs | Ground Meat alone | Ground Meat + Garlic + Dough | BIS-069 |
+
+The same guide reports Goulash as Meat + Ground Tomato + Wine and explicitly says the cookbook may display whole Tomato instead of Ground Tomato; this aligns with the existing candidate in BIS-023 rather than creating a new formula. The new source does not close any of the above conflicts without in-game execution.
