@@ -79,4 +79,4 @@ SRC-057已將抽油煙機老鼠的食材交易鏈與七國料理磁鐵鏈拆開�
 
 ## 食譜逐筆來源追溯最新進度
 
-[RECIPE_PROVENANCE_AUDIT](docs/RECIPE_PROVENANCE_AUDIT.md) 現在有332/333筆候選具備逐筆來源公式／動作引用；唯一公式未映射項目為Bistro的Clutter；SRC-024只提供自發混亂的提示，沒有可重現配方。這些是攻略來源引用，不是實機驗證。Rat Level仍有4個配方槽位衝突，Crazy Calzone Good/Bad分類也待實測。
+[RECIPE_PROVENANCE_AUDIT](docs/RECIPE_PROVENANCE_AUDIT.md) 現在有332/333筆候選具備逐筆來源公式／動作引用；唯一公式未映射項目為Bistro的Clutter；SRC-024只提供自發混亂的提示，沒有可重現配方。這些是攻略來源引用，不是實機驗證。Rat Level仍有4個配方槽位衝突，Crazy Calzone已依1.0 counter改列Bad，仍待卡片tab確認。
