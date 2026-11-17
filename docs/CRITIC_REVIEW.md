@@ -170,3 +170,9 @@
 - A player reports the Tomato Cocktail icon showed a meat symbol where Wine should be, and describes Tomato Sauce + Wine + Olives. This is a concrete example of why recipe icons and text must be independently checked.
 - The same player claims Kombucha does not contain Mushroom, contradicting multiple recipe guides. This is not developer-confirmed; it must remain an explicit competing hypothesis and be tested in-game.
 - Translation QA and Kombucha formula remain unresolved; no test has been marked executed.
+
+## Round 1 Addendum — 333-row recipe provenance baseline (2026-11-17)
+- Created RECIPE_PROVENANCE_AUDIT.md with 333 unique candidate IDs across four rooms and source-family mapping for candidate names.
+- Critical distinction: all 333 formula_source_ids remain UNMAPPED / NOT_AUDITED. Room-level list sources are not formula-level proof. This does not close the recipe-traceability P1; it makes the gap measurable and prevents false readiness claims.
+- QA expanded from 140 to 143 unique designed IDs: BIS-056 Kombucha conflict, BIS-057 Risotto, BIS-058 Focaccia. BIS-023 now requires Normal Meat (not Ground Meat) for the Goulash candidate. None of the 143 cases has been executed.
+- SRC-056 adds a developer warning that EA dish translations were temporary DeepL output, plus player evidence of a wrong Tomato Cocktail icon and a conflicting Kombucha formula. Translation/formula validation remains open.
