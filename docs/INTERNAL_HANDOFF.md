@@ -578,3 +578,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Crazy Calzone：SRC-050列Bad，SRC-018流程提及但未明示tab；待實機記錄tab，BIS-061。
 - Bistro rat trades與七國磁鐵是兩條不同但互相依賴的進度鏈；只確認Cheese→Tomato與Japan=Mochi。
 - 目前仍Research Only，Critic Gate FAIL。
+
+
+## 2026-11-17｜四場景來源映射最新快照
+- 333列候選中，332列已具備逐筆來源公式／動作引用；僅Bistro Clutter仍UNMAPPED。
+- Student Dorm 77/77（SRC-019）；Cafe 112/112（SRC-020，Coffee Cake重複已去重）；Bistro 121/123對應分類來源列，Crazy Calzone分類衝突1列、Clutter未映射1列；Rat Level 21/21來源列，其中4個slot保留候選衝突。
+- Source Register至SRC-058；QA 146 unique，0 executed。來源引用不等於實機驗證。Research Only / Critic FAIL。
