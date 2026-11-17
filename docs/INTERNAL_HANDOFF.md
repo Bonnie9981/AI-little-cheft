@@ -475,7 +475,7 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 
 
 ## 2026-11-17｜SRC-017 1.0指南重新分類後的 QA 對照
-- QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有132個唯一ID。
+- QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有140個唯一ID。
 - README、Critic與進度報告已同步此數量。這些仍是測試設計，不是實際執行結果。
 
 
@@ -501,18 +501,18 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-023完整日文1.0攻略可讀文字確認Bistro To-Do先Clean the kitchen，再Trade with the rat；初次給抽油煙機老鼠Cheese，取得Tomato；後續抽油煙機便條畫出料理，完成後取得新食材。尚無完整逐步菜色／獎勵清單。
 - SRC-047 9Puz完整1.0路線補充：空Mixer容器煮出Scissors；Scissors找出隱藏Mixer開關並剪斷吊掛食材繩；老鼠請求解鎖特殊食材與七國磁鐵；五瓶酒按標籤排序。
 - 七國料理只有Japan=Mochi可由文字確認；其餘六道不可從菜名推測。Cafe To-Do確認包含Set the kitchen on fire，Burnt Panini需再次烹煮觸發火災，但完整任務列仍未取得。
-- QA最新132個唯一ID，全部仍是測試設計，未有遊戲客戶端實際執行紀錄。
+- QA最新140個唯一ID，全部仍是測試設計，未有遊戲客戶端實際執行紀錄。
 
 
 ## 2026-11-17｜Bistro mouse-gated ingredients
 - SRC-050完整Steam攻略標註Olives（Tomato Cheese Appetizer）、Apple（Baked Apple）、Garlic（Pumpkin Soup）為老鼠贈品；SRC-023確認初次Cheese→Tomato與後續便條料理換食材。
-- 這些只確認部分受限食材，不能推導完整請求順序；P1-01仍未清除。新增BIS-050..052，QA總數132，仍全是未執行測試設計。
+- 這些只確認部分受限食材，不能推導完整請求順序；P1-01仍未清除。新增BIS-050..052，QA總數140，仍全是未執行測試設計。
 
 
 ## 2026-11-17｜Bistro To-Do screenshot transcription
 - SRC-023內嵌截圖顯示EA Bistro To-Do五項依序為Clean the kitchen、Trade with the rat (0/4)、Get the mixer to work、Cook new ingredients (0/6)、Make pizza dough。截圖下方註記被裁切，疑似提到最後一項隨1.0推出。
 - 這只能證明EA畫面有4次老鼠交易與6項新食材料理計數；不能直接當成1.0清單，也不可與Cafe Level 2 To-Do混淆。
-- 新增BIS-053..055驗證1.0是否保留任務項目與兩個計數；QA目前135個唯一ID，尚未執行。
+- 新增BIS-053..055驗證1.0是否保留任務項目與兩個計數；QA目前140個唯一ID，尚未執行。
 
 
 ## 2026-11-17｜Cafe To-Do version history
