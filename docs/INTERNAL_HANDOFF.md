@@ -563,3 +563,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 七國磁鐵鏈：七道國際料理完成後各附磁鐵；只有Japan = Mochi有可讀文字與日本國旗截圖。Apple Mochi不是該磁鐵料理；可疑料理不計入。
 - 76/76 cookbook counter僅是2026-09-09 EA截圖，非1.0最終數量。
 - BIS-059/060新增磁鐵與Mochi/Apple Mochi排除測試；QA 145 unique，0 executed。完整交易獎勵映射與其他六國仍未知。
+
+
+## 2026-11-17｜SRC-058 Pizza Dough與Crazy Calzone
+- Pizza Dough首選配方修正為Flour + Yeast + Olive Oil；SRC-058明確糾正Dough不是Flour，且SRC-015/SRC-018交叉支持。
+- Bistro provenance：121/123列有公式來源或動作來源線索；Clutter仍未映射，Crazy Calzone的Good/Bad分類有來源衝突。
+- QA新增BIS-061核對Crazy Calzone實際tab；總數146個唯一設計ID，0執行。
