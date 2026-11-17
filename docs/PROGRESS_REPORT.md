@@ -442,3 +442,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增SRC-051：開發者直接確認Cafe電話輸入後，必須拿起話筒並等通話對白結束，Avocado與Lettuce才會生成。
 - 這補上Level 2一個容易被誤判為配方問題的事件觸發條件；QA新增CAF-017。
 - 玩家討論串出現的電話號碼不視為通用常數，仍應讀取遊戲內便條。
+
+
+## 2026-11-17｜Critic 初審結果
+- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前102個唯一測試ID，均為設計案例，尚未執行。
+- 修正README來源範圍與Cafe QA ID命名。
+- Bistro Pizza Dough = Olive Oil + Yeast + Flour取得兩份獨立指南支持；Goulash、Tomato Cocktail仍受官方v1.1修正影響，精確新配方未知。
+- 初審不通過正式全內容開發 Gate。主要阻塞：七國料理／老鼠請求順序、Cafe完整To-Do、Rat密碼與電力映射、逐筆配方來源追溯、D級衝突與實機QA。
+- Research Only維持；Critic初審不是最終審查，待研究資料補齊後再做第二輪。
