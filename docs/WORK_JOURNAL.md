@@ -903,3 +903,10 @@
 
 **限制**
 - 此次只證明名稱清單、公式列與翻譯列數量一致；不代表每個材料公式已實機驗證。
+
+
+## 2026-11-17｜Cafe與Bistro To-Do場景歸屬再校正
+- 日本1.0玩家記錄顯示Cafe的「Set the kitchen on fire」完成後，還要清完剩餘訂單，回My Room才解鎖Bistro；玩家曾遇到火災已發生但To-Do未登錄，重做一次才更新。
+- Bistro的To-Do面板則另有「Clean the kitchen」與「Trade with the rat」兩項，先清潔，再餵Cheese啟動老鼠交易。
+- 因此把場景歸屬分清：Cafe明確To-Do候選為Complete 8 orders、Set the kitchen on fire；Bistro至少Clean the kitchen、Trade with the rat。Cafe完整列數仍未知。
+- QA新增火災任務狀態與Steam achievement分離、重試登錄測試。
