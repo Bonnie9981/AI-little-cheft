@@ -230,3 +230,17 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - Water Basil with wet Sponge or running faucet.
 - Discover 40 total Good + Bad dishes.
 - Verify both Good and Bad recipe tabs plus all six tasks are required for Student Dorm 100%.
+
+
+## Cafe To-Do ledger correction
+
+- Official v3.0ea notes say eight To-Do entries were added to Level 2. This is the number of task rows, not the number of orders.
+- One task is to complete 8 orders. The known task candidates also include clean kitchen, rat trade, and fire interaction.
+- Four of eight task names remain unknown. Do not mark Cafe task-ledger coverage complete until all eight rows are identified and tested.
+- Verify Level 3 remains locked until all eight Level 2 To-Do entries are complete.
+
+## Coioioin conflicting interaction test
+
+- Primary candidate: click / flip the coin until the same face lands three times consecutively, matching the Steam achievement description.
+- Alternate report: press a blue switch and toss the coin into a red-marked area.
+- QA must test the plain coin interaction first, then the switch / target-area route only if the achievement does not trigger. Do not hardcode the switch as a prerequisite without evidence.
