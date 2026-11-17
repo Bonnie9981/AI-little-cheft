@@ -428,4 +428,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 因此 Goulash、Tomato Cocktail 及 Rat密碼鎖互動列為版本敏感項；舊版指南不得直接視為現行正確。
 - 本輪確認七國磁鐵由老鼠任務取得，但目前可讀文字仍只公開 Japan = Mochi；其他六國料理名稱、花盆密碼數字仍未取得可直接引用的文字證據。
 - 研究狀態仍為進行中；本輪更新不是完成宣告。
-\n\n## 2026-11-17｜完整配方指南全文與版本敏感配方\n- 新增SRC-050：Steam Guide ID 3713640352全文可讀，取得三個主廚房與Rat Level的大量候選配方及流程資料。\n- 指南列出Goulash候選 Meat + Wine + Ground Tomato；Tomato Cocktail候選 Olives + Wine + Ground Tomato。但官方v1.1明確修正兩筆cookbook recipe，故目前只能標為舊版候選。\n- 指南留言指出Dirty Chai Latte應使用Coffee（非Coffee Beans），Tomato Juice應使用Ground Tomato（非整顆Tomato）；留言與指南正文有衝突，已新增獨立QA，不直接覆寫。\n- QA新增BIS-023至BIS-026，專門核對上述四項版本／留言衝突。\n- 七國料理對應與Rat密碼數字仍未取得可讀文字證據；維持UNKNOWN。\n
+
+
+## 2026-11-17｜完整配方指南全文與版本敏感配方
+- 新增SRC-050：Steam Guide ID 3713640352全文可讀，取得三個主廚房與Rat Level的大量候選配方及流程資料。
+- 指南列出Goulash候選 Meat + Wine + Ground Tomato；Tomato Cocktail候選 Olives + Wine + Ground Tomato。但官方v1.1明確修正兩筆cookbook recipe，故目前只能標為舊版候選。
+- 指南留言指出Dirty Chai Latte應使用Coffee（非Coffee Beans），Tomato Juice應使用Ground Tomato（非整顆Tomato）；留言與指南正文有衝突，已新增獨立QA，不直接覆寫。
+- QA新增BIS-023至BIS-026，專門核對上述四項版本／留言衝突。
+- 七國料理對應與Rat密碼數字仍未取得可讀文字證據；維持UNKNOWN。
