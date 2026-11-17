@@ -519,3 +519,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-023 2026/03/28日文EA攻略截圖可辨識Cafe任務：Order missing ingredients、Restock the cakes (0/2)、Make drinks (0/10)、Cook new dishes (0/60)，且明示More coming soon；當時作者稱Cafe與To-Do尚未完成。
 - 官方v3.0ea 2026/04/23新增To-Do「complete 8 orders」；2026/09日文Level 3攻略記錄Level 2 To-Do「Set the kitchen on fire」為Level 3解鎖條件。
 - 以上不能直接拼成最終1.0完整清單；新增CAF-018..022做版本比對。QA目前140個唯一ID，仍未執行。
+
+
+## 2026-11-17｜SRC-053 official Cafe To-Do addition
+- 新增SRC-053：SteamDB鏡像官方v3.0ea changelog，2026/04/23新增Cafe To-Do「complete 8 orders」。這與3月Cafe截圖四項舊任務及9月「Set the kitchen on fire」線索形成版本演進證據；但未能直接證明最終1.0完整任務列。
+- README與Critic來源範圍同步至SRC-053；QA維持140個唯一ID。
