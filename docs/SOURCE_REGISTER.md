@@ -207,3 +207,6 @@ Cross-version additions:
 
 
 - SRC-054 | [Steam Community Discussion — Bistro - how to trade with rat?; developer Crazydvd reply](https://steamcommunity.com/app/3376500/discussions/0/574921459914308481/) | 2026-07-16 | Developer explicitly confirms the Bistro rat sequence: find the suspicious door on the extractor hood; offer the same item used in the Cafe rat trade (Cheese); the rat displays a drawing of a dish; cook that exact dish to trade for a new ingredient. | Primary developer-authored clarification for the interaction loop. It confirms the mechanic, but does not disclose the four dish drawings, their order, or the ingredient reward mapping. It is not enough to close P1-01.
+
+
+| SRC-055 | [Steam Community Discussion — Assistance with Level 3](https://steamcommunity.com/app/3376500/discussions/0/568165880361398668/) | 2026-07-12, 76-comment player thread | Players correct Goulash from an incorrect “processed meat + tomato + wine” suggestion to normal Meat + processed Tomato + Wine; the same thread gives Risotto = Rice + Mushroom + Cheese and Focaccia = Bread Dough + Olives + Olive Oil. | First-hand player troubleshooting with correction and confirmation context; useful C/B-level community evidence, not developer-authored and still requires in-game verification. The distinction between normal Meat and Ground Meat is material.
