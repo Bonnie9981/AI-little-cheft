@@ -277,3 +277,11 @@ Cross-version additions:
   - Tomato Cheese Appetizer is Tomato + Cheese (conflicts with guides that add Olives).
   - Mushroom Soup is recorded as processed Mushroom alone; Pumpkin Soup as Ground Pumpkin alone; Meatballs as Ground Meat alone. These conflict with other recipe lists that add Garlic or Dough.
 - The guide is valuable for identifying formula conflicts and possible cookbook display errors, but its own caveats require preserving every candidate and testing in the target v1.1+ client. It does not transcribe the full Cafe To-Do list, four rat request cards/rewards, all seven country dish names, or the Rat Level numeric code.
+
+
+## SRC-067｜Steam Community “New Achievement and Mouse Recipes” (2026-08-27)
+- URL: https://steamcommunity.com/sharedfiles/filedetails/?id=3790806368
+- This player guide focuses on the Rat Level and lists candidate slots in order. It independently confirms the anti-gravity portrait → planter password note → wine-bottle keypad → oven power sequence.
+- Cold Good candidates are listed as Cheese; Cheese+Cheese; Cheese+Paper; Cheese+Pencil; Cheese+Eggshell. Hot Good candidates repeat the first four. Bad candidates include Empty, Leaf, Paperclip+Paper, Eggshell+Pencil, Leaf+Pencil, Pasta+Paperclip, Eggshell+Paper, and the four single/other-object results.
+- SRC-067 therefore agrees with SRC-018 on Cheese+Eggshell as a cold candidate, while SRC-066's 1.0 guide lists Cheese+Leaf for the fifth cold slot. It also lists Pasta alone as one Bad slot and Pasta+Paperclip as another, whereas other guides combine Paperclip+Pasta into a single candidate. These are explicit unresolved slot conflicts; do not merge them.
+- The guide's Rat Level list is useful as an independent ordering reference but does not disclose the numeric planter code or identify the six non-Japan country dishes. RAT-024..026 cover the remaining conflicts and interaction sequence.
