@@ -1142,3 +1142,12 @@
 - LXX8_jiJJIM可定位Cafe To-Do面板（02:56–03:12）、21931電話（05:54–06:12）、12單與Paintbrush（18:01–19:54）、60道新菜（19:31）、火災操作（30:44–30:57）、71 Good及41 hidden/Bad（37:36–44:07）。自動分析指出To-Do另有Restock the paninis，與CEO提供的六項清單不同；暫記七項候選，等待完整畫面確認。
 - CEO字幕摘錄指出Bistro交易候選序列、七國料理例子與Rat Level配方；其中Rat Level配方項目存在計數／組合矛盾，必須以時間戳逐格核對，不可直接標記完成。七國完整六個非日本國家及料理仍未由目前摘要可靠提取。
 - 來源登錄SRC-072至SRC-074。Video summarizer本週三次免費摘要額度已用完；不得重試同服務繞過限制。QA仍164 designed / 0 executed；Critic FAIL；Research Only。
+
+
+## 2026-11-17｜Gemini報告整合、靜態稽核與停止條件落地
+- 讀取GitHub上的完整Gemini Help.md及Inventory、Conflict Register、Provenance Audit、QA、Critic、Progress等現有文件；新增GEMINI_INTEGRATION_AUDIT.md並登錄SRC-075。
+- 333筆Provenance表格以程式化字串檢查：333列、333個唯一Candidate ID，重複ID 0；各房間列數SD 77、Cafe 112、Bistro 123、Rat Level 21。這是文件結構稽核，不是遊戲配方正確性驗證。
+- QA Test Plan測試ID檢查：173列、173個唯一ID，重複ID 0；執行數仍為0。
+- 對Gemini報告執行跨文件比對，將Bistro總數、Rat Level總數、Student Dorm To-Do、Cafe Paintbrush條件等衝突寫入整合稽核，禁止未經證實覆寫。
+- README更新為目前允許implementation preparation，但完整玩法實作與發布仍需Critic/CEO Gate；補上整合稽核文件連結與最新來源／QA數量。
+- 沒有宣稱實機QA通過；此輪完成的是可追溯的靜態資料與文件一致性檢查。
