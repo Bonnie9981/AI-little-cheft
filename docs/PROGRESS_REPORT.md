@@ -421,3 +421,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 9Puz確認 Big Magnet候選動作是烹調老鼠獎勵磁鐵；Compass需先登記 Going Global，再以Scissors + country Magnet製作。
 - Steam Guide ID 3713640352的瑞典語頁面目前可直接讀取完整文字正文，雖仍顯示已移除提示；已將來源可讀性註記更新，不再簡化稱為只有搜尋摘要。
 - 本輪沒有取得花盆密碼的實際數字，也沒有取得除 Japan = Mochi 以外的六國料理配對；兩者仍是阻塞項，未以推測填補。
+
+
+## 2026-11-17｜新增官方 v1.1 版本校正
+- 新增 SRC-049：官方 v1.1 修正 Coioioin Steam同步、Level 1重複罐子、Goulash與Tomato Cocktail cookbook配方，並改善 Rat cursor / number-lock 點擊區域。
+- 因此 Goulash、Tomato Cocktail 及 Rat密碼鎖互動列為版本敏感項；舊版指南不得直接視為現行正確。
+- 本輪確認七國磁鐵由老鼠任務取得，但目前可讀文字仍只公開 Japan = Mochi；其他六國料理名稱、花盆密碼數字仍未取得可直接引用的文字證據。
+- 研究狀態仍為進行中；本輪更新不是完成宣告。
