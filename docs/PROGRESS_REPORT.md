@@ -380,3 +380,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Pasta A La Carbonara：Pasta + Egg + Cheese 與 Pasta + Egg + Milk 仍衝突。
 - PB&J Sandwich：保留原料直做與 PB&J Jar + Bread 等替代路徑。
 - 上述只更新證據分級，沒有新增遊戲內驗證。研究仍為 Research Only。
+
+
+## 2026-11-17｜Coioioin觸發方式重新開放為雙路線待驗證
+- 日文1.0第一手攻略明確提供「按藍框開關 → 將硬幣投進紅框」路線，並說這不是單純靠同面連續三次的隨機機率；作者另回報Steam成就需重啟後才同步。
+- 這與Steam官方成就描述及較早玩家指南的「同面三次／反覆點硬幣」說法衝突。先前將藍開關降為低信心支線的結論撤回。
+- QA新增RAT-009（藍開關／紅框投幣）與RAT-010（Steam重啟同步）；RAT-008保留舊路線。兩條觸發方式都未實機驗證，不能定案。
+- QA案例數由88增至90；Research Only維持。
