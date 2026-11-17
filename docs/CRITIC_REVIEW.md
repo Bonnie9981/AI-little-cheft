@@ -14,7 +14,7 @@
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
 | QA | 129 個唯一 ID | 僅為測試設計，未執行 |
-| 來源 | SRC-001 至 SRC-051 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
+| 來源 | SRC-001 至 SRC-052 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
 
@@ -44,7 +44,7 @@
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
 ### P1-06｜核心 QA 尚未實際執行
-目前有 127 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
+目前有 129 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
 **影響：** 任何配方與互動都不能標為 verified_in_game；核心流程尚無實測回歸證據。  
 **下一步：** 取得可執行遊戲的測試環境，先跑所有 P1 解鎖流程、每房間代表性 Good/Bad 配方、Rat Level 狀態測試，再擴至全表。
 
@@ -108,8 +108,16 @@
 - Added SRC-052, an independent Steam guide dated 2026-08-27. It corroborates the Rat Level puzzle sequence and most slot formulas.
 - Eggshell is now the preferred candidate for cold Good #5; Eggshell + Pencil for Bad #4; Paperclip + Pasta for Bad #6; Eggshell + Paper for Bad #7. SRC-017 manual variants remain in QA as alternatives.
 - Coioioin repeated coin-click route is supported by SRC-052 and official achievement wording; Japanese blue-switch/red-target remains a second method to test.
-- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 127 designed, unexecuted tests.
+- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 129 designed, unexecuted tests.
 
 
 ## Round 1 Addendum — further recipe-conflict coverage
 - Added two more conflict tests: BIS-048 for whole vs Ground Rice in Mochi, and BIS-049 for the three competing Yeast Monster combinations. QA now has 129 unique designed test IDs; none are claimed executed.
+
+
+## Round 1 Addendum — 1.0 Bistro / Cafe progression evidence (2026-11-17)
+- Re-opened the 9Puz 1.0 completion route (SRC-047) and the Japanese Level 3 walkthrough (SRC-023) as full text, not snippets. The Japanese walkthrough explicitly records Bistro To-Do order at the beginning: Clean the kitchen, then Trade with the rat; giving Cheese to the extractor-hood rat awards Tomato; subsequent illustrated notes each request a cooked dish and award an ingredient. This confirms the initial trade and the note-driven loop, but does not expose the full ordered request/reward ledger.
+- The same Japanese walkthrough says there are seven country-dish recipes, identifies Japan = Mochi, and explicitly excludes Apple Mochi and suspicious dishes. It does not name the other six. This strengthens the negative finding: no nationality inference is permitted.
+- The 9Puz route adds a practical dependency order: empty mixer container → Scissors; Scissors expose hidden mixer switch; Scissors cut the hanging ingredient rope; rat requests yield special ingredients and seven country magnets; five wine bottles must be sorted. It does not list the individual rat request dishes or reward order.
+- Cafe evidence: the 1.0 Japanese walkthrough confirms the Level 2 To-Do includes “Set the kitchen on fire”; Burnt Panini must be cooked again to trigger the fire. It also confirms the task list is a progression gate to Bistro. It still does not provide the complete Cafe To-Do list, so P1-03 remains open.
+- QA count is 129 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
