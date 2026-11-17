@@ -400,3 +400,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - QA新增BIS-019：Country Magnet登記後才測Compass，分離磁鐵持有與Going Global登記狀態。
 - QA新增BIS-020：比較老鼠獎勵Magnet直接使用與放入料理設備後是否觸發Big Magnet。
 - QA目前92個唯一測試案例；兩項均待遊戲內驗證。Research Only維持。
+
+
+## 2026-11-17｜SRC-017版本錯置更正與Bistro衝突撤回
+- 直接檢查Steam Guide ID 3686619896後確認它是v4.0 EA（3/17發布、6/8更新），配方以v3.0 EA為基準，只含Student Dorm/Cafe，沒有Bistro或Rat Level。先前稱它為9/1簡中1.0指南的記錄撤回。
+- Steam Guide ID 3713640352雖有8/10全遊戲搜尋索引，但直接開啟頁面仍是4/25 EA內容且已被下架；其8/10 Bistro/Rat Level資料只算快取線索。
+- RECIPE_CONFLICTS已撤回所有錯誤歸因SRC-017的Bistro/Rat Level配方：Clutter Cloth + Wooden Spoon、Rat Leaf、Eggshell + Pencil、Pasta-only/Pasta+Paper等。
+- Bistro其餘配方衝突只保留可追溯至7/14、8/10快取、9/2 9Puz及獨立玩家討論的候選。研究仍為Research Only。
