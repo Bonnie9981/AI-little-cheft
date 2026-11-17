@@ -410,7 +410,7 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 
 
 ## 45. 2026-11-16｜Cafe To-Do已知項目整理
-- 目前可支持的 Cafe task entries至少四項：Clean the kitchen、Trade with the rat、Complete 8 orders（官方v3.0ea新增To-Do）、Set the kitchen on fire。
+- **此處舊結論已被2026-11-17來源校正取代：** Clean the kitchen與Trade with the rat屬Bistro To-Do；Cafe可明確命名的To-Do為Complete 8 orders與Set the kitchen on fire。不要沿用「Cafe至少四項」的錯誤分類。
 - 1.0 walkthrough另外指出 Cafe未達100%時需檢查電話stock/21931、訂單Coins、Espresso Cup、Safe與fire alarm；這些可能是任務子步驟或額外ledger rows，尚未證明是獨立To-Do。
 - 因此不再稱 Cafe To-Do「完全未知」；目前為至少4項已知，完整總數仍待遊戲UI。
 
