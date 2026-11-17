@@ -1,6 +1,6 @@
 # Recipe Formula Draft — Bistro & Rat Level
 
-Updated: 2026-11-16  
+Updated: 2026-11-17  
 Status: candidate formulas from community guides and player reports; not verified in-game. Use docs/RECIPE_CONFLICTS.md for unresolved variants. Rat Level entries are slot-based because the recipe labels are alien symbols.
 
 ## Bistro — 84 Good (76 listed baseline + 1 July-discovered + 7 post-launch additions)
@@ -136,7 +136,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Risky Rice Pudding | Rice + Flour |
 | Big Magnet | Magnet received from mouse trade |
 | Boo Tomato | Tomato |
-| Clutter | Cloth + Wooden Spoon (1.0 Chinese guide candidate; verify) |
+| Clutter | Unknown; 1.0 player report confirms the recipe name but readable text does not disclose its trigger |
 
 ## Rat Level — 9 Good slots
 
@@ -179,7 +179,7 @@ Device: Electric Can Cooker (microwave-like powered tin can). Use power_level = 
 4. Enter the three-digit code from the planter note.
 5. Unlock the cooker power control and test both power levels.
 6. Do not assume OFF = low or ON = high until verified on the device.
-7. Coioioin: a 1.0 player report says press the blue switch, then toss the coin in the red-marked area; the Steam achievement text still describes three identical coin faces in a row.
+7. Coioioin: click the coin beside the cooker until the same face lands three times consecutively, matching the official Steam achievement text and multiple guides. A separate blue-switch / red-target report is uncorroborated and is not a required prerequisite in this spec.
 
 The numeric code itself is not present in the readable sources. Do not hardcode a guessed number.
 
