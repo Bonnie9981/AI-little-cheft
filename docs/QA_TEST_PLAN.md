@@ -303,3 +303,27 @@ SRC-048 confirms that the original EA build had a rat-trade To-Do counter bug (-
 | ID | Test | Expected result |
 |---|---|---|
 | CAF-017 | After dialing the number from the in-game note, compare leaving immediately, picking up then hanging up early, and picking up until dialogue finishes | Avocado and Lettuce should spawn only after the complete call sequence; record whether the trigger is one-shot and survives reload |
+
+
+## Bistro unresolved formula conflict coverage (2026-11-17)
+
+Run each alternative separately with the same appliance, room state, and version. Record the exact resulting card, whether the cookbook slot advances, and whether the result persists after save/reload. Never combine both alternatives in one attempt.
+
+| ID | Test | Expected evidence |
+|---|---|---|
+| BIS-027 | Tomato Cheese Appetizer: Tomato + Cheese vs Tomato + Cheese + Olives | Determine whether Olives are required or optional; capture both outputs and counter changes |
+| BIS-028 | Apple Mochi: Rice + Apple vs Ground Rice + Apple | Determine required rice state; keep Apple Mochi distinct from Japan's Mochi magnet dish |
+| BIS-029 | Meatballs: Ground Meat alone vs Ground Meat + Garlic + Dough | Identify accepted input set and exact processed-meat key |
+| BIS-030 | Beef Katsu Sando: Meat + Bread vs Meat + Bread + Olive Oil | Determine whether Olive Oil is required, optional, or a separate recipe |
+| BIS-031 | Fried Rice: Rice + Olive Oil vs Rice + Olive Oil + Mushroom | Determine required input set |
+| BIS-032 | Sake: Rice + Yeast vs Rice + Wine | Resolve the source disagreement without inferring from real-world recipes |
+| BIS-033 | Yeast Monster: Yeast + Wine vs Yeast + Tomato | Resolve the conflicting Bad Recipe formula |
+| BIS-034 | Cookbook: Newspaper + Apple vs Newspaper + Tomato | Resolve the conflicting Bad Recipe formula |
+| BIS-035 | Bad Meatloaf: Meat + Flour vs Meat + Olives | Resolve the conflicting Bad Recipe formula |
+| BIS-036 | Food Sketch: Any Pencil + Apple vs Any Pencil + Cheese | Resolve the conflicting Bad Recipe formula |
+| BIS-037 | Fried Balls: Bread + Olive Oil vs Salami + Olive Oil | Resolve the conflicting Bad Recipe formula |
+| BIS-038 | Charcuterie Board: Olives + Salami + Bread vs Olives + Salami + Cheese | Resolve the 7/14 vs later-route candidate difference |
+| BIS-039 | Pizza Speciale: Pizza + Mushroom + Olives vs Pizza + Mushroom + Salami | Resolve the 7/14 vs later-route candidate difference |
+| BIS-040 | Clutter: Observe mixer, room state, and idle scene over time without assuming a formula | Identify whether the trigger is spontaneous, time-based, physics-based, or another interaction; record a reproducible sequence before assigning a recipe formula |
+
+These are conflict-resolution cases, not proof that either candidate is correct. 
