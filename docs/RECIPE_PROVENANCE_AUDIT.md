@@ -22,194 +22,194 @@ Name source IDs identify the source family from which a candidate name/list was 
 
 | Candidate ID | Room | Type | Recipe name | Name source IDs | Formula source IDs | Formula audit status |
 |---|---|---|---|---|---|---|
-| SD-G-001 | Student Dorm | Good | Baked Banana | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-002 | Student Dorm | Good | Banana Bread | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-003 | Student Dorm | Good | Beans on Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-004 | Student Dorm | Good | Boiled Eggs | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-005 | Student Dorm | Good | Coffee | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-006 | Student Dorm | Good | Savory Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-007 | Student Dorm | Good | Cheesy Ramen | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-008 | Student Dorm | Good | Chili Sin Carne | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-009 | Student Dorm | Good | Warm Beans | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-010 | Student Dorm | Good | Plain Ramen | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-011 | Student Dorm | Good | French Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-012 | Student Dorm | Good | Fries | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-013 | Student Dorm | Good | Grilled Cheese | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-014 | Student Dorm | Good | Hot Milk | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-015 | Student Dorm | Good | Mac and Cheese | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-016 | Student Dorm | Good | Mashed Potatoes | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-017 | Student Dorm | Good | Omelette | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-018 | Student Dorm | Good | Pasta A La Carbonara | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-019 | Student Dorm | Good | Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-020 | Student Dorm | Good | PB&J | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-021 | Student Dorm | Good | PB&J Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-022 | Student Dorm | Good | Pesto | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-023 | Student Dorm | Good | Ramen | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-024 | Student Dorm | Good | English Breakfast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-025 | Student Dorm | Good | Scrambled Eggs | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-026 | Student Dorm | Good | Decent Protein Shake | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-027 | Student Dorm | Good | Sweet Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-028 | Student Dorm | Good | Red Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-029 | Student Dorm | Good | Tomato Soup | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-030 | Student Dorm | Good | Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-031 | Student Dorm | Good | Baked Potato | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-032 | Student Dorm | Good | Creamy Tomato Soup | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-033 | Student Dorm | Good | Cheese Dip | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-034 | Student Dorm | Good | Cheese Fondue | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-035 | Student Dorm | Good | Pasta E Fagioli | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-036 | Student Dorm | Good | Milk and Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-037 | Student Dorm | Good | Green Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-038 | Student Dorm | Good | Cheese Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-039 | Student Dorm | Good | Egg Pasta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-040 | Student Dorm | Good | Good Protein Shake | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-041 | Student Dorm | Good | Peanuts | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-042 | Student Dorm | Good | Banana Pancake | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-043 | Student Dorm | Good | Smoothie | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-044 | Student Dorm | Good | Cheese Jamwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-045 | Student Dorm | Good | Banana Milk | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-046 | Student Dorm | Good | Potato Bread | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-047 | Student Dorm | Good | Hash Brown | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-G-048 | Student Dorm | Good | Tomato/Egg Stir Fry | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-001 | Student Dorm | Bad | Mystery Meal | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-002 | Student Dorm | Bad | Horrible Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-003 | Student Dorm | Bad | Beany Mess | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-004 | Student Dorm | Bad | Carb Overload | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-005 | Student Dorm | Bad | Carb Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-006 | Student Dorm | Bad | Tomato Mess | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-007 | Student Dorm | Bad | Bad Protein Shake | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-008 | Student Dorm | Bad | SpongeMan | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-009 | Student Dorm | Bad | Bad Ramen | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-010 | Student Dorm | Bad | Basta | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-011 | Student Dorm | Bad | Pre Workout Disaster | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-012 | Student Dorm | Bad | Sponge Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-013 | Student Dorm | Bad | Remix | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-014 | Student Dorm | Bad | Musical Dish | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-015 | Student Dorm | Bad | Katana | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-016 | Student Dorm | Bad | Canned Food | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-017 | Student Dorm | Bad | Terrible Smoothie | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-018 | Student Dorm | Bad | Breadless Sandwich | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-019 | Student Dorm | Bad | Nothing | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-020 | Student Dorm | Bad | Tape Spaghetti | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-021 | Student Dorm | Bad | Heavy Metal | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-022 | Student Dorm | Bad | Iron Ingot | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-023 | Student Dorm | Bad | Secret Sauce | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-024 | Student Dorm | Bad | Food Monster | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-025 | Student Dorm | Bad | Mold | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-026 | Student Dorm | Bad | Burnt Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-027 | Student Dorm | Bad | Soggy Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-028 | Student Dorm | Bad | Frankenstein's Toast | SRC-019 | UNMAPPED | NOT_AUDITED |
-| SD-B-029 | Student Dorm | Bad | Milk Bread | SRC-019 | UNMAPPED | NOT_AUDITED |
-| CA-G-001 | Cafe Job | Good | Tea | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-002 | Cafe Job | Good | Chai Latte | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-003 | Cafe Job | Good | Panini | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-004 | Cafe Job | Good | Savory Panini | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-005 | Cafe Job | Good | Black Coffee | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-006 | Cafe Job | Good | Chocolate Spread | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-007 | Cafe Job | Good | Chocolate Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-008 | Cafe Job | Good | Coffee Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-009 | Cafe Job | Good | Cupcake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-010 | Cafe Job | Good | To Go Drink | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-011 | Cafe Job | Good | Tres Leches | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-012 | Cafe Job | Good | Marble Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-013 | Cafe Job | Good | Cake Pop | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-014 | Cafe Job | Good | Cafe au Lait | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-015 | Cafe Job | Good | Espresso Shot | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-016 | Cafe Job | Good | Babyccino | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-017 | Cafe Job | Good | Tiramisu | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-018 | Cafe Job | Good | Jam | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-019 | Cafe Job | Good | Sweet Bagel | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-020 | Cafe Job | Good | Avocado Brownies | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-021 | Cafe Job | Good | Savory Croissant | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-022 | Cafe Job | Good | Sweet Croissant | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-023 | Cafe Job | Good | Berry Tea | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-024 | Cafe Job | Good | Chocolate Covered Strawberries | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-025 | Cafe Job | Good | Mug Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-026 | Cafe Job | Good | Grilled Lettuce | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-027 | Cafe Job | Good | Salad | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-028 | Cafe Job | Good | Mug Bread | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-029 | Cafe Job | Good | Avocado Milk | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-030 | Cafe Job | Good | Green Smoothie | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-031 | Cafe Job | Good | Strawberry Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-032 | Cafe Job | Good | Neapolitan Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-033 | Cafe Job | Good | Strawberry Tiramisu | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-034 | Cafe Job | Good | Strawberry Cake Parfait | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-035 | Cafe Job | Good | Hot Cocoa | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-036 | Cafe Job | Good | Latte | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-037 | Cafe Job | Good | Pink Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-038 | Cafe Job | Good | Mozzarella | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-039 | Cafe Job | Good | Chocolate Bomb | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-040 | Cafe Job | Good | Brownies | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-041 | Cafe Job | Good | Chocolate Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-042 | Cafe Job | Good | Guacamole | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-043 | Cafe Job | Good | Cheese and Berries | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-044 | Cafe Job | Good | Strawberry Cheesecake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-045 | Cafe Job | Good | Pain Au Chocolat | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-046 | Cafe Job | Good | Canned Bread | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-047 | Cafe Job | Good | Croutons | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-048 | Cafe Job | Good | Tea Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-049 | Cafe Job | Good | Chocolate Cheesecake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-050 | Cafe Job | Good | Milk Bread | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-051 | Cafe Job | Good | Bento Box | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-052 | Cafe Job | Good | Strawberry Milkshake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-053 | Cafe Job | Good | Oven Cheese | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-054 | Cafe Job | Good | Sweet Panini | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-055 | Cafe Job | Good | Cheese Bun | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-056 | Cafe Job | Good | Tea Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-057 | Cafe Job | Good | Double Espresso | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-058 | Cafe Job | Good | Choco Berry Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-059 | Cafe Job | Good | Cheesecake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-060 | Cafe Job | Good | Cake Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-061 | Cafe Job | Good | Savory Bagel | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-062 | Cafe Job | Good | Fusion Tea | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-063 | Cafe Job | Good | Canned Coffee | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-064 | Cafe Job | Good | Cronut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-065 | Cafe Job | Good | Jelly Filled Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-066 | Cafe Job | Good | Mocha | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-067 | Cafe Job | Good | Victoria Sponge Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-068 | Cafe Job | Good | Dirty Chai Latte | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-069 | Cafe Job | Good | Strawberry Latte | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-070 | Cafe Job | Good | Choco Chai Latte | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-G-071 | Cafe Job | Good | To Go Box | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-001 | Cafe Job | Bad | Paper Cup | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-002 | Cafe Job | Bad | Terrible Bagel | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-003 | Cafe Job | Bad | Ew Panini | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-004 | Cafe Job | Bad | Is It Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-005 | Cafe Job | Bad | Spilled Coffee | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-006 | Cafe Job | Bad | Mug Boy | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-007 | Cafe Job | Bad | Bad Milkshake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-008 | Cafe Job | Bad | Specialty Espresso | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-009 | Cafe Job | Bad | Flavored Coffee | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-010 | Cafe Job | Bad | Flat Croissant | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-011 | Cafe Job | Bad | Terrible Spread | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-012 | Cafe Job | Bad | Cup Tower | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-013 | Cafe Job | Bad | Disaster Dish | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-014 | Cafe Job | Bad | Don't Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-015 | Cafe Job | Bad | Painting | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-016 | Cafe Job | Bad | Painted Mug | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-017 | Cafe Job | Bad | Awful Tea | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-018 | Cafe Job | Bad | Hot Air | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-019 | Cafe Job | Bad | Paper Plane | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-020 | Cafe Job | Bad | Menu | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-021 | Cafe Job | Bad | Dollar | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-022 | Cafe Job | Bad | Healthy Cake | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-023 | Cafe Job | Bad | Food Drawing | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-024 | Cafe Job | Bad | Thermos | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-025 | Cafe Job | Bad | Breadception | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-026 | Cafe Job | Bad | Paper Cup Phone | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-027 | Cafe Job | Bad | Healthy Donut | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-028 | Cafe Job | Bad | Tea Strainer | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-029 | Cafe Job | Bad | Cups Game | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-030 | Cafe Job | Bad | Chocolate Coins | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-031 | Cafe Job | Bad | Mended Mug | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-032 | Cafe Job | Bad | Poison | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-033 | Cafe Job | Bad | Strawberry Horror | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-034 | Cafe Job | Bad | Counterfeit Money | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-035 | Cafe Job | Bad | Heart Attack | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-036 | Cafe Job | Bad | Drawing | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-037 | Cafe Job | Bad | Edible Money | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-038 | Cafe Job | Bad | Paper Trash | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-039 | Cafe Job | Bad | Security Card | SRC-020 | UNMAPPED | NOT_AUDITED |
-| CA-B-040 | Cafe Job | Bad | Burnt Panini | SRC-020 | UNMAPPED | NOT_AUDITED |
+| SD-G-001 | Student Dorm | Good | Baked Banana | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-002 | Student Dorm | Good | Banana Bread | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-003 | Student Dorm | Good | Beans on Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-004 | Student Dorm | Good | Boiled Eggs | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-005 | Student Dorm | Good | Coffee | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-006 | Student Dorm | Good | Savory Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-007 | Student Dorm | Good | Cheesy Ramen | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-008 | Student Dorm | Good | Chili Sin Carne | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-009 | Student Dorm | Good | Warm Beans | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-010 | Student Dorm | Good | Plain Ramen | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-011 | Student Dorm | Good | French Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-012 | Student Dorm | Good | Fries | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-013 | Student Dorm | Good | Grilled Cheese | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-014 | Student Dorm | Good | Hot Milk | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-015 | Student Dorm | Good | Mac and Cheese | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-016 | Student Dorm | Good | Mashed Potatoes | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-017 | Student Dorm | Good | Omelette | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-018 | Student Dorm | Good | Pasta A La Carbonara | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-019 | Student Dorm | Good | Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-020 | Student Dorm | Good | PB&J | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-021 | Student Dorm | Good | PB&J Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-022 | Student Dorm | Good | Pesto | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-023 | Student Dorm | Good | Ramen | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-024 | Student Dorm | Good | English Breakfast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-025 | Student Dorm | Good | Scrambled Eggs | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-026 | Student Dorm | Good | Decent Protein Shake | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-027 | Student Dorm | Good | Sweet Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-028 | Student Dorm | Good | Red Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-029 | Student Dorm | Good | Tomato Soup | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-030 | Student Dorm | Good | Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-031 | Student Dorm | Good | Baked Potato | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-032 | Student Dorm | Good | Creamy Tomato Soup | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-033 | Student Dorm | Good | Cheese Dip | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-034 | Student Dorm | Good | Cheese Fondue | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-035 | Student Dorm | Good | Pasta E Fagioli | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-036 | Student Dorm | Good | Milk and Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-037 | Student Dorm | Good | Green Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-038 | Student Dorm | Good | Cheese Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-039 | Student Dorm | Good | Egg Pasta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-040 | Student Dorm | Good | Good Protein Shake | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-041 | Student Dorm | Good | Peanuts | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-042 | Student Dorm | Good | Banana Pancake | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-043 | Student Dorm | Good | Smoothie | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-044 | Student Dorm | Good | Cheese Jamwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-045 | Student Dorm | Good | Banana Milk | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-046 | Student Dorm | Good | Potato Bread | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-047 | Student Dorm | Good | Hash Brown | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-G-048 | Student Dorm | Good | Tomato/Egg Stir Fry | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-001 | Student Dorm | Bad | Mystery Meal | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-002 | Student Dorm | Bad | Horrible Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-003 | Student Dorm | Bad | Beany Mess | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-004 | Student Dorm | Bad | Carb Overload | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-005 | Student Dorm | Bad | Carb Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-006 | Student Dorm | Bad | Tomato Mess | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-007 | Student Dorm | Bad | Bad Protein Shake | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-008 | Student Dorm | Bad | SpongeMan | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-009 | Student Dorm | Bad | Bad Ramen | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-010 | Student Dorm | Bad | Basta | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-011 | Student Dorm | Bad | Pre Workout Disaster | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-012 | Student Dorm | Bad | Sponge Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-013 | Student Dorm | Bad | Remix | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-014 | Student Dorm | Bad | Musical Dish | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-015 | Student Dorm | Bad | Katana | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-016 | Student Dorm | Bad | Canned Food | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-017 | Student Dorm | Bad | Terrible Smoothie | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-018 | Student Dorm | Bad | Breadless Sandwich | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-019 | Student Dorm | Bad | Nothing | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-020 | Student Dorm | Bad | Tape Spaghetti | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-021 | Student Dorm | Bad | Heavy Metal | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-022 | Student Dorm | Bad | Iron Ingot | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-023 | Student Dorm | Bad | Secret Sauce | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-024 | Student Dorm | Bad | Food Monster | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-025 | Student Dorm | Bad | Mold | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-026 | Student Dorm | Bad | Burnt Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-027 | Student Dorm | Bad | Soggy Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-028 | Student Dorm | Bad | Frankenstein's Toast | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| SD-B-029 | Student Dorm | Bad | Milk Bread | SRC-019 | SRC-019 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-001 | Cafe Job | Good | Tea | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-002 | Cafe Job | Good | Chai Latte | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-003 | Cafe Job | Good | Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-004 | Cafe Job | Good | Savory Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-005 | Cafe Job | Good | Black Coffee | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-006 | Cafe Job | Good | Chocolate Spread | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-007 | Cafe Job | Good | Chocolate Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-008 | Cafe Job | Good | Coffee Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-009 | Cafe Job | Good | Cupcake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-010 | Cafe Job | Good | To Go Drink | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-011 | Cafe Job | Good | Tres Leches | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-012 | Cafe Job | Good | Marble Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-013 | Cafe Job | Good | Cake Pop | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-014 | Cafe Job | Good | Cafe au Lait | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-015 | Cafe Job | Good | Espresso Shot | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-016 | Cafe Job | Good | Babyccino | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-017 | Cafe Job | Good | Tiramisu | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-018 | Cafe Job | Good | Jam | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-019 | Cafe Job | Good | Sweet Bagel | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-020 | Cafe Job | Good | Avocado Brownies | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-021 | Cafe Job | Good | Savory Croissant | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-022 | Cafe Job | Good | Sweet Croissant | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-023 | Cafe Job | Good | Berry Tea | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-024 | Cafe Job | Good | Chocolate Covered Strawberries | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-025 | Cafe Job | Good | Mug Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-026 | Cafe Job | Good | Grilled Lettuce | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-027 | Cafe Job | Good | Salad | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-028 | Cafe Job | Good | Mug Bread | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-029 | Cafe Job | Good | Avocado Milk | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-030 | Cafe Job | Good | Green Smoothie | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-031 | Cafe Job | Good | Strawberry Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-032 | Cafe Job | Good | Neapolitan Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-033 | Cafe Job | Good | Strawberry Tiramisu | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-034 | Cafe Job | Good | Strawberry Cake Parfait | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-035 | Cafe Job | Good | Hot Cocoa | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-036 | Cafe Job | Good | Latte | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-037 | Cafe Job | Good | Pink Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-038 | Cafe Job | Good | Mozzarella | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-039 | Cafe Job | Good | Chocolate Bomb | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-040 | Cafe Job | Good | Brownies | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-041 | Cafe Job | Good | Chocolate Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-042 | Cafe Job | Good | Guacamole | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-043 | Cafe Job | Good | Cheese and Berries | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-044 | Cafe Job | Good | Strawberry Cheesecake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-045 | Cafe Job | Good | Pain Au Chocolat | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-046 | Cafe Job | Good | Canned Bread | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-047 | Cafe Job | Good | Croutons | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-048 | Cafe Job | Good | Tea Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-049 | Cafe Job | Good | Chocolate Cheesecake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-050 | Cafe Job | Good | Milk Bread | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-051 | Cafe Job | Good | Bento Box | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-052 | Cafe Job | Good | Strawberry Milkshake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-053 | Cafe Job | Good | Oven Cheese | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-054 | Cafe Job | Good | Sweet Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-055 | Cafe Job | Good | Cheese Bun | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-056 | Cafe Job | Good | Tea Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-057 | Cafe Job | Good | Double Espresso | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-058 | Cafe Job | Good | Choco Berry Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-059 | Cafe Job | Good | Cheesecake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-060 | Cafe Job | Good | Cake Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-061 | Cafe Job | Good | Savory Bagel | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-062 | Cafe Job | Good | Fusion Tea | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-063 | Cafe Job | Good | Canned Coffee | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-064 | Cafe Job | Good | Cronut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-065 | Cafe Job | Good | Jelly Filled Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-066 | Cafe Job | Good | Mocha | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-067 | Cafe Job | Good | Victoria Sponge Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-068 | Cafe Job | Good | Dirty Chai Latte | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-069 | Cafe Job | Good | Strawberry Latte | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-070 | Cafe Job | Good | Choco Chai Latte | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-G-071 | Cafe Job | Good | To Go Box | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-001 | Cafe Job | Bad | Paper Cup | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-002 | Cafe Job | Bad | Terrible Bagel | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-003 | Cafe Job | Bad | Ew Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-004 | Cafe Job | Bad | Is It Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-005 | Cafe Job | Bad | Spilled Coffee | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-006 | Cafe Job | Bad | Mug Boy | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-007 | Cafe Job | Bad | Bad Milkshake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-008 | Cafe Job | Bad | Specialty Espresso | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-009 | Cafe Job | Bad | Flavored Coffee | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-010 | Cafe Job | Bad | Flat Croissant | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-011 | Cafe Job | Bad | Terrible Spread | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-012 | Cafe Job | Bad | Cup Tower | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-013 | Cafe Job | Bad | Disaster Dish | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-014 | Cafe Job | Bad | Don't Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-015 | Cafe Job | Bad | Painting | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-016 | Cafe Job | Bad | Painted Mug | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-017 | Cafe Job | Bad | Awful Tea | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-018 | Cafe Job | Bad | Hot Air | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-019 | Cafe Job | Bad | Paper Plane | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-020 | Cafe Job | Bad | Menu | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-021 | Cafe Job | Bad | Dollar | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-022 | Cafe Job | Bad | Healthy Cake | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-023 | Cafe Job | Bad | Food Drawing | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-024 | Cafe Job | Bad | Thermos | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-025 | Cafe Job | Bad | Breadception | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-026 | Cafe Job | Bad | Paper Cup Phone | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-027 | Cafe Job | Bad | Healthy Donut | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-028 | Cafe Job | Bad | Tea Strainer | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-029 | Cafe Job | Bad | Cups Game | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-030 | Cafe Job | Bad | Chocolate Coins | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-031 | Cafe Job | Bad | Mended Mug | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-032 | Cafe Job | Bad | Poison | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-033 | Cafe Job | Bad | Strawberry Horror | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-034 | Cafe Job | Bad | Counterfeit Money | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-035 | Cafe Job | Bad | Heart Attack | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-036 | Cafe Job | Bad | Drawing | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-037 | Cafe Job | Bad | Edible Money | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-038 | Cafe Job | Bad | Paper Trash | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-039 | Cafe Job | Bad | Security Card | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
+| CA-B-040 | Cafe Job | Bad | Burnt Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
 | CA-B-041 | Cafe Job | Bad | Void Bagel | SRC-020 | UNMAPPED | NOT_AUDITED |
 | BI-G-001 | Bistro | Good | Yeast | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-002 | Bistro | Good | Flat Bread | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
@@ -361,6 +361,10 @@ Name source IDs identify the source family from which a candidate name/list was 
 A targeted comparison against the readable Bistro recipe list in Steam Guide SRC-050 has now populated formula-source IDs for exact name matches. **121 Bistro candidate rows** are marked `SOURCE_LISTED_NOT_VERIFIED`: this means SRC-050 explicitly lists a formula/action for that named entry; it does not mean the formula was independently corroborated or reproduced in-game. The source guide places some entries under Good and others under Bad, so classification is audited separately. Candidate rows not found in the corresponding source section remain UNMAPPED. Known opposite-section matches are flagged CLASSIFICATION_CONFLICT rather than silently accepted.
 
 Important source boundary: SRC-050 is a community guide, its author warns some formulas may be wrong, and its body was last updated in August 2026. The official v1.1 fixes and later player corrections remain relevant. Use RECIPE_CONFLICTS.md for conflicts and QA_TEST_PLAN.md for test designs.
+
+## Student Dorm / Cafe source mapping pass — SRC-019 / SRC-020
+
+A row-level name/formula pass was completed against the directly opened Pixel Questing chapter guides. **Student Dorm and Cafe candidate rows are now mapped to SRC-019 / SRC-020 wherever the guide explicitly lists a formula or interaction.** These statuses mean the source lists the candidate; they do not mean this project has reproduced the result in-game. The Cafe guide lists Coffee Cake twice in its Good Recipes numbering; the duplicate is treated as one unique candidate, not two recipes. Version, item-state, appliance, and cross-source conflicts remain separate validation work.
 
 ## Completion criteria for this audit
 
