@@ -115,3 +115,10 @@ M1 與 M2 可部分平行研究；QA 需要足夠穩定的規格；Critic 必須
 ## 2026-11-16｜zh-TW recipe translation coverage
 - Added docs/ZH_TW_RECIPE_TRANSLATIONS.md with candidate Taiwan Traditional Chinese names for all 312 named recipes; Rat Level's 21 symbol slots remain slot-indexed.
 - Translation coverage is complete as a draft; linguistic and UI-fit review remains.
+
+
+## 2026-11-17｜Cafe / Bistro progression correction
+- Rechecked the official v3.0ea changelog archived by SteamDB: it adds one task, “complete 8 orders”, not eight separate To-Do rows.
+- Japanese Level 3 walkthrough shows Bistro To-Do beginning with “Clean the kitchen” and “Trade with the rat”; Cheese yields Tomato, then illustrated dish requests exchange for further ingredients.
+- Seven international dishes yield seven magnets; only Mochi / Japan is textually identified in the accessible source.
+- Coioioin official achievement wording requires the same coin face three times consecutively. Blue-switch / red-target interaction remains uncorroborated.
