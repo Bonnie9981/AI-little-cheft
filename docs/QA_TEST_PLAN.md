@@ -388,3 +388,11 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 
 
 | BIS-062 | Separate Bistro rat trades from country-magnet triggers: record the hood before/after each rat-request reward and before/after each international-dish recipe | Determine whether magnets attach from rat rewards, international recipes, or a prerequisite chain; capture the exact card, magnet artwork, reward item, counter change and game version. Do not infer the trigger from guide wording |
+
+
+## Cafe phone completion timing and fire recovery regression
+| ID | Test | Expected evidence |
+|---|---|---|
+| CAF-023 | After dialing the Cafe phone number, lift the handset and wait for the caller to finish speaking before putting it down | Confirm Avocado and Lettuce spawn only after the complete call interaction; record phone state, spawn result, game version and whether leaving the handset untouched fails. Developer Crazydvd explicitly confirmed this sequence in Steam discussion |
+| CAF-024 | Recover from the Cafe kitchen fire by clicking alarm glass three times, then pressing the exposed control | Record glass break state, button exposure, fire-clear state and whether the room returns to normal; distinguish achievement unlock from fire recovery |
+| RAT-021 | Test Rat Level number-lock interaction on v1.0 and v1.1+ clients | Record cursor hit area, successful click positions and keypad response; official v1.1 says the clickable area was enlarged, so do not reuse pre-v1.1 click coordinates as universal |
