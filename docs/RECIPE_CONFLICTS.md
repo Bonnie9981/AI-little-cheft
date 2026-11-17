@@ -478,3 +478,12 @@ Steam討論串「help level 3 - pizza dough」最初回覆為 Dough + Yeast + Ol
 ## Clutter source correction｜SRC-024（2026-11-17）
 
 Re-opened the actual 2026-09-10 Japanese 1.0 completion article (SRC-024). The player identifies Clutter as the final Bad recipe and quotes its hint as something that sometimes gets messy “on its own”; the article does **not** provide a formula. The earlier Cloth + Wooden Spoon candidate is withdrawn because its alleged source attribution was incorrect. Keep the recipe name and trigger hint, but leave the formula unknown. BIS-018 and BIS-040 remain the required reproduction tests.
+
+
+## SRC-050 vs SRC-057｜七國磁鐵觸發來源衝突（2026-11-17）
+
+| 問題 | 候選說法 A | 候選說法 B | 暫定處理 |
+|---|---|---|---|
+| 七國磁鐵如何取得 | SRC-050 Steam Bistro recipe guide 的成就說明稱每個磁鐵由老鼠在玩家完成請求料理後給予 | SRC-057 日文實際遊玩紀錄把老鼠便條交易（完成圖示料理→獲得特殊食材）與七道國際料理（完成後磁鐵附到抽油煙機）分開敘述；Japan = Mochi | **未定案。** 不得把 rat trade reward 與 country-magnet trigger 當成同一機制。可能存在食材解鎖依賴，但觸發方式須以逐步畫面／counter驗證。BIS-062新增分離測試。 |
+
+具體差異：SRC-054開發者只確認「Cheese啟動老鼠請求→依料理圖製作→換得新食材」，沒有提國家磁鐵；SRC-057直接文字說國際料理會把磁鐵附在抽油煙機；SRC-050的成就註解則把磁鐵歸因於老鼠。兩份玩家來源不能互相覆蓋。七國料理全名仍只確認Japan = Mochi。
