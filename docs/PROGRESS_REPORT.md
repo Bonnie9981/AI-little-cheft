@@ -597,3 +597,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 最新候選數量核對（SRC-024）
 - Bistro候選數量改為83 Good / 40 Bad，與1.0截圖的目標counter一致。
 - Crazy Calzone由Good移至Bad；目前是counter-aligned候選，不是直接卡片tab驗證。全遊戲候選總數仍333，分類改為211 Good + 122 Bad。
+
+
+## 2026-11-17｜SRC-024 Rat Level code image review
+- 檢查SRC-024的Rat Level截圖：酒瓶謎題後可見強／弱電力控制器與花盆旁黃色便條；現有解析度只能辨識兩個「3」，不足以可靠讀出完整三位數密碼。
+- 不推測為333，也不把不完整截圖當作密碼證據。QA新增RAT-020，要求取得可讀的完整便條、版本與鍵盤輸入成功紀錄。
+- QA由146增至147個唯一ID，0執行。
