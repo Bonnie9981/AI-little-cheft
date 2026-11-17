@@ -682,3 +682,12 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增SRC-070：找到Crystal Dreams於2026-07-12發布的Bistro Early Access Part 4影片。它是新的影音來源，但本輪YouTube頁面遭節流，尚未核對畫格／字幕；不將影片標成已審閱證據。
 - 新增SRC-071：逐張開啟日文EA攻略嵌入圖片。畫面可確認Cheese交易後出現Tomato、Mochi解鎖畫面帶Japan旗幟、Going Global明示七個磁鐵；老鼠下一張便條圖案仍無法可靠辨識。
 - 研究結論沒有過度升級：Cheese→Tomato、Japan=Mochi可確認；其餘六國、完整老鼠請求與獎勵順序仍未知。P1仍未解除。
+
+
+## 2026-11-17｜1.0正式版三支Cozy K Games影片納入證據鏈
+- 新增SRC-072：Cozy K Games《I couldn't rest until I cooked EVERY recipe in this game! (Little Chef)》，2026-10-18，57:41，https://www.youtube.com/watch?v=1YgAz9LT22o。影片摘要工具成功處理並回傳時間戳：首次Cheese→Tomato約04:20；Going Global約44:38；Rat Level入口約50:45；密碼725約52:11。工具未能可靠抽取四次交易全序、七國完整對照與完整九道Rat Level配方，因此不能把摘要器的殘缺配方清單當定案。
+- CEO提供同片字幕整理：Bistro四次交易候選為Cheese→Tomato+Grape、Tomato Cheese Appetizer→Apple、Apple Pie→Garlic、Garlic Bread→Pumpkin；Rat Level密碼725；另列Mochi、Sake、Apple Cider、White Wine等國際料理線索。此為高價值逐字稿線索，但仍需依影片時間戳逐段核對。Rat Level九配方整理存在內部矛盾：Macaroni Necklace是否含Paper Clip、Nothing Cheese的輸入、鉛筆組合總數與充電狀態未清楚分開，暫不關閉RAT配方P1。
+- 新增SRC-073：Cozy K Games《making MORE silly food combinations (Little Chef)》，2026-09-20，46:24，https://www.youtube.com/watch?v=LXX8_jiJJIM。摘要工具回傳Cafe To-Do時間戳02:56–03:12，並辨識七列：Order missing ingredients、Restock cakes、Restock paninis、Cook new dishes、Make drinks、Complete orders、Set kitchen on fire；Cook new dishes 60、完成12單獲Paintbrush、電話21931、Burnt Panini回爐引發火災、71 Good+41 hidden/Bad。這與CEO提供的六列清單不一致，因其漏列Restock paninis；正式清單暫以七列為候選，需截取完整面板確認。
+- Cafe電話摘要明確回傳21931，酪梨在06:00–06:12生成；Lettuce於03:28被提及，需確認是否同次電話訂購。安全卡／保險箱線索與Bookworm成就亦新增待核對線索。
+- 新增SRC-074：Cozy K Games《who let me make these UNHINGED meals?? (Little Chef)》，2026-09-05，32:54，https://www.youtube.com/watch?v=CW7plgBoL5c。CEO提供其字幕範圍為Student Dorm 48 Good+29 hidden/Bad及房間任務；本輪因影片摘要服務每週免費額度用盡，尚未獨立處理字幕，只先登錄來源。
+- 本輪可確認新影片為1.0而非EA，研究路線已從舊版影音轉為正式版影音。尚未完成逐畫面審核，亦未執行遊戲內QA；因此QA數仍164設計／0執行，Critic維持FAIL，Research Only。新證據優先解決：Bistro交易與國際料理磁鐵、Rat Level九配方精確表、Cafe七列To-Do與電話訂貨細節。
