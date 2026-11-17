@@ -609,3 +609,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 同一張1.0存檔截圖顯示305/333 recipes及26/26 achievements；這直接支持全遊戲食譜總數333與成就總數26。
 - 因此333不再只是跨來源加總推估；但各場景分類（211 Good / 122 Bad）仍是候選拆分，逐筆配方、狀態、房間歸屬及重複項仍需驗證。
 - Bistro另有獨立counter截圖支持83 Good / 40 Bad。QA目前147個唯一ID，0執行。
+
+
+## 2026-11-17｜SRC-018 1.0完整攻略逐段重查
+- 直接開啟並逐段核對9Puz 1.0完整攻略，不再只使用搜尋摘要。新增確認：Cafe緊急電話成就必須撥911、按通話、再拿起話筒；Cafe的照片→硬幣→Security Card→Safe鏈、Espresso Cup狀態、Burnt Panini二次烹煮火災流程均有明確說明。
+- Bistro流程確認空Mixer jar進Cooking Pot得Scissors、剪刀靠近植物葉片顯示Mixer開關、剪斷吊掛食材繩、老鼠請求料理供應特殊食材與七個國家磁鐵；但文章仍未列出四張老鼠料理便條／獎勵順序，也未列出七道國家料理全名（只由SRC-057確認Japan=Mochi）。
+- Rat Level確認反重力→讀花盆三位數便條→掀酒標露出鍵盤→輸入密碼→解鎖電力控制；同一材料在冷／熱電力狀態下可產生不同結果。文章未披露數字密碼，也沒有可供逐字轉錄的OFF/ON與low/high對照。
+- **負面結果記錄：**此完整1.0攻略仍沒有列出Cafe最終To-Do完整任務列與計數，只要求完成當前To-Do狀態及火災互動。因此Cafe To-Do P1仍未解除，不可把早期四項、8 orders及fire拼成最終清單。
+- 本次只加強SRC-018的證據邊界；沒有把缺失內容猜成答案，QA未執行數不變，Research Only維持。
