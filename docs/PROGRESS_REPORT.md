@@ -500,3 +500,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - SRC-023 2026/03/28日文EA攻略的Cafe截圖可辨識四項：Order missing ingredients、Restock the cakes (0/2)、Make drinks (0/10)、Cook new dishes (0/60)，並標示More coming soon；作者明言當時Cafe與To-Do未完成。
 - 官方v3.0ea（2026/04/23）後續新增To-Do「complete 8 orders」；2026/09日文攻略又記錄「Set the kitchen on fire」是Level 2 To-Do／Level 3解鎖條件。
 - 這些是版本演進證據，不足以拼湊成最終1.0完整清單。新增CAF-018..022逐項驗證舊任務、新增任務及最終清單。QA目前140個唯一ID，均未實機執行。
+
+
+## 2026-11-17｜Cafe To-Do 截圖與版本鏈補證（最新）
+- 早期EA Cafe截圖明確顯示四項：Order missing ingredients、Restock the cakes (0/2)、Make drinks (0/10)、Cook new dishes (0/60)，且標示More coming soon；這是未完成版本，不能當作1.0最終清單。
+- 官方v3.0ea changelog新增Complete 8 orders；後續1.0前夕攻略記錄Set the kitchen on fire為Level 2 To-Do／Bistro解鎖條件。最終1.0完整清單仍未找到直接截圖。
+- Bistro EA截圖另顯示Trade with the rat (0/4)、Cook new ingredients (0/6)等任務，已獨立記錄，不與Cafe任務混淆。
+- QA現為140個唯一ID（CAF-018..022及BIS-053..055已加入），全部仍為未執行測試設計。
