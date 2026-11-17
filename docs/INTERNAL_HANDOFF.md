@@ -489,3 +489,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 它與SRC-050及9Puz一致：Cold Good #5 Cheese+Eggshell；Bad #4 Eggshell+Pencil；Bad #6 Paperclip+Pasta；Bad #7 Eggshell+Paper。與SRC-017手打指南不同，現以多來源一致者作優先候選，保留SRC-017做替代測試。
 - Coioioin重複點擊硬幣說法與官方成就文字一致；日文藍開關／紅目標仍列替代方法。密碼數字仍未取得。
 - QA仍為127個唯一ID；RAT-016至RAT-019的測試順序更新為先測多來源支持的Eggshell / Paperclip組合，再測SRC-017替代。
+
+
+## 2026-11-17｜Bistro配方衝突測試擴充至129項
+- BIS-048驗證Mochi使用whole Rice或Ground Rice；這道菜同時是已知Japan country dish，必須與Apple Mochi分開。
+- BIS-049驗證Yeast Monster的三種來源候選：Yeast+Wooden Spoon、Yeast+Wine、Yeast+Tomato。
+- QA總數129個唯一ID，仍未取得遊戲內執行紀錄。
