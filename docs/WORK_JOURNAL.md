@@ -872,3 +872,9 @@
 ## 2026-11-17｜Internal handoff / conflict register同步Coioioin更正
 - 全repo稽核找到INTERNAL_HANDOFF與RECIPE_CONFLICTS仍將藍開關寫成主要Coioioin條件。
 - 已修正為Steam官方成就敘述與多份攻略共同支持的「點擊爐旁硬幣，同一面連續三次」；藍開關／紅色目標區保留為低信心線索。
+
+
+## 2026-11-17｜全文件搜尋：清除Cafe任務數量殘留誤述
+- 全文件搜尋發現INTERNAL_HANDOFF早期段落、QA與RECIPE_CONFLICTS仍有「八個Cafe To-Do」或「四項已確認」的舊說法。
+- 已修正：官方v3.0ea只明確命名一項「完成8張訂單」；火災任務由1.0攻略支持；清潔與老鼠交易為必要進度互動，但UI是否列為To-Do未確認。
+- Cafe任務總列數不再猜測，等待可讀的實際To-Do畫面或影片。
