@@ -910,3 +910,9 @@
 - Bistro的To-Do面板則另有「Clean the kitchen」與「Trade with the rat」兩項，先清潔，再餵Cheese啟動老鼠交易。
 - 因此把場景歸屬分清：Cafe明確To-Do候選為Complete 8 orders、Set the kitchen on fire；Bistro至少Clean the kitchen、Trade with the rat。Cafe完整列數仍未知。
 - QA新增火災任務狀態與Steam achievement分離、重試登錄測試。
+
+
+## 2026-11-17｜Bistro QA cases補齊
+- QA_TEST_PLAN新增BIS-016至BIS-018：Bistro清潔To-Do、老鼠交易To-Do、Clutter觸發探索。
+- QA test case總數由85增加到88，ID唯一且無重複。
+- Clutter只確認1.0存在，觸發條件沒有可靠文字證據；QA不得先把Mixer mess或其他任意組合當成公式。
