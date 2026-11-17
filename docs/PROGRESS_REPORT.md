@@ -445,7 +445,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 
 ## 2026-11-17｜Critic 初審結果
-- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前116個唯一測試ID，均為設計案例，尚未執行。
+- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前129個唯一測試ID，均為設計案例，尚未執行。
 - 修正README來源範圍與Cafe QA ID命名。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour取得兩份獨立指南支持；Goulash、Tomato Cocktail仍受官方v1.1修正影響，精確新配方未知。
 - 初審不通過正式全內容開發 Gate。主要阻塞：七國料理／老鼠請求順序、Cafe完整To-Do、Rat密碼與電力映射、逐筆配方來源追溯、D級衝突與實機QA。
@@ -462,17 +462,24 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增Rat Level候選：冷Good #5 = Cheese + Leaf；Bad #4 = Eggshell + Pencil；Bad #6 = Pasta；Bad #7 = Pasta + Paper。與SRC-050快取指南衝突，新增RAT-016至RAT-019逐項測試。
 - Clutter新增1.0指南候選 Cloth + Wooden Spoon；新增Bistro配方衝突測試BIS-041至BIS-047。
 - Goulash與Tomato Cocktail已取得1.0候選配方，不再列為完全未知；v1.1後仍需回歸驗證。
-- QA總數更新為127個唯一案例，均為設計，尚未實際執行。
+- QA總數更新為129個唯一案例，均為設計，尚未實際執行。
 
 
 ## 2026-11-17｜新增 SRC-052 Rat Level 交叉證據
 - 新增第二份獨立Rat Level攻略SRC-052，完整列出9 Good / 12 Bad槽位與解謎順序。
 - SRC-050、SRC-052、9Puz三方支持Cold Good #5 = Cheese + Eggshell；Bad #4 = Eggshell + Pencil；Bad #6 = Paperclip + Pasta；Bad #7 = Eggshell + Paper。SRC-017 1.0手打指南的Leaf／Pasta變體保留為對照，不再優先。
 - Coioioin重複點擊硬幣符合官方成就文字；藍開關／紅框投幣仍作替代路徑。三位數密碼未公開，仍未知。
-- 來源登錄擴至SRC-052，QA維持127個唯一測試案例。
+- 來源登錄擴至SRC-052，QA維持129個唯一測試案例。
 
 
 ## 2026-11-17｜新增 Mochi 與 Yeast Monster 配方衝突
 - SRC-017 1.0手打指南將日本Mochi列為Ground Rice；SRC-015/SRC-050列為whole Rice，已加入配方衝突表與BIS-048。
 - Yeast Monster在SRC-017（Yeast+Wooden Spoon）、SRC-015（Yeast+Wine）、SRC-050（Yeast+Tomato）三份候選間衝突，新增BIS-049。
 - QA總數由127增為129個唯一測試ID，均尚未實際執行。
+
+
+## 2026-11-17｜Bistro / Cafe 任務鏈再核對
+- 重新逐行讀取SRC-023日文Level 3通關文與SRC-047 1.0完整路線：Bistro To-Do起始順序為Clean the kitchen → Trade with the rat；老鼠初次收Cheese後給Tomato，後續依抽油煙機便條料理換取食材。
+- 9Puz補強工具依賴：空Mixer容器煮出Scissors、Scissors找出隱藏Mixer開關並剪斷吊掛食材繩；老鼠請求提供特殊食材與七國磁鐵；五瓶酒需依標籤排序。
+- 七國菜仍只有Japan=Mochi有文字證據，其他六道不能猜。Cafe To-Do已確認包含Set the kitchen on fire，Burnt Panini再次烹煮觸發火災；完整任務清單仍缺。
+- Critic P1仍未清除；QA 129項均未實機執行。
