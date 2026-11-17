@@ -126,16 +126,22 @@
 ## Round 1 Addendum — direct inspection of the 1.0 Steam recipe guide (2026-11-17)
 - Re-opened SRC-050's complete Steam guide page (not just the search excerpt). Its Bistro section explicitly lists Mochi = Rice, Tomato Cheese Appetizer = Tomato + Cheese + Olives, Baked Apple = Apple (mouse gift), Garlic Powder = Garlic, and several other mouse-gated items. It lists the recipe candidates and says each country magnet comes from the mouse after making requested recipes, but it does not label the six non-Japan dishes with their countries or give the rat's sequential note/reward ledger.
 - Its achievement notes say Going Global requires all seven country magnets and Best Friends requires completing the mouse's requested trades. This independently supports the distinction between recipe discovery, magnet collection, and the Best Friends trade chain; it does not clear P1-01 or P1-02.
-- QA count is verified from the actual table: 132 rows with 132 unique IDs. The older 127 count in this review has been corrected. All 132 remain unexecuted designs.
+- QA count is verified from the actual table: 140 rows with 140 unique IDs. The older 127 count in this review has been corrected. All 140 remain unexecuted designs.
 
 
 ## Round 1 Addendum — Bistro mouse reward evidence (2026-11-17)
 - SRC-050's full 1.0 guide annotates Olives as a mouse gift for Tomato Cheese Appetizer, Apple as a mouse gift for Baked Apple, and Garlic as a mouse gift for Pumpkin Soup. SRC-023 separately confirms the initial Cheese → Tomato trade and the note-driven recipe-for-ingredient loop.
 - This narrows the mouse-gated ingredient set, but neither source provides the full ordered request-card / reward ledger. P1-01 remains open; new QA cases BIS-050..052 cover first exchange, sequential note fulfillment, and gated-ingredient inventory.
-- QA now contains 132 unique designed IDs (BIS-050..052 added); none are executed.
+- QA now contains 140 unique designed IDs (BIS-050..052 added); none are executed.
 
 
 ## Round 1 Addendum — Bistro To-Do screenshot (2026-11-17)
 - SRC-023 embedded Bistro screenshot was inspected directly. It shows five EA To-Do entries: Clean the kitchen; Trade with the rat (0/4); Get the mixer to work; Cook new ingredients (0/6); Make pizza dough. The author note is clipped but appears to say the last item was coming with 1.0.
 - This proves the EA build's four-trade and six-new-ingredient counters, but not the final 1.0 wording or whether the counters persisted. Added BIS-053..055 to prevent accidental version conflation. This is the Bistro task list, not the Cafe Level 2 To-Do list.
 - QA table now has 135 unique designed IDs after BIS-053..055; none are executed. P1-01 remains open until the four exact requested dishes and reward order are documented; P1-03 remains open for the Cafe To-Do list.
+
+
+## Round 1 Addendum — Cafe To-Do version history (2026-11-17)
+- Inspected the actual screenshot in the March 28 Japanese EA walkthrough. Cafe To-Do then showed: Order missing ingredients; Restock the cakes (0/2); Make drinks (0/10); Cook new dishes (0/60), followed by “More coming soon...”. The author explicitly states Cafe and its To-Do list were incomplete at that point.
+- Official v3.0ea changelog (2026-04-23) later added “complete 8 orders” as a To-Do task. The September walkthrough records “Set the kitchen on fire” as a Level 2 To-Do / Level 3 unlock condition. These are versioned additions, not proof of the full final 1.0 checklist.
+- P1-03 is narrowed from “no Cafe To-Do evidence” to “final 1.0 complete task list and counters not captured”. Added CAF-018..022. QA table now has 140 unique designed IDs; none are executed.
