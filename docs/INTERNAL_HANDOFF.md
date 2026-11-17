@@ -625,4 +625,4 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - SRC-060開發者明確確認Cafe電話需撥號後拿起話筒、等待對方講完再放下，酪梨與生菜才生成。CAF-023新增此流程測試。
 - SRC-061補足Cafe火災復原：警報玻璃連點三次打破，再按露出的控制鈕。CAF-024將復原與Aw That's Hot成就分開測試。
 - SRC-059官方v1.1擴大Rat Level密碼鎖點擊區域。新增RAT-021作版本命中區回歸測試。
-- QA最新151 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT19），0 executed。Research Only / Critic FAIL。
+- QA最新151 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT20），0 executed。Research Only / Critic FAIL。
