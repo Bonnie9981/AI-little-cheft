@@ -945,3 +945,25 @@
 3. 針對高風險衝突建立最小測試組合，不用無限制亂試。
 4. 完成物理互動 acceptance spec與存檔狀態表。
 5. 進行Critic review；P0/P1清零前維持Research Only。
+
+
+## 2026-11-17｜Student Dorm配方證據重審：Clutter與Smoothie等
+
+**觀察**
+- 再讀1.0 Pixel Questing全文與Steam開發者討論後，發現先前的衝突表把「Smoothie包含Peanut Butter」擴大解讀成完整公式已被確認，證據其實只支持其中一項材料。
+- Pixel Questing 1.0列出Smoothie = Strawberry Jam + Banana + Milk；Steam舊版攻略列Milk + Banana + Peanut，開發者只回覆Peanut Butter是Smoothie的其中一項材料。兩者不能直接互相排除。
+- Good Protein Shake則不同：開發者明確更正為Milk + Peanut Butter + Protein Powder，並指出Egg是錯的。1.0攻略另提Banana alternate，保留低信心測試。
+- Carbonara仍有 Cheese / Milk 分歧；PB&J Sandwich的PB&J Jar + Bread是可用的中間物件路徑。
+- Clutter：日文1.0玩家確認菜名與提示語，但沒有精確觸發公式；簡中攻略的Cloth + Wooden Spoon目前缺乏獨立佐證。
+
+**行動**
+- RECIPE_CONFLICTS修正上述四組配方的證據等級與候選描述。
+- 將Clutter從Cloth + Wooden Spoon候選撤回為Unknown，QA仍要求先找出可重現觸發條件。
+
+**決策**
+- 只把開發者明確給出的完整公式列為A級公式；僅確認某項材料，不等於完整配方已確認。
+- 同一菜名若有多條來源支持的輸入路徑，優先建模alternate_inputs，而不是直接假設版本差異。
+
+**下一步**
+- 搜尋可讀的遊戲畫面／錄影以確認Smoothie與Carbonara的實際recipe card。
+- 對Bistro七國料理與Rat Level密碼繼續做影像來源檢索。
