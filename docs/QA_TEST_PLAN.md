@@ -382,3 +382,6 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 
 
 | BIS-061 | Crazy Calzone classification: submit Pizza + Pizza Dough and record exact cookbook tab | Confirm the counter-aligned Bad candidate by capturing the Crazy Calzone card's actual tab in a 1.0+ client; record both tab and counter |
+
+
+| RAT-020 | Capture and transcribe the full three-digit planter clue from a legible 1.0 client screenshot; compare entered digits with keypad acceptance | Record exact digits, game version, note orientation and keypad result. SRC-024's available screenshot is only partially legible (two 3s visible), so no numeric code is assumed from it |
