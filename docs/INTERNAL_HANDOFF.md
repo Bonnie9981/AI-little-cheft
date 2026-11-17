@@ -601,3 +601,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Bistro：83 Good / 40 Bad；全遊戲：211 Good / 122 Bad，共333候選。
 - Crazy Calzone已改列Bad，與SRC-050 Bad Recipes章節及SRC-024 1.0 counter吻合；仍須BIS-061實機確認tab。
 - Clutter僅有SRC-024自發混亂提示，公式仍未知。
+
+
+## 2026-11-17｜Rat Level密碼截圖可讀性
+- SRC-024圖18顯示酒瓶謎題後的強／弱電力控制器及花盆便條；可辨識兩個3，但完整三位數碼無法可靠讀出。
+- 不可推測333。新增RAT-020要求取得完整便條與鍵盤成功輸入紀錄。QA 147 unique，0 executed。
