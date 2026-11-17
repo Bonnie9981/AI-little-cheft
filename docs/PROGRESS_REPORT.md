@@ -470,3 +470,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - SRC-050、SRC-052、9Puz三方支持Cold Good #5 = Cheese + Eggshell；Bad #4 = Eggshell + Pencil；Bad #6 = Paperclip + Pasta；Bad #7 = Eggshell + Paper。SRC-017 1.0手打指南的Leaf／Pasta變體保留為對照，不再優先。
 - Coioioin重複點擊硬幣符合官方成就文字；藍開關／紅框投幣仍作替代路徑。三位數密碼未公開，仍未知。
 - 來源登錄擴至SRC-052，QA維持127個唯一測試案例。
+
+
+## 2026-11-17｜新增 Mochi 與 Yeast Monster 配方衝突
+- SRC-017 1.0手打指南將日本Mochi列為Ground Rice；SRC-015/SRC-050列為whole Rice，已加入配方衝突表與BIS-048。
+- Yeast Monster在SRC-017（Yeast+Wooden Spoon）、SRC-015（Yeast+Wine）、SRC-050（Yeast+Tomato）三份候選間衝突，新增BIS-049。
+- QA總數由127增為129個唯一測試ID，均尚未實際執行。
