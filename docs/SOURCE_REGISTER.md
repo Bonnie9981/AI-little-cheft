@@ -237,3 +237,17 @@ Cross-version additions:
 ## SRC-061｜Cafe fire recovery visual sequence cross-check (2026-11-17)
 - Updated Steam recipe guide and 1.0 completion route state that after Burnt Panini is cooked a second time and the kitchen catches fire, click the alarm glass three times to break it, then press the exposed button/control.
 - Added CAF-024 to distinguish the fire-start achievement from the recovery/reset sequence.
+
+
+## SRC-062｜Pixel Questing Chapter 2 walkthrough (2026-11-09)
+- URL: https://www.pixelquesting.com/little-chef-cozy-cooking-chapter-2-walkthrough-all-recipes/
+- A later, separately authored Cafe walkthrough documents the missing-ingredient chain: blue teapot mouse → offer Cheese → torn phone-note piece → dial 21931 → pick up receiver to complete the order; it also states that illustrated customer orders earn Coins. This independently corroborates the developer's phone-interaction clarification in SRC-060.
+- The guide claims 71 Good / 41 Bad Cafe recipes, but its numbered Good list visibly reaches 72 and repeats Coffee Cake. Treat its aggregate count as internally inconsistent; use it as an additional formula/action source only after row-level review, not as a count authority.
+- The guide does not reproduce the Cafe To-Do list or final counters. It therefore does not close the Cafe To-Do P1. Some formula descriptions conflict with better-supported sources (e.g. Tiramisu), so preserve existing conflicts and do not bulk-promote its entries.
+
+## SRC-063｜Utsuki Seiya 1.0 completion follow-up: Rat Level power and coin achievement (2026-09-10)
+- URL: https://note.com/utsukinoel/n/n2734d08070ca
+- This is a first-hand 1.0 completion report with embedded screenshots. It explicitly says the Rat Level's wine-bottle puzzle unlocks adjustable strong/weak electrical output and that the same ingredients can produce different recipes depending on output strength. This independently supports treating power strength as a recipe condition, but it does not transcribe a universal ON/OFF label mapping.
+- The author reports that pressing the blue-framed switch before flipping the coin makes the Coioioin achievement easy to obtain; the screenshot visually identifies the switch and coin. This adds a deterministic interaction candidate beyond the older “keep flipping until lucky” guide instruction.
+- The author also reports that the in-game achievement appeared first and the Steam achievement synchronized after closing and relaunching the game. Treat this as one player's observed sync behavior, not a guaranteed global requirement. Official v1.1 separately records a fix to Coioioin Steam achievement registration (SRC-059).
+- This source is version-specific player evidence, not developer confirmation. RAT-022/023 are test designs only; no game test has been executed.
