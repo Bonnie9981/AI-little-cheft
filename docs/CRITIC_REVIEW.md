@@ -13,7 +13,7 @@
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待逐筆來源追溯 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
-| QA | 126 個唯一 ID | 僅為測試設計，未執行 |
+| QA | 127 個唯一 ID | 僅為測試設計，未執行 |
 | 來源 | SRC-001 至 SRC-051 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
@@ -92,6 +92,6 @@
 ## Round 1 Addendum — SRC-017 v1.0 guide reclassification (2026-11-17)
 - The previous assessment of SRC-017 was wrong: the actual Steam page title is a v1.0 all-achievements guide updated Sep 8, 2026. Its body retains a “v4.0 ea” legacy section but includes full Bistro and Rat Level sections. This supersedes the earlier statement that it had no Bistro/Rat Level content.
 - It adds 1.0 candidates for Rat Level: cold Good #5 Cheese + Leaf; Bad #4 Eggshell + Pencil; Bad #6 Pasta alone; Bad #7 Pasta + Paper. These conflict with SRC-050; QA now tests each branch (RAT-016 to RAT-019).
-- It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 126 unique test IDs, all designed but not executed.
+- It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 127 unique test IDs, all designed but not executed.
 - Goulash and Tomato Cocktail are no longer treated as formula-unknown P1 blockers: SRC-017 and comments provide actual 1.0 candidates. Current v1.1 behavior still needs regression verification because the official patch note says the cookbook was fixed without restating formulas.
 - P1 blockers remain: rat request sequence/reward order, six unnamed country dishes, Cafe To-Do completeness, Rat Level numeric code and OFF/ON mapping, per-recipe source coverage, and executed QA.
