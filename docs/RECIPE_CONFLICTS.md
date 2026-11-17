@@ -17,8 +17,8 @@
 
 | Recipe | 候選配方／狀態 | 證據與問題 | 目前處理 |
 |---|---|---|---|
-| Goulash | Meat + Ground Tomato + Wine | Steam Bistro Guide 正文列出此配方，作者留言也特別更正 Ground Tomato；v1.1 官方只確認修正 cookbook，沒有列配方。 | B；保留 Ground Tomato 狀態，待實機 |
-| Tomato Cocktail | Ground Tomato + Olives + Wine | 8/10 Steam guide 與 7/14 Bistro guide 一致；v1.1 官方確認修正 cookbook，但未公開配方。 | B；待實機 |
+| Goulash | Meat + Ground Tomato + Wine | Steam Bistro Guide、SRC-017 v1.0 guide及作者勘誤均支持；SRC-017說圖鑑曾錯顯 whole Tomato，官方v1.1公告修正 cookbook。 | B；Ground Tomato候選優先，做v1.1+回歸 |
+| Tomato Cocktail | Ground Tomato + Olives + Red Wine / Wine | SRC-017作者留言指出Olives + Ground Tomato + Red Wine；SRC-050與7/14 guide寫Wine；官方v1.1公告修正 cookbook。 | B/D；測試紅酒與一般酒的item state |
 | Focaccia | Bread Dough + Olive Oil + Olives | 7/14 Steam guide、Level 3 玩家討論及後續攻略一致。 | B；待實機 |
 | Tomato Cheese Appetizer | Tomato + Cheese；或 Tomato + Cheese + Olives | 7/14 Steam guide列 Tomato + Cheese；8/10 更新版列 Tomato + Cheese + Olives。Olives 可能是多餘／必要輸入差異。 | D；不可定案 |
 | Apple Mochi | Rice + Apple；或 Ground Rice + Apple | 8/10 guide 一處列 Rice + Apple；7/14 guide列 Ground Rice + Apple；8/28 玩家留言明確提醒 Mochi 要先 grind rice。 | B；暫採 Ground Rice + Apple，待實機 |
@@ -187,7 +187,7 @@ The previously cited Steam guide ID 3686619896 was misidentified as a 1.0 guide.
 | Food Sketch | Apple + Any Pencil; or Cheese + Any Pencil | 7/14 guide says Apple; cached 8/10 guide says Cheese. | D; test |
 | Fried Balls | Bread + Olive Oil; or Salami + Olive Oil | 7/14 guide says Bread; cached 8/10 guide says Salami. | D; test |
 | Vampire Defense Kit | Garlic + Any Pencil; or Garlic + Wooden Spoon | 7/14 comment and cached 8/10 guide differ. | D; test both |
-| Clutter | Unknown; no formula accepted | 9/10 Japanese 1.0 player confirms the recipe exists and its clue implies spontaneous mess, but gives no formula. The previously attributed Cloth + Wooden Spoon formula came from the misidentified source and is withdrawn. | D; keep trigger unknown |
+| Clutter | Cloth + Wooden Spoon (SRC-017 1.0 guide candidate); spontaneous/idle mess trigger remains alternate | SRC-017 lists Cloth + Wooden Spoon; 9/10 Japanese 1.0 player clue text suggests mess may happen spontaneously but does not provide a reproducible formula. | C/D; test both combination and idle/physics trigger |
 | Rat cold Good #5 | Cheese + Eggshell; possible Cheese + Leaf icon ambiguity | Cached 8/10 guide lists Eggshell; 9/2 9Puz notes early references can confuse Eggshell and Leaf icon. | C/D; test Eggshell first, then Leaf if slot does not advance |
 | Rat bad #4 | Egg + Pencil | Cached 8/10 guide lists this; the previously claimed Eggshell + Pencil alternative came from the misidentified v4.0 EA guide and is withdrawn. | C; single-source candidate |
 | Rat bad #6/#7 | Paperclip + Pasta | Cached 8/10 guide lists this; previously attributed Pasta-only / Pasta + Paper alternatives are withdrawn. | C; single-source candidate |
