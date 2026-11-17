@@ -23,7 +23,7 @@
 | [CRITIC_REVIEW](docs/CRITIC_REVIEW.md) | 獨立審查與開工 Gate |
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
-| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-054來源登錄與證據層級 |
+| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-056來源登錄與證據層級 |
 | [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
 | [RECIPE_FORMULA_DRAFT](docs/RECIPE_FORMULA_DRAFT.md) | Student Dorm / Cafe 配方公式初稿 |
 | [RECIPE_FORMULA_BISTRO_RAT](docs/RECIPE_FORMULA_BISTRO_RAT.md) | Bistro / Rat Level 配方公式初稿 |
@@ -65,3 +65,8 @@
 - 只有達到上述門檻並完成CEO審核後，才開始正式遊戲實作。
 
 **目前仍未達到 Ready for CEO Approval。**
+
+
+## 食譜來源追溯稽核
+
+已建立 [RECIPE_PROVENANCE_AUDIT.md](docs/RECIPE_PROVENANCE_AUDIT.md)，逐筆列出333個候選食譜名稱與候選ID，並明確區分「名稱清單來源」與「配方公式來源」。目前333筆公式來源尚未逐筆映射，因此這份文件是稽核基線，不代表追溯完成；此項仍是開工前P1。
