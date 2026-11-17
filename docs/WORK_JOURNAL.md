@@ -1015,3 +1015,27 @@
 - 再讀日本Level 3攻略搜尋全文後，發現文章雖於9/9發布，作者明確說內容是7/13 Early Access Level 3更新期間；不能因發布日期在1.0之後就把它當成1.0實測。
 - SRC-023改標為EA-era first-hand source；Bistro To-Do、老鼠交易、Mixer、Wine與七國料理的流程線索保留，但需再用1.0資料確認。
 - 七國料理仍只可確認Japan = Mochi；其餘六項未能從文字來源確認。
+
+
+## 2026-11-17｜重新取得 9Puz 1.0 全文與 Steam Guide 正文：Rat Level 規格收斂
+
+**新取得的可讀證據**
+- 直接開啟 9Puz 2026-09-02 1.0 completion route，取得完整正文；Rat Level明確寫出：先操作右上角老鼠肖像顯示反重力控制，開啟後讀取花盆便條三位數密碼，再掀開酒瓶標籤露出鍵盤，輸入密碼後才可使用 cooker。
+- 9Puz列出冷態 Good 五槽：Cheese、Cheese+Cheese、Cheese+Paper、Cheese+Pencil、Cheese+Eggshell；熱態 Good 四槽：Cheese、Cheese+Cheese、Cheese+Paper、Cheese+Pencil。這與 Steam Guide 的 OFF/ON 清單一致，但 Eggshell/Leaf仍需保留槽位核對。
+- 9Puz將 Rat Level Bad recipes 的 Egg/Pencil 與 Eggshell/Pencil列為社群來源有差異的候選；Pasta相關槽位也有不同攻略版本差異。不得把不同來源列出的候選合併成同一配方。
+- 9Puz補充 Big Magnet應將老鼠交易取得的 Magnet 放入料理設備烹調；Compass需使用已登記 Going Global 的 country Magnet + Scissors。
+- 9Puz說明 Rat cooker每次最多兩種材料；同一材料組合需依冷／熱狀態分別計數。
+
+**來源可讀性更正**
+- Steam Guide ID 3713640352雖顯示已遭移除，但瑞典語頁面目前可直接讀到完整正文，包括作者標示的 2026-08-10版本內容、Bistro清單與Rat Level OFF/ON slot清單。此證據高於僅有搜尋摘要，但仍屬社群攻略；嵌入圖片未完整轉成文字，不能宣稱所有圖片線索已檢視。
+- 更新 SOURCE_REGISTER：新增 SRC-047（9Puz直接可讀全文），並修正 SRC-016的可讀性註記。
+
+**仍未解決**
+- 9Puz只告訴讀者從花盆便條讀取三位數密碼，沒有在可讀正文寫出數字；不能猜碼。
+- 9/9 EA文章與9/2 1.0路線都只以文字命名 Japan = Mochi；其他六個國家／料理對應仍需圖片證據。
+- Rat Level OFF/ON 與日文攻略 low/high 的映射仍未由明確畫面證實。
+- Bistro老鼠的完整請求料理順序與七國料理配對仍未完整取得。
+
+**決策與下一步**
+- 將 Rat Level 的可讀公式清單視為 C 級候選，按 live slot counter設計最小驗證；保持 oven_state 與 power_level 分開，直到確認 OFF/ON ↔ low/high。
+- 下一輪集中取得 9Puz／Steam guide 的原始嵌入圖片或影片截圖，尤其花盆便條、七國磁鐵與老鼠 request note；若圖片仍無法讀取，明確保留 Unknown。
