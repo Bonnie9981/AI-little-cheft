@@ -43,17 +43,17 @@
 **影響：** 無法安全把全部配方匯入正式 recipe database。  
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
-### P1-06｜版本敏感配方尚未定案
-官方 v1.1 明確修正 Goulash 與 Tomato Cocktail 的 cookbook recipe，但未公開修正後公式。7/14與8月攻略中的公式只能作舊版候選。  
-**影響：** 這兩筆不能當作 v1.1 正式規格。  
-**下一步：** 取得 v1.1+ 實機輸入／輸出紀錄或更新後可信攻略。
+### P1-06｜核心 QA 尚未實際執行
+目前有 127 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
+**影響：** 任何配方與互動都不能標為 verified_in_game；核心流程尚無實測回歸證據。  
+**下一步：** 取得可執行遊戲的測試環境，先跑所有 P1 解鎖流程、每房間代表性 Good/Bad 配方、Rat Level 狀態測試，再擴至全表。
 
 ## 3. 次要問題（P2）
 
 - Goulash、Tomato Cocktail 的 1.0 輸入候選已有 SRC-017 支持；v1.1 官方修正後的現行行為仍需回歸測試，但不再阻止建立候選資料。
 
 - Coioioin 有「連續同面三次」與藍框開關／紅框目標兩種玩家描述；官方成就文字支持前者，需以 1.0+ 實機為準。
-- QA 的 116 項是規格案例，不是 102 項已執行結果；需要執行紀錄、截圖／影片、版本號與 pass/fail。
+- QA 的 127 項是規格案例，尚無任何一項可宣稱已實際執行；需要執行紀錄、截圖／影片、版本號與 pass/fail。
 - zh-TW 字典目前是候選版；仍需母語校對、菜名專名核對、按鈕長度與窄螢幕溢位檢查。
 - Source Register 有相同 URL 被多個 SRC ID 重複引用的情況；後續需區分「來源文件」與「來源用途／claim」，避免重複計算獨立證據。
 - README 的來源範圍曾落後至 SRC-046，已修正為 SRC-051；Cafe 測試編號 CAFE-027 已修正為 CAF-017。
@@ -62,7 +62,7 @@
 
 - 26 項成就矩陣的列數與官方 26 項總數一致。
 - 333 = 212 Good + 121 Bad；312 個命名食譜 + 21 個 Rat Level 符號槽位，分類沒有把 Rat Level 圖示錯譯成菜名。
-- QA 表格有 116 個唯一測試 ID，沒有重複 ID。
+- QA 表格有 127 個唯一測試 ID，沒有重複 ID。
 - 物件狀態模型已明確區分 whole/ground、Coffee Beans/filled cup、Bread/Toast/Burnt/Soggy、Rat cooker state 等重要狀態。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour 由 7/14 Steam Bistro Guide 與 9/2 9Puz 1.0 route 交叉支持；屬 B 級候選，非實機驗證。
 - SRC-017 1.0 guide 現已重新分類並直接讀取，提供 Goulash / Tomato Cocktail 的實際輸入候選與 Rat Level slot variants；v1.1 官方修正的當前回歸測試仍保留。
