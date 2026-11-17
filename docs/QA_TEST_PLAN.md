@@ -354,3 +354,9 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 | BIS-053 | Bistro To-Do: verify visible task set | Compare Clean the kitchen, Trade with the rat (0/4), Get the mixer to work, Cook new ingredients (0/6), and Make pizza dough against the target 1.0 client; do not silently promote EA screenshot to 1.0 truth |
 | BIS-054 | Bistro rat trade counter | Confirm four rat trades are required in the EA snapshot and determine whether the 1.0 client retains the 0/4 counter |
 | BIS-055 | Bistro new-ingredient counter | Confirm six new-ingredient dishes are required in the EA snapshot and determine whether the 1.0 client retains the 0/6 counter |
+
+| CAF-018 | Cafe To-Do legacy: Order missing ingredients | Verify the order ingredient restock interaction and whether this task persists in 1.0 |
+| CAF-019 | Cafe To-Do legacy counters: Restock the cakes (0/2), Make drinks (0/10), Cook new dishes (0/60) | Record each counter's increment rules and compare with the 1.0 client; do not assume EA counters are unchanged |
+| CAF-020 | Cafe To-Do: complete 8 orders | Verify the official v3.0ea order task counter reaches 8 and determine whether 1.0 retains it |
+| CAF-021 | Cafe To-Do: Set the kitchen on fire | Confirm the 1.0 To-Do registration after Panini → Burnt Panini → recook, separate from merely earning the achievement |
+| CAF-022 | Cafe To-Do full-list audit | Capture every visible 1.0 task, counter, order, completion trigger, and Bistro unlock dependency; compare against legacy EA list and official additions |
