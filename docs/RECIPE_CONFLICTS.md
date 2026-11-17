@@ -504,3 +504,13 @@ The Steam guide by 一旁冷笑 (updated 2026-09-08) explicitly warns that some 
 | Meatballs | Ground Meat alone | Ground Meat + Garlic + Dough | BIS-069 |
 
 The same guide reports Goulash as Meat + Ground Tomato + Wine and explicitly says the cookbook may display whole Tomato instead of Ground Tomato; this aligns with the existing candidate in BIS-023 rather than creating a new formula. The new source does not close any of the above conflicts without in-game execution.
+
+
+## Rat Level: SRC-066 / SRC-067 candidate-slot conflict update
+| Slot | SRC-018 / SRC-067 | SRC-066 | Current handling |
+|---|---|---|---|
+| Fifth cold Good | Cheese + Eggshell | Cheese + Leaf | RAT-024 must test both; retain source disagreement |
+| Pasta Bad slot(s) | Paperclip + Pasta | Pasta alone, plus Paperclip + Pasta as another candidate | RAT-025 must determine whether these are one or two cookbook cards |
+| Keypad reveal | Wine label reveals keypad after anti-gravity | Player describes clicking the planter note onto the wine bottle to reveal the lock | RAT-026 records exact interaction sequence; code remains unknown |
+
+SRC-067 is a separate Aug 27 player guide; it does not resolve the numeric code or country-magnet identities. No Rat Level case has been executed by this project.
