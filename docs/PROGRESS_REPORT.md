@@ -700,3 +700,13 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 靜態QA通過：來源檔存在、三支影片URL存在、時間戳線索已抽取、房間數量與任務／獎勵衝突已被偵測並保留。整份食譜不可直接匯入：含模糊材料、佔位文字、未證明替代配方。沒有執行遊戲內QA。
 - **停止條件修正：**不再要求先查完六國料理、所有Bad recipes或原作物理係數才開始準備開發。可先做資料結構、物件狀態、場景框架、輸入層、存檔、食譜書UI與引擎骨架；未解配方一律保持disabled/待驗證。
 - QA維持173 unique designs / 0 executed；Critic Round 1仍FAIL。專案狀態：Research Only，但允許進入 implementation preparation；尚未批准完整玩法實作或發布。
+
+
+## 2026-11-17｜互動原型實際落地
+
+- 新增 `prototype/index.html`：可操作的廚房區域，支援滑鼠／觸控拖曳、放開速度取樣、暫定重力與邊界反彈。
+- 加入六種測試素材、鍋子最多三個輸入、Raw／Processed 示範狀態、場景重設及 localStorage 存讀檔。
+- 料理資料庫頁加入原型入口；README 加入本機啟動方式。
+- 已從 GitHub 重新抓取原型並以 JavaScript parser 檢查語法，通過；靜態確認 Pointer Events、重力迴圈及 localStorage 程式碼存在。
+- 尚未在真實瀏覽器或手機上執行 PRO-001..009，因此不宣稱互動 QA 通過。
+- 這是低風險互動技術 spike，並未啟用任何未驗證配方，也沒有宣稱重現原作物理係數。
