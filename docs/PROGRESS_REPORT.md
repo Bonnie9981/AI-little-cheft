@@ -436,3 +436,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 指南留言指出Dirty Chai Latte應使用Coffee（非Coffee Beans），Tomato Juice應使用Ground Tomato（非整顆Tomato）；留言與指南正文有衝突，已新增獨立QA，不直接覆寫。
 - QA新增BIS-023至BIS-026，專門核對上述四項版本／留言衝突。
 - 七國料理對應與Rat密碼數字仍未取得可讀文字證據；維持UNKNOWN。
+
+
+## 2026-11-17｜Cafe電話事件狀態補證
+- 新增SRC-051：開發者直接確認Cafe電話輸入後，必須拿起話筒並等通話對白結束，Avocado與Lettuce才會生成。
+- 這補上Level 2一個容易被誤判為配方問題的事件觸發條件；QA新增CAFE-027。
+- 玩家討論串出現的電話號碼不視為通用常數，仍應讀取遊戲內便條。
