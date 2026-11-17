@@ -117,8 +117,8 @@ Student Dorm To-Do（Pixel Questing 2026-10-09）：
 
 ### Cafe To-Do evidence note
 
-- Official v3.0ea says 8 To-Do entries were added; one is completing 8 orders. Japanese player notes confirm illustrated order slips, tip coins, and that completing a dish checks the corresponding order.
-- The complete names/order of all 8 Cafe To-Do entries have not yet been recovered. Do not equate “8 orders” with “8 To-Do entries”; keep these as separate counters until verified.
+- Official v3.0ea adds one To-Do: complete 8 orders. Japanese player notes confirm illustrated order slips, tip coins, and that completing a dish checks the corresponding order.
+- The full Cafe To-Do list and total row count remain unknown. Do not equate “8 orders” with “8 To-Do entries”; keep order_completion_target = 8 separate from todo_task_count = unknown.
 
 
 ## Rat Level 電力狀態模型修正
