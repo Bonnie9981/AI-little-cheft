@@ -302,4 +302,4 @@ SRC-048 confirms that the original EA build had a rat-trade To-Do counter bug (-
 ## Cafe phone progression trigger (SRC-051)
 | ID | Test | Expected result |
 |---|---|---|
-| CAFE-027 | After dialing the number from the in-game note, compare leaving immediately, picking up then hanging up early, and picking up until dialogue finishes | Avocado and Lettuce should spawn only after the complete call sequence; record whether the trigger is one-shot and survives reload |
+| CAF-017 | After dialing the number from the in-game note, compare leaving immediately, picking up then hanging up early, and picking up until dialogue finishes | Avocado and Lettuce should spawn only after the complete call sequence; record whether the trigger is one-shot and survives reload |
