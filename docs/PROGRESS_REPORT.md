@@ -526,3 +526,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 能力界線：ChatGPT不能在對話回合結束後自行於背景持續執行；但在每次工作回合內應盡可能完成連續任務，不以單一小發現作為停止點。
 - README新增Ready for CEO Approval門檻：核心循環、場景解鎖、互動物理、食譜資料、任務成就、繁中、例外處理及QA均需形成可執行規格；未解未知須隔離成可替換資料或明確實機驗證，不得偽造已知；Critic不得有未處置P1。
 - 目前尚未達門檻；P1包含四次老鼠交易細節、七國菜對照、Cafe最終To-Do、Rat Level密碼／電力映射、333筆配方追溯及QA未實機執行。QA仍140個唯一設計案例。
+
+
+## 2026-11-17｜SRC-055 Bistro 配方狀態釐清
+- 新增SRC-055：Steam「Assistance with Level 3」76則留言討論，取得Goulash、Risotto、Focaccia配方線索。
+- Goulash出現關鍵更正：最初誤寫processed meat，後由玩家更正為 **Normal Meat + Ground Tomato + Wine**；原提問者回覆確認採用。這表示Normal Meat與Ground Meat必須是不同item state，不能以泛稱meat合併。
+- Risotto候選為Rice + Mushroom + Cheese；Focaccia為Bread Dough + Olives + Olive Oil。Focaccia與現有攻略一致；三者仍未有本專案實機驗證紀錄。
+- QA總數仍140個唯一ID，沒有任何測試因這次來源而被宣稱執行；專案維持Research Only。
