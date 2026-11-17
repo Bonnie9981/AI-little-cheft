@@ -201,3 +201,6 @@ Cross-version additions:
 - Official v3.0ea changelog (SteamDB mirror, 2026-04-23; SRC-054 candidate) adds a To-Do task “complete 8 orders”. This should be treated as an official EA addition, not inferred from the March screenshot.
 - The September 2026 Japanese Level 3 walkthrough (SRC-023) records “Set the kitchen on fire” as a Level 2 To-Do / Bistro-unlock condition in the later EA-to-1.0 transition period.
 - The full 1.0 Cafe To-Do list and final counters are still not directly captured in an unambiguous 1.0 screenshot. Keep CAF-018..022 as version reconciliation tests; do not assume the four March tasks, 8-order task, and fire task are the complete final list without a 1.0 capture.
+
+
+| SRC-053 | [SteamDB mirror — Café Update v3.0ea](https://steamdb.info/patchnotes/22930769/) | Official Steam changelog mirrored by SteamDB; 2026-04-23 | Explicitly adds Cafe To-Do task “complete 8 orders” and documents the v3.0ea Cafe content additions | Secondary mirror of official developer changelog; strong for the existence of this EA task, but not proof the exact final 1.0 checklist is unchanged |
