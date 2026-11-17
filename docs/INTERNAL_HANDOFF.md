@@ -1,6 +1,6 @@
 # Little Chef 復刻｜內部工作紀錄（交接版）
 
-更新日期：2026-11-16  
+更新日期：2026-11-17  
 Repository：https://github.com/Bonnie9981/AI-little-cheft  
 分支：main  
 階段：Research Only，尚未開始正式遊戲實作。
@@ -15,7 +15,7 @@ Repository：https://github.com/Bonnie9981/AI-little-cheft
 7. 使用者已要求主動繼續，不要每一步都要求批准。
 8. 只使用 Bonnie9981/AI-little-cheft，不要誤動 AI-Animation-Studio。
 
-## 1. GitHub 狀態（2026-11-16 最新）
+## 1. GitHub 狀態（2026-11-17 最新）
 - Repository 公開，default branch main，ID 1460048753。
 - GitHub App 安裝涵蓋 all repositories；此 Repository 列在安裝清單，metadata 顯示 push=true。
 - ChatGPT GitHub 專屬權限顯示 Allow all actions。
@@ -549,3 +549,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 新增RECIPE_PROVENANCE_AUDIT.md：333筆候選食譜各自有Candidate ID，名稱來源映射至房間來源家族；公式來源欄目前全部UNMAPPED / NOT_AUDITED，不能宣稱完成逐筆追溯。
 - QA新增BIS-056 Kombucha、BIS-057 Risotto、BIS-058 Focaccia，並修正BIS-023 Goulash為Normal Meat + Ground Tomato + Wine。QA共143個唯一設計ID，均未實機執行。
 - SRC-056指出EA新菜名為DeepL暫譯，Tomato Cocktail曾有錯誤圖示；Kombucha配方有玩家反證，待實機驗證。
+
+
+## 2026-11-17｜本回合最新狀態快照
+- Source Register最新至SRC-056。
+- QA計數以實際ID逐列重新統計：143個唯一ID（REC 14、PHY 15、STD 16、CAF 22、BIS 58、RAT 18），沒有重複ID；全部是設計，0執行。
+- RECIPE_PROVENANCE_AUDIT.md含333個候選名稱列（SD 77、CA 112、BI 123、RL 21）；name source family已映射，formula_source_ids仍全部UNMAPPED / NOT_AUDITED。
+- README、PROGRESS_REPORT、CRITIC_REVIEW、INTERNAL_HANDOFF、QA_TEST_PLAN已同步本輪最新計數。專案仍Research Only，Critic Round 1 FAIL。
