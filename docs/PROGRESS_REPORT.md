@@ -643,7 +643,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜Student Dorm To-Do取得可讀截圖
 - 新增SRC-065：Pixel Questing 2026/10/09 Student Dorm攻略包含可讀To-Do截圖，六項任務為Cook pasta dishes (0/8)、Borrow Shane's cheese、Play all cassettes (0/3)、Make coffee、Water the basil、Cook new dishes (0/40)。
 - 截圖直接可讀三個計數0/8、0/3、0/40；攻略指出需完成全部Good recipes與To-Do才能解鎖Chapter 2。這是第三方攻略畫面證據，不是本專案實機測試。
-- 已更新PROGRESSION_MODEL並新增SD-017；QA為154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。
+- 已更新PROGRESSION_MODEL並新增STD-017；QA為154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。
 - 仍需追Cafe 1.0最終To-Do截圖、Bistro rat完整reward mapping、七國菜名／磁鐵觸發，以及Rat Level完整密碼。Research Only / Critic FAIL。
 
 
