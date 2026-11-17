@@ -53,4 +53,13 @@ document.getElementById('reset').onclick=()=>{objects.forEach(o=>o.el.remove());
 function setState(state){const o=objects.find(x=>x.id===selectedId);if(!o){log('請先選取物件');return}o.state=state;select(o);log(o.name+' 狀態：'+state)}
 document.getElementById('stateRaw').onclick=()=>setState('raw');document.getElementById('stateProcessed').onclick=()=>setState('processed');
 renderPot();spawn('Bread','🍞',70,100);spawn('Tomato','🍅',190,120);
+// Lightweight, deliberately tunable gravity for the interaction spike (not original-game physics).
+let lastFrame=performance.now();
+function physicsFrame(now){const dt=Math.min(0.032,(now-lastFrame)/1000);lastFrame=now;const floor=board.clientHeight-60;for(const o of objects){if(drag&&drag.o===o)continue;if(Math.abs(o.vx)+Math.abs(o.vy)<0.08){o.vx=0;o.vy=0;continue}o.vy+=980*dt;o.x+=o.vx*dt;o.y+=o.vy*dt;o.vx*=Math.pow(0.985,dt*60);o.vy*=Math.pow(0.992,dt*60);if(o.y>floor){o.y=floor;o.vy*=-0.22;if(Math.abs(o.vy)<35)o.vy=0}if(o.x<0||o.x>board.clientWidth-80){o.x=Math.max(0,Math.min(board.clientWidth-80,o.x));o.vx*=-0.35}place(o)}requestAnimationFrame(physicsFrame)}
+requestAnimationFrame(physicsFrame);
+// Persist only prototype state; no unverified progression or recipes are written.
+function savePrototype(){const snapshot={objects:objects.map(o=>({id:o.id,name:o.name,emoji:o.emoji,state:o.state,x:o.x,y:o.y})),potIds,seq};localStorage.setItem('littleChefPrototype',JSON.stringify(snapshot));log('原型狀態已儲存')}
+function loadPrototype(){try{const raw=localStorage.getItem('littleChefPrototype');if(!raw)return;const s=JSON.parse(raw);objects.forEach(o=>o.el.remove());objects=[];potIds=[];seq=0;(s.objects||[]).forEach(x=>spawn(x.name,x.emoji,x.x,x.y,x.state));seq=Math.max(seq,s.seq||0);potIds=(s.potIds||[]).filter(id=>objects.some(o=>o.id===id)).slice(0,3);renderPot();log('已載入上次原型狀態')}catch(e){log('讀取存檔失敗，保留目前場景')}}
+const saveButton=document.createElement('button');saveButton.textContent='儲存';saveButton.onclick=savePrototype;const loadButton=document.createElement('button');loadButton.textContent='讀取';loadButton.onclick=loadPrototype;document.querySelector('.actions').append(saveButton,loadButton);
+loadPrototype();
 </script></body></html>
