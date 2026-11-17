@@ -14,7 +14,7 @@
 - 美術：自行重繪，不直接使用未確認授權的正式遊戲素材。
 - 研究原則：官方／實機證據優先；玩家攻略只作候選，衝突必須保留，不可自行猜定。
 
-## 研究文件
+## 資料層預覽與驗證\n\n- 本機預覽：在 repository 根目錄執行 `python -m http.server 8000`，開啟 `http://localhost:8000/app/`。\n- 靜態檢查：`python scripts/validate_recipes.py`；單元測試：`python -m unittest discover -s tests`。\n- 目前 333 筆候選已匯入，312 筆有來源候選公式文字；全部維持停用，並非實機驗證。詳見 [資料層實作紀錄](docs/DATA_LAYER_IMPLEMENTATION.md)。\n\n## 研究文件
 
 | 文件 | 用途 |
 |---|---|
@@ -24,7 +24,7 @@
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
 | [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-075來源登錄與證據層級 |
-| [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
+| [DATA_LAYER_IMPLEMENTATION](docs/DATA_LAYER_IMPLEMENTATION.md) | 333筆候選資料匯入、資料瀏覽器與靜態檢查紀錄 |\n| [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
 | [RECIPE_FORMULA_DRAFT](docs/RECIPE_FORMULA_DRAFT.md) | Student Dorm / Cafe 配方公式初稿 |
 | [RECIPE_FORMULA_BISTRO_RAT](docs/RECIPE_FORMULA_BISTRO_RAT.md) | Bistro / Rat Level 配方公式初稿 |
 | [RECIPE_CONFLICTS](docs/RECIPE_CONFLICTS.md) | 配方衝突、版本差異與未驗證項目 |\n| [GEMINI_INTEGRATION_AUDIT](docs/GEMINI_INTEGRATION_AUDIT.md) | Gemini 1.0 影片研究整合、衝突稽核與研究停止條件 |
