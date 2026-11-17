@@ -1039,3 +1039,19 @@
 **決策與下一步**
 - 將 Rat Level 的可讀公式清單視為 C 級候選，按 live slot counter設計最小驗證；保持 oven_state 與 power_level 分開，直到確認 OFF/ON ↔ low/high。
 - 下一輪集中取得 9Puz／Steam guide 的原始嵌入圖片或影片截圖，尤其花盆便條、七國磁鐵與老鼠 request note；若圖片仍無法讀取，明確保留 Unknown。
+
+
+## 2026-11-17｜官方 v5.1ea 老鼠任務狀態修正補證
+**新證據**
+- 直接開啟 Steam 官方 All News 頁面，v5.1ea（2026-07-14）Fixes明確列出：修正「Trade with the rat」To-Do顯示 -1，以及防止 rat quest 再次開始。
+- 同一更新再次說明進入 Level 3前必須完成 Level 2 To-Do list；不代表完整 Cafe任務列數已公開。
+
+**規格影響**
+- Bistro rat quest需保存單一持續任務狀態與已完成 request index；重載／重進場景不得重置為初始請求，也不得重複發放同一獎勵。
+- To-Do顯示計數與 rat quest progression state需分離；UI計數不能直接當作任務真實狀態來源，以免重現 -1 顯示錯誤。
+- 建議資料欄位：quest_started、request_index、request_completed、reward_claimed、quest_completed；每次交易採冪等處理（同一 request 不可重複領獎）。這是復刻版設計決策，不宣稱原作內部程式碼如此實作。
+
+**限制**
+- 官方更新只證明曾修正計數顯示與重複啟動 bug；完整老鼠 request 菜單、每一步料理順序、七國磁鐵與一般食材獎勵的精確先後仍未取得。
+
+來源：SRC-048。
