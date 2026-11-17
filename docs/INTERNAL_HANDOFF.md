@@ -584,3 +584,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 333列候選中，332列已具備逐筆來源公式／動作引用；僅Bistro Clutter仍UNMAPPED。
 - Student Dorm 77/77（SRC-019）；Cafe 112/112（SRC-020，Coffee Cake重複已去重）；Bistro 121/123對應分類來源列，Crazy Calzone分類衝突1列、Clutter未映射1列；Rat Level 21/21來源列，其中4個slot保留候選衝突。
 - Source Register至SRC-058；QA 146 unique，0 executed。來源引用不等於實機驗證。Research Only / Critic FAIL。
+
+
+## Clutter correction (SRC-024)
+- The 1.0 Japanese walkthrough identifies Clutter as a final Bad recipe and quotes a hint suggesting clutter happens spontaneously; it gives no formula.
+- Withdraw Cloth + Wooden Spoon as a sourced recipe. BI-B-034 references SRC-024 for the trigger hint only; formula remains UNMAPPED / TRIGGER_HINT_ONLY. BIS-018 and BIS-040 must test the spontaneous/physics trigger.
