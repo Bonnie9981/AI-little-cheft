@@ -11,9 +11,9 @@ Purpose: one countable name inventory across all rooms before implementation. Th
 | Cafe Job | 71 | 41 | 112 | Single 1.0 walkthrough count |
 | Bistro | 83 | 40 | 123 | Derived cross-source estimate |
 | Rat Level | 9 | 12 | 21 | Slot-based community guide |
-| **All rooms** | **211** | **122** | **333** | **Candidate total; not in-game audited** |
+| **All rooms** | **211** | **122** | **333** | **Global denominator 333 shown in 1.0 save screenshot (305/333); per-room split remains candidate-derived** |
 
-Steam store describes the release as containing over 300 recipes. The current candidate register totals 333, which is consistent with that broad claim, but the register must not be treated as an official counter.
+Steam store describes the release as containing over 300 recipes. The 2026-09-10 1.0 save screenshot (SRC-024) visibly shows 305/333 recipes, supporting a global cookbook denominator of 333. The 211 Good / 122 Bad split remains derived from per-room sources and counter alignment; this does not verify each recipe name or formula.
 
 ## Student Dorm
 
