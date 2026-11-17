@@ -544,3 +544,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 玩家指出Tomato Cocktail配方圖示把Wine誤顯示為Meat，配方描述為Tomato Sauce + Wine + Olives；此證據支持圖示可能錯誤，不可只靠圖示抄配方。
 - 同一玩家指出Kombucha沒有Mushroom，與多份攻略衝突；此為C級玩家反證，非開發者確認。保留Yeast alone / Yeast + Mushroom等候選，待實機測試。
 - QA仍140個設計ID，未執行。
+
+## 2026-11-17｜333筆配方追溯基線與QA更新
+- 新增RECIPE_PROVENANCE_AUDIT.md：333筆候選食譜各自有Candidate ID，名稱來源映射至房間來源家族；公式來源欄目前全部UNMAPPED / NOT_AUDITED，不能宣稱完成逐筆追溯。
+- QA新增BIS-056 Kombucha、BIS-057 Risotto、BIS-058 Focaccia，並修正BIS-023 Goulash為Normal Meat + Ground Tomato + Wine。QA共143個唯一設計ID，均未實機執行。
+- SRC-056指出EA新菜名為DeepL暫譯，Tomato Cocktail曾有錯誤圖示；Kombucha配方有玩家反證，待實機驗證。
