@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-little-cheft/recipe.schema.json",
+  "title": "Little Chef Recipe Candidate",
+  "type": "object",
+  "required": [
+    "id",
+    "room",
+    "kind",
+    "name",
+    "status",
+    "enabled",
+    "inputs",
+    "outputs",
+    "evidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(SD|CAF|BIS|RAT)-(G|B)-[0-9]{3}$"
+    },
+    "room": {
+      "enum": [
+        "Student Dorm",
+        "Cafe Job",
+        "Bistro",
+        "Rat Level"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "Good",
+        "Bad"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "VERIFIED_IN_GAME",
+        "WALKTHROUGH_SUPPORTED_CANDIDATE",
+        "SOURCE_LISTED_NOT_VERIFIED",
+        "CONFLICTED",
+        "UNVERIFIED_FROM_VIDEO"
+      ]
+    },
+    "enabled": {
+      "type": "boolean",
+      "const": false
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "state"
+        ],
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "appliance": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "powerState": {
+      "enum": [
+        "LOW_OFF",
+        "HIGH_ON",
+        "ANY",
+        null
+      ]
+    },
+    "version": {
+      "type": "string",
+      "default": "1.0"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sourceId",
+          "locator"
+        ],
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "conflictIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
