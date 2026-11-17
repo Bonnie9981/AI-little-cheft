@@ -254,3 +254,9 @@
 - SRC-063 is a first-hand 1.0 player report that Rat Level strong/weak electrical output changes recipe results for the same inputs. It also reports a blue-framed switch interaction before coin toss for Coioioin. These are useful new testable mechanics, not official specifications; exact control mapping and Steam achievement synchronization remain unverified.
 - Added RAT-022 and RAT-023. QA now 153 unique designs (REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT22), zero executed.
 - Round 1 remains FAIL. Core P1s remain unresolved: full Bistro rat request/reward mapping, six remaining country dish mappings and magnet trigger conflict, final Cafe To-Do list, exact Rat Level code and electrical control mapping, and all live-client QA execution. Research Only remains mandatory.
+
+
+## Round 1 Addendum — SRC-065 Student Dorm To-Do screenshot (2026-11-17)
+- SRC-065 supplies a legible third-party screenshot of six Student Dorm To-Do rows: Cook pasta dishes (0/8), Borrow Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, Cook new dishes (0/40). The counters are visible in the screenshot; the guide states all Good recipes plus all To-Do tasks gate Chapter 2.
+- This materially improves Student Dorm progression specification. It is still secondary walkthrough evidence, not developer documentation or our own execution. Added SD-017 to test exact rows, counter increments and chapter unlock.
+- QA now 154 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22), zero executed. Round 1 remains FAIL because the Bistro, Cafe and Rat Level P1 blockers remain.
