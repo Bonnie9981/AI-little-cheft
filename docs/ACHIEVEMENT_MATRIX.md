@@ -39,7 +39,7 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 ## Important caveats
 
 - “Complete room to 100%” is official achievement wording, but written sources do not conclusively define whether this requires every Good and Bad recipe, all To-Do tasks, or both. The QA plan must test the actual 1.0 counters.
-- Coioioin has two reported trigger descriptions: same coin face three times in a row, and pressing the blue switch before tossing into the red-marked area. These may be compatible; do not choose one without testing.
+- Coioioin's official Steam description and multiple player guides say the same coin face must land three times in a row by clicking the coin beside the cooker. A blue-switch / red-marked-area report exists but is not corroborated; do not hardcode it as a prerequisite.
 - The exact seven country dishes for Going Global are not fully identified in readable sources. Mochi / Japan is the only currently named pair.
 - Bookworm's exact book order / arrangement is not yet documented with a readable source.
 - Post A Lot requires 15 Post-it notes simultaneously, not merely 15 notes collected over time.
