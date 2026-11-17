@@ -24,7 +24,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 | 場景與主要流程 | 100% | 主場景關係與解鎖方向已整理 |
 | Student Dorm 食譜 | 95% | 48 Good / 29 Bad候選與公式列齊全；配方仍未實機驗證 |
 | Cafe 食譜 | 95% | 71 Good / 41 Bad候選與公式列齊全；狀態與版本衝突待驗證 |
-| Bistro 食譜 | 90% | 84 Good / 39 Bad候選與公式列齊全；部分配方和交易順序待驗證 |
+| Bistro 食譜 | 90% | 83 Good / 40 Bad候選與公式列齊全；部分配方和交易順序待驗證 |
 | Rat Level | 85% | 9 Good / 12 Bad slot列齊；密碼與狀態衝突待驗證 |
 | 解鎖流程 | 85% | 主線已整理；Cafe To-Do完整內容與Bistro任務列仍缺 |
 | 成就 | 95% | 清單大致齊全，觸發條件仍需驗證 |
@@ -344,7 +344,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 
 ## 2026-11-17｜本輪研究交付盤點
-- 配方名稱候選：333筆（212 Good + 121 Bad）。
+- 配方名稱候選：333筆（211 Good + 122 Bad）。
 - 公式表目前列數：Student Dorm 77、Cafe 112、Bistro 123、Rat Level 21，合計333列；這代表每個候選名稱都有公式或狀態候選，不代表公式已實機驗證。
 - 台灣繁中命名表：312筆命名料理；Rat Level 21格使用slot標籤而非杜撰菜名。
 - Student Dorm六項To-Do已由1.0攻略列出；Cafe完整To-Do仍未找回，已修正「8 orders」誤讀；Bistro至少可讀到清潔與老鼠交易兩項。
@@ -585,3 +585,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Re-opened the 2026-09-10 Japanese 1.0 completion walkthrough already registered as SRC-024. It confirms Clutter is a final Bad recipe and its in-game hint suggests clutter happens spontaneously; it does not give a formula.
 - Withdrawn the earlier Cloth + Wooden Spoon attribution because its cited source was incorrect. Provenance row BI-B-034 now records SRC-024 as trigger-hint evidence, leaves formula_source_ids UNMAPPED, and marks TRIGGER_HINT_ONLY.
 - 332/333 rows have formula/action source references; Clutter has a trigger hint only, not a formula. No in-game test has been executed.
+
+
+## 2026-11-17｜SRC-024 1.0 Bistro counter reclassification
+- 重新檢查SRC-024內的1.0實機截圖：Bistro存檔頁顯示76/83 Good、37/40 Bad；配方書頁顯示83/83 Good。
+- 舊候選清單為84 Good / 39 Bad。SRC-050將Crazy Calzone列在Bad Recipes；把它從Good移至Bad後，清單變成83 Good / 40 Bad，與1.0 counter完全對齊。
+- RECIPE_INVENTORY及RECIPE_PROVENANCE_AUDIT已將Crazy Calzone改列Bad，Candidate ID改為BI-B-040；狀態為COUNTER_ALIGNED_CANDIDATE_NOT_VERIFIED。仍保留BIS-061確認卡片實際tab，不能把counter對齊當作實機重做配方。
+- 全部候選仍333筆；全場景分類合計更新為211 Good + 122 Bad。QA仍146唯一ID，0執行。
