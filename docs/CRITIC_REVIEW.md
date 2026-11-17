@@ -13,7 +13,7 @@
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待逐筆來源追溯 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
-| QA | 129 個唯一 ID | 僅為測試設計，未執行 |
+| QA | 140 個唯一 ID | 僅為測試設計，未執行 |
 | 來源 | SRC-001 至 SRC-052 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
@@ -44,7 +44,7 @@
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
 ### P1-06｜核心 QA 尚未實際執行
-目前有 132 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
+目前有 140 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
 **影響：** 任何配方與互動都不能標為 verified_in_game；核心流程尚無實測回歸證據。  
 **下一步：** 取得可執行遊戲的測試環境，先跑所有 P1 解鎖流程、每房間代表性 Good/Bad 配方、Rat Level 狀態測試，再擴至全表。
 
@@ -62,7 +62,7 @@
 
 - 26 項成就矩陣的列數與官方 26 項總數一致。
 - 333 = 212 Good + 121 Bad；312 個命名食譜 + 21 個 Rat Level 符號槽位，分類沒有把 Rat Level 圖示錯譯成菜名。
-- QA 表格有 129 個唯一測試 ID，沒有重複 ID。
+- QA 表格有 140 個唯一測試 ID，沒有重複 ID。
 - 物件狀態模型已明確區分 whole/ground、Coffee Beans/filled cup、Bread/Toast/Burnt/Soggy、Rat cooker state 等重要狀態。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour 由 7/14 Steam Bistro Guide 與 9/2 9Puz 1.0 route 交叉支持；屬 B 級候選，非實機驗證。
 - SRC-017 1.0 guide 現已重新分類並直接讀取，提供 Goulash / Tomato Cocktail 的實際輸入候選與 Rat Level slot variants；v1.1 官方修正的當前回歸測試仍保留。
@@ -94,25 +94,25 @@
 ## Round 1 Addendum — SRC-017 v1.0 guide reclassification (2026-11-17)
 - The previous assessment of SRC-017 was wrong: the actual Steam page title is a v1.0 all-achievements guide updated Sep 8, 2026. Its body retains a “v4.0 ea” legacy section but includes full Bistro and Rat Level sections. This supersedes the earlier statement that it had no Bistro/Rat Level content.
 - It adds 1.0 candidates for Rat Level: cold Good #5 Cheese + Leaf; Bad #4 Eggshell + Pencil; Bad #6 Pasta alone; Bad #7 Pasta + Paper. These conflict with SRC-050; QA now tests each branch (RAT-016 to RAT-019).
-- It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 129 unique test IDs, all designed but not executed.
+- It gives a candidate Clutter formula Cloth + Wooden Spoon, and several additional Bistro formula conflicts; QA expanded to BIS-041 through BIS-047. QA now has 140 unique test IDs, all designed but not executed.
 - Goulash and Tomato Cocktail are no longer treated as formula-unknown P1 blockers: SRC-017 and comments provide actual 1.0 candidates. Current v1.1 behavior still needs regression verification because the official patch note says the cookbook was fixed without restating formulas.
 - P1 blockers remain: rat request sequence/reward order, six unnamed country dishes, Cafe To-Do completeness, Rat Level numeric code and OFF/ON mapping, per-recipe source coverage, and executed QA.
 
 
 ## Round 1 Addendum — corrected gate after SRC-017 recovery
 - P1-06 is now actual QA execution, not Goulash/Tomato Cocktail formula discovery. The 1.0 Chinese guide provides current candidates; only v1.1 regression remains.
-- QA count is 129 unique test IDs, all unexecuted.
+- QA count is 140 unique test IDs, all unexecuted.
 
 
 ## Round 1 Addendum — SRC-052 independent Rat Level cross-check
 - Added SRC-052, an independent Steam guide dated 2026-08-27. It corroborates the Rat Level puzzle sequence and most slot formulas.
 - Eggshell is now the preferred candidate for cold Good #5; Eggshell + Pencil for Bad #4; Paperclip + Pasta for Bad #6; Eggshell + Paper for Bad #7. SRC-017 manual variants remain in QA as alternatives.
 - Coioioin repeated coin-click route is supported by SRC-052 and official achievement wording; Japanese blue-switch/red-target remains a second method to test.
-- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 129 designed, unexecuted tests.
+- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 140 designed, unexecuted tests.
 
 
 ## Round 1 Addendum — further recipe-conflict coverage
-- Added two more conflict tests: BIS-048 for whole vs Ground Rice in Mochi, and BIS-049 for the three competing Yeast Monster combinations. QA now has 129 unique designed test IDs; none are claimed executed.
+- Added two more conflict tests: BIS-048 for whole vs Ground Rice in Mochi, and BIS-049 for the three competing Yeast Monster combinations. QA now has 140 unique designed test IDs; none are claimed executed.
 
 
 ## Round 1 Addendum — 1.0 Bistro / Cafe progression evidence (2026-11-17)
@@ -120,7 +120,7 @@
 - The same Japanese walkthrough says there are seven country-dish recipes, identifies Japan = Mochi, and explicitly excludes Apple Mochi and suspicious dishes. It does not name the other six. This strengthens the negative finding: no nationality inference is permitted.
 - The 9Puz route adds a practical dependency order: empty mixer container → Scissors; Scissors expose hidden mixer switch; Scissors cut the hanging ingredient rope; rat requests yield special ingredients and seven country magnets; five wine bottles must be sorted. It does not list the individual rat request dishes or reward order.
 - Cafe evidence: the 1.0 Japanese walkthrough confirms the Level 2 To-Do includes “Set the kitchen on fire”; Burnt Panini must be cooked again to trigger the fire. It also confirms the task list is a progression gate to Bistro. It still does not provide the complete Cafe To-Do list, so P1-03 remains open.
-- QA count is 132 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
+- QA count is 140 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
 
 
 ## Round 1 Addendum — direct inspection of the 1.0 Steam recipe guide (2026-11-17)
@@ -138,7 +138,7 @@
 ## Round 1 Addendum — Bistro To-Do screenshot (2026-11-17)
 - SRC-023 embedded Bistro screenshot was inspected directly. It shows five EA To-Do entries: Clean the kitchen; Trade with the rat (0/4); Get the mixer to work; Cook new ingredients (0/6); Make pizza dough. The author note is clipped but appears to say the last item was coming with 1.0.
 - This proves the EA build's four-trade and six-new-ingredient counters, but not the final 1.0 wording or whether the counters persisted. Added BIS-053..055 to prevent accidental version conflation. This is the Bistro task list, not the Cafe Level 2 To-Do list.
-- QA table now has 135 unique designed IDs after BIS-053..055; none are executed. P1-01 remains open until the four exact requested dishes and reward order are documented; P1-03 remains open for the Cafe To-Do list.
+- QA table now has 140 unique designed IDs after BIS-053..055; none are executed. P1-01 remains open until the four exact requested dishes and reward order are documented; P1-03 remains open for the Cafe To-Do list.
 
 
 ## Round 1 Addendum — Cafe To-Do version history (2026-11-17)
