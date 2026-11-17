@@ -413,3 +413,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 日本Level 3攻略雖於2026-09-09刊出，但作者明確說文章內容是2026-07-13的Early Access Level 3更新，不是1.0完整版本攻略。
 - 因此其中的Bistro To-Do、老鼠交易、七國料理、Mixer與Wine puzzle保留為EA第一手歷史證據；是否延續至1.0須由SRC-024及其他正式版來源交叉確認。
 - 七國料理段落只明確命名日本的Mochi，其餘六道仍未有可讀文字證據，不從料理名稱猜國籍。
+
+
+## 2026-11-17｜追加研究輪次：Rat Level 來源交叉核對
+- 重新直接讀取 9Puz 1.0 完整攻略，不再只依賴搜尋摘要。補強 Rat Level 反重力→花盆密碼→酒瓶標籤鍵盤→冷／熱 cooker 的完整解謎順序。
+- 冷態 Good 五槽、熱態 Good 四槽及兩材料上限已取得可讀文字支持；Eggshell/Leaf、Egg/Eggshell + Pencil、Pasta相關 Bad slot仍保留衝突。
+- 9Puz確認 Big Magnet候選動作是烹調老鼠獎勵磁鐵；Compass需先登記 Going Global，再以Scissors + country Magnet製作。
+- Steam Guide ID 3713640352的瑞典語頁面目前可直接讀取完整文字正文，雖仍顯示已移除提示；已將來源可讀性註記更新，不再簡化稱為只有搜尋摘要。
+- 本輪沒有取得花盆密碼的實際數字，也沒有取得除 Japan = Mochi 以外的六國料理配對；兩者仍是阻塞項，未以推測填補。
