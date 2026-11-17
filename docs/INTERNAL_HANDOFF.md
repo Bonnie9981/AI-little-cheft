@@ -472,3 +472,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Rat Level候選修正：冷Good #5偏向Cheese+Leaf；Bad #4 Eggshell+Pencil；Bad #6 Pasta；Bad #7 Pasta+Paper。與SRC-050快取攻略衝突，必須在QA中保留對照。
 - 新增配方衝突：Vampire Defense Kit（Tomato+Spoon vs Garlic+Spoon）、Bread Sticks（Pizza Dough vs Pizza Dough+Olive Oil）、Crazy Calzone（Pizza+Spoon vs Pizza+Pizza Dough）、Bad Pastry、Sorrow Sandwich、Risky Rice Pudding等。
 - 因此Goulash/Tomato Cocktail不再列為完全無配方的P1 blocker；已取得1.0候選與圖鑑圖示錯誤線索，但v1.1後仍需回歸驗證。七國菜名及老鼠完整請求順序仍未解。
+
+
+## 2026-11-17｜SRC-017 1.0指南重新分類後的 QA 對照
+- QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有127個唯一ID。
+- README、Critic與進度報告已同步此數量。這些仍是測試設計，不是實際執行結果。
