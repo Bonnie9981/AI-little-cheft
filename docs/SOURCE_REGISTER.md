@@ -291,3 +291,9 @@ Cross-version additions:
 - Cold Good candidates are listed as Cheese; Cheese+Cheese; Cheese+Paper; Cheese+Pencil; Cheese+Eggshell. Hot Good candidates repeat the first four. Bad candidates include Empty, Leaf, Paperclip+Paper, Eggshell+Pencil, Leaf+Pencil, Pasta+Paperclip, Eggshell+Paper, and the four single/other-object results.
 - SRC-067 therefore agrees with SRC-018 on Cheese+Eggshell as a cold candidate, while SRC-066's 1.0 guide lists Cheese+Leaf for the fifth cold slot. It also lists Pasta alone as one Bad slot and Pasta+Paperclip as another, whereas other guides combine Paperclip+Pasta into a single candidate. These are explicit unresolved slot conflicts; do not merge them.
 - The guide's Rat Level list is useful as an independent ordering reference but does not disclose the numeric planter code or identify the six non-Japan country dishes. RAT-024..026 cover the remaining conflicts and interaction sequence.
+
+
+## SRC-069｜Official free demo depot audit (2026-11-17)
+- URL: https://steamdb.info/depot/3956681/subs/ and https://steamdb.info/app/3956680/
+- The official Steam store links a free Little Chef: Cozy Cooking Demo. SteamDB lists its Windows depot as build 22441504, last updated 2026-03-21, with a 539.50 KiB Assembly-CSharp.dll. The demo predates the July Bistro update and August 1.0 Rat Level, so it cannot contain the missing Bistro rat chain, seven magnets, final Cafe To-Do state, or Rat Level puzzle implementation. It is not a viable substitute for the full 1.1 depot for these blockers.
+- This closes the free-demo route as a source for the five current P1 questions; do not claim the demo binary can resolve them.
