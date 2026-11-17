@@ -537,3 +537,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Steam 76-comment thread補充Goulash、Risotto、Focaccia。Goulash最終候選為Normal Meat + Ground Tomato + Wine（不是Ground Meat）；留言串有明確更正與原提問者回應。
 - Risotto = Rice + Mushroom + Cheese（C級單一討論串）；Focaccia = Bread Dough + Olives + Olive Oil（與既有攻略交叉一致，B級）。全部維持community_candidate，沒有標記實機驗證。
 - 配方資料必須將normal_meat與ground_meat分成獨立item key。QA維持140個設計案例，仍無實際執行紀錄。
+
+
+## 2026-11-17｜SRC-056 繁中暫譯與Bistro配方圖示
+- 開發者Leek於2026-07-14表示新料理名稱當時使用DeepL暫譯，待文字定稿後再交中文譯者修正。EA繁中名稱不可視為1.0最終字串。
+- 玩家指出Tomato Cocktail配方圖示把Wine誤顯示為Meat，配方描述為Tomato Sauce + Wine + Olives；此證據支持圖示可能錯誤，不可只靠圖示抄配方。
+- 同一玩家指出Kombucha沒有Mushroom，與多份攻略衝突；此為C級玩家反證，非開發者確認。保留Yeast alone / Yeast + Mushroom等候選，待實機測試。
+- QA仍140個設計ID，未執行。
