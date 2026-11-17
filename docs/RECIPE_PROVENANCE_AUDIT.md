@@ -251,7 +251,7 @@ Name source IDs identify the source family from which a candidate name/list was 
 | BI-G-038 | Bistro | Good | Apple Sauce | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-039 | Bistro | Good | Olive Oil | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-040 | Bistro | Good | Rosé | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
-| BI-G-041 | Bistro | Good | Pizza Dough | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | UNMAPPED | NOT_AUDITED |
+| BI-G-041 | Bistro | Good | Pizza Dough | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050; SRC-058 | SRC-015; SRC-018; SRC-058 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-042 | Bistro | Good | Vegan Sandwich | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-043 | Bistro | Good | Pumpkin Fries | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-044 | Bistro | Good | Meatloaf | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
@@ -358,7 +358,7 @@ Name source IDs identify the source family from which a candidate name/list was 
 
 ## Bistro source mapping pass — SRC-050
 
-A targeted comparison against the readable Bistro recipe list in Steam Guide SRC-050 has now populated formula-source IDs for exact name matches. **120 Bistro candidate rows** are marked `SOURCE_LISTED_NOT_VERIFIED`: this means SRC-050 explicitly lists a formula/action for that named entry; it does not mean the formula was independently corroborated or reproduced in-game. The source guide places some entries under Good and others under Bad, so classification is audited separately. Candidate rows not found in the corresponding source section remain UNMAPPED. Known opposite-section matches are flagged CLASSIFICATION_CONFLICT rather than silently accepted.
+A targeted comparison against the readable Bistro recipe list in Steam Guide SRC-050 has now populated formula-source IDs for exact name matches. **121 Bistro candidate rows** are marked `SOURCE_LISTED_NOT_VERIFIED`: this means SRC-050 explicitly lists a formula/action for that named entry; it does not mean the formula was independently corroborated or reproduced in-game. The source guide places some entries under Good and others under Bad, so classification is audited separately. Candidate rows not found in the corresponding source section remain UNMAPPED. Known opposite-section matches are flagged CLASSIFICATION_CONFLICT rather than silently accepted.
 
 Important source boundary: SRC-050 is a community guide, its author warns some formulas may be wrong, and its body was last updated in August 2026. The official v1.1 fixes and later player corrections remain relevant. Use RECIPE_CONFLICTS.md for conflicts and QA_TEST_PLAN.md for test designs.
 
