@@ -1,6 +1,6 @@
 # QA Test Plan — Little Chef: Cozy Cooking Recreation
 
-Updated: 2026-11-16  
+Updated: 2026-11-17  
 Status: Test design only; implementation has not started.  
 Target: 1.0 release behavior with zh-TW localization, desktop and mobile landscape.
 
@@ -83,9 +83,9 @@ No original mass, friction, elasticity, drag stiffness, or impulse constants are
 | STD-013 | Align tea boxes | A Lot to the Right triggers |
 | STD-014 | Cut Banana mid-air | Fruit Samurai triggers |
 | STD-015 | Reach 40 Good + Bad dishes | Cook-new-dishes task completes |
-| STD-016 | Complete all Good recipes and To-Do tasks | Cafe unlocks |
+| STD-016 | Complete the Student Dorm Good + Bad recipe tabs and all six To-Do tasks | Student Dorm reaches 100% and Cafe Job unlocks |
 
-Bad Recipes being optional for chapter unlock remains unverified; test both with and without all Bad recipes.
+The 1.0 completion route says both Good and Bad recipe tabs matter to room completion. Verify the live 100% counter and ensure both tabs plus all six To-Do tasks are complete before marking Student Dorm done.
 
 ## 5. Cafe Job tests
 
@@ -108,7 +108,7 @@ Bad Recipes being optional for chapter unlock remains unverified; test both with
 | CAF-015 | Press exposed button | Fire extinguishes |
 | CAF-016 | Complete all Level 2 To-Do | Bistro unlocks |
 
-Known Cafe To-Do / progression candidates: complete 8 orders (officially named), set the kitchen on fire (1.0 walkthrough), clean the kitchen, and trade with the rat (both shown in completion walkthroughs, but exact To-Do UI status is not confirmed). The full task count and whether phone / Safe / Espresso Cup are separate To-Do rows remain unverified. Test cases CAF-001 through CAF-016 cover known actions only; add missing rows after the in-game UI is recovered.
+Confirmed Cafe To-Do candidates: complete 8 orders (official v3.0ea) and set the kitchen on fire (1.0 walkthrough). Clean the kitchen and Trade with the rat are Bistro To-Do entries, not Cafe tasks. The full Cafe task count and whether phone / Safe / Espresso Cup are separate To-Do rows remain unverified. Test cases CAF-001 through CAF-016 cover known actions only; add missing rows after the in-game UI is recovered.
 
 ## 6. Bistro tests
 
