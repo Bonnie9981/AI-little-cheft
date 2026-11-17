@@ -342,3 +342,7 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 | BIS-045 | Sorrow Sandwich: Bread + Wooden Spoon vs Bread + Flour | Resolve competing 1.0 candidates |
 | BIS-046 | Risky Rice Pudding: Rice + Wooden Spoon vs Rice + Flour | Resolve competing 1.0 candidates |
 | BIS-047 | Tomato Cocktail: Olives + Ground Tomato + Wine vs Olives + Ground Tomato + Red Wine | Confirm wine state in v1.1+ cookbook and output |
+
+
+| BIS-048 | Mochi: whole Rice vs Ground Rice | Resolve the SRC-017 1.0 manual entry against SRC-015/SRC-050 whole-Rice candidates; this is also the Japan country dish, distinct from Apple Mochi |
+| BIS-049 | Yeast Monster: Yeast + Wooden Spoon vs Yeast + Wine vs Yeast + Tomato | Compare the SRC-017, SRC-015, and SRC-050 candidate combinations separately |
