@@ -371,3 +371,12 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - QA目前88個唯一測試案例；來源登錄SRC-001至SRC-046，共46筆來源。
 - 尚未完成的關鍵研究閘門：Cafe完整To-Do UI列數與名稱、Bistro七國料理其餘六項、Rat Level三位數密碼與OFF/ON對應low/high、Clutter觸發條件、全部D級配方衝突的實機驗證、完整物理行為校準。
 - 這些是明確未完成項目；沒有把候選配方數量或文件列數冒充成遊戲內驗證。
+
+
+## 2026-11-17｜Student Dorm 配方證據重審（最新狀態）
+- Clutter 的 Cloth + Wooden Spoon 候選已撤回；目前只確認菜名存在，精確觸發條件未知。
+- Smoothie：開發者確認 Peanut Butter 是其中一項材料，但未給出完整公式；1.0攻略另列 Strawberry Jam + Banana + Milk。兩條候選並存。
+- Good Protein Shake：Milk + Peanut Butter + Protein Powder 有開發者明確確認；Banana alternate僅作低信心候選。
+- Pasta A La Carbonara：Pasta + Egg + Cheese 與 Pasta + Egg + Milk 仍衝突。
+- PB&J Sandwich：保留原料直做與 PB&J Jar + Bread 等替代路徑。
+- 上述只更新證據分級，沒有新增遊戲內驗證。研究仍為 Research Only。
