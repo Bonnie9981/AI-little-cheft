@@ -137,7 +137,7 @@ Rat Level 的設備不是普通烤箱，而是通電罐頭式 cooker（近似微
 | Good | Leftover Pizza | Slice of Pizza | Community guide lists it as new |
 | Good | Minced Garlic | Garlic through Mixer, then cooking station | Community guide lists it as new |
 | Good | Mini Pizzas | Pizza + Scissors | Community guide lists it as new; 1.0 player says this was final Good recipe |
-| Bad | Big Magnet | Magnet received from rat reward | Community guide lists it as new |
+| Bad | Big Magnet | Magnet received from rat reward, possibly cooked in the cooking station | 8/10 Steam guide shorthand says “Magnet from mouse rewards”; 9/2 9Puz 1.0 route explicitly says to cook one of the rat-reward Magnets. | C; test both direct Magnet and cooked Magnet; use recipe counter |
 | Bad | Boo Tomato | Tomato | Community guide lists it as new |
 | Bad | Clutter | Trigger unknown; description suggests spontaneous mess | 1.0 player reports this as final Bad recipe; do not assume Mixer until verified |
 
@@ -369,3 +369,9 @@ The Japanese 1.0 walkthrough is stronger than the earlier summary gave it credit
 This conflicts with Steam's official achievement description (“same side ... 3 times in a row”) and an older Steam discussion that says to click the coin repeatedly. Possible explanations include a version change, a secondary deterministic trigger, or a difference between the in-game condition and Steam's achievement text. Do not silently choose one. QA RAT-008/011 must test both routes; RAT-012 tests platform sync separately.
 
 Sources: [Japanese 1.0 first-hand walkthrough](https://note.com/utsukinoel/n/n2734d08070ca), [official Steam achievement text](https://steamcommunity.com/stats/3376500/achievements), [older Steam discussion](https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/).
+
+
+## Bistro magnet recipes and progression dependency (2026-11-17)
+- Big Magnet: 9Puz 1.0 route explicitly says to cook one of the rat-reward Magnets; cached Steam guide only says “Magnet from mouse rewards”. Preserve the cook action as a candidate and verify the Bad Recipe counter before finalizing.
+- Compass: Scissors + any country Magnet. 9Puz recommends waiting until the magnet has registered for Going Global before making Compass; represent this as a progression dependency.
+- This adds a distinction between receiving a rat reward, registering its country magnet, and consuming a magnet as a recipe ingredient.
