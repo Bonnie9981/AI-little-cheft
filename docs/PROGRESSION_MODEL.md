@@ -69,7 +69,11 @@ Open question:
 
 ## 5. Bistro → Rat Level
 
-Bistro known interactions:
+Bistro known To-Do / progression interactions:
+- Clean the kitchen with the Cloth (explicitly shown as the first Bistro To-Do in the Japanese Level 3 walkthrough).
+- Trade with the rat (explicitly shown as the next Bistro To-Do; offer Cheese to start the request chain).
+
+Other Bistro completion interactions:
 - Unlock Scissors by placing empty Mixer jar in Cooking Pot.
 - Reveal hidden Mixer switch beneath plant leaves; repair / activate fuse box in planter.
 - Use Mixer to create processed ingredients.
@@ -104,7 +108,7 @@ Open questions:
 - Exact three-digit code.
 - Whether OFF maps to low and ON maps to high.
 - Rat Level Eggshell/Leaf and Egg/Pencil/Pasta recipe slot conflicts.
-- Whether Coioioin is triggered by clicking the coin until the same face lands three times consecutively (Steam achievement text and player reports), or whether the blue switch / red marked area from another report is an additional prerequisite.
+- Whether the blue switch / red-marked toss area mentioned in one player report is an optional interaction or unrelated; official achievement text and multiple player guides only require the same coin face three times in a row.
 
 ## 7. My Room and post-game
 
