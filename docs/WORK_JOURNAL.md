@@ -1116,3 +1116,14 @@
 ## 2026-11-17｜QA補齊 Mochi / Yeast Monster 衝突
 - 將Mochi whole Rice vs Ground Rice與Yeast Monster三種候選配方轉為BIS-048、BIS-049。
 - 配方衝突表與Bistro/Rat配方文件同步補註；QA總數129，均為待執行設計。
+
+
+## 2026-11-17｜無需擁有遊戲的公開資料路線再審
+- CEO說明沒有購買／安裝本作；後續研究不得再把取得本機遊戲檔案當成必要前提，改以公開頁面、玩家截圖、Steam討論、不同語言攻略與可公開取得的版本中繼資料推進。
+- 新增SRC-069：官方Steam商店提供免費Demo，但SteamDB顯示Windows build最後更新於2026-03-21，早於7/12 Bistro與8/26 1.0 Rat Level。因此Demo的Assembly-CSharp.dll不能解決本輪五項P1；此路線已排除，不再要求CEO下載遊戲或Demo。
+- 重新檢查9Puz 1.0攻略、日文1.0通關文章及嵌入截圖。可確認Rat Level強／弱電力會改變同材料的料理；9Puz將候選slot按OFF/ON分組，暫建立OFF=冷／弱、ON=熱／強的工作假設，但沒有直接UI逐字對照，仍屬推定。
+- 花盆便條截圖仍只能讀到局部兩個「3」，不能讀出完整三位數；不猜333。9Puz也沒有披露密碼。
+- 七國磁鐵：日文玩家實測文字將「做出七道國際料理→磁鐵附在抽油煙機」與老鼠換食材描述為不同流程；Steam攻略卻寫成老鼠完成請求後取得磁鐵。機制衝突尚未解決。Japan=Mochi仍是唯一具文字／旗幟支持的國家對照。
+- Cafe To-Do：9Puz完整1.0路線沒有列出最終任務清單，只要求完成當前To-Do與火災互動。早期四項、8 orders、Set the kitchen on fire不能拼接成1.0最終清單。
+- QA仍164個唯一設計ID、0執行；333筆候選配方仍332筆有來源公式／動作引用、Clutter僅有觸發提示；Critic仍FAIL，Research Only維持。未宣稱五項P1已解決。
+- SRC-069已寫入SOURCE_REGISTER；commit eeddeea6186311d1269d16c64f519669b6f59b21。
