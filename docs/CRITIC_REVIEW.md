@@ -79,3 +79,11 @@
 
 ---
 此文件為 Round 1 文件審查；不是最終通過聲明。
+
+
+## Round 1 Addendum — Rat Level image inspection (2026-11-17)
+- Directly opened embedded screenshots from the Japanese 1.0 completion walkthrough. Images show the Rat Level cooker, control panel, number-note area, and a red-framed coin target; this strengthens spatial/interaction evidence beyond text extraction.
+- The visible note digits differ across screenshots/states and do not establish a reliable universal three-digit code. Do not concatenate partial visible digits into a guessed code.
+- The walkthrough text supports two inputs per attempt and strong/weak power changing outputs. The screenshots do not conclusively map cooker OFF/ON to strong/weak.
+- A blue-framed switch and red-framed coin target are visible in the Coioioin screenshots. Official achievement text remains “same side three times in a row”; whether the switch/target is an alternative shortcut or a required interaction still needs live testing.
+- This does not clear P1-01, P1-02, or P1-04.
