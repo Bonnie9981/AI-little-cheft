@@ -410,3 +410,9 @@ SRC-052 (Steam guide posted 2026-08-27) independently lists the full Rat Level s
 | Bad #7 | Eggshell + Paper | Pasta + Paper | SRC-050 + SRC-052 vs SRC-017; Eggshell + Paper favored |
 
 SRC-052 also says repeated coin clicks beside the planter can earn Coioioin, matching official same-face-three-times wording. Keep the Japanese 1.0 blue-switch/red-target method as an alternate route, not a replacement for the official condition. The numeric password remains undisclosed.
+
+
+| Recipe | Candidate A | Candidate B / C | Evidence and current handling |
+|---|---|---|---|
+| Mochi (Japan country dish) | Ground Rice (SRC-017 manual v1.0 guide) | Whole Rice (SRC-015 / SRC-050) | 1.0 candidate conflict; test whole and ground separately. Do not confuse with Apple Mochi. |
+| Yeast Monster | Yeast + Wooden Spoon (SRC-017) | Yeast + Wine (SRC-015) / Yeast + Tomato (SRC-050) | Three-way conflict; no candidate promoted until slot counter or in-game recipe card confirms. |
