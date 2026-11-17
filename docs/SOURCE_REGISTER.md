@@ -111,3 +111,9 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - SRC-044 | [Steam discussion: How to flip coins](https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/) | 2026-08-26 | Coioioin: click the coin in Rat Level repeatedly until the same face lands three times; no switch or red target mentioned | Player report consistent with official achievement wording and 9Puz.
 - SRC-045 | [Japanese 1.0 Rat Level completion guide](https://note.com/utsukinoel/n/n2734d08070ca) | 2026-09-10 | Rat Level uses two ingredients per attempt; Electric Can Cooker switches electrical output high/low; same ingredients can yield different results by power level; Coioioin same coin face three consecutive times | Detailed player walkthrough; strong mechanics evidence, exact three-digit code still image-only.
 - SRC-046 | [Steam v1.1 changelog archive](https://steamdb.info/patchnotes/25247907/) | 2026-09-11 | Confirms fixes to Coioioin Steam sync, Goulash and Tomato Cocktail cookbook entries, and larger Rat Level number-lock click area | Official patch-note mirror; does not disclose corrected recipe formulas or code.
+
+
+### SRC-024 / SRC-025 / SRC-041 re-evaluation — Coioioin
+- SRC-024 (Japanese 1.0 first-hand walkthrough) is explicit: press the blue-frame switch, then throw the coin into the red-frame target; the author says the achievement is not simply random same-face repetition.
+- The same walkthrough reports that the in-game achievement appeared before Steam sync, and Steam registered it after closing/relaunching the game.
+- SRC-041 official Steam text still states same-side three times in a row; SRC-025 older Steam discussion says repeatedly click the coin. This is a genuine unresolved conflict, not grounds to discard either route.
