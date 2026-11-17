@@ -482,3 +482,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜Critic Gate更新
 - SRC-017恢復為有效的1.0 Bistro/Rat Level候選來源後，Goulash/Tomato Cocktail不再是「無配方」P1 blocker；v1.1+僅保留回歸驗證。
 - Critic P1-06改為「核心QA尚未實際執行」：127個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
+
+
+## 2026-11-17｜SRC-052 Rat Level第二份獨立指南
+- 新增SRC-052：Steam 2026-08-27 Mouse Recipes guide，獨立列出Rat Level 9 Good / 12 Bad槽位及反重力、花盆密碼、酒標鎖、調整爐具流程。
+- 它與SRC-050及9Puz一致：Cold Good #5 Cheese+Eggshell；Bad #4 Eggshell+Pencil；Bad #6 Paperclip+Pasta；Bad #7 Eggshell+Paper。與SRC-017手打指南不同，現以多來源一致者作優先候選，保留SRC-017做替代測試。
+- Coioioin重複點擊硬幣說法與官方成就文字一致；日文藍開關／紅目標仍列替代方法。密碼數字仍未取得。
+- QA仍為127個唯一ID；RAT-016至RAT-019的測試順序更新為先測多來源支持的Eggshell / Paperclip組合，再測SRC-017替代。
