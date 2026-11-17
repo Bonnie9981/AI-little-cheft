@@ -843,3 +843,21 @@
 - 搜尋Cafe 1.0實際To-Do面板的完整畫面／錄影。
 - 找出Bistro七國料理與老鼠交易完整順序。
 - 完成Rat Level電力與配方衝突的證據分級。
+
+
+## 2026-11-17｜Bistro To-Do與Rat trade第一段確認
+
+**觀察**
+- 日本玩家 2026-09-09 Level 3攻略的To-Do段落直接列出「Clean the kitchen」及「Trade with the rat」。
+- 清潔使用 Cloth；老鼠在 Range Hood，給 Cheese後先獲得 Tomato，之後會持續從抽油煙機送出料理圖，完成指定料理即可交換新食材。
+- 七國料理完成時，磁鐵會吸附在 Range Hood；七項完成後取得 Going Global。可讀文字只辨識 Mochi/Japan，其他國家料理沒有文字名。
+- Steam成就說明Coioioin是同一面連續三次；Steam指南也說點擊爐旁硬幣即可，藍開關／紅區說法目前缺乏交叉支持。
+
+**行動**
+- 將 Bistro清潔與老鼠交易列為已知To-Do / progression interactions。
+- Rat trade流程明確分成request_shown → dish_completed → ingredient_rewarded。
+- Coioioin測試優先順序改為直接點擊硬幣連續三次同面；藍開關路線只作fallback研究。
+
+**下一步**
+- 找出其餘六個國際料理及完整rat request順序。
+- 確認Bistro To-Do其餘項目與Level 3的100%條件。
