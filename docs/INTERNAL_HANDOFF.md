@@ -606,3 +606,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜Rat Level密碼截圖可讀性
 - SRC-024圖18顯示酒瓶謎題後的強／弱電力控制器及花盆便條；可辨識兩個3，但完整三位數碼無法可靠讀出。
 - 不可推測333。新增RAT-020要求取得完整便條與鍵盤成功輸入紀錄。QA 147 unique，0 executed。
+
+
+## 2026-11-17｜全遊戲食譜總數確認
+- SRC-024 1.0存檔卡片顯示305/333 recipes、26/26 achievements，支持全遊戲總食譜數333及成就26項。
+- 333筆名稱清單與全局分母對齊；211 Good / 122 Bad仍為候選拆分，不等於每一列已核實。
+- 需繼續驗證逐筆配方、狀態、分類、重複與房間歸屬。QA 147 unique，0 executed。
