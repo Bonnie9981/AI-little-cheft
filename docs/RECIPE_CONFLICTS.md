@@ -514,3 +514,7 @@ The same guide reports Goulash as Meat + Ground Tomato + Wine and explicitly say
 | Keypad reveal | Wine label reveals keypad after anti-gravity | Player describes clicking the planter note onto the wine bottle to reveal the lock | RAT-026 records exact interaction sequence; code remains unknown |
 
 SRC-067 is a separate Aug 27 player guide; it does not resolve the numeric code or country-magnet identities. No Rat Level case has been executed by this project.
+
+
+### SRC-064 historical EA cross-check
+The July 14 J_Moon Bistro guide (SRC-064) adds an Early Access candidate for Tomato Cheese Appetizer (Tomato + Cheese), Apple Mochi (Ground Rice + Apple), Sake (Rice + Yeast), Mushroom Soup (Mushroom + Garlic), Pumpkin Soup (Ground Pumpkin + Garlic), and Meatballs (Ground Beef alone). These align with some SRC-066 entries and conflict with other August guides. Because SRC-064 predates 1.0, use it to explain historical formula changes rather than as equal-weight final-version evidence.
