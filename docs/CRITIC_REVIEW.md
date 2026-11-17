@@ -156,3 +156,10 @@
 - The README now defines a practical Ready for CEO Approval threshold: core loop, progression, interaction/physics, recipe data, To-Do/achievement systems, zh-TW terminology, exceptions, and QA acceptance specs must be implementable; unresolved facts must be isolated as replaceable data or explicit in-game verification steps; no unhandled P1 may remain.
 - Public-source gaps do not justify inventing hidden values. Critic must distinguish non-blocking unknowns (safe to parameterize and validate later) from core-play blockers (must be resolved before build approval).
 - Current project remains Research Only. The 140 QA cases are designs, not executed tests. No CEO approval has been granted.
+
+
+## Round 1 Addendum — SRC-055 recipe-state correction (2026-11-17)
+- New Steam player thread (76 comments) corrects a material Goulash ambiguity: the initial “processed meat + tomato + wine” suggestion is wrong; the correction is **Normal Meat + Ground Tomato + Wine**. The original asker acknowledges the correction.
+- This exposes a schema risk: generic Meat and Ground Meat cannot be collapsed. Recipe inputs must reference explicit item-state keys.
+- Risotto = Rice + Mushroom + Cheese is a single-thread candidate. Focaccia = Bread Dough + Olives + Olive Oil is corroborated by the existing Bistro guide and is stronger.
+- These are community-source candidates, not in-game verification. No QA case is marked executed. SRC-055 does not resolve the rat request sequence, country mapping, Cafe final To-Do, Rat Level code/power mapping, or the full 333-row provenance gap.
