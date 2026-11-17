@@ -447,3 +447,20 @@ All seven cases are test designs only. SRC-066 is a player guide with explicit c
 | CAF-028 | Verify Cafe security-card and safe clue chain | Record counterfeit-money recipe, security-card acquisition, safe interaction and exact clue text; verify the “three donuts = infinity” claim against the visible clue rather than transcript paraphrase |
 
 These are newly designed tests from SRC-072/SRC-073 and the CEO-provided transcript extraction. They are **not executed**. Automated video Q&A is useful for timestamps but did not reliably recover the complete Rat Level recipe matrix or all seven country mappings.
+
+
+## 7. Prototype smoke tests (implementation spike; not yet browser-executed)
+
+| ID | Test | Expected result | Current evidence |
+|---|---|---|---|
+| PRO-001 | Open `/prototype/` over HTTP | Kitchen board and side controls render | HTML committed; browser test pending |
+| PRO-002 | Drag an item with mouse | Item follows pointer and can be released | Pointer event implementation; browser test pending |
+| PRO-003 | Drag an item with touch | Same drag path works on touch screen | Pointer Events used; device test pending |
+| PRO-004 | Release with high velocity | Temporary velocity is applied and object falls/bounces | Tunable gravity loop implemented; browser test pending |
+| PRO-005 | Drop item in pot | Item enters pot up to 3 items | Drop-zone logic implemented; browser test pending |
+| PRO-006 | Add fourth pot item | Pot rejects additional item without truncating | Guard implemented; browser test pending |
+| PRO-007 | Change selected item state | Raw / Processed label changes | Prototype state toggle implemented; browser test pending |
+| PRO-008 | Save then reload prototype | Objects, positions, states, and pot IDs restore | localStorage snapshot implemented; browser test pending |
+| PRO-009 | Clear pot / reset scene | Pot or scene clears without stale references | Reset handlers implemented; browser test pending |
+
+These are smoke-test definitions, not passed browser QA. Prototype physics is an implementation spike with provisional gravity / damping values; it is not a measured recreation of the original game.
