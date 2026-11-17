@@ -14,7 +14,7 @@
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
 | QA | 140 個唯一 ID | 僅為測試設計，未執行 |
-| 來源 | SRC-001 至 SRC-052 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
+| 來源 | SRC-001 至 SRC-053 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
 
@@ -53,7 +53,7 @@
 - Goulash、Tomato Cocktail 的 1.0 輸入候選已有 SRC-017 支持；v1.1 官方修正後的現行行為仍需回歸測試，但不再阻止建立候選資料。
 
 - Coioioin 有「連續同面三次」與藍框開關／紅框目標兩種玩家描述；官方成就文字支持前者，需以 1.0+ 實機為準。
-- QA 的 132 項是規格案例，尚無任何一項可宣稱已實際執行；需要執行紀錄、截圖／影片、版本號與 pass/fail。
+- QA 的 140 項是規格案例，尚無任何一項可宣稱已實際執行；需要執行紀錄、截圖／影片、版本號與 pass/fail。
 - zh-TW 字典目前是候選版；仍需母語校對、菜名專名核對、按鈕長度與窄螢幕溢位檢查。
 - Source Register 有相同 URL 被多個 SRC ID 重複引用的情況；後續需區分「來源文件」與「來源用途／claim」，避免重複計算獨立證據。
 - README 的來源範圍曾落後至 SRC-046，已修正為 SRC-051；Cafe 測試編號 CAFE-027 已修正為 CAF-017。
@@ -108,7 +108,7 @@
 - Added SRC-052, an independent Steam guide dated 2026-08-27. It corroborates the Rat Level puzzle sequence and most slot formulas.
 - Eggshell is now the preferred candidate for cold Good #5; Eggshell + Pencil for Bad #4; Paperclip + Pasta for Bad #6; Eggshell + Paper for Bad #7. SRC-017 manual variants remain in QA as alternatives.
 - Coioioin repeated coin-click route is supported by SRC-052 and official achievement wording; Japanese blue-switch/red-target remains a second method to test.
-- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 140 designed, unexecuted tests.
+- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-053; QA remains 140 designed, unexecuted tests.
 
 
 ## Round 1 Addendum — further recipe-conflict coverage
@@ -120,7 +120,7 @@
 - The same Japanese walkthrough says there are seven country-dish recipes, identifies Japan = Mochi, and explicitly excludes Apple Mochi and suspicious dishes. It does not name the other six. This strengthens the negative finding: no nationality inference is permitted.
 - The 9Puz route adds a practical dependency order: empty mixer container → Scissors; Scissors expose hidden mixer switch; Scissors cut the hanging ingredient rope; rat requests yield special ingredients and seven country magnets; five wine bottles must be sorted. It does not list the individual rat request dishes or reward order.
 - Cafe evidence: the 1.0 Japanese walkthrough confirms the Level 2 To-Do includes “Set the kitchen on fire”; Burnt Panini must be cooked again to trigger the fire. It also confirms the task list is a progression gate to Bistro. It still does not provide the complete Cafe To-Do list, so P1-03 remains open.
-- QA count is 140 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
+- QA count is 140 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-053.
 
 
 ## Round 1 Addendum — direct inspection of the 1.0 Steam recipe guide (2026-11-17)
