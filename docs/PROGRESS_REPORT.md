@@ -193,7 +193,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## Bistro 配方數量分期校正（2026-11-16）
 - 7/14 Bistro Guide正文逐行核算為 76 Good / 31 Bad，屬 EA baseline。
 - 8/27更新新增 7 Good + 2 Bad；9/10正式版玩家另記錄 Clutter為新增 Bad。
-- 目前 1.0候選總量為 84 Good / 39 Bad（123 total），但這是跨來源推算，仍待遊戲內 cookbook counter確認。
+- 歷史推算曾為84 Good / 39 Bad；已由SRC-024的1.0 counter截圖修正為83 Good / 40 Bad（123 total），Crazy Calzone改列Bad，仍待卡片tab直接確認。
 
 
 ## Bistro Rat Trade 與七國料理（2026-11-16）
