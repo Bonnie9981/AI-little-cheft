@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為146個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為147個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
