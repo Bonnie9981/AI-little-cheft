@@ -1073,4 +1073,20 @@
 **新增待辦**
 - 對Goulash、Tomato Cocktail建立v1.1後專項核驗。
 - 取得Steam攻略與日文攻略的嵌入圖片原始圖像，嘗試辨識七國菜名、老鼠便條與Rat密碼線索；若圖像解析不到，保留未知，不用猜測補完。
-\n\n## 2026-11-17｜完整讀取 Steam 100% 配方指南正文（SRC-050）\n**本輪取得**\n- 直接讀取 Steam Guide ID 3713640352 全文，不再只依賴搜尋摘要；正文涵蓋 Student Dorm、Cafe、Bistro、Rat Level候選配方、關卡流程與成就提示。Steam頁面顯示已移除／不相容，但正文仍可讀。\n- Bistro配方候選明列：Goulash = Meat + Wine + Ground Tomato；Tomato Cocktail = Olives + Wine + Ground Tomato；兩者均受官方v1.1「修正 cookbook配方」影響，不能未經遊戲驗證就宣告最終正確。\n- 指南註明七國磁鐵由老鼠依請求料理發放，但未在可讀文字中列出完整七國對應；Rat Level密碼只說讀取花盆便條，未提供數字。\n- 指南留言提供兩項具體勘誤：Dirty Chai Latte應為 Tea + Milk + Coffee（不是Coffee Beans）；Tomato Juice使用Ground Tomato（不是整顆Tomato）。兩者目前屬社群留言修正，需列為候選並保留證據等級。\n\n**版本與品質判斷**\n- 指南正文自述配方表基準為2026-08-10，另有08-27新增項；頁面最後更新日期顯示09-02。它不是官方配方表，且頁面目前被標記removed/incompatible。\n- 這份來源適合建立完整候選表與QA測項，不適合單獨作為最終權威。SRC-049官方v1.1修正說明優先於該指南的舊配方。\n\n**新增QA要求**\n- 在目前v1.1或更新版本客戶端，分別測試Goulash與Tomato Cocktail，記錄實際輸入物件狀態（特別是Ground Tomato）、輸出卡片、是否新增食譜，以及重開遊戲後是否保留。不得只以真實世界食譜或舊指南定案。\n\n來源：SRC-050、SRC-049。\n
+
+
+## 2026-11-17｜完整讀取 Steam 100% 配方指南正文（SRC-050）
+**本輪取得**
+- 直接讀取 Steam Guide ID 3713640352 全文，不再只依賴搜尋摘要；正文涵蓋 Student Dorm、Cafe、Bistro、Rat Level候選配方、關卡流程與成就提示。Steam頁面顯示已移除／不相容，但正文仍可讀。
+- Bistro配方候選明列：Goulash = Meat + Wine + Ground Tomato；Tomato Cocktail = Olives + Wine + Ground Tomato；兩者均受官方v1.1「修正 cookbook配方」影響，不能未經遊戲驗證就宣告最終正確。
+- 指南註明七國磁鐵由老鼠依請求料理發放，但未在可讀文字中列出完整七國對應；Rat Level密碼只說讀取花盆便條，未提供數字。
+- 指南留言提供兩項具體勘誤：Dirty Chai Latte應為 Tea + Milk + Coffee（不是Coffee Beans）；Tomato Juice使用Ground Tomato（不是整顆Tomato）。兩者目前屬社群留言修正，需列為候選並保留證據等級。
+
+**版本與品質判斷**
+- 指南正文自述配方表基準為2026-08-10，另有08-27新增項；頁面最後更新日期顯示09-02。它不是官方配方表，且頁面目前被標記removed/incompatible。
+- 這份來源適合建立完整候選表與QA測項，不適合單獨作為最終權威。SRC-049官方v1.1修正說明優先於該指南的舊配方。
+
+**新增QA要求**
+- 在目前v1.1或更新版本客戶端，分別測試Goulash與Tomato Cocktail，記錄實際輸入物件狀態（特別是Ground Tomato）、輸出卡片、是否新增食譜，以及重開遊戲後是否保留。不得只以真實世界食譜或舊指南定案。
+
+來源：SRC-050、SRC-049。
