@@ -328,3 +328,17 @@ Sources:
 | Sake | Rice + Wine; or Rice + Yeast | 9Puz / 8/10 guide vs 7/14 guide. | B; prefer Wine, verify |
 | Tomato Juice | Ground Tomato; or whole Tomato | 9Puz player comment says Ground Tomato; 8/10 guide lists Tomato. | B; Ground Tomato favored |
 | Pizza Dough | Flour + Yeast + Olive Oil | Steam player comment corrects the missing recipe; do not treat Bread Dough as the input. | B; confirmed candidate |
+
+
+## Cafe To-Do count source discrepancy (2026-11-17)
+
+- Official v3.0ea patch note (2026-04-23) says singular: “New Todo: complete 8 orders”. This directly supports one To-Do row with an eight-order target.
+- A Japanese April 24 player walkthrough paraphrases the update as “ToDo list, 8 items added”. This could be a translation/counting ambiguity (eight orders vs eight To-Do rows), or could refer to other update content not fully enumerated in the patch note.
+- Later v5.1ea official notes say finish the Level 2 To-Do list before Level 3, but do not enumerate its rows.
+- A September 1.0 walkthrough reports the fire task can remain unchecked even after setting the kitchen on fire, suggesting a possible registration / task-sync bug.
+- Current handling: do not hardcode Cafe To-Do row count. Explicitly model the “8 orders” task and fire task; keep clean-kitchen and rat trade as progression interactions unless the in-game To-Do UI confirms their task status.
+
+Sources:
+- [Official v3.0ea patch note mirror](https://steamdb.info/patchnotes/22930769/)
+- [Japanese April 24 update walkthrough](https://note.com/utsukinoel/n/nd60de056ab74)
+- [Japanese 1.0 completion report](https://note.com/utsukinoel/n/n2734d08070ca)
