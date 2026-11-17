@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Little Chef｜互動原型</title>
+<style>
+:root{--bg:#f5f1e7;--panel:#fffdf8;--ink:#302e28;--muted:#777365;--line:#ded7c8;--green:#71866a;--wood:#c9a77d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,"Noto Sans TC",sans-serif;overflow:hidden}
+header{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;background:#e7ebdf;border-bottom:1px solid var(--line)}header strong{font-size:18px}header small{color:var(--muted)}
+main{height:calc(100dvh - 58px);display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:12px;padding:12px}
+#kitchen{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:linear-gradient(#f9f6ed 0 72%,#dfc5a2 72% 100%);touch-action:none}
+#kitchen:before{content:"";position:absolute;left:0;right:0;top:72%;height:7px;background:#b18c63}
+#hint{position:absolute;left:16px;top:14px;color:var(--muted);font-size:13px;pointer-events:none}
+.item{position:absolute;min-width:74px;height:54px;padding:8px;border:1px solid #d9d1c2;border-radius:13px;background:#fffdf8;box-shadow:0 4px 9px #59482b20;display:flex;align-items:center;justify-content:center;gap:5px;touch-action:none;user-select:none;cursor:grab;font-weight:600}
+.item .emoji{font-size:22px}.item.dragging{z-index:10;cursor:grabbing;box-shadow:0 12px 22px #59482b35;transform:scale(1.04)}
+#pot{position:absolute;right:12%;bottom:12%;width:150px;height:100px;border:5px solid #898b83;border-top-width:10px;border-radius:15px 15px 48px 48px;background:#d5d7cfaa;display:flex;align-items:center;justify-content:center;color:#555;font-weight:700}
+#pot.active{outline:3px dashed var(--green);outline-offset:5px}
+#side{display:flex;flex-direction:column;gap:10px;min-height:0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:13px}
+.panel h2{font-size:15px;margin:0 0 9px}.muted{color:var(--muted);font-size:12px}
+#tray{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.spawn{border:1px solid var(--line);background:white;border-radius:10px;padding:9px 6px;font:inherit;font-size:13px;cursor:pointer}
+button:focus-visible{outline:3px solid #91a783;outline-offset:2px}
+#potItems{min-height:40px;display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+.chip{background:#eee9dd;border-radius:99px;padding:4px 8px;font-size:12px}
+.actions{display:flex;gap:7px;flex-wrap:wrap}.actions button{border:0;border-radius:9px;background:#e8eddf;padding:8px 10px;font:inherit;font-size:13px;cursor:pointer}
+#log{max-height:120px;overflow:auto;font-size:12px;color:var(--muted)}#log p{margin:4px 0}
+@media(max-width:720px){header{height:48px}main{height:calc(100dvh - 48px);grid-template-columns:minmax(0,1fr) 190px;padding:7px;gap:7px}#pot{right:8%;width:120px;height:82px}.panel{padding:9px}#tray{grid-template-columns:1fr 1fr}.spawn{padding:7px 3px;font-size:12px}}
+@media(max-width:480px){main{grid-template-columns:minmax(0,1fr) 150px}header small{display:none}.item{min-width:64px;height:48px;font-size:12px}}
+</style></head><body>
+<header><strong>Little Chef｜廚房互動原型</strong><small>物理／拖曳技術驗證 · 非正式遊戲內容</small></header>
+<main><section id="kitchen" aria-label="廚房操作區"><div id="hint">拖曳物件移動；快速放開可測試投擲。點擊右側素材新增物件。</div><div id="pot">鍋子<br><small id="potCount">0 / 3</small></div></section>
+<aside id="side">
+<section class="panel"><h2>素材箱</h2><div id="tray">
+<button class="spawn" data-name="Bread" data-emoji="🍞">🍞 麵包</button><button class="spawn" data-name="Banana" data-emoji="🍌">🍌 香蕉</button><button class="spawn" data-name="Tomato" data-emoji="🍅">🍅 番茄</button><button class="spawn" data-name="Cheese" data-emoji="🧀">🧀 起司</button><button class="spawn" data-name="Egg" data-emoji="🥚">🥚 雞蛋</button><button class="spawn" data-name="Milk" data-emoji="🥛">🥛 牛奶</button>
+</div><p class="muted">僅用於拖曳與碰撞測試；素材不是完整原作清單。</p></section>
+<section class="panel"><h2>鍋子輸入槽</h2><div id="potItems"><span class="muted">把食材拖到鍋子</span></div><div class="actions"><button id="clearPot">清空鍋子</button><button id="reset">重設場景</button></div><p class="muted">最多 3 個物件。尚未接入未驗證配方，不會生成料理。</p></section>
+<section class="panel"><h2>物件狀態</h2><div id="selected" class="muted">尚未選取物件</div><div class="actions" style="margin-top:8px"><button id="stateRaw">標記 Raw</button><button id="stateProcessed">標記 Processed</button></div></section>
+<section class="panel"><h2>操作紀錄</h2><div id="log" aria-live="polite"></div></section>
+</aside></main>
+<script>
+const board=document.getElementById('kitchen'),pot=document.getElementById('pot'),potItems=document.getElementById('potItems'),potCount=document.getElementById('potCount'),selected=document.getElementById('selected'),logBox=document.getElementById('log');
+let objects=[],selectedId=null,potIds=[],seq=0,drag=null;
+const log=t=>{const p=document.createElement('p');p.textContent=t;logBox.prepend(p)};
+function spawn(name,emoji,x,y,state='raw'){const el=document.createElement('div');el.className='item';el.innerHTML='<span class="emoji">'+emoji+'</span><span>'+name+'</span>';board.append(el);const o={id:++seq,name,emoji,state,x,y,vx:0,vy:0,el};objects.push(o);place(o);el.addEventListener('pointerdown',e=>startDrag(e,o));el.addEventListener('click',()=>select(o));select(o);log('新增 '+name);return o}
+function place(o){o.el.style.left=o.x+'px';o.el.style.top=o.y+'px'}
+function select(o){selectedId=o.id;selected.textContent=o.name+'｜'+(o.state==='raw'?'Raw 原始':'Processed 已加工');}
+function startDrag(e,o){if(e.button!==undefined&&e.button!==0)return;e.preventDefault();select(o);const r=board.getBoundingClientRect();drag={o,startX:e.clientX,startY:e.clientY,lastX:e.clientX,lastY:e.clientY,lastT:performance.now(),vx:0,vy:0,ox:o.x,oy:o.y};o.el.classList.add('dragging');o.el.setPointerCapture(e.pointerId)}
+board.addEventListener('pointermove',e=>{if(!drag)return;const r=board.getBoundingClientRect(),now=performance.now(),dt=Math.max(8,now-drag.lastT);drag.vx=(e.clientX-drag.lastX)/dt;drag.vy=(e.clientY-drag.lastY)/dt;drag.lastX=e.clientX;drag.lastY=e.clientY;drag.lastT=now;drag.o.x=Math.max(0,Math.min(r.width-80,e.clientX-r.left-38));drag.o.y=Math.max(0,Math.min(r.height-60,e.clientY-r.top-27));place(drag.o)});
+board.addEventListener('pointerup',release);board.addEventListener('pointercancel',release);
+function release(){if(!drag)return;const {o,vx,vy}=drag;o.el.classList.remove('dragging');const pr=pot.getBoundingClientRect(),br=board.getBoundingClientRect(),cx=o.x+38,cy=o.y+27;if(cx>pr.left-br.left&&cx<pr.right-br.left&&cy>pr.top-br.top&&cy<pr.bottom-br.top){if(!potIds.includes(o.id)&&potIds.length<3){potIds.push(o.id);log(o.name+' 放入鍋子');}else if(potIds.length>=3)log('鍋子已滿（最多 3 個）');renderPot()}else if(Math.hypot(vx,vy)>.75){o.vx=vx*10;o.vy=vy*10;log(o.name+' 投擲速度已記錄')}drag=null}
+function renderPot(){potCount.textContent=potIds.length+' / 3';potItems.innerHTML='';if(!potIds.length){potItems.innerHTML='<span class="muted">把食材拖到鍋子</span>';return}potIds.forEach(id=>{const o=objects.find(x=>x.id===id);const c=document.createElement('span');c.className='chip';c.textContent=o.name;potItems.append(c)})}
+document.querySelectorAll('.spawn').forEach(b=>b.addEventListener('click',()=>spawn(b.dataset.name,b.dataset.emoji,35+Math.random()*100,70+Math.random()*100)));
+document.getElementById('clearPot').onclick=()=>{potIds=[];renderPot();log('已清空鍋子')};
+document.getElementById('reset').onclick=()=>{objects.forEach(o=>o.el.remove());objects=[];potIds=[];selectedId=null;selected.textContent='尚未選取物件';renderPot();log('場景已重設')};
+function setState(state){const o=objects.find(x=>x.id===selectedId);if(!o){log('請先選取物件');return}o.state=state;select(o);log(o.name+' 狀態：'+state)}
+document.getElementById('stateRaw').onclick=()=>setState('raw');document.getElementById('stateProcessed').onclick=()=>setState('processed');
+renderPot();spawn('Bread','🍞',70,100);spawn('Tomato','🍅',190,120);
+</script></body></html>
