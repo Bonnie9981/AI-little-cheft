@@ -463,3 +463,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Clutter新增1.0指南候選 Cloth + Wooden Spoon；新增Bistro配方衝突測試BIS-041至BIS-047。
 - Goulash與Tomato Cocktail已取得1.0候選配方，不再列為完全未知；v1.1後仍需回歸驗證。
 - QA總數更新為127個唯一案例，均為設計，尚未實際執行。
+
+
+## 2026-11-17｜新增 SRC-052 Rat Level 交叉證據
+- 新增第二份獨立Rat Level攻略SRC-052，完整列出9 Good / 12 Bad槽位與解謎順序。
+- SRC-050、SRC-052、9Puz三方支持Cold Good #5 = Cheese + Eggshell；Bad #4 = Eggshell + Pencil；Bad #6 = Paperclip + Pasta；Bad #7 = Eggshell + Paper。SRC-017 1.0手打指南的Leaf／Pasta變體保留為對照，不再優先。
+- Coioioin重複點擊硬幣符合官方成就文字；藍開關／紅框投幣仍作替代路徑。三位數密碼未公開，仍未知。
+- 來源登錄擴至SRC-052，QA維持127個唯一測試案例。
