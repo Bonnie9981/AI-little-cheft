@@ -861,3 +861,9 @@
 **下一步**
 - 找出其餘六個國際料理及完整rat request順序。
 - 確認Bistro To-Do其餘項目與Level 3的100%條件。
+
+
+## 2026-11-17｜Cafe / Coioioin 文件一致性稽核
+- 掃描README、Progression、QA、Progress Report、Achievement Matrix與Interaction Spec後，發現舊的進度段落仍殘留「新增8個Cafe To-Do」錯誤句，以及QA將藍開關寫成主要測試。
+- 已改為：官方v3.0ea新增一項「完成8張訂單」；Cafe完整To-Do列數未知。Coioioin主測試為點擊硬幣連續三次同面，藍開關僅保留備援研究。
+- 此次是文件一致性修正，沒有新增遊戲內實測結果。
