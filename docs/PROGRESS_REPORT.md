@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為146個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone分類衝突1列、Clutter未映射1列。詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為146個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -592,3 +592,8 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 舊候選清單為84 Good / 39 Bad。SRC-050將Crazy Calzone列在Bad Recipes；把它從Good移至Bad後，清單變成83 Good / 40 Bad，與1.0 counter完全對齊。
 - RECIPE_INVENTORY及RECIPE_PROVENANCE_AUDIT已將Crazy Calzone改列Bad，Candidate ID改為BI-B-040；狀態為COUNTER_ALIGNED_CANDIDATE_NOT_VERIFIED。仍保留BIS-061確認卡片實際tab，不能把counter對齊當作實機重做配方。
 - 全部候選仍333筆；全場景分類合計更新為211 Good + 122 Bad。QA仍146唯一ID，0執行。
+
+
+## 最新候選數量核對（SRC-024）
+- Bistro候選數量改為83 Good / 40 Bad，與1.0截圖的目標counter一致。
+- Crazy Calzone由Good移至Bad；目前是counter-aligned候選，不是直接卡片tab驗證。全遊戲候選總數仍333，分類改為211 Good + 122 Bad。
