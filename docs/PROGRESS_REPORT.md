@@ -387,3 +387,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 這與Steam官方成就描述及較早玩家指南的「同面三次／反覆點硬幣」說法衝突。先前將藍開關降為低信心支線的結論撤回。
 - QA新增RAT-011（藍開關／紅框投幣）與RAT-012（Steam重啟同步）；RAT-008保留舊路線。兩條觸發方式都未實機驗證，不能定案。
 - QA案例數由88增至90；Research Only維持。
+
+
+## 2026-11-17｜Bistro 磁鐵配方與狀態依賴補充
+- 9Puz 1.0 route明確寫出 Big Magnet：將老鼠交易獲得的 Magnet 放入料理設備烹調；8/10 Steam guide的描述較簡略，仍需用 Bad Recipe counter驗證。
+- Compass = Scissors + country Magnet；建議先讓磁鐵登記至 Going Global，再把磁鐵投入配方。
+- 復刻資料需區分收到磁鐵、登記國家磁鐵、消耗磁鐵製作 Compass / Big Magnet三種狀態。
+- 以上是候選規則補充，未新增遊戲內驗證。
