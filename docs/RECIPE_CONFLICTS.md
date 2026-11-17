@@ -150,7 +150,7 @@ Coioioin trigger conflict: Steam achievement text says the same face must land t
 
 ## Bistro count reconciliation
 
-The directly opened 2026-07-14 Bistro Guide contains 76 Good entries (lines 91-166) and 31 Bad entries (lines 170-200): this is the Early Access baseline, not necessarily the 1.0 final total. The 2026-08-27 update list adds 7 Good + 2 Bad; the 2026-09-10 1.0 player completion report identifies Clutter as another final Bad entry. This 83/34 estimate is superseded by the July 17 comment discoveries below. Current cross-source candidate total: 84 Good / 39 Bad = 123. This remains a derived estimate until a 1.0 cookbook counter is verified.
+The directly opened 2026-07-14 Bistro Guide contains 76 Good entries (lines 91-166) and 31 Bad entries (lines 170-200): this is the Early Access baseline, not necessarily the 1.0 final total. The 2026-08-27 update list adds 7 Good + 2 Bad; the 2026-09-10 1.0 player completion report identifies Clutter as another final Bad entry. This 83/34 estimate is superseded by the July 17 comment discoveries below. Historical cross-source estimate was 84 Good / 39 Bad = 123. This split is superseded by SRC-024's 1.0 screenshot counter target of 83 Good / 40 Bad; Crazy Calzone is moved to Bad based on SRC-050's Bad section, with exact card-tab verification still pending.
 
 Sources:
 - [7/14 Bistro Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
@@ -292,7 +292,7 @@ Developer evidence:
 
 The 2026-07-14 guide's 76 Good / 31 Bad list is not the complete Early Access inventory. Steam discussion comments dated July 17 identify one additional Good recipe and five additional Bad recipes that were missing from the guide's main list:
 
-- Good: Crazy Calzone = Pizza + Pizza Dough.
+- Bad: Crazy Calzone = Pizza + Pizza Dough (SRC-050; reclassified to Bad in the current candidate register using SRC-024 counter alignment).
 - Bad: Breadless Burger = Ground Meat + Cheese + Tomato.
 - Bad: Vampire Defense Kit = Garlic + Wooden Spoon (older comment from July 14 says Garlic + any Pencil; preserve this formula conflict).
 - Bad: Bread and Wine = Wine + Bread.
@@ -304,7 +304,7 @@ Then add the 2026-08-27 update list (7 Good + 2 Bad) and the 1.0 Clutter Bad rec
 - Bad: 31 + 5 + 2 + 1 = 39.
 - Bistro candidate total = 123.
 
-This revises the all-room candidate register to 333 entries: 212 Good + 121 Bad. This is a stronger cross-source estimate, still not an official in-game counter.
+This historical revision produced 333 entries (212 Good + 121 Bad); it is superseded by the 1.0 counter-aligned 211 Good + 122 Bad split.
 
 Sources:
 - [Steam Bistro Guide and July 17 player comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550)
@@ -387,7 +387,7 @@ SRC-017 is confirmed to be a v1.0-titled guide updated 2026-09-08, with legacy v
 | Clutter | **Formula unknown**; Cloth + Wooden Spoon withdrawn | SRC-024 1.0 player walkthrough describes clutter as happening spontaneously, but gives no reproducible input | Test idle/physics-trigger hypothesis; direct combinations remain experiments, not sourced formula |
 | Vampire Defense Kit | Tomato + Wooden Spoon | SRC-050 says Garlic + Wooden Spoon; older comment says Garlic + Pencil | D-level; test all separately |
 | Bread Sticks | Pizza Dough alone | SRC-015 says Pizza Dough + Olive Oil | D-level; test both |
-| Crazy Calzone / Pizza Calzone | Pizza + Wooden Spoon | SRC-015/SRC-050 say Pizza + Pizza Dough | D-level; test both |
+| Crazy Calzone | Pizza + Pizza Dough | SRC-050 lists it in Bad; SRC-024 1.0 counter aligns with Bad classification | Pizza + Wooden Spoon is withdrawn as a sourced candidate; verify actual card tab with BIS-061 |
 | Bad Pastry | Yeast + Bread Dough + Pizza Dough | SRC-015/SRC-050 list Bread Dough + Flour (+/- Pizza) | D-level; test separately |
 | Sorrow Sandwich | Bread + Wooden Spoon | SRC-050 says Bread + Flour | D-level; test both |
 | Risky Rice Pudding | Rice + Wooden Spoon | SRC-050 says Rice + Flour | D-level; test both |
