@@ -710,3 +710,13 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 已從 GitHub 重新抓取原型並以 JavaScript parser 檢查語法，通過；靜態確認 Pointer Events、重力迴圈及 localStorage 程式碼存在。
 - 尚未在真實瀏覽器或手機上執行 PRO-001..009，因此不宣稱互動 QA 通過。
 - 這是低風險互動技術 spike，並未啟用任何未驗證配方，也沒有宣稱重現原作物理係數。
+
+
+## Student Dorm 場景復刻實作（2026-11-17）
+
+- 新增／修正 `prototype/student-dorm.html`：依 Steam 官方公開廚房截圖重新調整上半部連續櫃體、中央分隔、KAYLE／SHANE 標籤位置，補上粉紅 D2 提示紙與牆面裝飾。
+- 保留第一段 Shane 櫃子解鎖互動：反覆點擊 D2 磁磚顯示鑰匙，拖曳鑰匙至紅鎖解鎖。
+- 重要限制：目前點擊次數 6 是原型暫定參數，來源只支持「反覆點擊直到磁磚掉落」，沒有固定次數證據；後續必須以影片／實機畫面校準。
+- 靜態驗收：JavaScript 語法 PASS；連續櫃體、姓名標籤、D2提示紙、Pointer Events 拖曳、鑰匙碰撞解鎖、重設流程等靜態斷言 PASS。
+- 未驗收：尚未取得本版真實瀏覽器截圖，未完成與原版截圖像素並排、滑鼠／觸控實測。不得標記視覺相似度通過。
+- 視覺稽核文件：`docs/STUDENT_DORM_VISUAL_AUDIT.md`。本次只完成場景構圖第二輪修正，不代表 Student Dorm 關卡或正式遊戲完成。
