@@ -477,3 +477,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜SRC-017 1.0指南重新分類後的 QA 對照
 - QA新增RAT-016至RAT-019，以及BIS-041至BIS-047；與先前BIS-027至BIS-040一併納入後，QA共有127個唯一ID。
 - README、Critic與進度報告已同步此數量。這些仍是測試設計，不是實際執行結果。
+
+
+## 2026-11-17｜Critic Gate更新
+- SRC-017恢復為有效的1.0 Bistro/Rat Level候選來源後，Goulash/Tomato Cocktail不再是「無配方」P1 blocker；v1.1+僅保留回歸驗證。
+- Critic P1-06改為「核心QA尚未實際執行」：127個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
