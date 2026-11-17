@@ -23,7 +23,7 @@
 | [CRITIC_REVIEW](docs/CRITIC_REVIEW.md) | 獨立審查與開工 Gate |
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
-| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-053來源登錄與證據層級 |
+| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-054來源登錄與證據層級 |
 | [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
 | [RECIPE_FORMULA_DRAFT](docs/RECIPE_FORMULA_DRAFT.md) | Student Dorm / Cafe 配方公式初稿 |
 | [RECIPE_FORMULA_BISTRO_RAT](docs/RECIPE_FORMULA_BISTRO_RAT.md) | Bistro / Rat Level 配方公式初稿 |
@@ -56,4 +56,12 @@
 5. 333 筆配方的逐筆來源ID、版本、狀態、設備、信心與驗證狀態。
 6. 完整 zh-TW 校對、QA acceptance tests 與 Critic review。
 
-**完成上述研究與 Critic Gate 前，不開始正式實作。**
+## 自動推進與開工判定
+
+- 使用者說「繼續」或要求自動推進時，視為授權在當前工作階段連續進行研究、交叉查證、文件更新、QA補齊及Critic複審；不應每完成一小項就停下來詢問。
+- ChatGPT無法在對話回合結束後自行於背景持續執行；但每次收到延續指示，應從GitHub最新狀態接手，不要求使用者重述背景。
+- 「Ready for CEO Approval」的門檻：核心遊戲循環、場景與解鎖、互動／物理、食譜資料結構、任務／成就、繁中詞彙、錯誤與例外、QA驗收規格均有可執行規格；所有未知項目須明確標記、隔離成可替換資料或列出實機驗證步驟，不得偽裝成已知；Critic不得留有未處置的P1。
+- 不要求把無法從公開來源取得的隱藏數值硬猜出來。若某個未知不阻礙基礎系統開發，必須提出明確的暫定策略及驗證點；若會直接影響核心玩法正確性，則仍列為開工阻塞。
+- 只有達到上述門檻並完成CEO審核後，才開始正式遊戲實作。
+
+**目前仍未達到 Ready for CEO Approval。**
