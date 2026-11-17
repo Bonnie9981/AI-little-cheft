@@ -14,7 +14,10 @@
 - 美術：自行重繪，不直接使用未確認授權的正式遊戲素材。
 - 研究原則：官方／實機證據優先；玩家攻略只作候選，衝突必須保留，不可自行猜定。
 
-## 資料層預覽與驗證\n\n- 本機預覽：在 repository 根目錄執行 `python -m http.server 8000`，開啟 `http://localhost:8000/app/`。\n- 靜態檢查：`python scripts/validate_recipes.py`；單元測試：`python -m unittest discover -s tests`。\n- 目前 333 筆候選已匯入，312 筆有來源候選公式文字；全部維持停用，並非實機驗證。詳見 [資料層實作紀錄](docs/DATA_LAYER_IMPLEMENTATION.md)。\n\n## 研究文件
+## 互動原型與資料層預覽
+
+- 互動原型：在 repository 根目錄執行 `python -m http.server 8000`，開啟 `http://localhost:8000/prototype/`。可用滑鼠或觸控拖曳、投擲素材、放入鍋子（最多3個）、切換示範狀態，並儲存／載入原型場景。此頁是互動技術 spike，重力參數為暫定值，不代表原作物理；未驗證配方不會生成料理。
+- 資料層預覽與驗證\n\n- 本機預覽：在 repository 根目錄執行 `python -m http.server 8000`，開啟 `http://localhost:8000/app/`。\n- 靜態檢查：`python scripts/validate_recipes.py`；單元測試：`python -m unittest discover -s tests`。\n- 目前 333 筆候選已匯入，312 筆有來源候選公式文字；全部維持停用，並非實機驗證。詳見 [資料層實作紀錄](docs/DATA_LAYER_IMPLEMENTATION.md)。\n\n## 研究文件
 
 | 文件 | 用途 |
 |---|---|
