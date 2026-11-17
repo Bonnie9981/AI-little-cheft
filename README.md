@@ -22,7 +22,7 @@
 | [PROGRESS_REPORT](docs/PROGRESS_REPORT.md) | 專案進度匯報 |
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
-| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-030來源登錄與證據層級 |
+| [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-041來源登錄與證據層級 |
 | [RECIPE_INVENTORY](docs/RECIPE_INVENTORY.md) | 四個房間的候選配方名稱與數量 |
 | [RECIPE_FORMULA_DRAFT](docs/RECIPE_FORMULA_DRAFT.md) | Student Dorm / Cafe 配方公式初稿 |
 | [RECIPE_FORMULA_BISTRO_RAT](docs/RECIPE_FORMULA_BISTRO_RAT.md) | Bistro / Rat Level 配方公式初稿 |
@@ -48,10 +48,10 @@
 
 ## 尚未通過的研究 Gate
 
-1. Cafe Level 2 To-Do 的完整列數與所有剩餘任務（目前至少確認4項）。
+1. Cafe Level 2完整To-Do列數與全部任務名稱；已確認「完成8張訂單」是一項任務，另有火災任務線索。
 2. Bistro 七國料理完整名單與老鼠交易順序／獎勵。
 3. Rat Level 三位數密碼、power OFF/ON 與 low/high 對應。
-4. 所有 D 級配方衝突與 1.0 cookbook counter。
+4. 所有 D 級配方衝突、Rat Level密碼與1.0 cookbook counter。
 5. 333 筆配方的來源、版本、狀態、設備、信心與 zh-TW 名稱。
 6. 完整 zh-TW 校對、QA acceptance tests 與 Critic review。
 
