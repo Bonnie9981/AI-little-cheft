@@ -450,3 +450,8 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour取得兩份獨立指南支持；Goulash、Tomato Cocktail仍受官方v1.1修正影響，精確新配方未知。
 - 初審不通過正式全內容開發 Gate。主要阻塞：七國料理／老鼠請求順序、Cafe完整To-Do、Rat密碼與電力映射、逐筆配方來源追溯、D級衝突與實機QA。
 - Research Only維持；Critic初審不是最終審查，待研究資料補齊後再做第二輪。
+
+
+## 2026-11-17｜Rat Level 截圖審查補充
+- 已檢視日文 1.0通關文的Rat Level嵌入截圖，確認場景包含電器罐、控制面板、數字便條區與紅框投幣目標；截圖不足以還原通用三位數密碼或OFF/ON與強弱電力映射。
+- 藍框開關與紅框投幣目標可見，但官方成就條件仍是同面連續三次；操作關係留待實機驗證。
