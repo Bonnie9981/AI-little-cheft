@@ -533,3 +533,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Goulash出現關鍵更正：最初誤寫processed meat，後由玩家更正為 **Normal Meat + Ground Tomato + Wine**；原提問者回覆確認採用。這表示Normal Meat與Ground Meat必須是不同item state，不能以泛稱meat合併。
 - Risotto候選為Rice + Mushroom + Cheese；Focaccia為Bread Dough + Olives + Olive Oil。Focaccia與現有攻略一致；三者仍未有本專案實機驗證紀錄。
 - QA總數仍140個唯一ID，沒有任何測試因這次來源而被宣稱執行；專案維持Research Only。
+
+
+## 2026-11-17｜SRC-056 翻譯版本與配方圖示風險
+- 新增SRC-056：玩家回報Bistro的Tomato Cocktail圖示把Wine誤顯示成Meat，並描述材料為Tomato Sauce + Wine + Olives；這為早期配方圖示誤導提供具體例子。
+- 同一玩家稱Kombucha不含Mushroom，與現有攻略的Mushroom + Yeast衝突。這是玩家反證，不是開發者確認；已將其提升為必須實測的候選，不可直接改成定案。
+- 開發者Leek確認當時新菜名為DeepL暫譯，待文本定稿後再由中文譯者校正。故EA繁中菜名不能直接當作1.0正式用語。
+- 本次未執行遊戲內測試；QA仍140個設計ID。
