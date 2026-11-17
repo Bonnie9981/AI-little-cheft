@@ -204,3 +204,9 @@
 - Bistro: 121/123 rows have formula/action references in the matching Good/Bad section; Crazy Calzone has a source formula but Good/Bad classification conflict; Clutter remains UNMAPPED.
 - Rat Level: 21/21 slot inputs have source references; four retain explicit alternative-input conflicts.
 - Overall: 332/333 candidate rows now have row-level source formula/action references. **None is thereby verified in this project client.** The only unmapped row is Bistro Clutter. The project remains Research Only; all 146 QA IDs are designs, zero executed.
+
+
+## Clutter source correction — SRC-024
+- Re-opened the 1.0 Japanese completion article. It identifies Clutter as a final Bad recipe and its hint suggests spontaneous mess, but provides no reproducible formula.
+- Withdraw the earlier Cloth + Wooden Spoon source attribution. BI-B-034 now has SRC-024 as trigger-hint evidence, formula source remains UNMAPPED, status TRIGGER_HINT_ONLY.
+- Formula/action reference coverage remains 332/333; Clutter is the sole formula-unmapped row. All 146 QA IDs remain unexecuted.
