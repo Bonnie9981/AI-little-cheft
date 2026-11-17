@@ -639,7 +639,7 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 
 ## 2026-11-17｜Student Dorm任務清單截圖補證（SRC-065）
 - SRC-065為Pixel Questing 2026/10/09攻略；其To-Do截圖可讀出六項：Cook pasta dishes (0/8)、Borrow Shane's cheese、Play all cassettes (0/3)、Make coffee、Water the basil、Cook new dishes (0/40)。三個計數直接見於截圖。
-- 攻略表示需完成全部Good recipes與To-Do才解鎖Chapter 2。已補入PROGRESSION_MODEL並新增SD-017；這是第三方攻略證據，尚非本專案實測。
+- 攻略表示需完成全部Good recipes與To-Do才解鎖Chapter 2。已補入PROGRESSION_MODEL並新增STD-017；這是第三方攻略證據，尚非本專案實測。
 - QA最新154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。來源登錄至SRC-065。
 - 目前可見明確的Student Dorm任務列，但Cafe 1.0完整To-Do仍沒有完整截圖；不得把EA歷史任務拼成最終版本。
 
