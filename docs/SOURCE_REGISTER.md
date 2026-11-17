@@ -146,3 +146,9 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-051 | [Steam Community Discussion — Please Help with level 2!!; developer Crazydvd reply](https://steamcommunity.com/app/3376500/discussions/0/581680031271570250/) | 2026-08-19 | Developer confirms Cafe rat unlock sequence: after dialing the phone number, player must pick up the phone and wait until the call/dialogue finishes before leaving the phone; only then should Avocado and Lettuce spawn. | Direct developer clarification for a progression trigger. The thread shows reported numbers 21931 and 27937, but does not establish either as universal canonical number; do not hardcode a number from this thread without matching the in-game note for the relevant build.
+
+
+## 2026-11-17｜審查補註：Bistro 配方交叉核對
+- 直接開啟 Steam Bistro Guide（SRC-015）後，逐行核對到 Pizza Dough = Olive Oil + Yeast + Flour；9Puz 1.0 路線亦獨立確認相同三材料依賴。此項可列為 B 級候選，但仍非本專案實機驗證。
+- 同一指南列 Goulash = Meat + Ground Tomato + Wine、Tomato Cocktail = Ground Tomato + Olives + Wine；由於官方 v1.1 只公告「修正食譜書」，沒有公開新配方，兩項仍是版本敏感未定案，不可把舊指南當成 v1.1 的正確配方。
+- Bistro 七國菜：目前只有日文作者直接文字說明 Japan = Mochi；其餘六道只在圖片／遊戲內圖示層面出現，未取得可讀文字證據。不得從菜名或真實國籍自行推定。
