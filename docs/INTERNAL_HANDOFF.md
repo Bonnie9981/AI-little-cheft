@@ -233,7 +233,7 @@ Nothing Nowhere 的攻略線索為製作 VOID BAGEL（可能需要三個 Bagels�
 - 11/9 guide的 Cafe 41 Bad list包含 Paper Cup、Terrible Bagel、Ew Panini、Is It Cake、Spilled Coffee、Mug Boy、Bad Milkshake、Specialty Espresso、Flavored Coffee、Flat Croissant、Terrible Spread、Cup Tower、Disaster Dish、Don't Donut、Painting、Painted Mug、Awful Tea、Hot Air、Paper Plane、Menu、Dollar、Healthy Cake、Food Drawing、Thermos、Breadception、Paper Cup Phone、Healthy Donut、Tea Strainer、Cups Game、Chocolate Coins、Mended Mug、Poison、Strawberry Horror、Counterfeit Money、Heart Attack、Drawing、Edible Money、Paper Trash、Security Card、Burnt Panini、Void Bagel。
 - Pixel Questing 11/9 guide說明：缺料 checklist 位於 microwave 左側；老鼠由 Blue Teapot 出現，給 Cheese 取得 torn paper；號碼 21931；撥號後必須拿起 handset 完成通話才會訂購 Avocado/Lettuce（開發者於 8/19 Steam討論確認）。refs：turn513227search0、turn408211search6。
 - Cafe order slips 在 microwave 右側，以圖像顯示料理；製作對應料理完成訂單取得 Coin；Coin 可解鎖部分 Bad Recipes。ref：turn513227search0。
-- Cafe v3.0ea 新增 8 個 ToDo 任務項、18 道食譜、espresso machine、25 個電話號碼、訂單與 tip coins；日文玩家確認 25 號碼逐一撥打後多為音效／語音彩蛋。refs：turn810315search5、turn194117search0。
+- Cafe v3.0ea 新增一項 To-Do「complete 8 orders」（完成8張訂單）、18道食譜、espresso machine、25個電話號碼、訂單與tip coins；日文玩家確認25號碼逐一撥打後多為音效／語音彩蛋。refs：turn810315search5、turn194117search0。
 - 11/9指南的 Tiramisu、Canned Coffee 等配方與官方後續更新不一致，官方 v4.1ea 明確允許 Canned Coffee 用 Coin；8/10 guide和9/2 9Puz更支持 Espresso cup 狀態。release 資料優先保留 8/10 + official patch evidence，11/9 guide作為衝突候選。refs：turn227999search1、turn302948search14、turn749693search1。
 
 
