@@ -146,7 +146,9 @@ The seven country dishes are not fully identified; BIS-011 remains blocked until
 | RAT-005 | Test low power | Five Good slot candidates resolve |
 | RAT-006 | Test high power | Four Good slot candidates resolve |
 | RAT-007 | Test every Bad slot | Twelve Bad candidates are reconciled |
-| RAT-008 | Click coin repeatedly until same face lands three times consecutively | Coioioin triggers, matching official achievement wording |
+| RAT-008 | Click coin repeatedly until same face lands three times consecutively | Legacy/official-description route is tested and result recorded |
+| RAT-009 | Press blue-frame switch, then toss coin into red-frame target | Japanese 1.0 first-hand route is tested; record in-game unlock separately from Steam unlock |
+| RAT-010 | After in-game Coioioin unlock, close and relaunch game / Steam client | Verify delayed Steam achievement synchronization without confusing it with the gameplay trigger |
 | RAT-009 | Complete all Rat recipes | Little Rat / Rat Level completion triggers |
 
 The numeric code is unknown from readable text sources. Do not invent a code. Eggshell/Leaf and Egg/Pencil/Pasta slot variants must be resolved before RAT-005 through RAT-007 pass.
@@ -265,3 +267,9 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - If the fire row remains unchecked, repeat the fire interaction once and verify whether the task registers; record this as a bug-compatibility case rather than a normal success path.
 - After extinguishing the fire, complete remaining orders and verify the Level 3 unlock gate.
 
+
+
+## Coioioin evidence conflict (2026-11-17)
+- Steam achievement text says same face three times consecutively; an older Steam discussion says click the coin repeatedly.
+- A Japanese 1.0 first-hand walkthrough explicitly says this is not merely random same-face repetition: press the blue-frame switch, then throw the coin into the red-frame area. The author also reports the Steam achievement appeared only after closing/relaunching the game.
+- QA must test both interaction routes and keep gameplay unlock state separate from Steam sync. Do not hardcode either route as final until the interaction is observed.
