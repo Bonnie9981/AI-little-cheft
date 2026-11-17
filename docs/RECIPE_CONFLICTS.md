@@ -431,3 +431,16 @@ Steam「Assistance with Level 3」討論串（76則留言）補足三道常卡�
 **重要修正：** Goulash 不是 Ground Meat + Ground Tomato + Wine。若配方系統只用「Meat」而不區分 Normal Meat / Ground Meat，會把 Goulash 與 Meatloaf 等加工肉配方混淆。RecipeConditions 必須引用明確 item_state，而不能用模糊的 meat 類別。
 
 來源：SRC-055，Steam Community「Assistance with Level 3」，2026-07-12，留言 #1、#3、#5、#6。
+
+
+## SRC-056｜Bistro 食譜圖示錯誤與翻譯暫譯證據（2026-11-17）
+
+Steam討論「Level 3 BUG + 中文翻譯勘誤」包含玩家對配方圖示與菜名的回報，開發者Leek於7月14日回覆：當時所有新菜名翻譯只是暫時版本，使用DeepL，待文本定稿後會由中文譯者校正。這是重要版本限制：EA期間的繁中名稱不可直接視為1.0正式在地化字串。
+
+| 項目 | 新證據 | 目前處理 |
+|---|---|---|
+| Tomato Cocktail | 玩家指出配方圖示把「Wine」顯示成「Meat」，並將配方描述為 Tomato Sauce + Wine + Olives。 | 與 Ground Tomato + Wine + Olives 候選相符；可解釋早期圖示誤導。Wine / Red Wine仍須區分測試。 |
+| Kombucha | 同一玩家明確聲稱「實際上沒有蘑菇」，與多份攻略的 Mushroom + Yeast 相衝突。 | 不視為開發者確認；升級為明確反證候選，必須測試 Yeast 單獨、Yeast + Mushroom及其他候選，不可沿用Mushroom+Yeast作定案。 |
+| 繁中菜名 | 開發者確認當時新菜名為DeepL暫譯，之後會人工校正。 | glossary需標註EA暫譯來源，不可直接複製成正式1.0 zh-TW字串；逐項核對最終UI。 |
+
+來源：SRC-056，留言主文及開發者Leek回覆。
