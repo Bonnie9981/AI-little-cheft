@@ -3,7 +3,7 @@
 Updated: 2026-11-17  
 Status: candidate formulas from community guides and player reports; not verified in-game. Use docs/RECIPE_CONFLICTS.md for unresolved variants. Rat Level entries are slot-based because the recipe labels are alien symbols.
 
-## Bistro — 84 Good (76 listed baseline + 1 July-discovered + 7 post-launch additions)
+## Bistro — 83 Good (counter-aligned 1.0 target; candidate formulas)
 
 Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550); [Steam complete guide with 2026-08-27 additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352); [1.0 completion report, 2026-09-10](https://note.com/utsukinoel/n/n2734d08070ca).
 
@@ -54,7 +54,6 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Pumpkin Fries | Pumpkin + Olive Oil |
 | Meatloaf | Meat + Ground Meat |
 | Pizza | Pizza Dough + Ground Tomato + Cheese |
-| Crazy Calzone | Pizza + Pizza Dough (SRC-017 v1.0 guide candidate: Pizza + Wooden Spoon; conflict) |
 | Tomato Cocktail | Ground Tomato + Olives + Wine / Red Wine (SRC-017 author comment identifies Olives + Ground Tomato + Red Wine as the corrected 1.0 condition) |
 | Italian Rice Balls | Rice + Cheese + Olive Oil |
 | Schnitzel | Meat + Flour + Olive Oil |
@@ -94,7 +93,7 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Minced Garlic | Garlic through Mixer, then cooking pot |
 | Mini Pizzas | Pizza + Scissors |
 
-## Bistro — 39 Bad (31 listed baseline + 5 July-discovered + 2 post-launch additions + Clutter)
+## Bistro — 40 Bad (counter-aligned 1.0 target; candidate formulas)
 
 | Recipe | Candidate formula / action |
 |---|---|
@@ -136,7 +135,8 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Risky Rice Pudding | Rice + Flour (SRC-017 v1.0 guide candidate: Rice + Wooden Spoon; conflict) |
 | Big Magnet | Candidate: cook one Magnet received from the rat trade in the cooking station; older Steam guide shorthand says “Magnet from mouse rewards” |
 | Boo Tomato | Tomato |
-| Clutter | Cloth + Wooden Spoon (SRC-017 1.0 candidate); spontaneous-mess clue from 1.0 walkthrough remains an alternate interpretation |
+| Crazy Calzone | Pizza + Pizza Dough (SRC-050 Bad Recipes; SRC-024 1.0 counters align with 83 Good / 40 Bad; exact card tab still needs direct verification) |
+| Clutter | Formula unknown; SRC-024 1.0 hint suggests spontaneous mess; do not use Cloth + Wooden Spoon as a sourced formula |
 
 ## Rat Level — 9 Good slots
 
@@ -262,3 +262,8 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 - SRC-050 full guide annotates Olives as a mouse gift for Tomato Cheese Appetizer, Apple as a mouse gift for Baked Apple, and Garlic as a mouse gift used by Pumpkin Soup. Treat these as confirmed mouse-gated ingredients, but not as a confirmed sequential reward order.
 - Exact request-card order and the mapping of each request dish to Tomato / Apple / Garlic / Olives / magnets remain unresolved. Do not turn the item annotations into an assumed sequence.
 - Mochi remains a state conflict: SRC-050 main list says whole Rice, while its Aug 28 player comment says grind Rice first; SRC-017 says Ground Rice. BIS-048 must compare whole and ground states.
+
+
+## 1.0 counter reconciliation (SRC-024)
+
+The 2026-09-10 1.0 save screenshot shows Bistro targets of 83 Good / 40 Bad (current progress 76/83 and 37/40). The previous derived split of 84/39 is superseded. Crazy Calzone is moved to the Bad candidate list because SRC-050 lists it under Bad Recipes and that move makes the candidate totals match the 1.0 screenshot. This is a strong counter-aligned classification, not direct visual proof of the Crazy Calzone card tab; retain BIS-061 until a direct in-game test confirms it.
