@@ -867,3 +867,8 @@
 - 掃描README、Progression、QA、Progress Report、Achievement Matrix與Interaction Spec後，發現舊的進度段落仍殘留「新增8個Cafe To-Do」錯誤句，以及QA將藍開關寫成主要測試。
 - 已改為：官方v3.0ea新增一項「完成8張訂單」；Cafe完整To-Do列數未知。Coioioin主測試為點擊硬幣連續三次同面，藍開關僅保留備援研究。
 - 此次是文件一致性修正，沒有新增遊戲內實測結果。
+
+
+## 2026-11-17｜Internal handoff / conflict register同步Coioioin更正
+- 全repo稽核找到INTERNAL_HANDOFF與RECIPE_CONFLICTS仍將藍開關寫成主要Coioioin條件。
+- 已修正為Steam官方成就敘述與多份攻略共同支持的「點擊爐旁硬幣，同一面連續三次」；藍開關／紅色目標區保留為低信心線索。
