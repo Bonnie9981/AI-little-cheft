@@ -619,3 +619,10 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 新衝突：SRC-050稱七國磁鐵由老鼠在請求料理後給予；SRC-057則把rat trade（換特殊食材）與七道國際料理（磁鐵附到抽油煙機）分開；SRC-054開發者回覆只確認交易換食材。已在RECIPE_CONFLICTS記錄，新增BIS-062逐項分離測試。
 - QA最新148 unique（REC14 / PHY15 / STD16 / CAF22 / BIS62 / RAT18），0 executed。333筆候選中332筆有來源公式／動作引用，Clutter僅trigger hint；來源引用不等於驗證。
 - P1仍包括：老鼠四次請求／獎勵對照、七國磁鐵觸發與六國菜名、Cafe最終To-Do、Rat Level數字密碼與電力映射、逐筆配方實測與QA執行。Critic FAIL；Research Only；CEO批准前禁止正式實作。
+
+
+## 2026-11-17｜Cafe電話／火災與Rat鍵盤版本更新
+- SRC-060開發者明確確認Cafe電話需撥號後拿起話筒、等待對方講完再放下，酪梨與生菜才生成。CAF-023新增此流程測試。
+- SRC-061補足Cafe火災復原：警報玻璃連點三次打破，再按露出的控制鈕。CAF-024將復原與Aw That's Hot成就分開測試。
+- SRC-059官方v1.1擴大Rat Level密碼鎖點擊區域。新增RAT-021作版本命中區回歸測試。
+- QA最新151 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT19），0 executed。Research Only / Critic FAIL。
