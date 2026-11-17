@@ -589,3 +589,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## Clutter correction (SRC-024)
 - The 1.0 Japanese walkthrough identifies Clutter as a final Bad recipe and quotes a hint suggesting clutter happens spontaneously; it gives no formula.
 - Withdraw Cloth + Wooden Spoon as a sourced recipe. BI-B-034 references SRC-024 for the trigger hint only; formula remains UNMAPPED / TRIGGER_HINT_ONLY. BIS-018 and BIS-040 must test the spontaneous/physics trigger.
+
+
+## 2026-11-17｜Bistro 1.0 counter correction
+- SRC-024 1.0 screenshots show Bistro target counters 83 Good / 40 Bad (save progress 76/83 and 37/40).
+- SRC-050 places Crazy Calzone under Bad Recipes. Reclassifying it from Good to Bad makes the Bistro inventory 83/40, matching the screenshot. It is marked counter-aligned candidate, not direct card-tab verified; keep BIS-061.
+- Global candidate split is now 211 Good + 122 Bad = 333. Do not keep using old 212/121 or 84/39 counts as current.
