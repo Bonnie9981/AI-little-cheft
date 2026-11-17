@@ -53,7 +53,7 @@
 - Goulash、Tomato Cocktail 的 1.0 輸入候選已有 SRC-017 支持；v1.1 官方修正後的現行行為仍需回歸測試，但不再阻止建立候選資料。
 
 - Coioioin 有「連續同面三次」與藍框開關／紅框目標兩種玩家描述；官方成就文字支持前者，需以 1.0+ 實機為準。
-- QA 的 127 項是規格案例，尚無任何一項可宣稱已實際執行；需要執行紀錄、截圖／影片、版本號與 pass/fail。
+- QA 的 129 項是規格案例，尚無任何一項可宣稱已實際執行；需要執行紀錄、截圖／影片、版本號與 pass/fail。
 - zh-TW 字典目前是候選版；仍需母語校對、菜名專名核對、按鈕長度與窄螢幕溢位檢查。
 - Source Register 有相同 URL 被多個 SRC ID 重複引用的情況；後續需區分「來源文件」與「來源用途／claim」，避免重複計算獨立證據。
 - README 的來源範圍曾落後至 SRC-046，已修正為 SRC-051；Cafe 測試編號 CAFE-027 已修正為 CAF-017。
@@ -121,3 +121,9 @@
 - The 9Puz route adds a practical dependency order: empty mixer container → Scissors; Scissors expose hidden mixer switch; Scissors cut the hanging ingredient rope; rat requests yield special ingredients and seven country magnets; five wine bottles must be sorted. It does not list the individual rat request dishes or reward order.
 - Cafe evidence: the 1.0 Japanese walkthrough confirms the Level 2 To-Do includes “Set the kitchen on fire”; Burnt Panini must be cooked again to trigger the fire. It also confirms the task list is a progression gate to Bistro. It still does not provide the complete Cafe To-Do list, so P1-03 remains open.
 - QA count is 129 unique IDs (BIS-048/049 included); all remain test designs, not executed tests. Source register currently reaches SRC-052.
+
+
+## Round 1 Addendum — direct inspection of the 1.0 Steam recipe guide (2026-11-17)
+- Re-opened SRC-050's complete Steam guide page (not just the search excerpt). Its Bistro section explicitly lists Mochi = Rice, Tomato Cheese Appetizer = Tomato + Cheese + Olives, Baked Apple = Apple (mouse gift), Garlic Powder = Garlic, and several other mouse-gated items. It lists the recipe candidates and says each country magnet comes from the mouse after making requested recipes, but it does not label the six non-Japan dishes with their countries or give the rat's sequential note/reward ledger.
+- Its achievement notes say Going Global requires all seven country magnets and Best Friends requires completing the mouse's requested trades. This independently supports the distinction between recipe discovery, magnet collection, and the Best Friends trade chain; it does not clear P1-01 or P1-02.
+- QA count is verified from the actual table: 129 rows with 129 unique IDs. The older 127 count in this review has been corrected. All 129 remain unexecuted designs.
