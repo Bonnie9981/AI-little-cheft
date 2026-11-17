@@ -39,3 +39,17 @@ The structural check was executed against the JSON fetched from the committed `m
 ## Safety rule
 
 Never promote a formula to executable status merely because it appears in a walkthrough. A future normalization pass must map each ingredient to an item key and state, record appliance/conditions/version/evidence, resolve or preserve conflicts, and pass QA before enabling it.
+
+
+## Follow-up implementation: lossless formula variants
+
+Updated: 2026-11-17
+
+- Matched **312 / 312** available candidate formula rows to their exact source document and Markdown line locator.
+- Added `sourceEvidence`, `formulaCandidates`, and `normalization` fields to each matched recipe.
+- Split explicit `OR` alternatives into separate raw candidate variants where present; preserved each variant's original wording.
+- Marked **97** records for manual review due to alternatives, conflicts, actions, or ambiguous conditions. The other **215** have simple text splits only; they are not declared semantically normalized.
+- Updated the browser UI to display formula text, source links, and review state.
+- Updated JSON Schema and static validator to cover these fields and source-locator requirements.
+- Re-fetched the committed dataset and checked 333 rows, 333 unique IDs, 312 source locators, 312 formula candidate sets, and all records disabled. These checks passed.
+- The Python validator itself has not yet been run in a Python runtime; the above are direct structural checks against GitHub's committed JSON.
