@@ -128,7 +128,7 @@ Confirmed Cafe To-Do candidates: complete 8 orders (official v3.0ea) and set the
 | BIS-012 | Sort five wines by label height | Wine About It |
 | BIS-013 | Cut hanging ropes | Cut The Rope |
 | BIS-014 | Repeatedly use Mixer | Messing Around |
-| BIS-015 | Unlock all 84 Good / 39 Bad candidates | Compare with verified 1.0 cookbook counter |
+| BIS-015 | Unlock all 83 Good / 40 Bad candidates | Compare with verified 1.0 cookbook counter |
 | BIS-016 | Complete Bistro “Clean the kitchen” task using Cloth | To-Do row updates; clean state persists |
 | BIS-017 | Complete Bistro “Trade with the rat” task by offering Cheese and completing the first request | To-Do row updates; Tomato reward and next drawing appear |
 | BIS-018 | Investigate Clutter without assuming a recipe formula | Record exact interaction / inputs that unlock it; if unavailable, leave trigger unknown and block recipe implementation |
