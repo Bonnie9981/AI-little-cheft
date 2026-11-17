@@ -985,3 +985,10 @@
 - 日文1.0第一手攻略：https://note.com/utsukinoel/n/n2734d08070ca
 - Steam官方成就：https://steamcommunity.com/stats/3376500/achievements
 - Steam玩家討論：https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/
+
+
+## 2026-11-17｜Bistro Magnet／Compass依賴補充
+- 9Puz 1.0 route指出 Big Magnet 需要把老鼠交易取得的 Magnet 放進料理設備烹調；8/10 Steam guide只簡寫為「Magnet from mouse rewards」，未說清是否要再烹調。
+- Compass = Scissors + 任一 country Magnet；9Puz提醒先確認該磁鐵已登記到 Going Global，再製作 Compass。
+- 因此將 `magnet_inventory`、`country_magnet_registered`、`big_magnet_recipe` 分成不同狀態，避免把收到獎勵直接視為食譜已完成。
+- Big Magnet 仍是候選公式，待實機 cookbook counter 驗證。
