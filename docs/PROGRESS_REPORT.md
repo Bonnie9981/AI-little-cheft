@@ -324,3 +324,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 1.0路線明確要求完成 Cafe To-Do 才能進 Bistro；不能把火災單獨視為完整條件。
 - Coioioin Steam成就說明及兩則玩家回報支持「同一面連續三次」；另有藍色開關／紅色目標區說法，列為待核對的額外條件，不先寫死。
 - 來源：官方 v5.1ea更新紀錄、Steam成就頁、Steam coin discussion、9Puz 1.0 route。
+
+
+## 2026-11-17｜Cafe To-Do 數量再校正（重要更正）
+- 回查 SteamDB 保存的官方 v3.0ea patch notes（2026-04-23），原文只有「New Todo: complete 8 orders」：這是**一項任務，目標為完成8張訂單**，不是新增8個任務。
+- v5.1ea（2026-07-14）另外要求完成 Level 2 To-Do list 才能進 Level 3。
+- 1.0攻略確認火災互動也是Level 2 To-Do；清理廚房與老鼠交易屬必要進度互動，但目前未能證明它們在UI中各自是獨立To-Do。
+- 已撤回「Cafe共有8個To-Do、已知4個」的錯誤說法。完整任務列數與其他任務名稱仍待找回。
+- 來源：SteamDB v3.0ea patch notes、官方 v5.1ea、9Puz 1.0 completion route。
