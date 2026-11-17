@@ -273,3 +273,9 @@
 - SRC-067 independently documents the Rat Level interaction sequence and cold/hot candidate ordering. It agrees with SRC-018 on Cheese+Eggshell for the fifth cold Good candidate, while SRC-066 instead lists Cheese+Leaf. It also separates Pasta alone and Pasta+Paperclip into two Bad slots, unlike other guides' combined shorthand.
 - Added RAT-024, RAT-025 and RAT-026. QA now 164 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25), zero executed.
 - Exact planter code remains unreadable/unpublished in all located text sources. Rat Level slot conflicts remain open; do not infer or hardcode the code. Round 1 remains FAIL / Research Only.
+
+
+## Round 1 Addendum — SRC-064 Early Access Bistro cross-check (2026-11-17)
+- Added the July 14 J_Moon Steam Bistro guide as SRC-064. It is a distinct EA-era source and provides historical alternatives for Tomato Cheese Appetizer, Apple Mochi, Sake, Mushroom Soup, Pumpkin Soup and Meatballs.
+- Its pre-1.0 date is essential: overlapping formulas with SRC-066 do not automatically prove the final 1.0 state, and conflicts with later guides remain test requirements. RECIPE_CONFLICTS now labels this source as historical EA evidence.
+- QA remains 164 unique designs (REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25), zero executed. No P1 is closed by this source.
