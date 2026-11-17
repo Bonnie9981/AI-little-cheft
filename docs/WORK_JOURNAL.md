@@ -820,3 +820,26 @@
 - 專查Cafe其餘四項To-Do的名稱與觸發步驟。
 - 找到Bistro七國料理圖像／完整鼠交易清單。
 - 逐項核對333候選配方的公式與狀態，尤其Bistro與Rat Level。
+
+
+## 2026-11-17｜撤回Cafe「八項To-Do」錯誤推論
+
+**觀察**
+- SteamDB保存的官方 v3.0ea patch notes明確寫的是「New Todo: complete 8 orders」。
+- 這句話表示新增一個任務，其目標是完成8張訂單；不能解讀成Cafe有8個任務。
+- v5.1ea要求完成Level 2 To-Do list才可進Level 3，但沒有在該條更新紀錄列出完整任務名稱。
+- 1.0攻略可確認火災互動是Level 2 To-Do；清理廚房與老鼠交易是必要進度互動，但UI任務歸屬尚不確定。
+
+**行動**
+- 撤回「8個Cafe To-Do entries、其中4項已知」的前一版說法。
+- 改為：明確確認一項「Complete 8 orders」；火災任務由1.0攻略支持；其他清理、老鼠、電話等先當進度互動，不擅自歸類。
+- 更新PROGRESSION_MODEL與QA_TEST_PLAN。
+
+**判斷**
+- 這個更正很重要：復刻不能把錯誤的任務數量做成硬編碼。
+- Level 3解鎖依賴完整Cafe To-Do，但完整清單目前仍未取得。
+
+**下一步**
+- 搜尋Cafe 1.0實際To-Do面板的完整畫面／錄影。
+- 找出Bistro七國料理與老鼠交易完整順序。
+- 完成Rat Level電力與配方衝突的證據分級。
