@@ -316,3 +316,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增 docs/ZH_TW_RECIPE_TRANSLATIONS.md，完成312筆命名配方的台灣繁中候選譯名。
 - Rat Level 21個符號槽位保留slot標示，不自行命名。
 - 翻譯覆蓋已完整；雙關、罕見料理、畫面長度與母語校對仍待完成。
+
+
+## 2026-11-17｜Cafe To-Do 與 Coioioin 證據校正
+- 官方 v3.0ea的正確解讀是 Level 2新增 **8個 To-Do entries**；「完成8張訂單」只是其中一項，不是8個獨立任務。
+- 目前能具體命名的任務候選：清理廚房、Blue Teapot老鼠交易、完成8張訂單、讓廚房起火；其餘4項仍待找回。
+- 1.0路線明確要求完成 Cafe To-Do 才能進 Bistro；不能把火災單獨視為完整條件。
+- Coioioin Steam成就說明及兩則玩家回報支持「同一面連續三次」；另有藍色開關／紅色目標區說法，列為待核對的額外條件，不先寫死。
+- 來源：官方 v5.1ea更新紀錄、Steam成就頁、Steam coin discussion、9Puz 1.0 route。
