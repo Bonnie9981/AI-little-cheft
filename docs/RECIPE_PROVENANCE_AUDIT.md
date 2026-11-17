@@ -6,15 +6,15 @@ Status: **Audit baseline created; row-level formula provenance is NOT complete.*
 
 ## Audit result
 
-The 333-name candidate inventory can be mapped to the source families below, but the existing inventory does not preserve a unique source citation and formula-evidence chain for every individual recipe. This file makes that gap explicit instead of implying that a room-level guide citation verifies every formula.
+The 333-name candidate inventory now has row-level source formula/action references for 332 rows. The remaining Clutter candidate is still unmapped. Source references establish that a guide lists a formula or action; they do not establish correctness or in-game verification. Conflicted classifications and slot alternatives remain explicitly flagged.
 
 | Room | Good | Bad | Total | Name-list source family | Formula provenance |
 |---|---:|---:|---:|---|---|
-| Student Dorm | 48 | 29 | 77 | SRC-019 | Not individually mapped |
-| Cafe Job | 71 | 41 | 112 | SRC-020 | Not individually mapped |
-| Bistro | 84 | 39 | 123 | SRC-015, SRC-016, SRC-018, SRC-038, SRC-050 | Not individually mapped; many conflicts tracked in RECIPE_CONFLICTS.md |
-| Rat Level | 9 | 12 | 21 | SRC-017, SRC-050, SRC-052 | Slot candidates cross-checked; not in-game verified |
-| **Total** | **212** | **121** | **333** | — | **Not implementation-ready** |
+| Student Dorm | 48 | 29 | 77 | SRC-019 | 77 rows source-listed; not in-game verified |
+| Cafe Job | 71 | 41 | 112 | SRC-020 | 112 rows source-listed; duplicate Coffee Cake entry deduplicated; not in-game verified |
+| Bistro | 84 | 39 | 123 | SRC-015, SRC-016, SRC-018, SRC-038, SRC-050 | 121 source-listed; 1 classification conflict; 1 unmapped (Clutter) |
+| Rat Level | 9 | 12 | 21 | SRC-017, SRC-050, SRC-052 | 21 slot inputs source-listed; four slots retain explicit candidate conflicts; not in-game verified |
+| **Total** | **212** | **121** | **333** | — | **332 rows have source formula/action references; Clutter remains unmapped; none are in-game verified** |
 
 Name source IDs identify the source family from which a candidate name/list was transcribed or reconciled. They do not mean the formula is confirmed by that source. Formula source IDs are deliberately UNMAPPED until an exact per-recipe formula citation is assigned. Do not mark a formula verified based on a room-level source alone.
 
@@ -210,7 +210,7 @@ Name source IDs identify the source family from which a candidate name/list was 
 | CA-B-038 | Cafe Job | Bad | Paper Trash | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
 | CA-B-039 | Cafe Job | Bad | Security Card | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
 | CA-B-040 | Cafe Job | Bad | Burnt Panini | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
-| CA-B-041 | Cafe Job | Bad | Void Bagel | SRC-020 | UNMAPPED | NOT_AUDITED |
+| CA-B-041 | Cafe Job | Bad | Void Bagel | SRC-020 | SRC-020 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-001 | Bistro | Good | Yeast | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-002 | Bistro | Good | Flat Bread | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-G-003 | Bistro | Good | Salami | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
@@ -334,27 +334,27 @@ Name source IDs identify the source family from which a candidate name/list was 
 | BI-B-037 | Bistro | Bad | Bread and Wine | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-038 | Bistro | Bad | Sorrow Sandwich | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
 | BI-B-039 | Bistro | Bad | Risky Rice Pudding | SRC-015; SRC-016; SRC-018; SRC-038; SRC-050 | SRC-050 | SOURCE_LISTED_NOT_VERIFIED |
-| RL-G-001 | Rat Level | Good | Low/OFF #1: Cheese | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-002 | Rat Level | Good | Low/OFF #2: Cheese + Cheese | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-003 | Rat Level | Good | Low/OFF #3: Cheese + Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-004 | Rat Level | Good | Low/OFF #4: Cheese + Pencil | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-005 | Rat Level | Good | Low/OFF #5: Cheese + Eggshell OR Leaf (conflict) | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-006 | Rat Level | Good | High/ON #1: Cheese | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-007 | Rat Level | Good | High/ON #2: Cheese + Cheese | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-008 | Rat Level | Good | High/ON #3: Cheese + Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-G-009 | Rat Level | Good | High/ON #4: Cheese + Pencil | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-001 | Rat Level | Bad | Empty cooker (low/off or high/on; test both) | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-002 | Rat Level | Bad | Leaf | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-003 | Rat Level | Bad | Paperclip + Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-004 | Rat Level | Bad | Egg + Pencil OR Eggshell + Pencil (conflict) | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-005 | Rat Level | Bad | Leaf + Pencil | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-006 | Rat Level | Bad | Paperclip + Pasta | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-007 | Rat Level | Bad | Eggshell + Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-008 | Rat Level | Bad | Paperclip | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-009 | Rat Level | Bad | Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-010 | Rat Level | Bad | Eggshell | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-011 | Rat Level | Bad | Pencil | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
-| RL-B-012 | Rat Level | Bad | Pencil + Paper | SRC-017; SRC-050; SRC-052 | UNMAPPED | NOT_AUDITED |
+| RL-G-001 | Rat Level | Good | Low/OFF #1: Cheese | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-002 | Rat Level | Good | Low/OFF #2: Cheese + Cheese | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-003 | Rat Level | Good | Low/OFF #3: Cheese + Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-004 | Rat Level | Good | Low/OFF #4: Cheese + Pencil | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-005 | Rat Level | Good | Low/OFF #5: Cheese + Eggshell OR Leaf (conflict) | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | CONFLICTED |
+| RL-G-006 | Rat Level | Good | High/ON #1: Cheese | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-007 | Rat Level | Good | High/ON #2: Cheese + Cheese | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-008 | Rat Level | Good | High/ON #3: Cheese + Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-G-009 | Rat Level | Good | High/ON #4: Cheese + Pencil | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-001 | Rat Level | Bad | Empty cooker (low/off or high/on; test both) | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-002 | Rat Level | Bad | Leaf | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-003 | Rat Level | Bad | Paperclip + Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-004 | Rat Level | Bad | Egg + Pencil OR Eggshell + Pencil (conflict) | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | CONFLICTED |
+| RL-B-005 | Rat Level | Bad | Leaf + Pencil | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-006 | Rat Level | Bad | Paperclip + Pasta | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | CONFLICTED |
+| RL-B-007 | Rat Level | Bad | Eggshell + Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | CONFLICTED |
+| RL-B-008 | Rat Level | Bad | Paperclip | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-009 | Rat Level | Bad | Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-010 | Rat Level | Bad | Eggshell | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-011 | Rat Level | Bad | Pencil | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
+| RL-B-012 | Rat Level | Bad | Pencil + Paper | SRC-017; SRC-050; SRC-052 | SRC-017; SRC-050; SRC-052 | SOURCE_LISTED_NOT_VERIFIED |
 
 ## Bistro source mapping pass — SRC-050
 
@@ -365,6 +365,10 @@ Important source boundary: SRC-050 is a community guide, its author warns some f
 ## Student Dorm / Cafe source mapping pass — SRC-019 / SRC-020
 
 A row-level name/formula pass was completed against the directly opened Pixel Questing chapter guides. **Student Dorm and Cafe candidate rows are now mapped to SRC-019 / SRC-020 wherever the guide explicitly lists a formula or interaction.** These statuses mean the source lists the candidate; they do not mean this project has reproduced the result in-game. The Cafe guide lists Coffee Cake twice in its Good Recipes numbering; the duplicate is treated as one unique candidate, not two recipes. Version, item-state, appliance, and cross-source conflicts remain separate validation work.
+
+## Rat Level source mapping pass — SRC-017 / SRC-050 / SRC-052
+
+All 21 Rat Level slots now have source references for their listed input combinations. Four rows are explicitly marked CONFLICTED because the sources disagree over Eggshell vs Leaf, Egg vs Eggshell, Paperclip + Pasta vs Pasta alone, or Eggshell + Paper vs Pasta + Paper. These are not resolved by choosing a majority without a live counter test.
 
 ## Completion criteria for this audit
 
