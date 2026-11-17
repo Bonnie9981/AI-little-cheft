@@ -206,3 +206,18 @@ The numeric code itself is not present in the readable sources. Do not hardcode 
 - Compass uses Scissors + any country Magnet, but 9Puz advises doing this only after that magnet has registered for Going Global. Model `magnet_registered` as a progression precondition, not just inventory ownership.
 - Empty Mixer Jar → cooking station → Scissors remains supported; Scissors are then used to expose the Mixer switch and cut the hanging ingredient rope.
 Source: SRC-018 (9Puz 1.0 route), SRC-016 (cached Steam guide).
+
+
+## Rat Level — 2026-11-17 source reconciliation (SRC-047)
+
+The directly readable 9Puz 1.0 route independently confirms the puzzle sequence and clarifies the slot sweep:
+- Reveal the anti-gravity control from the upper-right mouse portrait; activate it; read the three-digit code on the planter note; peel/click the wine-bottle label to expose the keypad; enter the note's code.
+- Cold Good candidate order: Cheese; Cheese + Cheese; Cheese + Paper; Cheese + Pencil; Cheese + Eggshell.
+- Hot Good candidate order: Cheese; Cheese + Cheese; Cheese + Paper; Cheese + Pencil.
+- Rat cooker input limit: two items per attempt.
+- Bad candidates include empty cooker, Leaf, Paperclip + Paper, Egg + Pencil, Leaf + Pencil, Paperclip + Pasta, Eggshell + Paper, and single Paperclip / Paper / Eggshell / Pencil plus Pencil + Paper. Preserve source conflicts for Egg vs Eggshell + Pencil and Pasta-related slots; do not flatten into one formula.
+- 9Puz confirms the three-digit value itself is read from the in-game planter note; it does not transcribe the digits. Numeric code remains UNKNOWN.
+- 9Puz calls the two cooker states cold/hot; the Japanese 1.0 walkthrough calls them weak/strong power. Keep oven_state and power_level as separate source-facing fields until an image or in-game test establishes the mapping.
+- 9Puz's Bistro route says Big Magnet is made by cooking a rat-reward Magnet; Compass is Scissors + a country Magnet only after the magnet has registered for Going Global.
+
+Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candidate rules, not in-game verification.
