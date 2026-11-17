@@ -379,3 +379,6 @@ These three cases are test designs only. They have not been executed. BIS-023 no
 | BIS-060 | Compare Japan's Mochi against Apple Mochi and a suspicious/non-recipe result | Only the exact Mochi dish should register the Japan magnet; Apple Mochi and suspicious results should not advance the seven-country magnet set |
 
 These are test designs only; the Japanese walkthrough is an EA-era visual reference, not final 1.0 execution evidence.
+
+
+| BIS-061 | Crazy Calzone classification: submit Pizza + Pizza Dough and record exact cookbook tab | Confirm whether Crazy Calzone is registered under Good or Bad in the 1.0+ client; source guides disagree, so record both tab and counter rather than assuming classification |
