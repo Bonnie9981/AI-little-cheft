@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-063；QA為153個唯一設計ID（0執行；新增RAT-022/023）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為154個唯一設計ID（0執行；新增SD-017）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -638,3 +638,10 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增SRC-063：日文玩家2026/09/10正式版通關紀錄指出Rat Level酒瓶謎題後可調強／弱電力，同一材料會因輸出強度不同產生不同料理；另觀察到先按藍框開關再擲硬幣可容易取得Coioioin。Steam成就同步延遲至重啟是單一玩家觀察，不能當作通用規則。
 - 新增RAT-022（電力強弱輸出回歸）及RAT-023（藍框開關與遊戲內／Steam成就同步分開記錄）。QA更新為153 unique（REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT22），0 executed。
 - Bistro四次老鼠訂單、七國磁鐵完整菜名／觸發、Cafe 1.0完整To-Do及Rat Level密碼仍未解決。專案維持Research Only，Critic Round 1 FAIL。
+
+
+## 2026-11-17｜Student Dorm To-Do取得可讀截圖
+- 新增SRC-065：Pixel Questing 2026/10/09 Student Dorm攻略包含可讀To-Do截圖，六項任務為Cook pasta dishes (0/8)、Borrow Shane's cheese、Play all cassettes (0/3)、Make coffee、Water the basil、Cook new dishes (0/40)。
+- 截圖直接可讀三個計數0/8、0/3、0/40；攻略指出需完成全部Good recipes與To-Do才能解鎖Chapter 2。這是第三方攻略畫面證據，不是本專案實機測試。
+- 已更新PROGRESSION_MODEL並新增SD-017；QA為154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。
+- 仍需追Cafe 1.0最終To-Do截圖、Bistro rat完整reward mapping、七國菜名／磁鐵觸發，以及Rat Level完整密碼。Research Only / Critic FAIL。
