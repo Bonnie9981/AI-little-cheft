@@ -253,6 +253,12 @@ Cross-version additions:
 - This source is version-specific player evidence, not developer confirmation. RAT-022/023 are test designs only; no game test has been executed.
 
 
+## SRC-064｜Steam Community “Bistro Guide” by J_Moon (2026-07-14; Early Access)
+- URL: https://steamcommunity.com/sharedfiles/filedetails/?id=3764982550
+- This is a separate July 14 Steam player guide, published before the 1.0 release and therefore an Early Access snapshot. It documents the Bistro hidden blender-switch route and a broad recipe list, but several formulas differ from later guides.
+- Relevant conflicts: Tomato Cheese Appetizers = Tomato + Cheese (without Olives); Apple Mochi = Ground Rice + Apple; Sake = Rice + Yeast; Mushroom Soup = Mushroom + Garlic; Pumpkin Soup = Ground Pumpkin + Garlic; Meatballs = Ground Beef alone. Its Good/Bad lists also differ in some naming and inputs.
+- The author does not provide a complete rat-note/reward sequence or the seven country dish names. Treat all recipes as historical candidate evidence, not final 1.0 truth. The July date is particularly important when comparing its Sake, Apple Mochi and soup formulas with SRC-066 and later August guides.
+
 ## SRC-065｜Pixel Questing Chapter 1 walkthrough and visible Student Dorm To-Do screenshot (2026-10-09)
 - URL: https://www.pixelquesting.com/little-chef-cozy-cooking-walkthrough-recipes/
 - This separately authored walkthrough provides a readable screenshot of the Student Dorm To-Do panel and transcribes six tasks:
