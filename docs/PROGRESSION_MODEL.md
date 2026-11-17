@@ -157,3 +157,8 @@ Model these as separate progression tracks with a dependency edge, not as one co
 3. **Dependency:** the rat trade chain supplies special ingredients needed by later Bistro recipes, including Apple, Olives, and Garlic according to the 1.0 route (SRC-018/SRC-050). The available sources do not establish that every rat trade directly awards a country magnet.
 
 **Unknowns remain explicit:** full rat request order/reward mapping; all six other country dish mappings; whether final 1.0 retained the same trade count/counter. The 76/76 cookbook counter visible in the 2026-09-09 EA screenshot is a historical snapshot only, not the final 1.0 total.
+
+
+## Rat Level: planter code evidence boundary (SRC-024)
+
+The 2026-09-10 Japanese 1.0 walkthrough screenshot after the wine-bottle puzzle shows the cooker power control and a yellow note by the planter. The available screenshot makes two '3' digits visible, but does not reliably expose a complete three-digit code; the article text does not transcribe the code. Do not infer 333 or any other code from the partial image. The progression remains: reveal anti-gravity → expose/read planter note → reveal keypad under wine label → enter the exact three-digit clue → unlock adjustable strong/weak output. Strong/weak changes results for the same two ingredients; the mapping to UI OFF/ON labels remains unverified.
