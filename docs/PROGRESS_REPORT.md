@@ -513,3 +513,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增SRC-053：SteamDB鏡像的官方v3.0ea更新記錄，2026/04/23明確新增Cafe To-Do「complete 8 orders」。
 - 與SRC-023早期EA截圖（四項任務且More coming soon）及2026/09攻略中的Set the kitchen on fire合併建立版本時間線；最終1.0完整To-Do仍待直接截圖。
 - 來源登錄更新至SRC-053；QA 140個唯一ID，尚未實機執行。
+
+
+## 2026-11-17｜Bistro 老鼠交易機制取得開發者直接說明
+- 新增SRC-054：Steam討論串中開發者Crazydvd明確說明，先在抽油煙機可疑門找到老鼠，交付Cafe階段相同的Cheese後，老鼠會展示一道菜的圖示；完成該菜即可換得新食材。
+- 這是開發者直接說明，強化「看圖料理→換食材」機制的可信度；但仍未提供四張請求菜單的完整順序與每次獎勵，因此P1-01未解除。
+- 來源登錄擴至SRC-054；QA仍為140個唯一ID，全部尚未實機執行；專案維持Research Only。
