@@ -324,7 +324,7 @@ Run each alternative separately with the same appliance, room state, and version
 | BIS-037 | Fried Balls: Bread + Olive Oil vs Salami + Olive Oil | Resolve the conflicting Bad Recipe formula |
 | BIS-038 | Charcuterie Board: Olives + Salami + Bread vs Olives + Salami + Cheese | Resolve the 7/14 vs later-route candidate difference |
 | BIS-039 | Pizza Speciale: Pizza + Mushroom + Olives vs Pizza + Mushroom + Salami | Resolve the 7/14 vs later-route candidate difference |
-| BIS-040 | Clutter: test Cloth + Wooden Spoon, then separately observe idle/physics-trigger behavior | Compare SRC-017's explicit 1.0 combination candidate with the Japanese walkthrough's spontaneous-mess clue; record the reproducible trigger |
+| BIS-040 | Clutter: test Cloth + Wooden Spoon, then separately observe idle/physics-trigger behavior | SRC-024's 1.0 hint describes spontaneous mess; test idle/physics-trigger behavior and separately test Cloth + Wooden Spoon only as an unsourced hypothesis. Record the reproducible trigger; do not mark either formula confirmed |
 
 These are conflict-resolution cases, not proof that either candidate is correct. 
 
