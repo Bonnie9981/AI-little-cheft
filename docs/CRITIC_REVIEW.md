@@ -145,3 +145,8 @@
 - Inspected the actual screenshot in the March 28 Japanese EA walkthrough. Cafe To-Do then showed: Order missing ingredients; Restock the cakes (0/2); Make drinks (0/10); Cook new dishes (0/60), followed by “More coming soon...”. The author explicitly states Cafe and its To-Do list were incomplete at that point.
 - Official v3.0ea changelog (2026-04-23) later added “complete 8 orders” as a To-Do task. The September walkthrough records “Set the kitchen on fire” as a Level 2 To-Do / Level 3 unlock condition. These are versioned additions, not proof of the full final 1.0 checklist.
 - P1-03 is narrowed from “no Cafe To-Do evidence” to “final 1.0 complete task list and counters not captured”. Added CAF-018..022. QA table now has 140 unique designed IDs; none are executed.
+
+
+## Round 1 Addendum — developer clarification of Bistro rat loop (2026-11-17)
+- Added SRC-054, a July 16 Steam discussion reply by developer Crazydvd. The developer confirms the player must offer Cheese (the Cafe rat trade item) to the Bistro rat at the extractor hood; the rat then shows a dish drawing, and cooking that dish awards a new ingredient.
+- This is primary developer evidence for the interaction mechanic, but it still does not reveal the four exact request dishes, their order, or reward mapping. P1-01 remains open. QA remains 140 unique designed cases; none executed.
