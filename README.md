@@ -75,3 +75,8 @@
 ## Bistro 進度鏈最新研究
 
 SRC-057已將抽油煙機老鼠的食材交易鏈與七國料理磁鐵鏈拆開記錄。Cheese → Tomato與Japan = Mochi有圖文證據；Apple Mochi及可疑料理不計入七國磁鐵。完整交易順序及其他六國仍未確認，詳見 [PROGRESSION_MODEL](docs/PROGRESSION_MODEL.md) 與 [RECIPE_CONFLICTS](docs/RECIPE_CONFLICTS.md)。
+
+
+## 食譜逐筆來源追溯最新進度
+
+[RECIPE_PROVENANCE_AUDIT](docs/RECIPE_PROVENANCE_AUDIT.md) 現在有332/333筆候選具備逐筆來源公式／動作引用；唯一未映射項目為Bistro的Clutter。這些是攻略來源引用，不是實機驗證。Rat Level仍有4個配方槽位衝突，Crazy Calzone Good/Bad分類也待實測。
