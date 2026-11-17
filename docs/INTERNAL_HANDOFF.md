@@ -642,3 +642,11 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - 攻略表示需完成全部Good recipes與To-Do才解鎖Chapter 2。已補入PROGRESSION_MODEL並新增SD-017；這是第三方攻略證據，尚非本專案實測。
 - QA最新154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。來源登錄至SRC-065。
 - 目前可見明確的Student Dorm任務列，但Cafe 1.0完整To-Do仍沒有完整截圖；不得把EA歷史任務拼成最終版本。
+
+
+## 2026-11-17｜SRC-066新增Bistro配方衝突快照
+- 新增Steam簡體中文v1.0指南SRC-066。作者自行警告前兩關可能過時、手打公式可能錯、部分Spoiler由AI批量添加；僅用於發現候選與圖鑑錯誤，不作定案。
+- 新增候選衝突：Mochi整米/米粉、Apple Mochi整米/米粉、Sake Rice+Yeast/Rice+Wine、Tomato Cheese Appetizer是否加Olives、Tomato Cocktail是否加Olives／圖鑑圖示錯誤、Mushroom Soup、Pumpkin Soup、Meatballs是否只需加工食材。
+- Goulash的SRC-066記錄Meat + Ground Tomato + Wine，支持既有BIS-023候選。
+- RECIPE_CONFLICTS新增對照表；QA新增BIS-063..069。QA最新161 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22），0 executed。
+- SRC-066仍未提供Cafe最終To-Do、老鼠四張訂單完整獎勵、七國菜名、Rat Level完整密碼。Critic FAIL；Research Only。
