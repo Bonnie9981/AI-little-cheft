@@ -247,3 +247,10 @@
 - Fire recovery requires breaking the alarm glass with three clicks, then pressing the exposed control; added CAF-024 to separate fire-start achievement from reset behavior.
 - Official v1.1 enlarged the Rat Level number-lock clickable area. Pre-v1.1 click coordinates are not universal; added RAT-021 for version-specific hitbox regression.
 - QA count rises from 148 to 151 unique designs (CAF-023, CAF-024, RAT-021), 0 executed. Critic remains FAIL and Research Only remains.
+
+
+## Round 1 Addendum — SRC-062 / SRC-063 independent-source expansion (2026-11-17)
+- SRC-062 is a separately authored Nov 9 Cafe walkthrough and independently corroborates the phone completion interaction (dial 21931, pick up receiver) and order-to-Coin loop. However, its own count claim (71 Good) conflicts with its numbered Good list (72 entries, including duplicate Coffee Cake). It does not show the Cafe To-Do list. Do not use it to close the Cafe count or To-Do P1.
+- SRC-063 is a first-hand 1.0 player report that Rat Level strong/weak electrical output changes recipe results for the same inputs. It also reports a blue-framed switch interaction before coin toss for Coioioin. These are useful new testable mechanics, not official specifications; exact control mapping and Steam achievement synchronization remain unverified.
+- Added RAT-022 and RAT-023. QA now 153 unique designs (REC14 / PHY15 / STD16 / CAF24 / BIS62 / RAT22), zero executed.
+- Round 1 remains FAIL. Core P1s remain unresolved: full Bistro rat request/reward mapping, six remaining country dish mappings and magnet trigger conflict, final Cafe To-Do list, exact Rat Level code and electrical control mapping, and all live-client QA execution. Research Only remains mandatory.
