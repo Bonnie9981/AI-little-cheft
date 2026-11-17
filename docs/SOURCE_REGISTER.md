@@ -134,3 +134,6 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 ## SRC-016 accessibility clarification (2026-11-17)
 - The Steam guide ID 3713640352 remains marked removed on its Swedish-language page, but its full text body is now directly readable through that page, including the author’s “updated as of 10 August 2026” statement, Bistro list, Rat Level slot list, and comments. This is stronger than search-snippet-only access, but it remains a community guide and its embedded image content is not fully represented in extracted text. Retain version and image limitations; do not treat its formulas as in-game verified.
+
+
+- SRC-048 | [Official Steam all-news archive — v5.1ea changelog](https://steamcommunity.com/app/3376500/allnews/) | 2026-07-14 | Fixes Bistro rat-trade To-Do counter displaying -1 and prevents the rat quest from starting again; also reiterates Level 3 requires completing Level 2 To-Do | Official EA patch note; proves a progression/state bug existed and was fixed in that build, but does not disclose the full request order or prove every later 1.0 edge case.
