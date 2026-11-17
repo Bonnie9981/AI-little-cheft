@@ -329,3 +329,10 @@ Cross-version additions:
 - URL: https://www.youtube.com/watch?v=CW7plgBoL5c
 - Title: “who let me make these UNHINGED meals?? (Little Chef)”; 32:54; supplied metadata identifies v1.0 and publication date 2026-09-05.
 - CEO supplied the claimed transcript scope: Student Dorm 100% recipes (48 Good + 29 hidden/Bad) and room tasks. This video could not be independently processed in the current summarizer session because the account's three-free-summary weekly limit had been reached. Treat the URL/title/date as catalogued, but do not cite any specific task or recipe from it as independently checked in this pass.
+
+
+## SRC-075｜CEO-provided Gemini 1.0 walkthrough research report
+- Repository file: [docs/Gemini Help.md](Gemini%20Help.md), added to the project by the CEO. It cites three Cozy K Games 1.0 walkthroughs: Bistro/Rat Level (1YgAz9LT22o), Cafe Job (LXX8_jiJJIM), and Student Dorm (CW7plgBoL5c), with timestamps and transcript-derived recipe/mechanic claims.
+- The report supplies useful timestamp leads for the Bistro rat sequence, Mushroom Soup/Olive branch, Going Global, Rat Level keypad 725, Cafe 21931 phone, burnt Panini fire, three Bagels/Void Bagel, Emergency/911, and room cookbook counts.
+- It is a secondary extraction, not direct access to the game or raw frame evidence. The report contains incomplete recipe inputs and material conflicts with the current ledger: Bistro 120 vs 123 candidates; Rat Level 9 total vs 9 Good + 12 Bad slots; Student Dorm five vs six To-Do rows; Cafe Paintbrush after 12 orders vs prior 20-Coin hypothesis. See GEMINI_INTEGRATION_AUDIT.md.
+- Do not assign its “High” confidence labels directly to game verification status. Exact recipe cards, full task panels, and repeatable state-specific outputs remain required for promotion.
