@@ -200,3 +200,11 @@ The six tasks are:
 6. Cook new dishes: discover 40 total Good + Bad dishes.
 
 The room's 100% ledger includes both Good and Bad recipe tabs plus all To-Do tasks, according to the 1.0 completion route. Keep recipe count and task count separate in the UI.
+
+
+## Bistro To-Do panel (1.0 player walkthrough)
+
+- First task: “Clean the kitchen” — use the Cloth on the dirty surfaces.
+- Next task: “Trade with the rat” — open the suspicious extractor-hood door, offer Cheese, then complete the illustrated dish request chain to receive ingredients.
+- Keep these tasks separate from the achievements Best Friends (finish all rat trades) and Going Global (collect all seven country magnets).
+- The seven international dishes are not fully named in accessible text; only Mochi is explicitly identified as Japan. Do not infer the remaining six from cuisine names.
