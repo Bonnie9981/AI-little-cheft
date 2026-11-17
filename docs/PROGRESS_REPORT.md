@@ -469,7 +469,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 新增第二份獨立Rat Level攻略SRC-052，完整列出9 Good / 12 Bad槽位與解謎順序。
 - SRC-050、SRC-052、9Puz三方支持Cold Good #5 = Cheese + Eggshell；Bad #4 = Eggshell + Pencil；Bad #6 = Paperclip + Pasta；Bad #7 = Eggshell + Paper。SRC-017 1.0手打指南的Leaf／Pasta變體保留為對照，不再優先。
 - Coioioin重複點擊硬幣符合官方成就文字；藍開關／紅框投幣仍作替代路徑。三位數密碼未公開，仍未知。
-- 來源登錄擴至SRC-052，QA維持129個唯一測試案例。
+- 來源登錄擴至SRC-052，QA維持132個唯一測試案例。
 
 
 ## 2026-11-17｜新增 Mochi 與 Yeast Monster 配方衝突
@@ -488,3 +488,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜Bistro老鼠贈品鏈補證
 - SRC-050完整指南註記：Olives是Tomato Cheese Appetizer所需的老鼠贈品、Apple是Baked Apple的老鼠贈品、Garlic是Pumpkin Soup的老鼠贈品；SRC-023確認初次Cheese→Tomato及便條料理換食材機制。
 - 這補足了部分受限食材清單，但仍沒有每張請求便條的順序與獎勵對照，P1-01未解除。QA新增BIS-050至BIS-052，總數132個唯一ID，均未執行。
+
+
+## 2026-11-17｜Bistro To-Do 截圖辨識
+- SRC-023日文攻略內嵌的Bistro To-Do截圖可直接辨識五項：Clean the kitchen、Trade with the rat (0/4)、Get the mixer to work、Cook new ingredients (0/6)、Make pizza dough。
+- 這是Early Access版本證據；截圖下方作者註記疑似「Last one coming with 1.0」，因此不能直接當作1.0正式清單。明確區分Bistro To-Do與Cafe Level 2 To-Do。
+- 4次老鼠交易、6項新食材料理新增BIS-053..055作版本回歸測試。QA增至135個唯一ID，全部仍未實機執行。
