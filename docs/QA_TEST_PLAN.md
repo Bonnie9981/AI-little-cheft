@@ -385,3 +385,6 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 
 
 | RAT-020 | Capture and transcribe the full three-digit planter clue from a legible 1.0 client screenshot; compare entered digits with keypad acceptance | Record exact digits, game version, note orientation and keypad result. SRC-024's available screenshot is only partially legible (two 3s visible), so no numeric code is assumed from it |
+
+
+| BIS-062 | Separate Bistro rat trades from country-magnet triggers: record the hood before/after each rat-request reward and before/after each international-dish recipe | Determine whether magnets attach from rat rewards, international recipes, or a prerequisite chain; capture the exact card, magnet artwork, reward item, counter change and game version. Do not infer the trigger from guide wording |
