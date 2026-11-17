@@ -240,3 +240,10 @@
 - SRC-050 says each country magnet is obtained from the mouse after requested recipes; SRC-057 describes rat-note trades as special-ingredient rewards and separately says seven international dishes attach magnets to the hood. SRC-054 developer reply confirms only the rat trade loop and does not mention country magnets.
 - This is an unresolved P1 mechanism conflict, not evidence that either guide is definitively wrong. Added BIS-062 to test each rat reward and each international dish as separate events, recording hood state and counter changes.
 - QA now has 148 unique designed IDs, 0 executed. Critic Round 1 remains FAIL; Research Only remains.
+
+
+## Round 1 Addendum — Cafe interaction timing and Rat keypad versioning (2026-11-17)
+- Developer Crazydvd confirms the Cafe phone must be picked up and the caller allowed to finish speaking after dialing; this is a hard progression event for Avocado/Lettuce spawn. Added CAF-023.
+- Fire recovery requires breaking the alarm glass with three clicks, then pressing the exposed control; added CAF-024 to separate fire-start achievement from reset behavior.
+- Official v1.1 enlarged the Rat Level number-lock clickable area. Pre-v1.1 click coordinates are not universal; added RAT-021 for version-specific hitbox regression.
+- QA count rises from 148 to 151 unique designs (CAF-023, CAF-024, RAT-021), 0 executed. Critic remains FAIL and Research Only remains.
