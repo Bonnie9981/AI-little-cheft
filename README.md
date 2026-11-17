@@ -19,7 +19,7 @@
 | 文件 | 用途 |
 |---|---|
 | [INTERNAL_HANDOFF](docs/INTERNAL_HANDOFF.md) | 完整研究交接、技術決策與風險 |
-| [PROGRESS_REPORT](docs/PROGRESS_REPORT.md) | 專案進度匯報 |
+| [PROGRESS_REPORT](docs/PROGRESS_REPORT.md) | 專案進度匯報 |\n| [CRITIC_REVIEW](docs/CRITIC_REVIEW.md) | 獨立審查與開工 Gate |
 | [PROJECT_TIMELINE](docs/PROJECT_TIMELINE.md) | 原作版本時間線與專案時間線 |
 | [WORK_JOURNAL](docs/WORK_JOURNAL.md) | 可稽核的研究日誌、判斷與下一步 |
 | [SOURCE_REGISTER](docs/SOURCE_REGISTER.md) | SRC-001…SRC-051來源登錄與證據層級 |
