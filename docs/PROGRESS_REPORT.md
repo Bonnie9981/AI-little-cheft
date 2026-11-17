@@ -660,3 +660,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 第五個冷爐Good格：SRC-018/SRC-067列Cheese+Eggshell，SRC-066列Cheese+Leaf；保留衝突。Pasta Bad格：SRC-066列Pasta單獨一格及Pasta+Paperclip，其他攻略只列Paperclip+Pasta；需確認是否一格或兩格。
 - 新增RAT-024（Eggshell/Leaf）、RAT-025（Pasta Bad slots）、RAT-026（密碼鎖揭露互動步驟）三項測試。QA更新為164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。
 - 完整三位數密碼仍無法由任何找到的文字來源讀出；不猜數字。Cafe最終To-Do、四張老鼠請求／獎勵與其餘六國料理仍未找到。Research Only / Critic FAIL。
+
+
+## 2026-11-17｜補登早期Bistro攻略SRC-064
+- 補登J_Moon 2026/07/14 Steam Bistro Guide（EA時期），來源編號SRC-064。它記錄Tomato Cheese Appetizer不加Olives、Apple Mochi用Ground Rice、Sake用Rice+Yeast、Mushroom Soup加Garlic、Pumpkin Soup用Ground Pumpkin+Garlic、Meatballs用Ground Beef單獨完成等候選。
+- 這些與8月及1.0指南存在交叉與衝突；因來源早於1.0，僅作歷史候選，不能與正式版來源等權處理。RECIPE_CONFLICTS已補上版本註記。
+- Source Register仍連續涵蓋SRC-001…SRC-067；QA維持164 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT25），0 executed。
