@@ -384,3 +384,8 @@ The 333 rows are candidate names, not an official in-game total. The source fami
 ## 1.0 Bistro counter alignment (SRC-024)
 
 SRC-024's 2026-09-10 screenshot shows 76/83 Good and 37/40 Bad. The candidate inventory previously had 84 Good / 39 Bad. SRC-050 explicitly lists Crazy Calzone under Bad Recipes, so the audit reclassifies candidate BI-B-040 as Bad, yielding 83 Good / 40 Bad. This is counter-aligned and source-supported, but not yet direct card-tab verification; status remains COUNTER_ALIGNED_CANDIDATE_NOT_VERIFIED. No recipe formula is newly marked verified.
+
+
+## Global denominator confirmation (SRC-024)
+
+The same 2026-09-10 1.0 save-slot screenshot shows **305/333 recipes** and **26/26 achievements**. This supports the global cookbook denominator of 333 and achievement total of 26. It does not prove that every candidate name, room assignment, Good/Bad classification, or formula row is correct. The 333-row ledger is now count-aligned with the screenshot, while row-level verification remains incomplete.
