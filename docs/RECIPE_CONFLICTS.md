@@ -319,7 +319,7 @@ Sources:
 | Charcuterie Board | Cheese + Olives + Salami; or Olives + Salami + Bread | 9Puz 1.0 route vs 7/14 Steam guide. | D; test both |
 | Pizza Speciale | Pizza + Mushrooms + Salami; or Pizza + Mushroom + Olives | 9Puz 1.0 route vs 7/14 Steam guide. | D; test both |
 | Sausage Roll / Salami Roll | Same formula Meat + Bread Dough, but English name differs between 8/10 Steam guide and 9/2 9Puz route. | B/C; compare in-game cookbook spelling; preserve one recipe ID with alias until confirmed |
-| Mochi | Rice; or Ground Rice | 9Puz says Rice, 8/10 guide says Rice, but Steam player comment says grind Rice first and 9/1 Chinese guide says rice flour. | D; test whole vs ground Rice |
+| Mochi | Rice; or Ground Rice | 9Puz says Rice and cached 8/10 guide says Rice, while a Steam player comment says to grind Rice first. | D; test whole vs ground Rice |
 | Tomato Cheese Appetizer | Tomato + Cheese + Olives | 8/10 guide says Olives are a mouse gift; 7/14 guide omitted Olives. | B; keep 3-input candidate |
 | Meatballs | Ground Meat + Garlic + Dough; or Ground Beef alone | 9Puz and 8/10 guide vs 7/14 guide. | B; prefer 3-input candidate, verify |
 | Beef Katsu Sando | Bread + Meat + Olive Oil; or Bread + Meat | 9Puz / 8/10 guide vs 7/14 guide. | B; test Olive Oil |
@@ -352,7 +352,7 @@ Sources:
 
 ## 2026-11-17｜Student Dorm配方衝突再審（新增來源交叉核對）
 
-- **Clutter：撤回 Cloth + Wooden Spoon。** 1.0日文玩家只確認 Clutter 存在，提示文字暗示「混亂會自行發生」，沒有提供可重現輸入。9/1簡中攻略的 Cloth + Wooden Spoon 缺乏獨立支持，故改回 trigger = unknown，不能進正式 recipe formula。
+- **Clutter：撤回 Cloth + Wooden Spoon。** 1.0日文玩家只確認 Clutter 存在，提示文字暗示「混亂會自行發生」，沒有提供可重現輸入。先前將 Cloth + Wooden Spoon 歸因於「9/1簡中1.0攻略」是來源錯置；該 Steam 頁實為 v4.0 EA且沒有 Bistro 章節，故 trigger 維持 unknown，不能進正式 recipe formula。
 - **Smoothie：不再把 Peanut Butter 說成唯一配方。** 開發者只確認 Peanut Butter 是其中一項材料，沒有在回覆中寫完整三材料組合；10/9 1.0攻略列 Strawberry Jam + Banana + Milk。保留 Milk + Banana + Peanut Butter 與 Strawberry Jam + Banana + Milk 兩條候選，等待實機或更多開發者證據。
 - **Good Protein Shake：開發者已明確給出 Milk + Peanut Butter + Protein Powder，並明確否定 Egg。** 10/9攻略提到 Banana alternate，先保留為低信心替代，不覆蓋開發者公式。
 - **Pasta A La Carbonara：** 8/10 Steam攻略及玩家討論支持 Pasta + Egg + Cheese；10/9 1.0攻略支持 Pasta + Egg + Milk。來源互相矛盾，仍列D級，必須在1.0逐條測試。
