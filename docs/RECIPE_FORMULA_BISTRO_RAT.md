@@ -148,7 +148,7 @@ Device: Electric Can Cooker (microwave-like powered tin can). Use power_level = 
 | Low/OFF #2 | Cheese + Cheese |
 | Low/OFF #3 | Cheese + Paper |
 | Low/OFF #4 | Cheese + Pencil |
-| Low/OFF #5 | Cheese + Leaf (SRC-017 1.0 guide); Cheese + Eggshell (SRC-050 cached guide / 9Puz ambiguity) remains alternate |
+| Low/OFF #5 | Cheese + Eggshell (SRC-050, SRC-052 and 9Puz converge); Cheese + Leaf (SRC-017 1.0 guide) remains alternate |
 | High/ON #1 | Cheese |
 | High/ON #2 | Cheese + Cheese |
 | High/ON #3 | Cheese + Paper |
@@ -161,10 +161,10 @@ Device: Electric Can Cooker (microwave-like powered tin can). Use power_level = 
 | Bad #1 | Empty cooker (test low and high separately) |
 | Bad #2 | Leaf |
 | Bad #3 | Paperclip + Paper |
-| Bad #4 | Eggshell + Pencil (SRC-017 1.0 guide) OR Egg + Pencil (SRC-050 cached guide) |
+| Bad #4 | Eggshell + Pencil (SRC-017 and SRC-052) OR Egg + Pencil (SRC-050 cached guide) |
 | Bad #5 | Leaf + Pencil |
-| Bad #6 | Pasta alone (SRC-017 1.0 guide) OR Paperclip + Pasta (SRC-050 cached guide) |
-| Bad #7 | Pasta + Paper (SRC-017 1.0 guide) OR Eggshell + Paper (SRC-050 cached guide) |
+| Bad #6 | Paperclip + Pasta (SRC-050 and SRC-052) OR Pasta alone (SRC-017 1.0 guide) |
+| Bad #7 | Eggshell + Paper (SRC-050 and SRC-052) OR Pasta + Paper (SRC-017 1.0 guide) |
 | Bad #8 | Paperclip |
 | Bad #9 | Paper |
 | Bad #10 | Eggshell |
@@ -243,3 +243,10 @@ Evidence: SRC-047 (directly readable 1.0 community walkthrough). These are candi
 - Rat Level candidates are now ordered by version relevance: Leaf for cold Good #5; Eggshell + Pencil for Bad #4; Pasta alone for Bad #6; Pasta + Paper for Bad #7. SRC-050 cached list provides the conflicting alternatives. Keep live-slot tests for all.
 - Clutter now has a concrete community candidate, Cloth + Wooden Spoon, from the v1.0 guide; the 1.0 walkthrough's clue text also suggests spontaneous mess. Do not call it unknown-only; retain both trigger hypotheses.
 - Goulash and Tomato Cocktail have 1.0 actual-condition candidates in SRC-017. For Tomato Cocktail, author/player correction indicates Olives + Ground Tomato + Red Wine; the in-game cookbook icon was reportedly wrong. Official v1.1 later says the cookbook recipes were fixed, but does not restate the formulas.
+
+
+## SRC-052 Rat Level independent guide cross-check (2026-11-17)
+- SRC-052 independently reproduces the 9 Good / 12 Bad Rat Level slot order and the anti-gravity → planter note → wine-label lock → power-control sequence.
+- It agrees with SRC-050 and 9Puz on cold Good #5 = Cheese + Eggshell, Bad #4 = Eggshell + Pencil, Bad #6 = Paperclip + Pasta, Bad #7 = Eggshell + Paper. These now have stronger multi-source support than the conflicting SRC-017 manual list; keep SRC-017 variants as alternatives.
+- It says Coioioin can be obtained by repeatedly clicking the coin beside the planter, aligning with official achievement text; the Japanese 1.0 blue-switch/red-target route remains an alternate method to test.
+- It still does not disclose the numeric password. Do not guess it.
