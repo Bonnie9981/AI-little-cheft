@@ -579,3 +579,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Bistro 123列：121列有對應分類的來源公式／動作，Crazy Calzone有公式來源但Good/Bad分類衝突，Clutter仍未找到公式來源。
 - 因此333列中332列已有來源公式／動作引用，1列Clutter仍UNMAPPED。這不代表公式正確，也不代表任何一筆已由本專案實機驗證。
 - QA維持146個唯一ID（REC14 / PHY15 / STD16 / CAF22 / BIS61 / RAT18），0執行；Research Only / Critic FAIL維持。
+
+
+## SRC-024 Clutter source correction
+- Re-opened the 2026-09-10 Japanese 1.0 completion walkthrough already registered as SRC-024. It confirms Clutter is a final Bad recipe and its in-game hint suggests clutter happens spontaneously; it does not give a formula.
+- Withdrawn the earlier Cloth + Wooden Spoon attribution because its cited source was incorrect. Provenance row BI-B-034 now records SRC-024 as trigger-hint evidence, leaves formula_source_ids UNMAPPED, and marks TRIGGER_HINT_ONLY.
+- 332/333 rows have formula/action source references; Clutter has a trigger hint only, not a formula. No in-game test has been executed.
