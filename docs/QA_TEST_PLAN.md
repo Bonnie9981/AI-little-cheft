@@ -331,10 +331,10 @@ These are conflict-resolution cases, not proof that either candidate is correct.
 ## SRC-017 1.0 mixed-guide conflict regression cases
 | ID | Test | Expected evidence |
 |---|---|---|
-| RAT-016 | Cold Good #5: Cheese + Leaf vs Cheese + Eggshell | Confirm which input advances the fifth cold slot; SRC-017 1.0 guide favors Leaf, SRC-050 favors Eggshell |
-| RAT-017 | Bad #4: Eggshell + Pencil vs Egg + Pencil | Confirm exact object state that advances Bad #4 |
-| RAT-018 | Bad #6: Pasta alone vs Paperclip + Pasta | Confirm whether Pasta alone is the intended slot or whether Paperclip is required |
-| RAT-019 | Bad #7: Pasta + Paper vs Eggshell + Paper | Confirm exact input pair and ensure it does not duplicate another Bad slot |
+| RAT-016 | Cold Good #5: Cheese + Leaf vs Cheese + Eggshell | Confirm which input advances the fifth cold slot; test Eggshell first (SRC-050/SRC-052/9Puz), then Leaf (SRC-017) |
+| RAT-017 | Bad #4: Eggshell + Pencil vs Egg + Pencil | Compare Eggshell + Pencil (SRC-017/SRC-052) against Egg + Pencil (SRC-050) |
+| RAT-018 | Bad #6: Pasta alone vs Paperclip + Pasta | Compare Paperclip + Pasta (SRC-050/SRC-052) against Pasta alone (SRC-017) |
+| RAT-019 | Bad #7: Pasta + Paper vs Eggshell + Paper | Compare Eggshell + Paper (SRC-050/SRC-052) against Pasta + Paper (SRC-017) |
 | BIS-041 | Vampire Defense Kit: Tomato + Wooden Spoon vs Garlic + Wooden Spoon vs Garlic + Pencil | Resolve three competing community inputs separately |
 | BIS-042 | Crazy Calzone: Pizza + Wooden Spoon vs Pizza + Pizza Dough | Confirm whether the spoon candidate is a separate Bad/Good result or a guide transcription error |
 | BIS-043 | Bread Sticks: Pizza Dough alone vs Pizza Dough + Olive Oil | Resolve one-input vs two-input formula |
