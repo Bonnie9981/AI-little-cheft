@@ -145,7 +145,7 @@ The 1.0 player walkthrough reports approximately 10 Bistro additions. The 8/10 S
 
 ## Rat Level achievement interaction
 
-Coioioin candidate trigger: press the blue switch, then throw the coin in the red-marked area. This supersedes the older assumption that the player must rely on random consecutive flips. A player also reports a Steam achievement sync issue requiring a game restart after the in-game achievement triggers. Source: [1.0 completion report, 2026-09-10](https://note.com/utsukinoel/n/n2734d08070ca).
+Coioioin primary trigger: click the coin beside the cooker until the same face lands three times in a row, matching the official Steam achievement text and multiple guides. A separate player report mentions a blue switch / red-marked toss area, but it is not corroborated and should not supersede the official description. Source: [Steam achievements](https://steamcommunity.com/stats/3376500/achievements), [9Puz 1.0 route](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/), [Steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352&l=swedish).
 
 
 ## Bistro count reconciliation
