@@ -143,7 +143,7 @@ The seven country dishes are not fully identified; BIS-011 remains blocked until
 | RAT-005 | Test low power | Five Good slot candidates resolve |
 | RAT-006 | Test high power | Four Good slot candidates resolve |
 | RAT-007 | Test every Bad slot | Twelve Bad candidates are reconciled |
-| RAT-008 | Press blue switch and toss coin | Coioioin triggers according to verified condition |
+| RAT-008 | Click coin repeatedly until same face lands three times consecutively | Coioioin triggers, matching official achievement wording |
 | RAT-009 | Complete all Rat recipes | Little Rat / Rat Level completion triggers |
 
 The numeric code is unknown from readable text sources. Do not invent a code. Eggshell/Leaf and Egg/Pencil/Pasta slot variants must be resolved before RAT-005 through RAT-007 pass.
