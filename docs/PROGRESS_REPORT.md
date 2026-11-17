@@ -571,3 +571,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - Pizza Dough首選配方為Flour + Yeast + Olive Oil，來源SRC-015/SRC-018/SRC-058交叉支持；仍待本專案實機驗證。
 - Bistro的rat trade與country magnet已拆成兩條進度鏈；完整四次請求及reward mapping、其他六國料理仍是P1。
 - 專案Research Only；Critic FAIL；等待P1清除與CEO approval。
+
+
+## 2026-11-17｜四場景逐筆來源映射推進（SRC-058）
+- 逐筆對照Pixel Questing的Student Dorm / Cafe章節攻略（SRC-019 / SRC-020）：Student Dorm 77/77、Cafe 112/112候選列已映射來源公式或互動描述。Cafe來源將Coffee Cake重複列兩次，稽核已去重，不把它當成兩筆食譜。
+- Rat Level 21/21個slot已有來源引用；其中4個slot明確保留來源衝突（Eggshell/Leaf、Egg/Eggshell、Paperclip+Pasta/Pasta alone、Eggshell+Paper/Pasta+Paper）。
+- Bistro 123列：121列有對應分類的來源公式／動作，Crazy Calzone有公式來源但Good/Bad分類衝突，Clutter仍未找到公式來源。
+- 因此333列中332列已有來源公式／動作引用，1列Clutter仍UNMAPPED。這不代表公式正確，也不代表任何一筆已由本專案實機驗證。
+- QA維持146個唯一ID（REC14 / PHY15 / STD16 / CAF22 / BIS61 / RAT18），0執行；Research Only / Critic FAIL維持。
