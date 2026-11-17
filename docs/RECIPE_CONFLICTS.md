@@ -467,12 +467,12 @@ Steam討論串「help level 3 - pizza dough」最初回覆為 Dough + Yeast + Ol
 |---|---|---|---|---|
 | Pizza Dough | Dough + Yeast + Olive Oil | **Flour + Yeast + Olive Oil** | SRC-015 + SRC-018 + SRC-058; SRC-058明確指出Flour而非Dough | B；來源交叉一致，仍待本專案實機驗證 |
 
-## Bistro Good/Bad 分類衝突｜Crazy Calzone
+## Bistro Good/Bad 分類校正｜Crazy Calzone
 
 - SRC-050 Steam recipe guide將Crazy Calzone列於Ch 3 Bad Recipes，配方Pizza + Pizza Dough。
-- SRC-018 1.0 completion route將Crazy Calzone列為可用Pizza + Pizza Dough製作的Bistro鏈料理，未明確說明Good/Bad tab。
-- SRC-038玩家留言亦確認Pizza + Pizza Dough會做出Crazy Calzone，但未說明分類。
-- 因此配方材料有支持，**Good/Bad分類未定**。不可因名字或攻略章節位置猜分類；實機時必須分別記錄recipe card出現在哪個tab及計數器。
+- SRC-018 1.0 completion route提到相同材料配方，但未明示Good/Bad tab。
+- SRC-024的1.0實機存檔畫面顯示Bistro目標為83 Good / 40 Bad；本專案舊清單為84 Good / 39 Bad。將Crazy Calzone由Good移至Bad後，剛好與1.0目標counter一致。
+- **目前處理：** 候選清單改列Bad（高信心、counter-aligned），但尚未看到Crazy Calzone卡片本身的tab畫面；BIS-061仍需實機確認，不標verified。
 
 
 ## Clutter source correction｜SRC-024（2026-11-17）
