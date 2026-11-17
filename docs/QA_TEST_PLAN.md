@@ -132,6 +132,8 @@ Confirmed Cafe To-Do candidates: complete 8 orders (official v3.0ea) and set the
 | BIS-016 | Complete Bistro “Clean the kitchen” task using Cloth | To-Do row updates; clean state persists |
 | BIS-017 | Complete Bistro “Trade with the rat” task by offering Cheese and completing the first request | To-Do row updates; Tomato reward and next drawing appear |
 | BIS-018 | Investigate Clutter without assuming a recipe formula | Record exact interaction / inputs that unlock it; if unavailable, leave trigger unknown and block recipe implementation |
+| BIS-019 | Receive a country Magnet, register it for Going Global, then combine it with Scissors | Compass is discovered only after the magnet's registration state; verify whether consuming it affects the magnet ledger |
+| BIS-020 | Test rat-reward Magnet directly and after cooking it in the station | Big Magnet candidate resolves; compare the Bad Recipe counter and retain the successful state |
 
 The seven country dishes are not fully identified; BIS-011 remains blocked until the list is recovered.
 
