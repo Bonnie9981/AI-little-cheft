@@ -145,7 +145,7 @@ The 1.0 player walkthrough reports approximately 10 Bistro additions. The 8/10 S
 
 ## Rat Level achievement interaction
 
-Coioioin primary trigger: click the coin beside the cooker until the same face lands three times in a row, matching the official Steam achievement text and multiple guides. A separate player report mentions a blue switch / red-marked toss area, but it is not corroborated and should not supersede the official description. Source: [Steam achievements](https://steamcommunity.com/stats/3376500/achievements), [9Puz 1.0 route](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/), [Steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352&l=swedish).
+Coioioin trigger conflict: Steam achievement text says the same face must land three times in a row; an older Steam discussion says repeatedly click the coin. The Japanese 1.0 first-hand walkthrough instead says press the blue-frame switch and toss the coin into the red-frame target, and reports delayed Steam sync until relaunch. Keep both routes as candidates; separate gameplay trigger from platform synchronization. Source: [Steam achievements](https://steamcommunity.com/stats/3376500/achievements), [9Puz 1.0 route](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/), [Steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3713640352&l=swedish).
 
 
 ## Bistro count reconciliation
@@ -203,7 +203,7 @@ Sources:
 
 - Wine About It: a Steam player reports the five bottles should be ordered by label height, shortest to tallest. This is more actionable than guessing by wine color or name. Source: [Steam Level 3 discussion](https://steamcommunity.com/app/3376500/discussions/0/568165880361398668/).
 - Rat Level slot conflicts are version/source conflicts, not translation-only issues: Cold Good #5 is Cheese + Leaf in the 1.0 Chinese guide vs Cheese + Eggshell in the English guide; Bad #4 is Eggshell + Pencil vs Egg + Pencil; Bad #6/#7 include Pasta alone, Pasta + Paper, or Paperclip + Pasta.
-- Coioioin's official description and multiple walkthroughs specify three consecutive identical coin faces by clicking the coin. The blue-switch / red-target report remains low-confidence and optional to investigate only if the direct route fails.
+- Coioioin is unresolved: official text and older guides support same-face repetition; a Japanese 1.0 first-hand route supports blue-switch → red-target toss and says it is not simply random repetition. Test both; the Japanese author also reports Steam achievement sync only after relaunch.
 
 
 ## Official Early Access recipe adjustments (v2.9ea, 2026-03-19)
@@ -360,3 +360,12 @@ Sources:
 - **PB&J Sandwich：** 10/9攻略明確接受 Bread、Toast 或 PB&J Jar + Bread等路徑；這比較像 alternate_inputs，不應誤判成版本衝突。
 
 Sources: SRC-016, SRC-019, SRC-024, SRC-031, SRC-032; [Steam Carbonara discussion](https://steamcommunity.com/app/3376500/discussions/0/800090354736110017/).
+
+
+## Coioioin 1.0 evidence reconciliation (2026-11-17)
+
+The Japanese 1.0 walkthrough is stronger than the earlier summary gave it credit for: it explicitly says Coioioin is **not** merely getting the same coin face three times by chance, and gives a concrete route: press the switch inside the blue frame, then throw the coin into the red frame. The same author reports that the in-game achievement was earned before Steam displayed it, and Steam sync occurred after closing/relaunching the game.
+
+This conflicts with Steam's official achievement description (“same side ... 3 times in a row”) and an older Steam discussion that says to click the coin repeatedly. Possible explanations include a version change, a secondary deterministic trigger, or a difference between the in-game condition and Steam's achievement text. Do not silently choose one. QA RAT-008/009 must test both routes; RAT-010 tests platform sync separately.
+
+Sources: [Japanese 1.0 first-hand walkthrough](https://note.com/utsukinoel/n/n2734d08070ca), [official Steam achievement text](https://steamcommunity.com/stats/3376500/achievements), [older Steam discussion](https://steamcommunity.com/app/3376500/discussions/0/582806564883173701/).
