@@ -569,3 +569,12 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Pizza Dough首選配方修正為Flour + Yeast + Olive Oil；SRC-058明確糾正Dough不是Flour，且SRC-015/SRC-018交叉支持。
 - Bistro provenance：121/123列有公式來源或動作來源線索；Clutter仍未映射，Crazy Calzone的Good/Bad分類有來源衝突。
 - QA新增BIS-061核對Crazy Calzone實際tab；總數146個唯一設計ID，0執行。
+
+## 2026-11-17｜SRC-058後驗證快照
+- Source Register：SRC-058。
+- QA：146個唯一ID，分布REC14 / PHY15 / STD16 / CAF22 / BIS61 / RAT18；0執行。
+- Bistro provenance audit：121/123列有對應區段的來源公式／動作；Crazy Calzone列為CLASSIFICATION_CONFLICT，Clutter列為UNMAPPED。不要把來源映射當成實機驗證。
+- Pizza Dough：Flour + Yeast + Olive Oil（SRC-015/018/058）。
+- Crazy Calzone：SRC-050列Bad，SRC-018流程提及但未明示tab；待實機記錄tab，BIS-061。
+- Bistro rat trades與七國磁鐵是兩條不同但互相依賴的進度鏈；只確認Cheese→Tomato與Japan=Mochi。
+- 目前仍Research Only，Critic Gate FAIL。
