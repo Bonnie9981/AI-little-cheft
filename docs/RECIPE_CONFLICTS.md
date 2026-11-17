@@ -203,7 +203,7 @@ Sources:
 
 - Wine About It: a Steam player reports the five bottles should be ordered by label height, shortest to tallest. This is more actionable than guessing by wine color or name. Source: [Steam Level 3 discussion](https://steamcommunity.com/app/3376500/discussions/0/568165880361398668/).
 - Rat Level slot conflicts are version/source conflicts, not translation-only issues: Cold Good #5 is Cheese + Leaf in the 1.0 Chinese guide vs Cheese + Eggshell in the English guide; Bad #4 is Eggshell + Pencil vs Egg + Pencil; Bad #6/#7 include Pasta alone, Pasta + Paper, or Paperclip + Pasta.
-- Coioioin has a 1.0 player report of pressing the blue switch before tossing the coin; keep the older three-same-side achievement description, but test whether the switch modifies the coin outcome.
+- Coioioin's official description and multiple walkthroughs specify three consecutive identical coin faces by clicking the coin. The blue-switch / red-target report remains low-confidence and optional to investigate only if the direct route fails.
 
 
 ## Official Early Access recipe adjustments (v2.9ea, 2026-03-19)
