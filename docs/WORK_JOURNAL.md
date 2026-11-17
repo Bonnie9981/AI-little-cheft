@@ -798,3 +798,25 @@
 - 建立 docs/ZH_TW_RECIPE_TRANSLATIONS.md，涵蓋Student Dorm 48+29、Cafe 71+41、Bistro 84+39，共312筆命名配方。
 - Rat Level 21 slots使用低／高電力與slot序號，不將符號猜成料理名。
 - 翻譯覆蓋已完成，仍需最後台灣用語審校、雙關校正、畫面長度與手機排版測試。
+
+
+## 2026-11-17｜Cafe八項To-Do與Coioioin衝突校正
+
+**觀察**
+- 官方 v3.0ea說 Level 2新增8個To-Do entries；先前把「8項To-Do」誤讀成「完成8張訂單」的8個任務，必須修正。
+- 1.0攻略可明確辨識的Cafe任務候選至少四項：Clean kitchen、rat trade、complete 8 orders、set kitchen on fire。其餘四項尚未從來源中找回。
+- 9Puz及Steam成就頁／玩家討論支持Coioioin為同一面硬幣連續出現三次；藍色開關與紅色目標區的另一說法未能獲得同等程度交叉支持。
+
+**行動**
+- PROGRESSION_MODEL改為8個Cafe task rows，其中4個已知、4個待查；明確區分8 orders與8 To-Do entries。
+- 更新INTERACTION_SPEC、QA_TEST_PLAN、PROGRESS_REPORT的Coioioin證據優先順序。
+
+**判斷**
+- Cafe To-Do是目前Level 3解鎖的主要未完成資料缺口。
+- 不把「完成火災」當成唯一解鎖條件；必須完成整份To-Do ledger。
+- Coioioin以Steam成就文字作主要規格，藍開關路線保留為候選。
+
+**下一步**
+- 專查Cafe其餘四項To-Do的名稱與觸發步驟。
+- 找到Bistro七國料理圖像／完整鼠交易清單。
+- 逐項核對333候選配方的公式與狀態，尤其Bistro與Rat Level。
