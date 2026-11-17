@@ -17,7 +17,7 @@
 
 | Recipe | 候選配方／狀態 | 證據與問題 | 目前處理 |
 |---|---|---|---|
-| Goulash | Meat + Ground Tomato + Wine | Steam Bistro Guide、SRC-017 v1.0 guide及作者勘誤均支持；SRC-017說圖鑑曾錯顯 whole Tomato，官方v1.1公告修正 cookbook。 | B；Ground Tomato候選優先，做v1.1+回歸 |
+| Goulash | **Normal Meat + Ground Tomato + Wine**（不是 Ground Meat） | SRC-055 Steam玩家討論中，最初有人誤寫 processed meat；另一玩家明確更正為 normal meat + processed tomato + wine，原提問者回覆感謝並採用。SRC-017 v1.0 guide及官方v1.1 cookbook修正提供旁證。 | B；鎖定 normal meat + Ground Tomato + Wine 為首選候選；仍需 1.0+ 實機回歸 |
 | Tomato Cocktail | Ground Tomato + Olives + Red Wine / Wine | SRC-017作者留言指出Olives + Ground Tomato + Red Wine；SRC-050與7/14 guide寫Wine；官方v1.1公告修正 cookbook。 | B/D；測試紅酒與一般酒的item state |
 | Focaccia | Bread Dough + Olive Oil + Olives | 7/14 Steam guide、Level 3 玩家討論及後續攻略一致。 | B；待實機 |
 | Tomato Cheese Appetizer | Tomato + Cheese；或 Tomato + Cheese + Olives | 7/14 Steam guide列 Tomato + Cheese；8/10 更新版列 Tomato + Cheese + Olives。Olives 可能是多餘／必要輸入差異。 | D；不可定案 |
@@ -416,3 +416,18 @@ SRC-052 also says repeated coin clicks beside the planter can earn Coioioin, mat
 |---|---|---|---|
 | Mochi (Japan country dish) | Ground Rice (SRC-017 manual v1.0 guide) | Whole Rice (SRC-015 / SRC-050) | 1.0 candidate conflict; test whole and ground separately. Do not confuse with Apple Mochi. |
 | Yeast Monster | Yeast + Wooden Spoon (SRC-017) | Yeast + Wine (SRC-015) / Yeast + Tomato (SRC-050) | Three-way conflict; no candidate promoted until slot counter or in-game recipe card confirms. |
+
+
+## SRC-055｜Bistro 三道配方玩家討論交叉核對（2026-11-17）
+
+Steam「Assistance with Level 3」討論串（76則留言）補足三道常卡關配方，並特別揭露 Goulash 的材料狀態錯誤：
+
+| Recipe | 首選候選 | 證據細節 | 信心／處理 |
+|---|---|---|---|
+| Goulash | **Normal Meat + Ground Tomato + Wine** | 最初留言誤寫 processed meat + tomato + wine；另一玩家指出應是 processed tomato/tomato sauce；原留言者再明確修正為 normal meat + processed tomato + wine，並承認自己把材料寫反。 | B；Normal Meat 與 Ground Meat 必須是不同 item state；以此作首選，仍待遊戲內確認 |
+| Risotto | Rice + Mushroom + Cheese | 同一討論串的玩家提供配方，沒有後續反駁；與現有 Bistro 配方資料相容。 | C；候選，不標記 verified_in_game |
+| Focaccia | Bread Dough + Olives + Olive Oil | 同一討論串玩家提供配方；與現有攻略的三材料配方一致。 | B；候選，不標記 verified_in_game |
+
+**重要修正：** Goulash 不是 Ground Meat + Ground Tomato + Wine。若配方系統只用「Meat」而不區分 Normal Meat / Ground Meat，會把 Goulash 與 Meatloaf 等加工肉配方混淆。RecipeConditions 必須引用明確 item_state，而不能用模糊的 meat 類別。
+
+來源：SRC-055，Steam Community「Assistance with Level 3」，2026-07-12，留言 #1、#3、#5、#6。
