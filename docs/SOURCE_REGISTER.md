@@ -204,3 +204,6 @@ Cross-version additions:
 
 
 | SRC-053 | [SteamDB mirror — Café Update v3.0ea](https://steamdb.info/patchnotes/22930769/) | Official Steam changelog mirrored by SteamDB; 2026-04-23 | Explicitly adds Cafe To-Do task “complete 8 orders” and documents the v3.0ea Cafe content additions | Secondary mirror of official developer changelog; strong for the existence of this EA task, but not proof the exact final 1.0 checklist is unchanged |
+
+
+- SRC-054 | [Steam Community Discussion — Bistro - how to trade with rat?; developer Crazydvd reply](https://steamcommunity.com/app/3376500/discussions/0/574921459914308481/) | 2026-07-16 | Developer explicitly confirms the Bistro rat sequence: find the suspicious door on the extractor hood; offer the same item used in the Cafe rat trade (Cheese); the rat displays a drawing of a dish; cook that exact dish to trade for a new ingredient. | Primary developer-authored clarification for the interaction loop. It confirms the mechanic, but does not disclose the four dish drawings, their order, or the ingredient reward mapping. It is not enough to close P1-01.
