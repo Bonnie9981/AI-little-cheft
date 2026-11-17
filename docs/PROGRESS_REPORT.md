@@ -629,4 +629,4 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 開發者Crazydvd在Steam討論直接說明：Cafe撥對電話號碼後，必須拿起話筒並等對方講完，再放下，酪梨與生菜才會生成。新增CAF-023驗收完整通話事件，不再只驗證號碼輸入。
 - 1.0攻略與Steam配方指南交叉確認火災復原：警報玻璃連點三次打破，再按露出的按鈕。新增CAF-024，將火災成就與復原互動分開驗收。
 - 官方v1.1（2026-09-11）明確加大Rat Level密碼鎖點擊區域，故舊版畫面座標不可直接當作1.1+通用命中區。新增SRC-059與RAT-021版本回歸測試。
-- Source Register擴至SRC-061；QA新增CAF-023、CAF-024、RAT-021，總數預計150 unique，均為設計尚未執行。Research Only維持。
+- Source Register擴至SRC-061；QA新增CAF-023、CAF-024、RAT-021，總數151 unique，均為設計尚未執行。Research Only維持。
