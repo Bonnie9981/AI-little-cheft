@@ -102,3 +102,10 @@
 ## Round 1 Addendum — corrected gate after SRC-017 recovery
 - P1-06 is now actual QA execution, not Goulash/Tomato Cocktail formula discovery. The 1.0 Chinese guide provides current candidates; only v1.1 regression remains.
 - QA count is 127 unique test IDs, all unexecuted.
+
+
+## Round 1 Addendum — SRC-052 independent Rat Level cross-check
+- Added SRC-052, an independent Steam guide dated 2026-08-27. It corroborates the Rat Level puzzle sequence and most slot formulas.
+- Eggshell is now the preferred candidate for cold Good #5; Eggshell + Pencil for Bad #4; Paperclip + Pasta for Bad #6; Eggshell + Paper for Bad #7. SRC-017 manual variants remain in QA as alternatives.
+- Coioioin repeated coin-click route is supported by SRC-052 and official achievement wording; Japanese blue-switch/red-target remains a second method to test.
+- The actual numeric code and OFF/ON-to-weak/strong mapping remain unresolved. Source register now reaches SRC-052; QA remains 127 designed, unexecuted tests.
