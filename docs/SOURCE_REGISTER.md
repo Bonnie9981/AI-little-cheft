@@ -128,3 +128,9 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - The 2026-09-09 publication date does not mean the article describes the 1.0 build. Its introduction explicitly says it covers the July 13 Level 3 update during Early Access, even though the full release had occurred by the time it was written.
 - Keep its Bistro To-Do, rat-trade, Mixer, wine and seven-country statements as EA-era first-hand evidence. Cross-check persistence into 1.0 against SRC-024 (1.0 walkthrough), current patch notes, and later sources.
 - The article names only Japan's Mochi among the seven international dishes; do not infer the other six from the recipe list.
+
+
+- SRC-047 | [9Puz 1.0 completion route — directly opened full text](https://9puz.com/5427-little-chef-cozy-cooking-completion-guide/) | 2026-09-02 | Rat Level: anti-gravity reveals planter note; note contains three-digit code; wine label reveals keypad; five cold Good slots and four hot Good slots; Eggshell/Leaf and Egg/Eggshell conflicts; two-input cooker; Bistro Big Magnet should be cooked; Compass requires a registered country magnet | Directly readable 1.0 community walkthrough; exact numeric code and six non-Japan country-dish names are not transcribed in text, and formulas remain unverified in-game.
+
+## SRC-016 accessibility clarification (2026-11-17)
+- The Steam guide ID 3713640352 remains marked removed on its Swedish-language page, but its full text body is now directly readable through that page, including the author’s “updated as of 10 August 2026” statement, Bistro list, Rat Level slot list, and comments. This is stronger than search-snippet-only access, but it remains a community guide and its embedded image content is not fully represented in extracted text. Retain version and image limitations; do not treat its formulas as in-game verified.
