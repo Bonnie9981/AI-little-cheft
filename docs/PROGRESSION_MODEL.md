@@ -18,7 +18,7 @@ Main Menu
 - My Room is the hub and is not a fourth main kitchen.
 - The three main kitchens are Student Dorm, Cafe Job, and Bistro.
 - Official 1.0 announcement says the secret Rat Level is unlocked after all three main kitchens reach 100%.
-- The exact 100% formula is not fully specified in readable official text.
+- The 1.0 completion route states that each kitchen has its own recipe and task ledger. Both Good and Bad tabs must be audited; exact percentage arithmetic is still not available.
 
 ## 2. Room state
 
@@ -104,7 +104,7 @@ Open questions:
 - Exact three-digit code.
 - Whether OFF maps to low and ON maps to high.
 - Rat Level Eggshell/Leaf and Egg/Pencil/Pasta recipe slot conflicts.
-- Whether Coioioin needs only three matching coin faces or the blue switch + red toss interaction.
+- Whether Coioioin is triggered by clicking the coin until the same face lands three times consecutively (Steam achievement text and player reports), or whether the blue switch / red marked area from another report is an additional prerequisite.
 
 ## 7. My Room and post-game
 
@@ -136,10 +136,10 @@ The 1.0 completion route says each kitchen has a separate recipe and task ledger
 
 ## Cafe Job task ledger — known entries (not yet proven exhaustive)
 
-At least four task entries are supported by official update notes and 1.0 player walkthroughs:
+Official v3.0ea patch notes say **eight To-Do entries** were added to Level 2; they do not say “eight orders” were added as eight separate tasks. The 1.0 route confirms that completing the Cafe To-Do ledger and resolving the fire interaction are required to proceed to Bistro. The currently recoverable task content is:
 1. Clean the kitchen.
 2. Trade with the rat by the Blue Teapot (offer Cheese).
-3. Complete 8 orders (official v3.0ea added this To-Do).
-4. Set the kitchen on fire (Burnt Panini cooked a second time).
+3. Complete 8 orders (one task; not eight To-Do entries).
+4. Set the kitchen on fire using Burnt Panini cooked a second time.
 
-Other progression blockers noted by the 1.0 route include phone stock / 21931 call, collecting order Coins, obtaining an Espresso Cup, opening the Safe, and completing the fire-alarm interaction. These may be subtasks, puzzle gates, or additional ledger entries; do not count them as To-Do rows until the actual UI is seen.
+The other four of the eight To-Do entries are not yet recovered. Phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm interaction are confirmed progression interactions, but their exact relationship to the remaining To-Do rows is not proven. Keep the ledger at 8 rows with four known and four unknown; do not merge “8 orders” with “8 tasks.”
