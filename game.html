@@ -29,7 +29,23 @@ function complete(i){data.tasks[current]=data.tasks[current]||[];if(!data.tasks[
 function renderTasks(){const r=rooms[current],done=data.tasks[current]||[];$('todos').innerHTML=r.tasks.map((t,i)=>'<label class="todo"><input type="checkbox" disabled '+(done.includes(i)?'checked':'')+'><span>'+esc(t)+'</span></label>').join('');const pct=Math.round(done.length/r.tasks.length*100);$('roomBar').style.width=pct+'%';$('roomPct').textContent=pct+'%';}
 function renderNav(){document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===current);b.disabled=!data.unlocked.includes(b.dataset.room)})}
 function render(){const r=rooms[current];$('roomTitle').textContent=r.name;$('roomSub').textContent=r.sub;$('appliance').textContent=r.appliance;$('items').innerHTML=r.items.map(n=>'<button data-item="'+esc(n)+'">'+catalog[n]+' '+esc(n)+'</button>').join('');$('items').querySelectorAll('button').forEach(b=>b.onclick=()=>{addObj(b.dataset.item,12+Math.random()*68,12+Math.random()*45);});$('scene').querySelectorAll('.obj').forEach(e=>e.remove());objects=[];pot=[];renderSlots();renderTasks();renderNav();$('deviceText').textContent=current==='rat'?'罐頭鍋：最多兩項材料；切換火力探索配方。':'最多放入三項食材。';say('歡迎來到'+r.name+'。拖曳素材開始探索！');save();}
-function cook(){if(!pot.length){say('先把食材放進料理設備。');return}let match=recipes.find(r=>pot.includes(r[1])&&pot.includes(r[2]));if(match){const id=match[0];if(!data.discovered.includes(id)){data.discovered.push(id);say('新食譜發現：'+match[4]+' '+id+'（'+match[3]+'）');log('食譜發現：'+id);if(match[3]==='Good')data.coins++;}else say('你再次做出 '+id+'。')}else{say('這個組合沒有出現在目前已知的配方資料中。試試其他食材！')}if(current==='dorm'&&pot.some(n=>n==='義大利麵'||n==='拉麵')){data.pasta=(data.pasta||0)+1;if(data.pasta>=8)complete(0)}if(current==='cafe'){data.orders++;if(data.orders>=8)complete(2)}if(current==='rat'){data.ratRecipes=(data.ratRecipes||0)+1;if(data.ratRecipes>=9)complete(4)}pot=[];renderSlots();save();renderTasks();}
+function cook(){
+if(!pot.length){say('先把食材放進料理設備。');return}
+const key=pot.slice().sort().join('+');
+const roomRecipes=recipes.filter(r=>r[1]&&r[2]);
+let match=roomRecipes.find(r=>r[1]!==r[2]&&pot.length===2&&pot.includes(r[1])&&pot.includes(r[2]));
+if(!match&&pot.length===2)match=roomRecipes.find(r=>r[1]===r[2]&&pot[0]===r[1]&&pot[1]===r[2]);
+if(match){
+const id=current+':'+match[0];
+if(!data.discovered.includes(id)){data.discovered.push(id);say('新食譜發現：'+match[4]+' '+match[0]+'（'+match[3]+'）');log('食譜發現：'+match[0]);if(match[3]==='Good')data.coins++;}
+else say('你再次做出 '+match[0]+'。');
+}else say('沒有找到相符配方。食材狀態與組合順序可能有影響，試試其他組合。');
+if(current==='dorm'&&pot.some(n=>n==='義大利麵'||n==='拉麵')){data.pasta=(data.pasta||0)+1;if(data.pasta>=8)complete(0)}
+if(current==='dorm'&&pot.includes('起司')&&match&&match[3]==='Good'&&data.drawer)complete(1);
+if(current==='cafe'&&match){data.orders++;if(data.orders>=8)complete(2)}
+if(current==='rat'){data.ratRecipes=(data.ratRecipes||0)+1;if(data.ratRecipes>=9)complete(4)}
+pot=[];renderSlots();save();renderTasks();
+}
 
 // D2 wall-tile puzzle, based on the documented Student Dorm sequence.
 const tile=document.createElement('button');tile.textContent='D2';tile.title='牆面磁磚';tile.style.cssText='position:absolute;left:24%;top:24%;z-index:4;background:#d6c8a9;border:2px solid #8e8067;border-radius:4px;padding:12px 16px';$('scene').append(tile);
