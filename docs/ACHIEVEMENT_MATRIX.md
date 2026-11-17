@@ -29,7 +29,7 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 | 22 | Messing Around | Bistro | Grind Pumpkin, Tomato, or Meat, then run the Mixer a second and third time to create a large mess; clean with Cloth afterward | Steam guide / walkthrough; B |
 | 23 | Wine About It | Bistro | Sort all five wine bottles by label height, shortest to tallest | Steam player discussion; B |
 | 24 | Little Rat | Rat Level | Complete Rat Level to 100% | Official achievement description / guide; A for description, C for exact 100% formula |
-| 25 | Coioioin | Rat Level | Land the same side of the coin three times in a row by clicking the coin beside the cooker | Official Steam achievement description and multiple player guides; B. A separate blue-switch / red-target report is not corroborated. |
+| 25 | Coioioin | Rat Level | Investigate the blue-frame switch → coin toss into red-frame target route; official achievement text describes three consecutive same-face landings | Conflicting 1.0 first-hand route vs older click-to-flip guides; trigger and in-game/Steam sync must be tested separately. |
 | 26 | Nothing Nowhere | Cafe Job | Cook three Bagels together in the Microwave Oven; recipe is discovered in the Safe after using Security Card | Steam guide / walkthrough; B |
 
 ## Removed / historical achievement
@@ -39,7 +39,7 @@ Target: 26 achievements listed for the 1.0 game. Trigger descriptions are commun
 ## Important caveats
 
 - “Complete room to 100%” is official achievement wording, but written sources do not conclusively define whether this requires every Good and Bad recipe, all To-Do tasks, or both. The QA plan must test the actual 1.0 counters.
-- Coioioin's official Steam description and multiple player guides say the same coin face must land three times in a row by clicking the coin beside the cooker. A blue-switch / red-marked-area report exists but is not corroborated; do not hardcode it as a prerequisite.
+- Coioioin remains a conflict: Steam's official achievement description says the same coin face three times in a row; the 2026-09-10 Japanese 1.0 first-hand walkthrough says the reliable route is press the switch in the blue frame, then throw the coin into the red frame, and explicitly warns it is not simply random same-face repetition. An older Steam discussion/guide says repeated clicking works. Model both routes as test candidates; also test Steam sync after restarting because the Japanese player reports delayed achievement sync.
 - The exact seven country dishes for Going Global are not fully identified in readable sources. Mochi / Japan is the only currently named pair.
 - Bookworm's exact book order / arrangement is not yet documented with a readable source.
 - Post A Lot requires 15 Post-it notes simultaneously, not merely 15 notes collected over time.
