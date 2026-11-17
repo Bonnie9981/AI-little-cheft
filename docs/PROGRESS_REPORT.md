@@ -507,3 +507,9 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 官方v3.0ea changelog新增Complete 8 orders；後續1.0前夕攻略記錄Set the kitchen on fire為Level 2 To-Do／Bistro解鎖條件。最終1.0完整清單仍未找到直接截圖。
 - Bistro EA截圖另顯示Trade with the rat (0/4)、Cook new ingredients (0/6)等任務，已獨立記錄，不與Cafe任務混淆。
 - QA現為140個唯一ID（CAF-018..022及BIS-053..055已加入），全部仍為未執行測試設計。
+
+
+## 2026-11-17｜SRC-053 官方 Cafe To-Do 版本證據
+- 新增SRC-053：SteamDB鏡像的官方v3.0ea更新記錄，2026/04/23明確新增Cafe To-Do「complete 8 orders」。
+- 與SRC-023早期EA截圖（四項任務且More coming soon）及2026/09攻略中的Set the kitchen on fire合併建立版本時間線；最終1.0完整To-Do仍待直接截圖。
+- 來源登錄更新至SRC-053；QA 140個唯一ID，尚未實機執行。
