@@ -170,3 +170,9 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 
 
 - SRC-052 | [Steam Community Guide — New Achievement and Mouse Recipes (26 Aug 2026), by RoyalUyenRuby](https://steamcommunity.com/sharedfiles/filedetails/?id=3790806368) | Posted/updated 2026-08-27 | Direct Rat Level walkthrough with the anti-gravity → planter password → wine-bottle lock → oven power sequence; lists all nine Good slots and twelve Bad slots in order; says Coioioin can be earned by repeatedly clicking the coin beside the planter. | Independent community guide, removed/incompatible label on Steam; no actual numeric password is transcribed. Rat formulas align with SRC-050 on Eggshell cold #5, Eggshell + Pencil bad #4, Paperclip + Pasta bad #6, and Eggshell + Paper bad #7; conflicts with SRC-017 on cold #5, bad #6 and #7. Treat as a C-level independent cross-check, not in-game verification.
+
+
+## SRC-050 direct full-page reinspection — mouse-gated Bistro ingredients (2026-11-17)
+- Directly opened the full Steam guide and its comments. In the Bistro Good Recipes section, Tomato Cheese Appetizer is annotated with Olives “gift from mouse”; Baked Apple is annotated “gift from mouse”; Pumpkin Soup identifies Garlic as “a gift from the mouse”. The first mouse interaction itself is not listed in this guide section, but SRC-023 independently records Cheese → Tomato.
+- The guide's trade achievement note says each magnet is obtained from the mouse after making requested recipes, and Best Friends requires completing the requested trades/recipes. It still omits the ordered request cards and exact reward order. These item-gate annotations narrow the reward inventory but do not complete the rat-trade ledger.
+- Comments dated Aug 28 independently correct Mochi to require grinding Rice first, which conflicts with the guide author's main list (“Mochi: Rice”). Retain both states in BIS-048; the comment is a player correction, not developer confirmation.
