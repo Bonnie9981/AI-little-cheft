@@ -12,9 +12,9 @@ The 333-name candidate inventory now has row-level source formula/action referen
 |---|---:|---:|---:|---|---|
 | Student Dorm | 48 | 29 | 77 | SRC-019 | 77 rows source-listed; not in-game verified |
 | Cafe Job | 71 | 41 | 112 | SRC-020 | 112 rows source-listed; duplicate Coffee Cake entry deduplicated; not in-game verified |
-| Bistro | 83 | 40 | 123 | SRC-015, SRC-016, SRC-018, SRC-038, SRC-050 | 121 source-listed; 1 classification conflict; 1 unmapped (Clutter) |
+| Bistro | 83 | 40 | 123 | SRC-015, SRC-016, SRC-018, SRC-038, SRC-050 | 121 source-listed; 1 counter-aligned candidate; 1 formula-unmapped (Clutter) |
 | Rat Level | 9 | 12 | 21 | SRC-017, SRC-050, SRC-052 | 21 slot inputs source-listed; four slots retain explicit candidate conflicts; not in-game verified |
-| **Total** | **211** | **122** | **333** — | **332 rows have source formula/action references; Clutter remains unmapped; none are in-game verified** |
+| **Total** | **211** | **122** | **333** | — | **332 rows have source formula/action references; Clutter has a trigger hint only; none are in-game verified** |
 
 Name source IDs identify the source family from which a candidate name/list was transcribed or reconciled. They do not mean the formula is confirmed by that source. Formula source IDs are deliberately UNMAPPED until an exact per-recipe formula citation is assigned. Do not mark a formula verified based on a room-level source alone.
 
