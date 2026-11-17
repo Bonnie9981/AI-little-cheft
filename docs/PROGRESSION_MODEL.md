@@ -136,10 +136,11 @@ The 1.0 completion route says each kitchen has a separate recipe and task ledger
 
 ## Cafe Job task ledger — known entries (not yet proven exhaustive)
 
-Official v3.0ea patch notes say **eight To-Do entries** were added to Level 2; they do not say “eight orders” were added as eight separate tasks. The 1.0 route confirms that completing the Cafe To-Do ledger and resolving the fire interaction are required to proceed to Bistro. The currently recoverable task content is:
-1. Clean the kitchen.
-2. Trade with the rat by the Blue Teapot (offer Cheese).
-3. Complete 8 orders (one task; not eight To-Do entries).
-4. Set the kitchen on fire using Burnt Panini cooked a second time.
+Official v3.0ea patch notes add **one To-Do: complete 8 orders**. They do not state that eight To-Do rows were added. Later v5.1ea patch notes require finishing the Level 2 To-Do list before entering Level 3. The 1.0 completion route and player walkthroughs also show the fire interaction as a Cafe progression blocker. The exact full Level 2 To-Do list is not recovered from the current readable sources.
+Confirmed To-Do / progression entries:
+1. Complete 8 orders — explicitly named by v3.0ea.
+2. Set the kitchen on fire — explicitly named in the 1.0 walkthrough as a Level 2 To-Do; use Burnt Panini a second time.
+3. Clean the kitchen — appears in completion walkthroughs as a required Cafe cleanup action; exact To-Do UI status not confirmed.
+4. Trade with the rat — cheese trade is a required access interaction and may be represented in the To-Do counter; exact UI wording not confirmed.
 
-The other four of the eight To-Do entries are not yet recovered. Phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm interaction are confirmed progression interactions, but their exact relationship to the remaining To-Do rows is not proven. Keep the ledger at 8 rows with four known and four unknown; do not merge “8 orders” with “8 tasks.”
+Phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm interaction are confirmed progression interactions, but their exact relationship to separate To-Do rows is not proven. Do not invent a total task count.
