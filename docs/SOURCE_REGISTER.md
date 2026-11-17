@@ -176,3 +176,14 @@ Purpose: audit trail for all external research used in the Little Chef recreatio
 - Directly opened the full Steam guide and its comments. In the Bistro Good Recipes section, Tomato Cheese Appetizer is annotated with Olives “gift from mouse”; Baked Apple is annotated “gift from mouse”; Pumpkin Soup identifies Garlic as “a gift from the mouse”. The first mouse interaction itself is not listed in this guide section, but SRC-023 independently records Cheese → Tomato.
 - The guide's trade achievement note says each magnet is obtained from the mouse after making requested recipes, and Best Friends requires completing the requested trades/recipes. It still omits the ordered request cards and exact reward order. These item-gate annotations narrow the reward inventory but do not complete the rat-trade ledger.
 - Comments dated Aug 28 independently correct Mochi to require grinding Rice first, which conflicts with the guide author's main list (“Mochi: Rice”). Retain both states in BIS-048; the comment is a player correction, not developer confirmation.
+
+
+## SRC-023 Bistro To-Do screenshot transcription (2026-11-17)
+The Japanese walkthrough's embedded screenshot at the Bistro kitchen shows the following Early Access To-Do entries in order:
+1. Clean the kitchen
+2. Trade with the rat (0/4)
+3. Get the mixer to work
+4. Cook new ingredients (0/6)
+5. Make pizza dough
+
+The screenshot also includes a truncated author note reading “Last one coming with 1.0” (partially obscured by the cursor/page crop). This is strong evidence for the EA task list and for four rat trades / six new-ingredient dishes in that build, but it is not proof the final 1.0 task list retained identical wording or counters. The source's text confirms the first Cheese → Tomato trade and says subsequent illustrated requests award ingredients; the full four requested dishes and reward mapping are still not transcribed. Do not mistake this Bistro list for the separate Cafe Level 2 To-Do list.
