@@ -922,3 +922,26 @@
 - 稽核Bistro公式表與ItemState inventory，發現Steam 8/10 guide在Meatball Sandwich、Cheeseburger使用Ground Beef，而其他來源用Ground Meat。
 - 未找到證據證明是兩種不同加工物；因此統一使用ground_meat state，Ground Beef只作來源別名。
 - ITEM_STATE_INVENTORY與RECIPE_CONFLICTS已補充說明，避免把同一加工狀態錯建成兩種食材。
+
+
+## 2026-11-17｜本輪研究稽核收束與下一輪優先順序
+**已完成**
+- 333筆候選公式列與Inventory名稱逐條對齊；312筆命名料理翻譯與Inventory逐條對齊，Rat Level 21個slot不翻譯成假菜名。
+- QA達88個唯一測試案例；來源登錄達46筆。
+- 修正Cafe / Bistro To-Do場景歸屬：Cafe目前明確有Complete 8 orders、Set the kitchen on fire；Bistro至少有Clean the kitchen、Trade with the rat。
+- Coioioin以官方描述和多個玩家指南採「同一面連續三次」，藍開關／紅色目標區不作必要條件。
+- Ground Beef統一為Ground Meat狀態別名；Clutter配方觸發維持Unknown。
+
+**本輪未能從公開可讀來源解決**
+- Cafe完整To-Do UI列數及其餘任務名稱。
+- Going Global七道國際料理中除Mochi以外的六道。
+- Rat Level花盆便條三位數密碼與OFF/ON對應low/high。
+- Clutter的具體觸發方式。
+- 若干D級配方公式與加工狀態衝突；需遊戲內實際cookbook counter / recipe card驗證。
+
+**下一輪工作**
+1. 針對Steam影片、玩家截圖與1.0攻略圖片找Cafe To-Do完整畫面、Bistro磁鐵便條及Rat Level密碼圖。
+2. 逐筆將333筆公式綁定SRC ID、版本與信心等級，建立可追溯資料表。
+3. 針對高風險衝突建立最小測試組合，不用無限制亂試。
+4. 完成物理互動 acceptance spec與存檔狀態表。
+5. 進行Critic review；P0/P1清零前維持Research Only。
