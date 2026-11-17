@@ -458,3 +458,18 @@ Steam討論「Level 3 BUG + 中文翻譯勘誤」包含玩家對配方圖示與�
 **目前可確定的結論：** 不可把「四次老鼠交易」、「七道國際料理」、「七個國家磁鐵」當成同一個數量或同一張清單。兩條鏈有食材依賴關係，但完成條件不同。七國中目前仍只有Japan = Mochi具名；其餘六國與料理名、完整rat request/reward順序都未公開在可讀文字中。
 
 來源：SRC-057，Lines 120–164及嵌入圖片（Mochi卡、Apple Mochi卡、Going Global成就圖）。
+
+## SRC-058｜Pizza Dough 加工前置狀態更正
+
+Steam討論串「help level 3 - pizza dough」最初回覆為 Dough + Yeast + Olive Oil；2026-08-21另一名玩家明確更正為 **Flour, not Dough**。這與SRC-015 Bistro Guide及SRC-018 1.0路線的配方 **Flour + Yeast + Olive Oil** 一致。
+
+| Recipe | Wrong / outdated candidate | Preferred candidate | Evidence | Status |
+|---|---|---|---|---|
+| Pizza Dough | Dough + Yeast + Olive Oil | **Flour + Yeast + Olive Oil** | SRC-015 + SRC-018 + SRC-058; SRC-058明確指出Flour而非Dough | B；來源交叉一致，仍待本專案實機驗證 |
+
+## Bistro Good/Bad 分類衝突｜Crazy Calzone
+
+- SRC-050 Steam recipe guide將Crazy Calzone列於Ch 3 Bad Recipes，配方Pizza + Pizza Dough。
+- SRC-018 1.0 completion route將Crazy Calzone列為可用Pizza + Pizza Dough製作的Bistro鏈料理，未明確說明Good/Bad tab。
+- SRC-038玩家留言亦確認Pizza + Pizza Dough會做出Crazy Calzone，但未說明分類。
+- 因此配方材料有支持，**Good/Bad分類未定**。不可因名字或攻略章節位置猜分類；實機時必須分別記錄recipe card出現在哪個tab及計數器。
