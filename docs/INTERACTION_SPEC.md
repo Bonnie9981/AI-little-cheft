@@ -118,7 +118,7 @@ Rat Level is not modeled as a conventional oven. A 1.0 player guide describes a 
 - Click wine bottle label to expose keypad.
 - Enter the three-digit code from planter note.
 - Unlock cooker power control; test low and high power.
-- Coioioin: 1.0 player report says press blue switch, then toss coin into red-marked area; verify if three matching faces are also required.
+- Coioioin: Steam achievement text and two player routes say click the coin until the same face lands three times consecutively. A separate report mentions a blue switch / red-marked area; treat that as an unresolved extra interaction, not a required step until independently verified.
 
 ## 7. Physics implementation requirements
 
