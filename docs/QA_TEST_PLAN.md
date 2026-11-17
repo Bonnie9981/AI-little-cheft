@@ -403,3 +403,9 @@ These are test designs only; the Japanese walkthrough is an EA-era visual refere
 |---|---|---|
 | RAT-022 | Toggle Rat Level electrical output between the two strength settings and repeat the same ingredient combination | Capture both control states, output cards, slot counter changes and game version. Confirm that power strength is a recipe condition; do not infer which UI label means strong/weak without direct capture |
 | RAT-023 | Press the blue-framed Rat Level switch before flipping the coin for Coioioin; separately observe in-game and Steam achievement states | Record switch state, coin outcome, in-game achievement notification, Steam sync immediately and after relaunch. SRC-063 is a single-player 1.0 observation; do not hard-code relaunch as a universal requirement |
+
+
+## SRC-065 Student Dorm To-Do screenshot regression
+| ID | Test | Expected evidence |
+|---|---|---|
+| SD-017 | Verify Student Dorm To-Do rows and counters against the visible screenshot | Confirm Cook pasta dishes (0/8), “Borrow” Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, and Cook new dishes (0/40); record each increment/completion trigger and verify all Good recipes plus all tasks are required for Chapter 2 unlock. Source is third-party screenshot evidence; no execution is claimed |
