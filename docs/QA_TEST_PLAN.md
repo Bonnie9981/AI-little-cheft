@@ -283,7 +283,7 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 |---|---|---|
 | BIS-021 | Save/reload or leave/re-enter Bistro after the rat displays a request | Current request index and already-claimed rewards persist; quest does not restart |
 | BIS-022 | Re-interact with the rat after claiming a reward, including after reload | No duplicate reward; next request appears once; To-Do counter never displays a negative value |
-| RAT-013 | Run the five cold Good candidates in documented order and inspect the live counter after each | Each valid result advances exactly one distinct slot; Eggshell/Leaf alternative is only tested if the expected slot does not advance |
+| RAT-013 | Run the five cold Good candidates in documented order and inspect the live counter after each | Each valid result advances exactly one distinct slot; Test Cheese + Leaf first per SRC-017 1.0 guide; if the slot does not advance, test Cheese + Eggshell per SRC-050 / 9Puz alternate |
 | RAT-014 | Compare cooker OFF/ON states with Japanese guide's weak/strong power states | Record the actual mapping; do not assume OFF=low or ON=high |
 | RAT-015 | Attempt to add a third ingredient to Rat Level cooker | Third input is rejected or cannot affect result; document if live behavior contradicts the two-input rule |
 
@@ -324,6 +324,21 @@ Run each alternative separately with the same appliance, room state, and version
 | BIS-037 | Fried Balls: Bread + Olive Oil vs Salami + Olive Oil | Resolve the conflicting Bad Recipe formula |
 | BIS-038 | Charcuterie Board: Olives + Salami + Bread vs Olives + Salami + Cheese | Resolve the 7/14 vs later-route candidate difference |
 | BIS-039 | Pizza Speciale: Pizza + Mushroom + Olives vs Pizza + Mushroom + Salami | Resolve the 7/14 vs later-route candidate difference |
-| BIS-040 | Clutter: Observe mixer, room state, and idle scene over time without assuming a formula | Identify whether the trigger is spontaneous, time-based, physics-based, or another interaction; record a reproducible sequence before assigning a recipe formula |
+| BIS-040 | Clutter: test Cloth + Wooden Spoon, then separately observe idle/physics-trigger behavior | Compare SRC-017's explicit 1.0 combination candidate with the Japanese walkthrough's spontaneous-mess clue; record the reproducible trigger |
 
 These are conflict-resolution cases, not proof that either candidate is correct. 
+
+## SRC-017 1.0 mixed-guide conflict regression cases
+| ID | Test | Expected evidence |
+|---|---|---|
+| RAT-016 | Cold Good #5: Cheese + Leaf vs Cheese + Eggshell | Confirm which input advances the fifth cold slot; SRC-017 1.0 guide favors Leaf, SRC-050 favors Eggshell |
+| RAT-017 | Bad #4: Eggshell + Pencil vs Egg + Pencil | Confirm exact object state that advances Bad #4 |
+| RAT-018 | Bad #6: Pasta alone vs Paperclip + Pasta | Confirm whether Pasta alone is the intended slot or whether Paperclip is required |
+| RAT-019 | Bad #7: Pasta + Paper vs Eggshell + Paper | Confirm exact input pair and ensure it does not duplicate another Bad slot |
+| BIS-041 | Vampire Defense Kit: Tomato + Wooden Spoon vs Garlic + Wooden Spoon vs Garlic + Pencil | Resolve three competing community inputs separately |
+| BIS-042 | Crazy Calzone: Pizza + Wooden Spoon vs Pizza + Pizza Dough | Confirm whether the spoon candidate is a separate Bad/Good result or a guide transcription error |
+| BIS-043 | Bread Sticks: Pizza Dough alone vs Pizza Dough + Olive Oil | Resolve one-input vs two-input formula |
+| BIS-044 | Bad Pastry: Yeast + Bread Dough + Pizza Dough vs Bread Dough + Flour (+/- Pizza) | Compare each source candidate without mixing alternatives |
+| BIS-045 | Sorrow Sandwich: Bread + Wooden Spoon vs Bread + Flour | Resolve competing 1.0 candidates |
+| BIS-046 | Risky Rice Pudding: Rice + Wooden Spoon vs Rice + Flour | Resolve competing 1.0 candidates |
+| BIS-047 | Tomato Cocktail: Olives + Ground Tomato + Wine vs Olives + Ground Tomato + Red Wine | Confirm wine state in v1.1+ cookbook and output |
