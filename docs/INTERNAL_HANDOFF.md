@@ -481,7 +481,7 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 
 ## 2026-11-17｜Critic Gate更新
 - SRC-017恢復為有效的1.0 Bistro/Rat Level候選來源後，Goulash/Tomato Cocktail不再是「無配方」P1 blocker；v1.1+僅保留回歸驗證。
-- Critic P1-06改為「核心QA尚未實際執行」：129個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
+- Critic P1-06改為「核心QA尚未實際執行」：132個QA ID全部仍是設計，沒有本專案遊戲客戶端的pass/fail紀錄。
 
 
 ## 2026-11-17｜SRC-052 Rat Level第二份獨立指南
@@ -494,7 +494,7 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜Bistro配方衝突測試擴充至129項
 - BIS-048驗證Mochi使用whole Rice或Ground Rice；這道菜同時是已知Japan country dish，必須與Apple Mochi分開。
 - BIS-049驗證Yeast Monster的三種來源候選：Yeast+Wooden Spoon、Yeast+Wine、Yeast+Tomato。
-- QA總數132個唯一ID，仍未取得遊戲內執行紀錄。
+- QA總數135個唯一ID，仍未取得遊戲內執行紀錄。
 
 
 ## 2026-11-17｜Bistro / Cafe progression evidence re-check
@@ -507,3 +507,9 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 ## 2026-11-17｜Bistro mouse-gated ingredients
 - SRC-050完整Steam攻略標註Olives（Tomato Cheese Appetizer）、Apple（Baked Apple）、Garlic（Pumpkin Soup）為老鼠贈品；SRC-023確認初次Cheese→Tomato與後續便條料理換食材。
 - 這些只確認部分受限食材，不能推導完整請求順序；P1-01仍未清除。新增BIS-050..052，QA總數132，仍全是未執行測試設計。
+
+
+## 2026-11-17｜Bistro To-Do screenshot transcription
+- SRC-023內嵌截圖顯示EA Bistro To-Do五項依序為Clean the kitchen、Trade with the rat (0/4)、Get the mixer to work、Cook new ingredients (0/6)、Make pizza dough。截圖下方註記被裁切，疑似提到最後一項隨1.0推出。
+- 這只能證明EA畫面有4次老鼠交易與6項新食材料理計數；不能直接當成1.0清單，也不可與Cafe Level 2 To-Do混淆。
+- 新增BIS-053..055驗證1.0是否保留任務項目與兩個計數；QA目前135個唯一ID，尚未執行。
