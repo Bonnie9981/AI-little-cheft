@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為154個唯一設計ID（0執行；新增SD-017）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-065；QA為161個唯一設計ID（0執行；新增BIS-063..069）；1.0存檔截圖支持全局分母333（305/333），333筆候選食譜已建立逐筆Candidate ID，其中332筆已有來源公式／動作引用。Student Dorm 77/77、Cafe 112/112、Rat Level 21/21均已映射；Bistro 121列對應分類來源、Crazy Calzone 1列已依counter與來源對齊改列Bad（仍待卡片tab確認）、Clutter公式未映射1列。七國磁鐵觸發來源衝突已列入RECIPE_CONFLICTS與BIS-062；詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -645,3 +645,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 截圖直接可讀三個計數0/8、0/3、0/40；攻略指出需完成全部Good recipes與To-Do才能解鎖Chapter 2。這是第三方攻略畫面證據，不是本專案實機測試。
 - 已更新PROGRESSION_MODEL並新增SD-017；QA為154 unique（REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22），0 executed。
 - 仍需追Cafe 1.0最終To-Do截圖、Bistro rat完整reward mapping、七國菜名／磁鐵觸發，以及Rat Level完整密碼。Research Only / Critic FAIL。
+
+
+## 2026-11-17｜簡體中文1.0指南新增七項Bistro配方衝突
+- 新增SRC-066：Steam玩家一旁冷笑的v1.0全成就指南（更新至2026/09/08）。作者明示前兩關可能未更新、手打配方可能有誤、部分Spoiler由AI批量添加，因此僅作候選／反證來源。
+- Bistro新衝突：Mochi整米或米粉；Apple Mochi整米或米粉；Sake為Rice+Yeast或Rice+Wine；Tomato Cheese Appetizer是否需要Olives；Tomato Cocktail是否需要Olives且圖鑑是否顯示錯誤；Mushroom Soup是否只需Ground Mushroom；Pumpkin Soup是否只需Ground Pumpkin；Meatballs是否只需Ground Meat。
+- Goulash的SRC-066記錄支持Meat + Ground Tomato + Wine，並指出圖鑑可能把Ground Tomato顯示為Tomato，與現有BIS-023候選一致。
+- 新增BIS-063..069七項獨立驗證設計，並在RECIPE_CONFLICTS建立逐項對照。QA更新為161 unique（REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22），0 executed。
+- 本來源未提供Cafe最終To-Do、四張老鼠訂單／獎勵對照、七國其餘六道料理或Rat Level密碼。專案仍Research Only / Critic FAIL。
