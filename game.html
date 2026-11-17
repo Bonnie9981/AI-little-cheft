@@ -18,6 +18,16 @@ rat:{name:'秘密老鼠關卡',sub:'反重力、密碼與雙段火力',appliance
 const catalog={'麵包':'🍞','香蕉':'🍌','番茄':'🍅','起司':'🧀','雞蛋':'🥚','牛奶':'🥛','義大利麵':'🍝','拉麵':'🍜','海綿':'🧽','刀':'🔪','紅色卡帶':'📼','綠色卡帶':'📼','鑰匙':'🗝️','羅勒':'🌿','咖啡豆':'🫘','酪梨':'🥑','生菜':'🥬','滑鼠':'🐭','電話':'☎️','照片':'🖼️','硬幣':'🪙','平底鍋':'🍳','紙條':'🧾','南瓜':'🎃','肉':'🥩','大蒜':'🧄','米':'🍚','攪拌器':'🥣','剪刀':'✂️','抹布':'🧽','磁鐵':'🧲','酒瓶':'🍾','老鼠':'🐀','蛋殼':'🥚','葉子':'🍃','鉛筆':'✏️','罐頭鍋':'🥫','開關':'🔘'};
 const recipes=[
 ['吐司','麵包','麵包','Good','🔥'],['起司吐司','麵包','起司','Good','🧀'],['香蕉吐司','麵包','香蕉','Good','🍌'],['番茄吐司','麵包','番茄','Good','🍅'],['煎蛋吐司','麵包','雞蛋','Good','🍳'],['牛奶吐司','麵包','牛奶','Bad','🥛'],['起司義大利麵','義大利麵','起司','Good','🍝'],['番茄義大利麵','義大利麵','番茄','Good','🍅'],['蛋炒拉麵','拉麵','雞蛋','Good','🍜'],['香蕉起司麵','香蕉','起司','Bad','❓'],['咖啡','咖啡豆','牛奶','Good','☕'],['番茄牛奶','番茄','牛奶','Bad','❓'],['南瓜湯','南瓜','牛奶','Good','🥣'],['肉丸','肉','雞蛋','Good','🍖'],['大蒜米飯','大蒜','米','Good','🍚'],['起司南瓜','南瓜','起司','Good','🎃'],['蛋殼麵','蛋殼','義大利麵','Bad','❓'],['香蕉肉','香蕉','肉','Bad','❓']];
+let runtimeRecipes=[],runtimeReady=false;
+const roomKey={'Student Dorm':'dorm','Cafe Job':'cafe','Bistro':'bistro','Rat Level':'rat'};
+const zhAlias={'Banana':'香蕉','Bread':'麵包','Toast':'吐司','Burnt Toast':'焦黑吐司','Egg':'雞蛋','Eggshell':'蛋殼','Cheese':'起司','Milk':'牛奶','Pasta':'義大利麵','Ramen Noodles':'拉麵','Tomato':'番茄','Can of Beans':'豆子罐頭','Can of Tomatoes':'番茄罐頭','Coffee Beans':'咖啡豆','Peanut Butter':'花生醬','Strawberry':'草莓','Jam':'果醬','Potato':'馬鈴薯','Basil':'羅勒','Sponge':'海綿','Knife':'刀','Ground Meat':'絞肉','Meat':'肉','Pumpkin':'南瓜','Ground Pumpkin':'南瓜泥','Garlic':'大蒜','Minced Garlic':'蒜末','Rice':'米','Ground Rice':'米粉','Apple':'蘋果','Mushroom':'蘑菇','Olives':'橄欖','Wine':'葡萄酒','Yeast':'酵母','Shredded Cheese':'起司絲','Newspaper':'報紙','Scissors':'剪刀','Wooden Spoon':'木匙','Table Cloth':'桌布','Olive Oil':'橄欖油','Tomato Sauce':'番茄醬','Avocado':'酪梨','Lettuce':'生菜','Espresso':'濃縮咖啡','Paper':'紙張','Pencil':'鉛筆','Leaf':'葉子','Paperclip':'迴紋針','Coin':'硬幣'};
+const roomDisplay={'dorm':'Student Dorm','cafe':'Cafe Job','bistro':'Bistro','rat':'Rat Level'};
+const iconFor=n=>catalog[n]||'🧩';
+async function loadRuntime(){try{const res=await fetch('./data/recipe-runtime.json');if(!res.ok)throw Error('HTTP '+res.status);const j=await res.json();runtimeRecipes=j.recipes||[];runtimeReady=true;log('載入 '+runtimeRecipes.length+' 筆候選配方規則');render();}catch(e){log('配方引擎載入失敗：'+e.message);}}
+function canonical(n){return zhAlias[n]||n;}
+function multiset(a,b){if(a.length!==b.length)return false;const x=[...a].sort(),y=[...b].sort();return x.every((v,i)=>v===y[i]);}
+function activeRecipes(){return runtimeRecipes.filter(r=>r.executable&&roomKey[r.room]===current);}
+
 let data=JSON.parse(localStorage.getItem('lc-save-v1')||'null')||{room:'dorm',unlocked:['dorm'],discovered:[],tasks:{},achievements:[],coins:0,orders:0,items:{},faucet:false,dirty:false,watered:false,drawer:false,tiles:0,cassette:[],remix:false,fire:false,ratTrade:0,magnet:0,books:0};
 let current=data.room,objects=[],pot=[],seq=0,drag=null,logs=[];
 const say=t=>{$('speech').textContent=t;log(t)},log=t=>{logs.unshift(t);logs=logs.slice(0,16);$('log').innerHTML=logs.map(x=>'<p>• '+esc(x)+'</p>').join('')},esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -31,19 +41,20 @@ function renderNav(){document.querySelectorAll('[data-room]').forEach(b=>{b.clas
 function render(){const r=rooms[current];$('roomTitle').textContent=r.name;$('roomSub').textContent=r.sub;$('appliance').textContent=r.appliance;$('items').innerHTML=r.items.map(n=>'<button data-item="'+esc(n)+'">'+catalog[n]+' '+esc(n)+'</button>').join('');$('items').querySelectorAll('button').forEach(b=>b.onclick=()=>{addObj(b.dataset.item,12+Math.random()*68,12+Math.random()*45);});$('scene').querySelectorAll('.obj').forEach(e=>e.remove());objects=[];pot=[];renderSlots();renderTasks();renderNav();$('deviceText').textContent=current==='rat'?'罐頭鍋：最多兩項材料；切換火力探索配方。':'最多放入三項食材。';say('歡迎來到'+r.name+'。拖曳素材開始探索！');save();}
 function cook(){
 if(!pot.length){say('先把食材放進料理設備。');return}
-const key=pot.slice().sort().join('+');
-const roomRecipes=recipes.filter(r=>r[1]&&r[2]);
-let match=roomRecipes.find(r=>r[1]!==r[2]&&pot.length===2&&pot.includes(r[1])&&pot.includes(r[2]));
-if(!match&&pot.length===2)match=roomRecipes.find(r=>r[1]===r[2]&&pot[0]===r[1]&&pot[1]===r[2]);
-if(match){
-const id=current+':'+match[0];
-if(!data.discovered.includes(id)){data.discovered.push(id);say('新食譜發現：'+match[4]+' '+match[0]+'（'+match[3]+'）');log('食譜發現：'+match[0]);if(match[3]==='Good')data.coins++;}
-else say('你再次做出 '+match[0]+'。');
-}else say('沒有找到相符配方。食材狀態與組合順序可能有影響，試試其他組合。');
-if(current==='dorm'&&pot.some(n=>n==='義大利麵'||n==='拉麵')){data.pasta=(data.pasta||0)+1;if(data.pasta>=8)complete(0)}
-if(current==='dorm'&&pot.includes('起司')&&match&&match[3]==='Good'&&data.drawer)complete(1);
-if(current==='cafe'&&match){data.orders++;if(data.orders>=8)complete(2)}
-if(current==='rat'){data.ratRecipes=(data.ratRecipes||0)+1;if(data.ratRecipes>=9)complete(4)}
+const inputs=pot.map(canonical),limit=current==='rat'?2:3;
+if(pot.length>limit){say('這台設備最多接受 '+limit+' 項材料。');return}
+let match=activeRecipes().find(r=>multiset(inputs,r.inputs.map(canonical)));
+let legacy=null;
+if(!match&&pot.length===2)legacy=recipes.find(r=>r[1]&&r[2]&&multiset(inputs,[r[1],r[2]]));
+if(match){const id=match.id;if(!data.discovered.includes(id)){data.discovered.push(id);say('新食譜發現：'+(match.kind==='Good'?'✨':'⚠️')+' '+match.name+'（'+match.kind+'）');log('食譜發現：'+match.name+' · '+match.id);if(match.kind==='Good')data.coins++;}else say('你再次做出 '+match.name+'。');}
+else if(legacy){const id=current+':'+legacy[0];if(!data.discovered.includes(id)){data.discovered.push(id);if(legacy[3]==='Good')data.coins++;say('新食譜發現：'+legacy[4]+' '+legacy[0]+'（'+legacy[3]+'）')}else say('你再次做出 '+legacy[0]+'。');}
+else say(runtimeReady?'沒有符合目前食材狀態的候選配方。試試處理食材或換組合。':'配方資料載入中，請稍候。');
+const goodMatch=(match&&match.kind==='Good')||(legacy&&legacy[3]==='Good');
+if(current==='dorm'&&pot.some(n=>['義大利麵','拉麵'].includes(n))){data.pasta=(data.pasta||0)+1;if(data.pasta>=8)complete(0)}
+if(current==='dorm'&&pot.includes('起司')&&goodMatch&&data.drawer)complete(1);
+if(current==='cafe'&&(match||legacy)){data.orders=(data.orders||0)+1;if(data.orders>=8)complete(2)}
+if(current==='rat'&&(match||legacy)){data.ratRecipes=(data.ratRecipes||0)+1;if(data.ratRecipes>=9)complete(4)}
+if(current==='dorm'&&data.discovered.length>=40)complete(5);
 pot=[];renderSlots();save();renderTasks();
 }
 
@@ -56,6 +67,6 @@ function modal(title,body){$('modalBody').innerHTML='<h2>'+title+'</h2>'+body;$(
 $('cookbook').onclick=async()=>{modal('完整食譜目錄 · 載入中','<p>正在讀取 333 道候選料理……</p>');try{const response=await fetch('./data/recipe-catalog.json');if(!response.ok)throw new Error('HTTP '+response.status);const book=await response.json();const roomNames={dorm:'Student Dorm',cafe:'Cafe Job',bistro:'Bistro',rat:'Rat Level'};const rows=book.recipes.filter(x=>x.room===roomNames[current]);const good=rows.filter(x=>x.kind==='Good'),bad=rows.filter(x=>x.kind==='Bad');const row=x=>'<article class="recipe-entry"><b>'+esc(x.name)+'</b><small> '+x.kind+' · '+esc(x.id)+'</small><p>'+esc(x.formula||'未有可用公式')+'</p><small>'+(x.reviewRequired?'⚠ 公式有衝突，待審查':'候選公式，尚未遊戲驗證')+'</small></article>';$('modalBody').innerHTML='<h2>食譜本 · '+rows.length+' 道候選料理</h2><p>本關 Good '+good.length+' 道 / Bad '+bad.length+' 道。候選公式未經遊戲驗證，不會假裝已經能做出來。</p><h3>Good</h3>'+good.map(row).join('')+'<h3>Bad</h3>'+bad.map(row).join('');}catch(e){$('modalBody').innerHTML='<h2>食譜目錄讀取失敗</h2><p>請透過 HTTP 伺服器開啟，file:// 可能禁止讀取 JSON。</p><p>'+esc(e.message)+'</p>'}};$('achievements').onclick=()=>modal('成就紀錄','<p>探索、料理、整理與解謎都會累積進度。</p><p>目前硬幣：'+data.coins+'</p><p>已發現料理：'+data.discovered.length+'</p><p>完成待辦：'+Object.values(data.tasks).reduce((a,b)=>a+b.length,0)+'</p><p>'+esc((data.achievements||[]).join('、')||'尚無成就')+'</p>');
 $('myroom').onclick=()=>modal('我的房間','<p>這裡是三間廚房之間的休息空間。</p><p>硬幣：'+data.coins+'　已發現料理：'+data.discovered.length+'</p><p>完成主廚房待辦後，秘密關卡會逐步開放。</p>');
 $('reset').onclick=()=>{if(confirm('確定清除所有遊戲進度？')){localStorage.removeItem('lc-save-v1');location.reload()}};
-render();
+render();loadRuntime();
 })();
 </script></body></html>
