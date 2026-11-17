@@ -173,7 +173,7 @@ A separately authored October 9 walkthrough includes a legible To-Do screenshot.
 5. Water the basil
 6. Cook new dishes (0/40)
 
-The screenshot visibly displays 0/8, 0/3 and 0/40. The guide states that Chapter 2 unlock requires all Good recipes plus all To-Do tasks. This is third-party 1.0-era walkthrough evidence, not a test run by this project. SD-017 is the acceptance test; exact counter increment rules and unlock behavior remain unexecuted.
+The screenshot visibly displays 0/8, 0/3 and 0/40. The guide states that Chapter 2 unlock requires all Good recipes plus all To-Do tasks. This is third-party 1.0-era walkthrough evidence, not a test run by this project. STD-017 is the acceptance test; exact counter increment rules and unlock behavior remain unexecuted.
 
 
 ## Rat Level source comparison: fifth cold slot and Pasta Bad slots (SRC-066 / SRC-067)
