@@ -16,7 +16,7 @@ My Room 是樞紐空間，不是第四個主廚房。
 
 ## 二、目前進度概覽
 
-**最新稽核狀態（2026-11-17）：**來源登錄至SRC-056；QA為143個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID，但公式來源仍全部未逐筆映射，詳見RECIPE_PROVENANCE_AUDIT.md。
+**最新稽核狀態（2026-11-17）：**來源登錄至SRC-058；QA為146個唯一設計ID（0執行）；333筆候選食譜已建立逐筆Candidate ID。Bistro 123列中，121列已映射到明確來源公式／動作，Crazy Calzone分類衝突1列、Clutter公式來源未映射1列；其他三場景仍待逐筆映射。詳見RECIPE_PROVENANCE_AUDIT.md。
 以下是主觀工作估計，不是已通過驗收的完成率：
 
 | 項目 | 估計 | 說明 |
@@ -447,7 +447,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 
 ## 2026-11-17｜Critic 初審結果
-- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前140個唯一測試ID，均為設計案例，尚未執行。
+- 已檢查專案主要規格文件與交叉一致性；26項成就矩陣完整，333筆候選盤點、312筆命名翻譯與21個Rat符號槽位的分類邏輯一致；QA目前146個唯一測試ID，均為設計案例，尚未執行。
 - 修正README來源範圍與Cafe QA ID命名。
 - Bistro Pizza Dough = Olive Oil + Yeast + Flour取得兩份獨立指南支持；Goulash、Tomato Cocktail仍受官方v1.1修正影響，精確新配方未知。
 - 初審不通過正式全內容開發 Gate。主要阻塞：七國料理／老鼠請求順序、Cafe完整To-Do、Rat密碼與電力映射、逐筆配方來源追溯、D級衝突與實機QA。
@@ -477,7 +477,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜新增 Mochi 與 Yeast Monster 配方衝突
 - SRC-017 1.0手打指南將日本Mochi列為Ground Rice；SRC-015/SRC-050列為whole Rice，已加入配方衝突表與BIS-048。
 - Yeast Monster在SRC-017（Yeast+Wooden Spoon）、SRC-015（Yeast+Wine）、SRC-050（Yeast+Tomato）三份候選間衝突，新增BIS-049。
-- QA總數由127增為140個唯一測試ID，均尚未實際執行。
+- QA總數已增至146個唯一測試ID，均尚未實際執行。
 
 
 ## 2026-11-17｜Bistro / Cafe 任務鏈再核對
@@ -563,3 +563,11 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - RECIPE_PROVENANCE_AUDIT新增Pizza Dough逐筆公式來源映射（SRC-015/SRC-018/SRC-058），Bistro已有121/123列至少有來源清單／公式線索，仍非實機驗證。
 - 另發現Crazy Calzone Good/Bad分類衝突：SRC-050列Bad，SRC-018將其放在料理鏈說明且SRC-038留言確認材料但未說分類。新增BIS-061專門核對實際tab。
 - QA目前146個唯一設計ID，0執行。
+
+## 2026-11-17｜最新整體稽核快照（SRC-058）
+- Source Register最新至SRC-058。
+- QA以表格ID逐列統計：146個唯一ID（REC 14、PHY 15、STD 16、CAF 22、BIS 61、RAT 18），沒有重複ID，全部未執行。
+- Bistro provenance audit：123列中121列有對應區段來源公式／動作；Crazy Calzone有來源但Good/Bad分類衝突；Clutter仍UNMAPPED。其餘三場景公式來源仍未逐筆完成。
+- Pizza Dough首選配方為Flour + Yeast + Olive Oil，來源SRC-015/SRC-018/SRC-058交叉支持；仍待本專案實機驗證。
+- Bistro的rat trade與country magnet已拆成兩條進度鏈；完整四次請求及reward mapping、其他六國料理仍是P1。
+- 專案Research Only；Critic FAIL；等待P1清除與CEO approval。
