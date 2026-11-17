@@ -118,7 +118,7 @@ Rat Level is not modeled as a conventional oven. A 1.0 player guide describes a 
 - Click wine bottle label to expose keypad.
 - Enter the three-digit code from planter note.
 - Unlock cooker power control; test low and high power.
-- Coioioin: Steam achievement text and two player routes say click the coin until the same face lands three times consecutively. A separate report mentions a blue switch / red-marked area; treat that as an unresolved extra interaction, not a required step until independently verified.
+- Coioioin: unresolved trigger conflict. Official Steam text says same face three times consecutively and an older guide says repeatedly click the coin. A Japanese 1.0 first-hand route says press the blue-frame switch, then throw the coin into the red-frame target; the author reports Steam sync may require relaunch. Keep these as two testable routes, and model gameplay achievement state separately from platform sync.
 
 ## 7. Physics implementation requirements
 
@@ -208,3 +208,10 @@ The room's 100% ledger includes both Good and Bad recipe tabs plus all To-Do tas
 - Next task: “Trade with the rat” — open the suspicious extractor-hood door, offer Cheese, then complete the illustrated dish request chain to receive ingredients.
 - Keep these tasks separate from the achievements Best Friends (finish all rat trades) and Going Global (collect all seven country magnets).
 - The seven international dishes are not fully named in accessible text; only Mochi is explicitly identified as Japan. Do not infer the remaining six from cuisine names.
+
+
+### Coioioin trigger and platform-sync uncertainty
+- Candidate A: click the coin beside the cooker until the same face lands three times, matching Steam's achievement text and an older Steam discussion.
+- Candidate B: press the blue-frame switch, then throw the coin into the red-frame target, matching the Japanese 1.0 first-hand walkthrough.
+- The Japanese player reports the in-game achievement may appear before Steam registers it; closing and relaunching the game triggered platform sync in that run.
+- Implementation must keep `gameAchievementUnlocked` and `steamAchievementSynced` separate. Do not simulate a guaranteed Steam unlock immediately after the in-game action.
