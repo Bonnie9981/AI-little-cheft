@@ -13,8 +13,8 @@
 | 有名稱配方 | 312 | 有候選繁中譯名，仍待逐筆來源追溯 |
 | Rat Level | 21 個符號槽位（9 Good + 12 Bad） | 不應虛構料理名稱 |
 | 成就 | 26 | 矩陣列數完整；部分觸發細節仍是候選 |
-| QA | 143 個唯一 ID | 僅為測試設計，未執行 |
-| 來源 | SRC-001 至 SRC-056 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
+| QA | 146 個唯一 ID | 僅為測試設計，未執行 |
+| 來源 | SRC-001 至 SRC-058 | 有重複來源以不同研究用途編號的情況，應避免把來源數量當獨立證據數 |
 
 ## 2. 重大阻塞（P1）
 
@@ -39,12 +39,12 @@
 **下一步：** 取得花盆便條、電源控制器和爐具指示燈同一版本的截圖；以遊戲 counter 確認 OFF/ON 對應。
 
 ### P1-05｜333 筆配方缺逐筆證據鏈
-目前配方總數及房間分類可盤點，但仍有部分配方只在房間級來源段落、舊版攻略或玩家留言中出現，未達每筆都具備來源 ID、版本、輸入狀態、設備、信心與驗證狀態的要求。  
+已建立333列逐筆稽核表。Bistro 123列中，121列已對應到來源中明確列出的配方／動作，1列（Crazy Calzone）有來源但Good/Bad分類衝突，1列（Clutter）仍無公式來源；這些都不是本專案實機驗證。Student Dorm、Cafe及Rat Level仍需逐筆完成公式來源映射、版本、item state、設備、信心與驗證狀態。  
 **影響：** 無法安全把全部配方匯入正式 recipe database。  
 **下一步：** 建立逐筆欄位稽核表；沒有來源的候選降級為 UNKNOWN，不得標 verified。
 
 ### P1-06｜核心 QA 尚未實際執行
-目前有 143 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
+目前有 146 個唯一 QA 測試 ID，但全部仍是測試設計，沒有本專案遊戲客戶端的 pass/fail、截圖、版本號與存檔重載結果。  
 **影響：** 任何配方與互動都不能標為 verified_in_game；核心流程尚無實測回歸證據。  
 **下一步：** 取得可執行遊戲的測試環境，先跑所有 P1 解鎖流程、每房間代表性 Good/Bad 配方、Rat Level 狀態測試，再擴至全表。
 
@@ -189,3 +189,10 @@
 - Pizza Dough candidate is now supported by SRC-015, SRC-018, and SRC-058 as Flour + Yeast + Olive Oil; SRC-058 explicitly corrects an earlier Dough + Yeast + Olive Oil answer to Flour, not Dough.
 - Bistro provenance ledger now has 121/123 rows with a formula-source listing or action reference. These are source-listed candidates, not in-game verified. Clutter remains unmapped; Crazy Calzone has a Good/Bad classification conflict (SRC-050 Bad section vs SRC-018 route mention). Added BIS-061 to verify the actual tab.
 - QA count is now 146 unique designed IDs, still zero executed.
+
+## 最新狀態覆核（2026-11-17，SRC-058後）
+- Source Register：SRC-001 至 SRC-058。
+- QA：146個唯一ID（REC 14、PHY 15、STD 16、CAF 22、BIS 61、RAT 18），全部是測試設計，0執行。
+- Bistro逐筆來源稽核：121/123列在對應Good/Bad區段找到公式／動作來源；Crazy Calzone列有公式來源但分類衝突；Clutter未映射。任何一列都不能因此標記verified_in_game。
+- Bistro交易與磁鐵已建模為兩條相關但不同的進度鏈；只有Cheese→Tomato與Japan=Mochi可確認，完整交易reward mapping及其他六國仍未知。
+- Gate維持FAIL；未獲CEO批准前不開始正式實作。
