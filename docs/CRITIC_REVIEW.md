@@ -183,3 +183,9 @@
 - The same source explicitly distinguishes seven international dishes from the rat's note-driven ingredient trade chain. Each international dish attaches a magnet; only Japan = Mochi is named and visually shown with a Japanese flag. Apple Mochi is explicitly excluded as the Japan magnet dish; suspicious recipes do not count.
 - A visible 76/76 cookbook counter is an EA snapshot dated 2026-09-09 and cannot be promoted to final 1.0 count.
 - QA now 145 unique designed IDs (BIS-059/060 added), still 0 executed. This evidence improves model separation but does not close P1-01 or P1-02: complete rat reward mapping and six country mappings remain unknown.
+
+
+## Round 1 Addendum — SRC-058 Pizza Dough and classification audit (2026-11-17)
+- Pizza Dough candidate is now supported by SRC-015, SRC-018, and SRC-058 as Flour + Yeast + Olive Oil; SRC-058 explicitly corrects an earlier Dough + Yeast + Olive Oil answer to Flour, not Dough.
+- Bistro provenance ledger now has 121/123 rows with a formula-source listing or action reference. These are source-listed candidates, not in-game verified. Clutter remains unmapped; Crazy Calzone has a Good/Bad classification conflict (SRC-050 Bad section vs SRC-018 route mention). Added BIS-061 to verify the actual tab.
+- QA count is now 146 unique designed IDs, still zero executed.
