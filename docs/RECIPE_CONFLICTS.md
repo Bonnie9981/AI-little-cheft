@@ -342,3 +342,10 @@ Sources:
 - [Official v3.0ea patch note mirror](https://steamdb.info/patchnotes/22930769/)
 - [Japanese April 24 update walkthrough](https://note.com/utsukinoel/n/nd60de056ab74)
 - [Japanese 1.0 completion report](https://note.com/utsukinoel/n/n2734d08070ca)
+
+
+## Ground Meat / Ground Beef item-key normalization
+
+- The Bistro guide uses “Ground Beef” in Meatball Sandwich and Cheeseburger, while other 1.0 sources and the item-state model use “Ground Meat”.
+- No evidence indicates two distinct processed meat items. Normalize the implementation data key to `ground_meat`; keep “Ground Beef” as a source alias, not a separate item state.
+- Stuffed Tomato, Hamburger, Meatballs, Breadless Burger and other recipes must reference the same processed meat state unless live UI proves otherwise.
