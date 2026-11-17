@@ -297,3 +297,9 @@ SRC-048 confirms that the original EA build had a rat-trade To-Do counter bug (-
 | BIS-024 | In current v1.1+ client, test Olives + Wine + Ground Tomato for Tomato Cocktail | Record exact output card, cookbook registration, and save/reload persistence; old guide candidate is not accepted as final until confirmed |
 | BIS-025 | Compare Tomato Juice using whole Tomato vs Ground Tomato | Determine which state registers the intended cookbook slot; preserve both attempts and outputs |
 | BIS-026 | Compare Dirty Chai Latte using Tea + Milk + Coffee vs Tea + Milk + Coffee Beans | Confirm exact object identity/state and resulting card; community comment correction is not sufficient alone |
+
+
+## Cafe phone progression trigger (SRC-051)
+| ID | Test | Expected result |
+|---|---|---|
+| CAFE-027 | After dialing the number from the in-game note, compare leaving immediately, picking up then hanging up early, and picking up until dialogue finishes | Avocado and Lettuce should spawn only after the complete call sequence; record whether the trigger is one-shot and survives reload |
