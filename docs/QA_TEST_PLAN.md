@@ -275,3 +275,16 @@ Use docs/ACHIEVEMENT_MATRIX.md as the canonical list of the 26 target achievemen
 - Steam achievement text says same face three times consecutively; an older Steam discussion says click the coin repeatedly.
 - A Japanese 1.0 first-hand walkthrough explicitly says this is not merely random same-face repetition: press the blue-frame switch, then throw the coin into the red-frame area. The author also reports the Steam achievement appeared only after closing/relaunching the game.
 - QA must test both interaction routes and keep gameplay unlock state separate from Steam sync. Do not hardcode either route as final until the interaction is observed.
+
+
+## Rat quest persistence and counter regression tests (SRC-048)
+
+| ID | Test | Expected result |
+|---|---|---|
+| BIS-021 | Save/reload or leave/re-enter Bistro after the rat displays a request | Current request index and already-claimed rewards persist; quest does not restart |
+| BIS-022 | Re-interact with the rat after claiming a reward, including after reload | No duplicate reward; next request appears once; To-Do counter never displays a negative value |
+| RAT-013 | Run the five cold Good candidates in documented order and inspect the live counter after each | Each valid result advances exactly one distinct slot; Eggshell/Leaf alternative is only tested if the expected slot does not advance |
+| RAT-014 | Compare cooker OFF/ON states with Japanese guide's weak/strong power states | Record the actual mapping; do not assume OFF=low or ON=high |
+| RAT-015 | Attempt to add a third ingredient to Rat Level cooker | Third input is rejected or cannot affect result; document if live behavior contradicts the two-input rule |
+
+SRC-048 confirms that the original EA build had a rat-trade To-Do counter bug (-1) and a quest-restart bug, both listed as fixed in v5.1ea. These are regression-compatibility tests, not claims that the current 1.0 build still contains the bugs.
