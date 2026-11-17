@@ -88,3 +88,31 @@ Before declaring the research gate passed, require 333 candidate identities reco
 **Gemini report: useful secondary evidence, not an authoritative replacement for the current database.**
 
 Broad research collection can stop expanding. The next work should be reconciliation and implementation preparation in parallel, not another indefinite search for every possible recipe. Current project status: **Research Only / implementation preparation permitted / full gameplay implementation not yet approved**.
+
+## SRC-075 Critic conflict re-review and correction (2026-11-17; CEO supplied timestamped transcript cross-check)
+
+The four apparent conflicts were re-examined against timestamped 1.0 walkthrough transcripts. Three resulted from conflating a To-Do threshold with a separate cookbook/reward trigger; one was a walkthrough coverage gap. Treat these as transcript-supported evidence, not game-execution QA.
+
+1. **Bistro cookbook count: retain 123 (83 Good + 40 Bad candidates).**
+   - At 1YgAz9LT22o 02:23, “80 new dishes” is a To-Do target, not the Good-recipe denominator. It is completed at 29:07; the player continues cooking and reaches the remaining general pages around 49:00 (three pages shown at 49:35). The transcript does not state a direct Good denominator.
+   - Hidden/Bad: 39/40 is stated at 40:02; the 40th, Paper Snowflake, is completed at 40:12. Thus 40 Bad is transcript-supported. The 83 Good count remains the existing counter-aligned candidate, not a number spoken in this video. Keep 83 + 40 = 123; do not downshift to 120.
+
+2. **Rat Level: nine Good recipes demonstrated; 12 Bad slots not covered by this video.**
+   - At 1YgAz9LT22o 50:43 the player enters the secret level and says there are only nine on the main cookbook page; the ninth is completed at 55:19, followed by Little Rat at 55:31.
+   - The player does not inspect a blue/Bad cookbook tab. Represent **9 Good as walkthrough-supported** and retain **12 Bad slots as UNVERIFIED_FROM_VIDEO, disabled by default** pending QA. This video does not prove the Bad tab exists or establish its exact contents.
+
+3. **Student Dorm To-Do: six tasks.**
+   - Five are read at CW7plgBoL5c 04:40–04:53: Cook pasta dishes (8), Borrow Shane's cheese, Play all cassettes, Water the basil, Cook new dishes.
+   - At 08:05, throwing an item high triggers and the player reads the sixth objective, “Throw an item super high.” Add this as task six, consistent with the task-panel screenshot.
+
+4. **Cafe Job Paintbrush: separate 12-order task from the 20-Coin reward hypothesis.**
+   - At LXX8_jiJJIM 18:06, order 12 completes To-Do “Complete orders (12)”; Paintbrush is not awarded at that moment.
+   - The player continues serving orders; a later settlement around 19:42 is followed by Paintbrush at 19:53, and at 20:02 says orders are no longer needed. This supports: **12 orders is the To-Do threshold; 20 Coins accumulated/saved is the existing Paintbrush reward hypothesis**. The transcript sequence alone is not direct counter proof of the exact 20-Coin trigger, so retain that reward mechanism as a hypothesis pending direct coin-counter verification.
+
+### Revised disposition
+- Bistro 123 is retained; 80 is a task threshold.
+- Rat Level 9 Good is transcript-supported; the 12 Bad slots remain unverified coverage, not a count contradicted by this video.
+- Student Dorm task list is updated to six, including the high-throw objective.
+- Cafe 12 orders and Paintbrush are separate triggers; exact 20-Coin causality remains a hypothesis, not overclaimed.
+
+Static-document integration is updated. In-game QA remains unexecuted.
