@@ -992,3 +992,20 @@
 - Compass = Scissors + 任一 country Magnet；9Puz提醒先確認該磁鐵已登記到 Going Global，再製作 Compass。
 - 因此將 `magnet_inventory`、`country_magnet_registered`、`big_magnet_recipe` 分成不同狀態，避免把收到獎勵直接視為食譜已完成。
 - Big Magnet 仍是候選公式，待實機 cookbook counter 驗證。
+
+
+## 2026-11-17｜來源版本錯置更正：SRC-017不是1.0指南
+
+**發現**
+- 直接打開 Steam Guide ID 3686619896 後，頁面標題為「v4.0EA《Little Chef...》全成就指南」，頁面明確寫配方以 v3.0 EA 為基準，發布日期 2026-03-17、更新日期 2026-06-08。
+- 該頁可讀內容只涵蓋 Student Dorm 與 Cafe，沒有 Bistro 或 Rat Level；因此此前把它描述為「2026-09-01簡中1.0指南」並引用其 Bistro/Rat Level公式，是來源錯置。
+- Steam Guide ID 3713640352 的搜尋索引顯示8/10全遊戲內容，但直接開啟葡萄牙語頁面仍是4/25 EA版本，且指南已被Steam移除。8/10後的Bistro/Rat Level資料只能當快取搜尋線索，不能稱為直接檢視原文。
+
+**修正**
+- SOURCE_REGISTER將SRC-017改為v4.0 EA、3/17發布、6/8更新，並撤回其Bistro/Rat Level支持範圍。
+- RECIPE_CONFLICTS移除所有錯誤歸因給「9/1簡中1.0指南」的配方候選：Clutter的Cloth + Wooden Spoon、Rat冷槽Leaf、Eggshell + Pencil、Pasta-only/Pasta+Paper等不再作為證據。
+- Bistro剩餘衝突只保留能追溯至7/14 Bistro Guide、8/10 Steam Guide快取、9/2 9Puz或玩家留言的候選；Clutter保持Unknown。
+
+**決策**
+- 來源的標題、日期、遊戲版本與實際可讀章節必須逐項核對；搜尋摘要不能推翻頁面本身的版本聲明。
+- 舊EA指南可用於早期Student Dorm/Cafe線索，但不可被升格為1.0/Bistro/Rat Level依據。
