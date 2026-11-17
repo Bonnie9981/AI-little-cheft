@@ -146,3 +146,14 @@ Confirmed Cafe To-Do entries:
 2. Set the kitchen on fire — explicitly named in the 1.0 walkthrough as a Level 2 To-Do; cook Panini, then cook Burnt Panini a second time.
 
 The September 1.0 player walkthrough says the fire task may fail to register even after the fire starts; the player repeated the fire interaction and then completed remaining orders before Level 3 unlocked. This is a possible task-registration bug, not proof of an extra To-Do row. The exact total Level 2 To-Do count is not recovered. Keep these two confirmed entries separate from phone stock / 21931 call, order Coins, Espresso Cup, Safe, and fire-alarm extinguishing interactions, whose exact relationship to separate To-Do rows is not proven.
+
+
+## Bistro rat trades vs. country magnets (SRC-054 / SRC-057)
+
+Model these as separate progression tracks with a dependency edge, not as one counter:
+
+1. **Rat trade track:** find the suspicious extractor-hood door → offer Cheese (same starter as Cafe rat) → Tomato is awarded → later hood notes show a dish illustration → cook the depicted dish → receive the next ingredient. Developer confirms this interaction pattern (SRC-054); first-hand EA walkthrough confirms Cheese → Tomato and the note-driven loop (SRC-057).
+2. **Country-magnet track:** cook each of seven country dishes → a magnet attaches to the extractor hood → all seven award Going Global. Only Japan = Mochi is textually and visually identified. Apple Mochi is explicitly not the Japan magnet dish; suspicious recipes do not count (SRC-057).
+3. **Dependency:** the rat trade chain supplies special ingredients needed by later Bistro recipes, including Apple, Olives, and Garlic according to the 1.0 route (SRC-018/SRC-050). The available sources do not establish that every rat trade directly awards a country magnet.
+
+**Unknowns remain explicit:** full rat request order/reward mapping; all six other country dish mappings; whether final 1.0 retained the same trade count/counter. The 76/76 cookbook counter visible in the 2026-09-09 EA screenshot is a historical snapshot only, not the final 1.0 total.
