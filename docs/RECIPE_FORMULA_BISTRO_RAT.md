@@ -70,10 +70,10 @@ Sources: [Steam Bistro Guide, 2026-07-14](https://steamcommunity.com/sharedfiles
 | Pepperoni Pizza | Pizza + Salami |
 | Steak | Meat + Olive Oil |
 | Stick Bread | Bread Dough + Wooden Spoon |
-| Meatball Sandwich | Bread + Ground Beef |
+| Meatball Sandwich | Bread + Ground Meat (8/10 guide calls it Ground Beef) |
 | Pizza Speciale | Pizza + Mushrooms + Salami (7/14 guide says Olives instead of Salami) |
 | Focaccia | Bread Dough + Olive Oil + Olives |
-| Cheeseburger | Bread + Ground Beef + Cheese |
+| Cheeseburger | Bread + Ground Meat + Cheese (8/10 guide calls it Ground Beef) |
 | Aioli | Garlic + Olive Oil |
 | Fried Rice | Rice + Olive Oil + Mushrooms (7/14 guide says Rice + Olive Oil) |
 | Pizza Rolls | Pizza Dough + Cheese + Salami |
