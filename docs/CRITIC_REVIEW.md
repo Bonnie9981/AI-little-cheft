@@ -260,3 +260,10 @@
 - SRC-065 supplies a legible third-party screenshot of six Student Dorm To-Do rows: Cook pasta dishes (0/8), Borrow Shane's cheese, Play all cassettes (0/3), Make coffee, Water the basil, Cook new dishes (0/40). The counters are visible in the screenshot; the guide states all Good recipes plus all To-Do tasks gate Chapter 2.
 - This materially improves Student Dorm progression specification. It is still secondary walkthrough evidence, not developer documentation or our own execution. Added SD-017 to test exact rows, counter increments and chapter unlock.
 - QA now 154 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS62 / RAT22), zero executed. Round 1 remains FAIL because the Bistro, Cafe and Rat Level P1 blockers remain.
+
+
+## Round 1 Addendum — SRC-066 Chinese v1.0 guide and new Bistro conflicts (2026-11-17)
+- The Steam guide by 一旁冷笑 is labelled v1.0 and updated Sep 8, but its author explicitly warns that early-room data may be stale, hand-entered formulas may be wrong, and some spoiler sections are AI-bulk-added. Treat it as a conflict-discovery source, not a trusted recipe authority.
+- It adds concrete alternatives for Mochi (whole vs ground rice), Apple Mochi, Sake (Rice+Yeast vs Rice+Wine), Tomato Cheese Appetizer (with/without Olives), Tomato Cocktail (with/without Olives and cookbook display issue), Mushroom Soup, Pumpkin Soup and Meatballs. Added BIS-063..069 and a conflict table. Goulash's Ground Tomato candidate agrees with BIS-023.
+- QA now 161 unique designed IDs (REC14 / PHY15 / STD17 / CAF24 / BIS69 / RAT22), zero executed. None of the new candidates is considered verified.
+- P1 remains: Cafe final To-Do; four rat request/reward mapping; seven country recipe identities/magnet trigger; Rat Level code and control mapping; and full recipe/interaction execution. Round 1 FAIL / Research Only.
