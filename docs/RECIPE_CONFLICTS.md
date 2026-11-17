@@ -397,3 +397,16 @@ SRC-017 is confirmed to be a v1.0-titled guide updated 2026-09-08, with legacy v
 | Rat Bad #7 | Pasta + Paper | SRC-050 says Eggshell + Paper | Keep both; 1.0 source favors Pasta + Paper |
 
 Other SRC-017 Bistro confirmations: Mochi uses Ground Rice; Apple Mochi uses Ground Rice + Apple; Pizza Dough = Flour + Yeast + Olive Oil; Meatloaf = Ground Meat + Meat; Tomato Juice = Ground Tomato. These strengthen existing candidates and reduce earlier ambiguity.
+
+
+## SRC-052 Rat Level independent cross-check (2026-11-17)
+SRC-052 (Steam guide posted 2026-08-27) independently lists the full Rat Level slot order and puzzle sequence. It aligns with SRC-050 / 9Puz on the following disputed slots, so these are now the preferred candidates while SRC-017 remains a competing 1.0 manual transcription:
+
+| Slot | Preferred candidate | Competing SRC-017 candidate | Evidence handling |
+|---|---|---|---|
+| Cold Good #5 | Cheese + Eggshell | Cheese + Leaf | SRC-050 + SRC-052 + 9Puz vs SRC-017; Eggshell favored, Leaf retained for live counter test |
+| Bad #4 | Eggshell + Pencil | Egg + Pencil | SRC-017 + SRC-052 vs SRC-050; Eggshell favored |
+| Bad #6 | Paperclip + Pasta | Pasta alone | SRC-050 + SRC-052 vs SRC-017; Paperclip + Pasta favored |
+| Bad #7 | Eggshell + Paper | Pasta + Paper | SRC-050 + SRC-052 vs SRC-017; Eggshell + Paper favored |
+
+SRC-052 also says repeated coin clicks beside the planter can earn Coioioin, matching official same-face-three-times wording. Keep the Japanese 1.0 blue-switch/red-target method as an alternate route, not a replacement for the official condition. The numeric password remains undisclosed.
