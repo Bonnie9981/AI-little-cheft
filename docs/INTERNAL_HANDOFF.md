@@ -458,3 +458,8 @@ Source: https://note.com/utsukinoel/n/n2734d08070ca ; https://steamcommunity.com
 - Bistro 配方交叉查核：Pizza Dough = Olive Oil + Yeast + Flour 在 7/14 Steam Bistro Guide 與 9/2 9Puz 1.0 route 一致；列 B 級候選，未宣稱實機驗證。Goulash 與 Tomato Cocktail 仍因 v1.1 官方修正未披露精確新配方而保留 blocker。
 - 研究 Gate 尚未通過：七國菜完整名單／老鼠交易順序、Cafe完整To-Do、Rat Level三位數密碼與OFF/ON映射、333筆逐筆證據追溯、D級配方衝突、實機QA及繁中最後校對。
 - 初審結論：沒有發現需要推翻整體資料模型的致命架構錯誤；但目前不符合「全內容忠實復刻」正式開發門檻。可以在 CEO 額外批准下先做不依賴未知內容的資料層／工具原型，但不得把這視為完整遊戲實作批准。依既定規則，仍維持 Research Only。
+
+
+## 2026-11-17｜Critic補強：Bistro D級配方測試覆蓋
+- 將配方衝突表中14項未充分覆蓋的 Bistro 候選變體轉成獨立QA：BIS-027至BIS-040。
+- QA總數更新為116個唯一測試ID。這補足測試設計覆蓋，不代表已取得遊戲內答案。
