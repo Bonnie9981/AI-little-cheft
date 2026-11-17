@@ -399,7 +399,7 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 ## 2026-11-17｜Bistro 磁鐵依賴 QA 擴充
 - QA新增BIS-019：Country Magnet登記後才測Compass，分離磁鐵持有與Going Global登記狀態。
 - QA新增BIS-020：比較老鼠獎勵Magnet直接使用與放入料理設備後是否觸發Big Magnet。
-- QA於本輪新增BIS-023至BIS-026與CAFE-027後，經逐列統計為102個唯一測試案例；均為測試設計，尚非遊戲內執行結果。Research Only維持。
+- QA於本輪新增BIS-023至BIS-026與CAF-017後，經逐列統計為102個唯一測試案例；均為測試設計，尚非遊戲內執行結果。Research Only維持。
 
 
 ## 2026-11-17｜SRC-017版本錯置更正與Bistro衝突撤回
@@ -440,5 +440,5 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 
 ## 2026-11-17｜Cafe電話事件狀態補證
 - 新增SRC-051：開發者直接確認Cafe電話輸入後，必須拿起話筒並等通話對白結束，Avocado與Lettuce才會生成。
-- 這補上Level 2一個容易被誤判為配方問題的事件觸發條件；QA新增CAFE-027。
+- 這補上Level 2一個容易被誤判為配方問題的事件觸發條件；QA新增CAF-017。
 - 玩家討論串出現的電話號碼不視為通用常數，仍應讀取遊戲內便條。
