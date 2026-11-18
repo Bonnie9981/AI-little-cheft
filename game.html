@@ -22,7 +22,7 @@ let runtimeRecipes=[],runtimeReady=false;
 const roomKey={'Student Dorm':'dorm','Cafe Job':'cafe','Bistro':'bistro','Rat Level':'rat'};
 const zhAlias={'Banana':'香蕉','Bread':'麵包','Toast':'吐司','Burnt Toast':'焦黑吐司','Egg':'雞蛋','Eggshell':'蛋殼','Cheese':'起司','Milk':'牛奶','Pasta':'義大利麵','Ramen Noodles':'拉麵','Tomato':'番茄','Can of Beans':'豆子罐頭','Can of Tomatoes':'番茄罐頭','Coffee Beans':'咖啡豆','Peanut Butter':'花生醬','Strawberry':'草莓','Jam':'果醬','Potato':'馬鈴薯','Basil':'羅勒','Sponge':'海綿','Knife':'刀','Ground Meat':'絞肉','Meat':'肉','Pumpkin':'南瓜','Ground Pumpkin':'南瓜泥','Garlic':'大蒜','Minced Garlic':'蒜末','Rice':'米','Ground Rice':'米粉','Apple':'蘋果','Mushroom':'蘑菇','Olives':'橄欖','Wine':'葡萄酒','Yeast':'酵母','Shredded Cheese':'起司絲','Newspaper':'報紙','Scissors':'剪刀','Wooden Spoon':'木匙','Table Cloth':'桌布','Olive Oil':'橄欖油','Tomato Sauce':'番茄醬','Avocado':'酪梨','Lettuce':'生菜','Espresso':'濃縮咖啡','Paper':'紙張','Pencil':'鉛筆','Leaf':'葉子','Paperclip':'迴紋針','Coin':'硬幣'};
 const roomDisplay={'dorm':'Student Dorm','cafe':'Cafe Job','bistro':'Bistro','rat':'Rat Level'};
-const iconFor=n=>iconFor(n)||'🧩';
+const iconFor=n=>catalog[n]||'🧩';
 async function loadRuntime(){try{const res=await fetch('./data/recipe-runtime.json');if(!res.ok)throw Error('HTTP '+res.status);const j=await res.json();runtimeRecipes=j.recipes||[];runtimeReady=true;log('載入 '+runtimeRecipes.length+' 筆候選配方規則');render();}catch(e){log('配方引擎載入失敗：'+e.message);}}
 function canonical(n){return zhAlias[n]||n;}
 function multiset(a,b){if(a.length!==b.length)return false;const x=[...a].sort(),y=[...b].sort();return x.every((v,i)=>v===y[i]);}
