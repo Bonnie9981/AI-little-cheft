@@ -58,7 +58,8 @@ function interact(n,x,y,speed){
  else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=(data.ratTrade||0)+1;data.bistroCheeseOffered=false;data.items['番茄']=true;say('老鼠收下起司，留下番茄。交易 '+data.ratTrade+'/4。');if(data.ratTrade>=4)complete(1);}
  else if(current==='bistro'&&n==='保險絲'){data.fuseFixed=true;data.items['開關']=true;say('保險絲已修復，葉片下方露出攪拌器開關。');}
  else if(current==='bistro'&&n==='開關'&&data.fuseFixed){data.mixerPowered=true;say('攪拌器電源已接通。');complete(2);}
- else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('檢查酒瓶標籤，依標籤高度拖曳排列五瓶酒。');}\n else if(current==='bistro'&&n==='酒瓶'){data.winePlaced=(data.winePlaced||0)+1;if(data.winePlaced>=5){data.wineSorted=true;complete(4);say('五瓶酒已放上酒架！');}else say('酒瓶已放上酒架：'+data.winePlaced+'/5。');}
+ else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('檢查酒瓶標籤，依標籤高度拖曳排列五瓶酒。');}
+ else if(current==='bistro'&&n==='酒瓶'){data.winePlaced=(data.winePlaced||0)+1;if(data.winePlaced>=5){data.wineSorted=true;complete(4);say('五瓶酒已放上酒架！');}else say('酒瓶已放上酒架：'+data.winePlaced+'/5。');}
  else if(current==='bistro'&&n==='剪刀'&&data.scissorsFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='rat'&&n==='畫像'){data.portraitInspected=true;data.items['開關']=true;say('畫像後方藏著反重力開關！');}
  else if(current==='rat'&&n==='開關'&&data.portraitInspected){data.gravity=true;complete(0);data.items['紙條']=true;say('反重力啟動，花盆裡的紙條飄了出來！');}
@@ -98,7 +99,8 @@ if(current==='dorm'&&pot.includes('起司')&&goodMatch&&data.drawer){data.cheese
 if(current==='cafe'&&(match||legacy)&&!discoveredBefore.has((match&&match.id)||('cafe:'+legacy[0]))){
  data.orders=(data.orders||0)+1;if(data.orders>=8)complete(2);
 }
-if(current==='bistro'&&goodMatch&&match&&!discoveredBefore.has(match.id)){data.countryDishes=data.countryDishes||{};data.countryDishes[match.id]=true;data.magnets=Object.keys(data.countryDishes).length;if(data.magnets>=7)complete(3);}\nif(current==='rat'&&match){data.ratRecipes=data.ratRecipes||{};data.ratRecipes[match.id]=true;const rr=Object.values(data.ratRecipes).length;data.ratGood=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Good'&&data.ratRecipes[r.id]).length;data.ratBad=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Bad'&&data.ratRecipes[r.id]).length;if(data.ratGood>=9&&data.ratBad>=12)complete(5);}
+if(current==='bistro'&&goodMatch&&match&&!discoveredBefore.has(match.id)){data.countryDishes=data.countryDishes||{};data.countryDishes[match.id]=true;data.magnets=Object.keys(data.countryDishes).length;if(data.magnets>=7)complete(3);}
+if(current==='rat'&&match){data.ratRecipes=data.ratRecipes||{};data.ratRecipes[match.id]=true;const rr=Object.values(data.ratRecipes).length;data.ratGood=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Good'&&data.ratRecipes[r.id]).length;data.ratBad=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Bad'&&data.ratRecipes[r.id]).length;if(data.ratGood>=9&&data.ratBad>=12)complete(5);}
 if(current==='dorm'&&data.discovered.filter(id=>id.startsWith('SD-')).length>=40)complete(5);
 pot=[];renderSlots();save();renderTasks();
 }
