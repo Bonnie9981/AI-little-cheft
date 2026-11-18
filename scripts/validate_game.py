@@ -26,6 +26,8 @@ assert "data-puzzle" not in HTML, "task panel must not expose a progress-grant b
 assert "function advancePuzzle" not in HTML, "task progress must not be granted by checking a task"
 assert "const bistroDishName=current==='bistro'" in HTML, "Bistro trade fallback must be defined before Good recipe evaluation"
 assert "bistroDishName===tradeRecipes[stage-1]" in HTML, "Bistro staged trade must accept its explicitly modeled candidate dish"
+assert "match?match.name:bistroDishName" in HTML, "Bistro trade message must support fallback dishes without a runtime recipe match"
+assert "完成老鼠四段交易料理" in HTML, "Bistro trade task label must match its actual completion condition"
 assert "pot.length<(current==='rat'?2:3)" in HTML, "Rat Level must enforce its two-input limit during drag/drop"
 assert "if(current==='rat'&&!data.powerUnlocked)" in HTML, "Rat cooking must require the keypad power unlock"
 assert "action==='power'||action==='empty')&&current!=='rat'" in HTML, "Rat-only controls must reject use in other rooms"
