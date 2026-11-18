@@ -92,6 +92,8 @@ if(!match&&pot.length===2)legacy=recipes.find(r=>r[1]&&r[2]&&multiset(inputs,[r[
 if(match){const id=match.id;if(!data.discovered.includes(id)){data.discovered.push(id);say('新食譜發現：'+(match.kind==='Good'?'✨':'⚠️')+' '+match.name+'（'+match.kind+'）');log('食譜發現：'+match.name+' · '+match.id);if(match.kind==='Good')data.coins++;}else say('你再次做出 '+match.name+'。');}
 else if(legacy){const id=current+':'+legacy[0];if(!data.discovered.includes(id)){data.discovered.push(id);if(legacy[3]==='Good')data.coins++;say('新食譜發現：'+legacy[4]+' '+legacy[0]+'（'+legacy[3]+'）')}else say('你再次做出 '+legacy[0]+'。');}
 else say(runtimeReady?'沒有符合目前食材狀態的候選配方。試試處理食材或換組合。':'配方資料載入中，請稍候。');
+const bistroDishName=current==='bistro'&&(data.ratTrade||0)===1&&multiset(inputs,['番茄','起司'])?'Tomato Cheese Appetizer':null;
+if(bistroDishName){const id='BIS-RAT-TRADE-001';if(!data.discovered.includes(id)){data.discovered.push(id);data.coins++;say('交易料理完成：'+bistroDishName+'（Good 候選，待實機核對）');}}
 const goodMatch=(match&&match.kind==='Good')||(legacy&&legacy[3]==='Good')||(bistroDishName!==null);
 if(current==='dorm'&&goodMatch&&match&&!discoveredBefore.has(match.id)&&pot.some(n=>['義大利麵','拉麵'].includes(n))){
  data.pastaRecipes=data.pastaRecipes||{};data.pastaRecipes[match.id]=true;
@@ -101,11 +103,11 @@ if(current==='dorm'&&pot.includes('起司')&&goodMatch&&data.drawer){data.cheese
 if(current==='cafe'&&goodMatch&&(match||legacy)&&!discoveredBefore.has((match&&match.id)||('cafe:'+legacy[0]))){
  data.orders=(data.orders||0)+1;if(data.orders>=12)complete(2);
 }
-if(current==='bistro'&&match&&!discoveredBefore.has(match.id)){
+if(current==='bistro'&&((match&&!discoveredBefore.has(match.id))||bistroDishName)){
  const tradeRecipes=['Tomato Cheese Appetizer','Apple Pie','Garlic Bread'];
  const rewards=['蘋果','大蒜','南瓜'];
  const stage=data.ratTrade||0;
- if(stage>=1&&stage<=3&&match.name===tradeRecipes[stage-1]){
+ if(stage>=1&&stage<=3&&((match&&match.name===tradeRecipes[stage-1])||bistroDishName===tradeRecipes[stage-1])){
   data.items[rewards[stage-1]]=true;data.ratTrade=stage+1;
   say('老鼠請求料理完成：'+match.name+'。取得'+rewards[stage-1]+'，交易 '+data.ratTrade+'/4。');
  }
