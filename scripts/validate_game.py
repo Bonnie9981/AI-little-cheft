@@ -15,7 +15,7 @@ assert len(CATALOG["recipes"]) == 333, "candidate catalog must retain 333 rows"
 assert len(RUNTIME["recipes"]) == 333, "runtime must retain 333 rows"
 ids = [r["id"] for r in RUNTIME["recipes"]]
 assert len(ids) == len(set(ids)), "duplicate runtime recipe IDs"
-assert all(r.get("enabled") is False and "VERIFIED" not in r.get("status", "") for r in CATALOG["recipes"]), "catalog candidates must remain disabled and unverified"
+assert all(r.get("enabled") is False and r.get("status") not in {"VERIFIED", "GAME_VERIFIED"} for r in CATALOG["recipes"]), "catalog candidates must remain disabled and unverified"
 assert all(r.get("verified") is False for r in RUNTIME["recipes"]), "runtime candidates must stay unverified"
 assert all(r.get("id") and r.get("room") and r.get("kind") in {"Good", "Bad"} for r in RUNTIME["recipes"])
 
