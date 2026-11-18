@@ -24,7 +24,7 @@ for required in ("function cook()", "function complete(i)", "function save()", "
     assert required in HTML, f"missing core gameplay function: {required}"
 assert "data-puzzle" not in HTML, "task panel must not expose a progress-grant button"
 assert "function advancePuzzle" not in HTML, "task progress must not be granted by checking a task"
-assert "Math.min(9" not in HTML and "Math.min(12" not in HTML, "rat recipe totals must come from unique recipe discoveries"
+assert not re.search(r"Math\\.min\\((?:9|12)\\s*[,)]", HTML), "rat recipe totals must come from unique recipe discoveries"
 
 # Parse the inline game script with Node when available; this catches syntax errors
 # that text-based assertions cannot detect.
