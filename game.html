@@ -12,8 +12,8 @@
 (()=>{'use strict';
 const $=id=>document.getElementById(id),rooms={
 dorm:{name:'學生宿舍',sub:'KAYLE & SHANE 的廚房',appliance:'🍲',items:['麵包','香蕉','番茄','起司','雞蛋','牛奶','義大利麵','拉麵','海綿','刀','紅色卡帶','綠色卡帶','Remix','鑰匙','羅勒','餐具','咖啡豆'],tasks:['煮出 8 道以義大利麵或拉麵為材料的料理','找到 D2 磁磚下的鑰匙並打開 Shane 的櫃子','分別播放紅、綠卡帶，再合成並播放 Remix','清潔餐具並收納，找出咖啡機','替羅勒澆水','發現 40 道新料理'],gate:8},
-cafe:{name:'咖啡廳',sub:'接單、料理、交易，賺取硬幣',appliance:'📟',items:['麵包','番茄','起司','雞蛋','牛奶','咖啡豆','酪梨','生菜','滑鼠','電話','照片','硬幣','平底鍋','紙條','藍茶壺','安全卡','保險箱','警報器','酪梨','生菜'],tasks:['清潔咖啡廳','用起司與藍茶壺旁的老鼠交易','完成 8 張訂單','讓 Panini 燒焦並觸發火災，再關閉警報','用紙條撥打電話 21931','用照片與硬幣取得安全卡並打開保險箱'],gate:8},
-bistro:{name:'小酒館',sub:'混合、研磨、交易與收集',appliance:'🍲',items:['起司','南瓜','番茄','肉','大蒜','米','攪拌器','剪刀','抹布','磁鐵','酒瓶','老鼠','番茄罐頭','抽油煙機','保險絲','開關','酒瓶標籤','木匙','磁鐵'],tasks:['用抹布清潔廚房','向老鼠提供起司開始交易','修復並啟動攪拌器','完成七道國家料理並收集磁鐵','依標籤高度排列五瓶酒','用剪刀剪斷懸掛繩索'],gate:8},
+cafe:{name:'咖啡廳',sub:'接單、料理、交易，賺取硬幣',appliance:'📟',items:['麵包','番茄','起司','雞蛋','牛奶','咖啡豆','酪梨','生菜','滑鼠','電話','照片','硬幣','平底鍋','Panini','紙條','藍茶壺','安全卡','保險箱','警報器','酪梨','生菜'],tasks:['清潔咖啡廳','用起司與藍茶壺旁的老鼠交易','完成 8 張訂單','讓 Panini 燒焦並觸發火災，再關閉警報','用紙條撥打電話 21931','用照片與硬幣取得安全卡並打開保險箱'],gate:8},
+bistro:{name:'小酒館',sub:'混合、研磨、交易與收集',appliance:'🍲',items:['起司','南瓜','番茄','肉','大蒜','米','攪拌器','剪刀','抹布','磁鐵','酒瓶','酒瓶標籤','老鼠','番茄罐頭','抽油煙機','保險絲','開關','酒瓶標籤','木匙','磁鐵'],tasks:['用抹布清潔廚房','向老鼠提供起司開始交易','修復並啟動攪拌器','完成七道國家料理並收集磁鐵','依標籤高度排列五瓶酒','用剪刀剪斷懸掛繩索'],gate:8},
 rat:{name:'秘密老鼠關卡',sub:'反重力、密碼與雙段火力',appliance:'🥫',items:['雞蛋','蛋殼','葉子','鉛筆','義大利麵','硬幣','罐頭鍋','開關','照片','酒瓶'],tasks:['點擊畫像找出反重力開關','啟動反重力並找出花盆中的紙條','查看酒瓶標籤並找出密碼鍵盤','輸入三位數密碼解鎖電源','用低火與高火探索罐頭鍋食譜','發現 9 道 Good 與 12 道 Bad 料理'],gate:8}};
 const catalog={'麵包':'🍞','香蕉':'🍌','番茄':'🍅','起司':'🧀','雞蛋':'🥚','牛奶':'🥛','義大利麵':'🍝','拉麵':'🍜','海綿':'🧽','刀':'🔪','紅色卡帶':'📼','綠色卡帶':'📼','鑰匙':'🗝️','羅勒':'🌿','咖啡豆':'🫘','酪梨':'🥑','生菜':'🥬','滑鼠':'🐭','電話':'☎️','照片':'🖼️','硬幣':'🪙','平底鍋':'🍳','紙條':'🧾','南瓜':'🎃','肉':'🥩','大蒜':'🧄','米':'🍚','攪拌器':'🥣','剪刀':'✂️','抹布':'🧽','磁鐵':'🧲','酒瓶':'🍾','老鼠':'🐀','蛋殼':'🥚','葉子':'🍃','鉛筆':'✏️','罐頭鍋':'🥫','開關':'🔘','藍茶壺':'🫖','安全卡':'💳','保險箱':'🔐','警報器':'🚨','番茄罐頭':'🥫','抽油煙機':'🌬️','保險絲':'🔌','酒瓶標籤':'🏷️','木匙':'🥄','畫像':'🖼️','鍵盤':'🔢','電源':'⚡','咖啡機':'☕'};
 const recipes=[
@@ -55,16 +55,16 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='警報器'&&data.fire){data.fireCleared=true;complete(3);say('火災警報已處理！');}
  else if(current==='cafe'&&n==='剪刀'&&data.ropeFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='bistro'&&n==='起司'){data.bistroCheeseOffered=true;say('把起司拖到抽油煙機旁的老鼠，開始交易。');}
- else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=(data.ratTrade||0)+1;data.bistroCheeseOffered=false;data.items['番茄']=true;say('老鼠收下起司，留下番茄。交易 '+data.ratTrade+'/4。');if(data.ratTrade>=1)complete(1);}
+ else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=(data.ratTrade||0)+1;data.bistroCheeseOffered=false;data.items['番茄']=true;say('老鼠收下起司，留下番茄。交易 '+data.ratTrade+'/4。');if(data.ratTrade>=4)complete(1);}
  else if(current==='bistro'&&n==='保險絲'){data.fuseFixed=true;data.items['開關']=true;say('保險絲已修復，葉片下方露出攪拌器開關。');}
  else if(current==='bistro'&&n==='開關'&&data.fuseFixed){data.mixerPowered=true;say('攪拌器電源已接通。');complete(2);}
- else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('檢查酒瓶標籤，依標籤高度拖曳排列五瓶酒。');}
+ else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('檢查酒瓶標籤，依標籤高度拖曳排列五瓶酒。');}\n else if(current==='bistro'&&n==='酒瓶'){data.winePlaced=(data.winePlaced||0)+1;if(data.winePlaced>=5){data.wineSorted=true;complete(4);say('五瓶酒已放上酒架！');}else say('酒瓶已放上酒架：'+data.winePlaced+'/5。');}
  else if(current==='bistro'&&n==='剪刀'&&data.scissorsFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='rat'&&n==='畫像'){data.portraitInspected=true;data.items['開關']=true;say('畫像後方藏著反重力開關！');}
  else if(current==='rat'&&n==='開關'&&data.portraitInspected){data.gravity=true;complete(0);data.items['紙條']=true;say('反重力啟動，花盆裡的紙條飄了出來！');}
- else if(current==='rat'&&n==='紙條'&&data.gravity){data.planterNote=true;complete(1);say('紙條上的密碼提示已記下。');}
+ else if(current==='rat'&&n==='紙條'&&data.gravity){data.planterNote=true;if(!data.ratCode)data.ratCode=String(100+Math.floor(Math.random()*900));complete(1);say('花盆紙條記著密碼：'+data.ratCode+'。');}
  else if(current==='rat'&&n==='酒瓶標籤'){data.wineLabelInspected=true;data.items['鍵盤']=true;complete(2);say('酒瓶標籤揭露隱藏鍵盤！');}
- else if(current==='rat'&&n==='鍵盤'&&data.planterNote&&data.wineLabelInspected){const code=prompt('輸入紙條提示的三位數密碼');if(code&&/^\\d{3}$/.test(code)){data.enteredCode=code;data.powerUnlocked=true;data.items['電源']=true;complete(3);say('鍵盤接受密碼，罐頭鍋電源已解鎖。');}else say('密碼需要三位數，請再檢查線索。');}
+ else if(current==='rat'&&n==='鍵盤'&&data.planterNote&&data.wineLabelInspected){const code=prompt('輸入花盆紙條上的三位數密碼');if(code===data.ratCode){data.enteredCode=code;data.powerUnlocked=true;data.items['電源']=true;complete(3);say('鍵盤接受密碼，罐頭鍋電源已解鎖。');}else say('密碼錯誤。回去重新查看花盆紙條。');}
  else if(speed>120)say('你把 '+n+' 用力丟了出去！');
  else say('檢查 '+n+'：嘗試拖曳至設備或與其他物件互動。');
  save();
@@ -98,7 +98,7 @@ if(current==='dorm'&&pot.includes('起司')&&goodMatch&&data.drawer){data.cheese
 if(current==='cafe'&&(match||legacy)&&!discoveredBefore.has((match&&match.id)||('cafe:'+legacy[0]))){
  data.orders=(data.orders||0)+1;if(data.orders>=8)complete(2);
 }
-if(current==='rat'&&match){data.ratRecipes=data.ratRecipes||{};data.ratRecipes[match.id]=true;const rr=Object.values(data.ratRecipes).length;data.ratGood=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Good'&&data.ratRecipes[r.id]).length;data.ratBad=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Bad'&&data.ratRecipes[r.id]).length;if(data.ratGood>=9&&data.ratBad>=12)complete(5);}
+if(current==='bistro'&&goodMatch&&match&&!discoveredBefore.has(match.id)){data.countryDishes=data.countryDishes||{};data.countryDishes[match.id]=true;data.magnets=Object.keys(data.countryDishes).length;if(data.magnets>=7)complete(3);}\nif(current==='rat'&&match){data.ratRecipes=data.ratRecipes||{};data.ratRecipes[match.id]=true;const rr=Object.values(data.ratRecipes).length;data.ratGood=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Good'&&data.ratRecipes[r.id]).length;data.ratBad=runtimeRecipes.filter(r=>r.room==='Rat Level'&&r.kind==='Bad'&&data.ratRecipes[r.id]).length;if(data.ratGood>=9&&data.ratBad>=12)complete(5);}
 if(current==='dorm'&&data.discovered.filter(id=>id.startsWith('SD-')).length>=40)complete(5);
 pot=[];renderSlots();save();renderTasks();
 }
