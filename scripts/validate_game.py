@@ -24,6 +24,11 @@ for required in ("function cook()", "function complete(i)", "function save()", "
     assert required in HTML, f"missing core gameplay function: {required}"
 assert "data-puzzle" not in HTML, "task panel must not expose a progress-grant button"
 assert "function advancePuzzle" not in HTML, "task progress must not be granted by checking a task"
+assert "pot.length<(current==='rat'?2:3)" in HTML, "Rat Level must enforce its two-input limit during drag/drop"
+assert "if(current==='rat'&&!data.powerUnlocked)" in HTML, "Rat cooking must require the keypad power unlock"
+assert "action==='power'||action==='empty')&&current!=='rat'" in HTML, "Rat-only controls must reject use in other rooms"
+assert "$('devicePower').classList.toggle('hidden',current!=='rat')" in HTML, "Rat-only controls must be hidden outside Rat Level"
+assert "$('deviceMixer').classList.toggle('hidden',current!=='bistro')" in HTML, "Mixer control must be scoped to Bistro"
 assert not re.search(r"Math\.min\((?:9|12)\s*[,)]", HTML), "rat recipe totals must come from unique recipe discoveries"
 
 # Parse the inline game script with Node when available; this catches syntax errors
