@@ -52,7 +52,8 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='照片'){data.photoInspected=true;say('照片裡有安全卡的線索。找一枚硬幣配合照片。');}
  else if(current==='cafe'&&n==='硬幣'&&data.photoInspected){data.securityCard=true;data.items['安全卡']=true;say('照片與硬幣組合，取得安全卡！');}
  else if(current==='cafe'&&n==='安全卡'&&data.securityCard){data.safeOpened=true;complete(5);say('安全卡打開保險箱，取得隱藏食譜！');}
- else if(current==='cafe'&&n==='警報器'&&data.fire){data.alarmHits=(data.alarmHits||0)+1;if(data.alarmHits<3)say('警報玻璃裂開：'+data.alarmHits+'/3。再敲幾次！');else{data.alarmGlassBroken=true;data.items['警報按鈕']=true;say('警報玻璃碎了，露出裡面的按鈕！');}}\n else if(current==='cafe'&&n==='警報按鈕'&&data.alarmGlassBroken){data.fireCleared=true;complete(3);say('火災警報已關閉！');}
+ else if(current==='cafe'&&n==='警報器'&&data.fire){data.alarmHits=(data.alarmHits||0)+1;if(data.alarmHits<3)say('警報玻璃裂開：'+data.alarmHits+'/3。再敲幾次！');else{data.alarmGlassBroken=true;data.items['警報按鈕']=true;say('警報玻璃碎了，露出裡面的按鈕！');}}
+ else if(current==='cafe'&&n==='警報按鈕'&&data.alarmGlassBroken){data.fireCleared=true;complete(3);say('火災警報已關閉！');}
  else if(current==='cafe'&&n==='剪刀'&&data.ropeFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='bistro'&&n==='起司'&&(data.ratTrade||0)===0){data.bistroCheeseOffered=true;say('把起司交給抽油煙機旁的老鼠。');}
  else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=1;data.bistroCheeseOffered=false;data.items['番茄']=true;data.items['葡萄']=true;say('第一次交易完成：取得番茄與葡萄。接著做 Tomato Cheese Appetizer。');}
