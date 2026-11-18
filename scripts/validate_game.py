@@ -36,7 +36,9 @@ if node:
         f.write("\n".join(scripts))
         script_path = f.name
     try:
-        subprocess.run([node, "--check", script_path], check=True, capture_output=True, text=True)
+        check = subprocess.run([node, "--check", script_path], capture_output=True, text=True)
+        if check.returncode:
+            raise AssertionError("JavaScript syntax error:\\n" + check.stderr)
     finally:
         Path(script_path).unlink(missing_ok=True)
 else:
