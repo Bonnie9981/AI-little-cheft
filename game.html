@@ -13,7 +13,7 @@
 const $=id=>document.getElementById(id),rooms={
 dorm:{name:'學生宿舍',sub:'KAYLE & SHANE 的廚房',appliance:'🍲',items:['麵包','香蕉','番茄','起司','雞蛋','牛奶','義大利麵','拉麵','海綿','刀','紅色卡帶','綠色卡帶','Remix','鑰匙','羅勒','餐具','咖啡豆'],tasks:['煮出 8 道以義大利麵或拉麵為材料的料理','找到 D2 磁磚下的鑰匙並打開 Shane 的櫃子','分別播放紅、綠卡帶，再合成並播放 Remix','清潔餐具並收納，找出咖啡機','替羅勒澆水','發現 40 道新料理'],gate:8},
 cafe:{name:'咖啡廳',sub:'接單、料理、交易，賺取硬幣',appliance:'📟',items:['麵包','番茄','起司','雞蛋','牛奶','咖啡豆','酪梨','生菜','滑鼠','電話','照片','硬幣','平底鍋','Panini','警報器','警報按鈕','紙條','藍茶壺','安全卡','保險箱','警報器','酪梨','生菜'],tasks:['清潔咖啡廳','用起司與藍茶壺旁的老鼠交易','完成 12 張訂單','讓 Panini 燒焦並觸發火災，再關閉警報','用紙條撥打電話 21931','用照片與硬幣取得安全卡並打開保險箱'],gate:8},
-bistro:{name:'小酒館',sub:'混合、研磨、交易與收集',appliance:'🍲',items:['起司','南瓜','番茄','肉','大蒜','米','攪拌器','剪刀','抹布','磁鐵','酒瓶','酒瓶標籤','老鼠','番茄罐頭','抽油煙機','保險絲','開關','酒瓶標籤','木匙','磁鐵','請求圖','國家料理板'],tasks:['用抹布清潔廚房','完成老鼠四段交易料理','修復並啟動攪拌器','完成七道國家料理並收集磁鐵','依標籤高度排列五瓶酒','用剪刀剪斷懸掛繩索'],gate:8},
+bistro:{name:'小酒館',sub:'混合、研磨、交易與收集',appliance:'🍲',items:['起司','南瓜','番茄','肉','大蒜','米','攪拌器','剪刀','抹布','磁鐵','酒瓶','酒瓶標籤','老鼠','番茄罐頭','抽油煙機','保險絲','開關','酒瓶標籤','木匙' ,'磁鐵','國家料理板'],tasks:['用抹布清潔廚房','完成老鼠四段交易料理','修復並啟動攪拌器','完成七道國家料理並收集磁鐵','依標籤高度排列五瓶酒','用剪刀剪斷懸掛繩索'],gate:8},
 rat:{name:'秘密老鼠關卡',sub:'反重力、密碼與雙段火力',appliance:'🥫',items:['起司','雞蛋','蛋殼','葉子','鉛筆','義大利麵','硬幣','紙張','迴紋針','罐頭鍋','開關','照片','酒瓶','畫像','酒瓶標籤','鍵盤','電源'],tasks:['點擊畫像找出反重力開關','啟動反重力並找出花盆中的紙條','查看酒瓶標籤並找出密碼鍵盤','輸入三位數密碼解鎖電源','用低火與高火探索罐頭鍋食譜','發現 9 道 Good 與 12 道 Bad 料理'],gate:8}};
 const catalog={'麵包':'🍞','香蕉':'🍌','番茄':'🍅','起司':'🧀','雞蛋':'🥚','牛奶':'🥛','義大利麵':'🍝','拉麵':'🍜','海綿':'🧽','刀':'🔪','紅色卡帶':'📼','綠色卡帶':'📼','鑰匙':'🗝️','羅勒':'🌿','咖啡豆':'🫘','酪梨':'🥑','生菜':'🥬','滑鼠':'🐭','電話':'☎️','照片':'🖼️','硬幣':'🪙','平底鍋':'🍳','紙條':'🧾','南瓜':'🎃','肉':'🥩','大蒜':'🧄','米':'🍚','攪拌器':'🥣','剪刀':'✂️','抹布':'🧽','磁鐵':'🧲','酒瓶':'🍾','老鼠':'🐀','蛋殼':'🥚','葉子':'🍃','鉛筆':'✏️','罐頭鍋':'🥫','開關':'🔘','藍茶壺':'🫖','安全卡':'💳','保險箱':'🔐','警報器':'🚨','番茄罐頭':'🥫','抽油煙機':'🌬️','保險絲':'🔌','酒瓶標籤':'🏷️','木匙':'🥄','畫像':'🖼️','鍵盤':'🔢','電源':'⚡','紙張':'📄','迴紋針':'📎','咖啡機':'☕','警報按鈕':'🔴','請求圖':'🖼️','國家料理板':'🧲','聽筒':'☎️'};
 const recipes=[
@@ -57,7 +57,7 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='警報按鈕'&&data.alarmGlassBroken){data.fireCleared=true;complete(3);say('火災警報已關閉！');}
  else if(current==='cafe'&&n==='剪刀'&&data.ropeFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='bistro'&&n==='起司'&&(data.ratTrade||0)===0){data.bistroCheeseOffered=true;say('把起司交給抽油煙機旁的老鼠。');}
- else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=1;data.bistroCheeseOffered=false;data.items['番茄']=true;data.items['葡萄']=true;data.items['請求圖']=true;say('老鼠收下起司，留下番茄與葡萄，並推來一張料理圖。點擊「請求圖」看清楚牠下一道想吃什麼，再試著做出來。');}
+ else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=1;data.bistroCheeseOffered=false;data.items['番茄']=true;data.items['葡萄']=true;data.items['請求圖']=true;addObj('請求圖',66,30);say('老鼠收下起司，留下番茄與葡萄，並推來一張料理圖。點擊「請求圖」看清楚牠下一道想吃什麼，再試著做出來。');}
  else if(current==='bistro'&&n==='請求圖'&&(data.ratTrade||0)>=1){data.requestPictureRead=true;const requests=['Tomato Cheese Appetizer','Apple Pie','Garlic Bread'];say('你仔細看圖：目前交易階段 '+data.ratTrade+'/4。圖示線索要靠料理本與食材狀態比對；已知候選請求是 '+(requests[data.ratTrade-1]||'待核對料理')+'。這是待實機核對的復刻線索，不是官方文字。');}
  else if(current==='bistro'&&n==='保險絲'){data.fuseFixed=true;data.items['開關']=true;say('保險絲已修復，葉片下方露出攪拌器開關。');}
  else if(current==='bistro'&&n==='開關'&&data.fuseFixed){data.mixerPowered=true;say('攪拌器電源已接通。');complete(2);}
@@ -115,7 +115,7 @@ if(current==='bistro'&&((match&&!discoveredBefore.has(match.id))||bistroDishName
   data.items[rewards[stage-1]]=true;data.ratTrade=stage+1;
   say('老鼠請求料理完成：'+(match?match.name:bistroDishName)+'。取得'+rewards[stage-1]+'，交易 '+data.ratTrade+'/4。');
  }
- if(data.ratTrade>=4)complete(1);else if(data.ratTrade>stage){data.items['請求圖']=true;say('老鼠收下料理並交出新食材。牠又畫了一張新的請求圖；先讀圖再進行下一次交易。');}
+ if(data.ratTrade>=4)complete(1);else if(data.ratTrade>stage){data.items['請求圖']=true;addObj('請求圖',66,30);say('老鼠收下料理並交出新食材。牠又畫了一張新的請求圖；先讀圖再進行下一次交易。');}
 }
 if(current==='rat'){
  data.ratSlots=data.ratSlots||{};const key=inputs.slice().sort().join('+')+'@'+(data.ratPower||'low');
