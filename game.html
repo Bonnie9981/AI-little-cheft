@@ -48,7 +48,7 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='起司'){data.cheeseOffered=true;say('把起司拖到藍茶壺旁的老鼠，開始交易。');}
  else if(current==='cafe'&&n==='滑鼠'&&data.cheeseOffered){data.cafeRatTrade=true;data.noteFound=true;data.items['紙條']=true;data.cheeseOffered=false;complete(1);say('老鼠收下起司，留下摺起來的紙條。先把紙條放到電話旁，才能辨認上面的號碼。');}
  else if(current==='cafe'&&n==='紙條'&&data.noteFound){data.notePlaced=true;data.noteDigitsRevealed=true;say('你把紙條攤平，辨認出五個數字：2－1－9－3－1。接下來要在電話上逐位撥號。');}
- else if(current==='cafe'&&n==='電話'&&data.noteDigitsRevealed&&!data.phoneDialed){const code=prompt('依紙條順序撥出五個數字');if(code==='21931'){data.phoneDialed=true;data.items['聽筒']=true;say('電話開始響起回鈴音。號碼正確，但對方還沒聽見你；拿起聽筒才能接通。');}else say('忙線音。回去重新攤開紙條，確認數字順序。');}
+ else if(current==='cafe'&&n==='電話'&&data.noteDigitsRevealed&&!data.phoneDialed){const code=prompt('依紙條順序撥出五個數字');if(code==='21931'){data.phoneDialed=true;addObj('聽筒',73,55);say('電話開始響起回鈴音。號碼正確，但對方還沒聽見你；拿起聽筒才能接通。');}else say('忙線音。回去重新攤開紙條，確認數字順序。');}
  else if(current==='cafe'&&n==='聽筒'&&data.phoneDialed&&!data.phoneDone){data.handsetPicked=true;say('你拿起聽筒，線路另一端有人接起。保持通話，等候對方把訂購資訊說完……');setTimeout(()=>{if(current==='cafe'&&data.handsetPicked&&!data.phoneDone){data.phoneDone=true;data.items['酪梨']=true;data.items['生菜']=true;complete(4);say('通話結束。電話訂購的酪梨與生菜送到了！');save();render();}},2500);}
  else if(current==='cafe'&&n==='照片'){data.photoInspected=true;say('照片裡有安全卡的線索。找一枚硬幣配合照片。');}
  else if(current==='cafe'&&n==='硬幣'&&data.photoInspected){data.securityCard=true;data.items['安全卡']=true;say('照片與硬幣組合，取得安全卡！');}
