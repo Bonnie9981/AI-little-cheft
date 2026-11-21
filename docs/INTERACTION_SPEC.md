@@ -96,7 +96,9 @@ Rat Level is not modeled as a conventional oven. A 1.0 player guide describes a 
 - Tea box sorting: align box designs.
 
 ### Cafe Job
-- Mouse / Blue Teapot: offer Cheese → receive torn paper → place paper by phone → dial 21931 → pick up handset and finish call → order Avocado and Lettuce.
+- Mouse / Blue Teapot: offer Cheese → mouse drops folded paper → unfold/read paper to reveal 21931 → dial the digits → ringing starts but does not complete the task → pick up the spawned handset → wait for the call to finish → Avocado and Lettuce are delivered. Each transition has its own saved state; dialing alone does not award ingredients.
+- The current reconstruction uses a short 2.5-second wait after handset pickup as a playable stand-in for the original call animation. Timing is provisional and must be calibrated against the 1.0 video.
+
 - Order slips: match illustrated dish → complete order → receive tip Coin; remove completed slip, wait for replacement.
 - Safe: Photo + Coin → Security Card → open Safe → discover Void Bagel.
 - Fire: Panini → Burnt Panini → cook Burnt Panini again → fire; break alarm glass three times → press exposed button to extinguish.
@@ -106,7 +108,8 @@ Rat Level is not modeled as a conventional oven. A 1.0 player guide describes a 
 - Scissors: place empty Mixer jar into Cooking Pot.
 - Hidden Mixer switch: bring Scissors near plant leaves.
 - Mixer power: repair / interact with fuse box in planter.
-- Rat trade: find extractor-hood door → offer Cheese → follow drawing requests → trade for ingredients.
+- Rat trade: find extractor-hood door → offer Cheese → receive Tomato/Grape and a request picture → inspect the picture → cook the matching candidate dish → receive the next ingredient and a new request picture. The four-request sequence is based on SRC-072 transcript leads; candidate dish formulas remain unverified.
+- Country magnets: use a separate seven-slot board / progress state. Japan = Mochi is the only currently supported mapping. Do not grant magnets from rat-trade rewards; do not fill the other six slots with guessed recipes. The current runtime lacks a usable Mochi input formula, so actual Japan-magnet cooking remains blocked pending recipe evidence.
 - Wine About It: sort five bottles by label height, shortest to tallest.
 - Going Global: complete seven country dishes; only Mochi/Japan is currently identified by readable text.
 - Cut The Rope: cut hanging objects / ropes with Scissors.
