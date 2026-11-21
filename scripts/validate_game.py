@@ -30,6 +30,7 @@ assert "21931" in HTML and "拿起聽筒" in HTML, "Cafe phone deduction must pr
 assert "七國磁鐵則是另一條獨立收集線" in HTML, "Bistro rat trades and country magnet storyline must remain separate"
 assert "其餘不應靠猜測補齊" in HTML, "unknown country recipes must not be invented in narrative"
 assert "畫像後方藏著反重力開關" in HTML and "酒瓶標籤揭露隱藏鍵盤" in HTML, "Rat Level deduction chain must be represented"
+assert "data.ending" in HTML and "生日蛋糕" in HTML and "媽媽留下的信" in HTML, "post-game birthday cake and mother's letter must appear after the ending"
 assert "const bistroDishName=current==='bistro'" in HTML, "Bistro trade fallback must be defined before Good recipe evaluation"
 assert "bistroDishName===tradeRecipes[stage-1]" in HTML, "Bistro staged trade must accept its explicitly modeled candidate dish"
 assert "match?match.name:bistroDishName" in HTML, "Bistro trade message must support fallback dishes without a runtime recipe match"
