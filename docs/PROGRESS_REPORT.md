@@ -771,3 +771,6 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 故事線補足：D2→鑰匙→Shane Cheese；卡帶→Remix；水槽整理→咖啡機；Cafe 老鼠→紙條→21931電話→Avocado/Lettuce；訂單與火災；Photo+Coin→Security Card→Safe；Bistro 老鼠交易與七國磁鐵分流；攪拌器／剪刀／酒瓶排序；Rat Level 反重力→紙條→酒標鍵盤→雙火力。
 - 新增故事日誌回歸檢查，確認電話完整步驟、兩條Bistro進度線分離、未知國家料理不亂補、Rat Level線索順序存在。
 - 重要限制：目前故事日誌可依旗標顯示已觸發章節，但部分旗標與場景互動仍是 prototype 狀態；尚未完成所有章節的端到端遊玩驗收。故事文件把來源支持事件、復刻版敘事串接與待驗證資訊分開。
+
+
+- 後續補入通關後 My Room 後日談入口：Rat Level 結局旗標成立後，回到 My Room 可看到生日蛋糕與媽媽的信。只呈現玩家通關記錄支持的物件，不捏造信件全文或未確認觸發條件。
