@@ -762,3 +762,12 @@ Repository：Bonnie9981/AI-little-cheft，公開，預設分支 main。
 - 修正 Tomato Cheese Appetizer 為明確候選分支後，交易成功提示仍讀取 `match.name` 的空值問題；現在能正確顯示候選料理名稱。
 - Bistro待辦文字由「向老鼠提供起司開始交易」改為「完成老鼠四段交易料理」，與實際完成條件一致，避免任務描述與進度條不符。
 - 新增兩項回歸斷言，覆蓋 fallback提示與任務標籤。
+
+
+## 2026-11-21｜完整推理故事線第一輪
+
+- 新增 `docs/STORY_DEDUCTION_BIBLE.md`：把 Student Dorm、Cafe Job、Bistro、Rat Level 四章主線整理成可追溯推理鏈，另列 My Room 支線、版本未知與不可混用的進度旗標。
+- 遊戲新增「故事線索」日誌，依玩家實際觸發的事件逐章揭露；未解鎖章節不提前曝光。日誌明確聲明它是依攻略與機制整理的復刻版串接，不冒充官方完整對白。
+- 故事線補足：D2→鑰匙→Shane Cheese；卡帶→Remix；水槽整理→咖啡機；Cafe 老鼠→紙條→21931電話→Avocado/Lettuce；訂單與火災；Photo+Coin→Security Card→Safe；Bistro 老鼠交易與七國磁鐵分流；攪拌器／剪刀／酒瓶排序；Rat Level 反重力→紙條→酒標鍵盤→雙火力。
+- 新增故事日誌回歸檢查，確認電話完整步驟、兩條Bistro進度線分離、未知國家料理不亂補、Rat Level線索順序存在。
+- 重要限制：目前故事日誌可依旗標顯示已觸發章節，但部分旗標與場景互動仍是 prototype 狀態；尚未完成所有章節的端到端遊玩驗收。故事文件把來源支持事件、復刻版敘事串接與待驗證資訊分開。
