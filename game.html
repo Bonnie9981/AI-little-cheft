@@ -48,7 +48,8 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='起司'){data.cheeseOffered=true;say('把起司拖到藍茶壺旁的老鼠，開始交易。');}
  else if(current==='cafe'&&n==='滑鼠'&&data.cheeseOffered){data.cafeRatTrade=true;data.noteFound=true;data.items['紙條']=true;data.cheeseOffered=false;complete(1);say('老鼠收下起司，留下摺起來的紙條。先把紙條放到電話旁，才能辨認上面的號碼。');}
  else if(current==='cafe'&&n==='紙條'&&data.noteFound){data.notePlaced=true;data.noteDigitsRevealed=true;say('你把紙條攤平，辨認出五個數字：2－1－9－3－1。接下來要在電話上逐位撥號。');}
- else if(current==='cafe'&&n==='電話'&&data.noteDigitsRevealed&&!data.phoneDialed){const code=prompt('依紙條順序撥出五個數字');if(code==='21931'){data.phoneDialed=true;data.items['聽筒']=true;say('電話開始響起回鈴音。號碼正確，但對方還沒聽見你；拿起聽筒才能接通。');}else say('忙線音。回去重新攤開紙條，確認數字順序。');}\n else if(current==='cafe'&&n==='聽筒'&&data.phoneDialed&&!data.phoneDone){data.handsetPicked=true;say('你拿起聽筒，線路另一端有人接起。保持通話，等候對方把訂購資訊說完……');setTimeout(()=>{if(current==='cafe'&&data.handsetPicked&&!data.phoneDone){data.phoneDone=true;data.items['酪梨']=true;data.items['生菜']=true;complete(4);say('通話結束。電話訂購的酪梨與生菜送到了！');save();render();}},2500);}
+ else if(current==='cafe'&&n==='電話'&&data.noteDigitsRevealed&&!data.phoneDialed){const code=prompt('依紙條順序撥出五個數字');if(code==='21931'){data.phoneDialed=true;data.items['聽筒']=true;say('電話開始響起回鈴音。號碼正確，但對方還沒聽見你；拿起聽筒才能接通。');}else say('忙線音。回去重新攤開紙條，確認數字順序。');}
+ else if(current==='cafe'&&n==='聽筒'&&data.phoneDialed&&!data.phoneDone){data.handsetPicked=true;say('你拿起聽筒，線路另一端有人接起。保持通話，等候對方把訂購資訊說完……');setTimeout(()=>{if(current==='cafe'&&data.handsetPicked&&!data.phoneDone){data.phoneDone=true;data.items['酪梨']=true;data.items['生菜']=true;complete(4);say('通話結束。電話訂購的酪梨與生菜送到了！');save();render();}},2500);}
  else if(current==='cafe'&&n==='照片'){data.photoInspected=true;say('照片裡有安全卡的線索。找一枚硬幣配合照片。');}
  else if(current==='cafe'&&n==='硬幣'&&data.photoInspected){data.securityCard=true;data.items['安全卡']=true;say('照片與硬幣組合，取得安全卡！');}
  else if(current==='cafe'&&n==='安全卡'&&data.securityCard){data.safeOpened=true;complete(5);say('安全卡打開保險箱，取得隱藏食譜！');}
@@ -56,10 +57,12 @@ function interact(n,x,y,speed){
  else if(current==='cafe'&&n==='警報按鈕'&&data.alarmGlassBroken){data.fireCleared=true;complete(3);say('火災警報已關閉！');}
  else if(current==='cafe'&&n==='剪刀'&&data.ropeFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='bistro'&&n==='起司'&&(data.ratTrade||0)===0){data.bistroCheeseOffered=true;say('把起司交給抽油煙機旁的老鼠。');}
- else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=1;data.bistroCheeseOffered=false;data.items['番茄']=true;data.items['葡萄']=true;data.items['請求圖']=true;say('老鼠收下起司，留下番茄與葡萄，並推來一張料理圖。點擊「請求圖」看清楚牠下一道想吃什麼，再試著做出來。');}\n else if(current==='bistro'&&n==='請求圖'&&(data.ratTrade||0)>=1){data.requestPictureRead=true;const requests=['Tomato Cheese Appetizer','Apple Pie','Garlic Bread'];say('你仔細看圖：目前交易階段 '+data.ratTrade+'/4。圖示線索要靠料理本與食材狀態比對；已知候選請求是 '+(requests[data.ratTrade-1]||'待核對料理')+'。這是待實機核對的復刻線索，不是官方文字。');}
+ else if(current==='bistro'&&n==='老鼠'&&data.bistroCheeseOffered){data.ratTrade=1;data.bistroCheeseOffered=false;data.items['番茄']=true;data.items['葡萄']=true;data.items['請求圖']=true;say('老鼠收下起司，留下番茄與葡萄，並推來一張料理圖。點擊「請求圖」看清楚牠下一道想吃什麼，再試著做出來。');}
+ else if(current==='bistro'&&n==='請求圖'&&(data.ratTrade||0)>=1){data.requestPictureRead=true;const requests=['Tomato Cheese Appetizer','Apple Pie','Garlic Bread'];say('你仔細看圖：目前交易階段 '+data.ratTrade+'/4。圖示線索要靠料理本與食材狀態比對；已知候選請求是 '+(requests[data.ratTrade-1]||'待核對料理')+'。這是待實機核對的復刻線索，不是官方文字。');}
  else if(current==='bistro'&&n==='保險絲'){data.fuseFixed=true;data.items['開關']=true;say('保險絲已修復，葉片下方露出攪拌器開關。');}
  else if(current==='bistro'&&n==='開關'&&data.fuseFixed){data.mixerPowered=true;say('攪拌器電源已接通。');complete(2);}
- else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('你看見五張高度不同的標籤。把五瓶酒依標籤由短到長排上酒架；只放滿五瓶不算完成。');}\n else if(current==='bistro'&&n==='國家料理板'){data.countryBoardSeen=true;say('七國磁鐵板有七個空位。每完成一道對應國家的料理，才會留下磁鐵。目前有來源可確認的對應只有 Japan＝Mochi；其餘六格先保持未知，不會用猜測填入。');}
+ else if(current==='bistro'&&n==='酒瓶標籤'){data.wineLabelInspected=true;say('你看見五張高度不同的標籤。把五瓶酒依標籤由短到長排上酒架；只放滿五瓶不算完成。');}
+ else if(current==='bistro'&&n==='國家料理板'){data.countryBoardSeen=true;say('七國磁鐵板有七個空位。每完成一道對應國家的料理，才會留下磁鐵。目前有來源可確認的對應只有 Japan＝Mochi；其餘六格先保持未知，不會用猜測填入。');}
  else if(current==='bistro'&&n==='酒瓶'){data.winePlaced=Math.min(5,(data.winePlaced||0)+1);say('酒瓶已放上酒架：'+data.winePlaced+'/5。仍需依標籤高度排序，不能只靠數量完成。');}
  else if(current==='bistro'&&n==='剪刀'&&data.scissorsFound){data.ropeCut=true;complete(5);say('剪刀剪斷懸掛繩索！');}
  else if(current==='rat'&&n==='畫像'){data.portraitInspected=true;data.items['開關']=true;say('畫像後方藏著反重力開關！');}
@@ -103,6 +106,7 @@ if(current==='dorm'&&pot.includes('起司')&&goodMatch&&data.drawer){data.cheese
 if(current==='cafe'&&goodMatch&&(match||legacy)&&!discoveredBefore.has((match&&match.id)||('cafe:'+legacy[0]))){
  data.orders=(data.orders||0)+1;if(data.orders>=12)complete(2);
 }
+if(current==='bistro'&&match&&match.kind==='Good'&&match.name==='Mochi'&&!discoveredBefore.has(match.id)){data.countryMagnets=data.countryMagnets||[];if(!data.countryMagnets.includes('Japan')){data.countryMagnets.push('Japan');say('國家料理確認：Japan · Mochi。七國磁鐵 '+data.countryMagnets.length+'/7；其餘六國仍待來源核對，不會用猜測補齊。');}}
 if(current==='bistro'&&((match&&!discoveredBefore.has(match.id))||bistroDishName)){
  const tradeRecipes=['Tomato Cheese Appetizer','Apple Pie','Garlic Bread'];
  const rewards=['蘋果','大蒜','南瓜'];
