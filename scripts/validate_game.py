@@ -30,7 +30,7 @@ assert "21931" in HTML and "拿起聽筒" in HTML, "Cafe phone deduction must pr
 assert "data.noteDigitsRevealed" in HTML and "data.phoneDialed" in HTML and "data.handsetPicked" in HTML and "data.phoneDone" in HTML, "Cafe call must require note reading, dialing, handset pickup and completed wait"
 assert "data.requestPictureRead" in HTML and "請求圖" in HTML, "Bistro rat request must be inspected before trade cooking"
 assert "data.countryMagnets" in HTML and "Japan" in HTML and "Mochi" in HTML, "country magnet progress must be separate and only known mapping represented"
-assert "其餘六格仍待來源核對" in HTML, "unknown country mappings must remain unresolved"
+assert "其餘六國仍待來源核對" in HTML, "unknown country mappings must remain unresolved"
 assert "data.ratClueRead" in HTML and "data.wineLabelInspected" in HTML and "data.enteredCode" in HTML, "Rat Level keypad must require note clue before label-revealed keypad"
 assert "setTimeout(()=>{if(current==='cafe'&&data.handsetPicked&&!data.phoneDone)" in HTML, "Cafe call must complete after handset wait, not immediately on dialing"
 assert "七國磁鐵是另一條獨立收集線" in HTML, "Bistro rat trades and country magnet storyline must remain separate"
